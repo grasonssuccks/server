@@ -1,5 +1,535 @@
-[22:54:13] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[22:54:13] [Server thread/INFO]: Loading properties
-[22:54:13] [Server thread/WARN]: Failed to load eula.txt
-[22:54:13] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[22:54:13] [Server thread/INFO]: Stopping server
+[21:31:17] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[21:31:17] [Server thread/INFO]: Loading properties
+[21:31:17] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:17] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[21:31:17] [Server thread/INFO]: Debug logging is disabled
+[21:31:17] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[21:31:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[21:31:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:31:17] [Server thread/INFO]: Data value allowed items: 
+[21:31:17] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[21:31:17] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[21:31:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[21:31:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[21:31:17] [Server thread/INFO]: Generating keypair
+[21:31:17] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[21:31:17] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[21:31:17] [Server thread/INFO]: Using default channel type
+[21:31:17] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:31:17] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[21:31:17] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[21:31:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[21:31:17] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[21:31:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:17] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:17] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[21:31:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:31:17] [Server thread/INFO]: Preparing level "world"
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
+[21:31:18] [Server thread/INFO]: Anti X-Ray: true
+[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
+[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
+[21:31:18] [Server thread/INFO]: Structure Info Saving: true
+[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
+[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
+[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:31:18] [Server thread/INFO]: View Distance: 4
+[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:31:18] [Server thread/INFO]: Clear tick list: false
+[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
+[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
+[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[21:31:18] [Server thread/INFO]: World async lighting: false
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
+[21:31:18] [Server thread/INFO]: Anti X-Ray: true
+[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
+[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
+[21:31:18] [Server thread/INFO]: Structure Info Saving: true
+[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
+[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
+[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:31:18] [Server thread/INFO]: View Distance: 4
+[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:31:18] [Server thread/INFO]: Clear tick list: false
+[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
+[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
+[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[21:31:18] [Server thread/INFO]: World async lighting: false
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
+[21:31:18] [Server thread/INFO]: Anti X-Ray: true
+[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
+[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
+[21:31:18] [Server thread/INFO]: Structure Info Saving: true
+[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
+[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
+[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:31:18] [Server thread/INFO]: View Distance: 4
+[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:31:18] [Server thread/INFO]: Clear tick list: false
+[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:31:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
+[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
+[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[21:31:18] [Server thread/INFO]: World async lighting: false
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[21:31:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8619265417696794404)
+[21:31:19] [Server thread/INFO]: Preparing spawn area: 53%
+[21:31:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8619265417696794404)
+[21:31:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8619265417696794404)
+[21:31:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[21:31:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[21:31:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[21:31:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[21:31:20] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[21:31:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[21:31:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:31:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[21:31:21] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[21:31:21] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[21:31:21] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[21:31:21] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[21:31:21] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[21:31:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:31:21] [Server thread/INFO]: Done (3.541s)! For help, type "help" or "?"
+[21:31:21] [Server thread/INFO]: Timings Reset
+[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[21:38:50] [Thread-8/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[21:38:51] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:51186] logged in with entity id 334 at ([world]-86.26855804424278, 51.0, -287.3175218300051)
+[21:39:57] [Thread-9/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[21:39:57] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:35598] logged in with entity id 475 at ([world]218.30000001192093, 70.0, 77.29392130045346)
+[21:40:02] [Async Chat Thread - #0/INFO]: <Gman49> sup[m
+
+[21:40:11] [Async Chat Thread - #0/INFO]: <XTeliqYT> hey grier[m
+
+[21:40:23] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
+[21:40:23] [Server thread/INFO]: XTeliqYT left the game.
+[21:40:32] [Thread-10/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:40:32] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:49084] logged in with entity id 660 at ([world]186.5, 67.0, 95.5)
+[21:40:40] [Async Chat Thread - #0/INFO]: <Gman49> sup[m
+
+[21:41:03] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
+[21:41:03] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:41:03] [Server thread/WARN]: handleDisconnection() called twice
+[21:41:11] [Thread-11/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:41:11] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:58764] logged in with entity id 792 at ([world]186.01498974712595, 67.0, 95.51455252926085)
+[21:41:41] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
+[21:41:41] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:41:41] [Server thread/WARN]: handleDisconnection() called twice
+[21:41:45] [Thread-12/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:41:45] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:35174] logged in with entity id 952 at ([world]186.05289850246373, 67.0, 95.95641018864924)
+[21:42:03] [Thread-13/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[21:42:03] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:36040] logged in with entity id 979 at ([world]220.5, 75.0625, 69.5)
+[21:42:14] [Async Chat Thread - #1/INFO]: <Gman49> hey chinmay[m
+
+[21:42:15] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
+[21:42:15] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:42:15] [Server thread/WARN]: handleDisconnection() called twice
+[21:42:20] [Thread-14/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:42:20] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:44108] logged in with entity id 1043 at ([world]186.01610847342627, 67.0, 95.86557796052006)
+[21:42:25] [Server thread/INFO]: KaiTheDick335 has just earned the achievement [Taking Inventory]
+[21:42:33] [Server thread/INFO]: ChinmayM_360 lost connection: Login timed out!
+[21:42:33] [Server thread/INFO]: ChinmayM_360 left the game.
+[21:42:33] [Server thread/WARN]: handleDisconnection() called twice
+[21:42:50] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
+[21:42:50] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:42:54] [Thread-15/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:42:54] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:40948] logged in with entity id 1106 at ([world]186.42610534282454, 67.0, 95.03297904158)
+[21:43:24] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
+[21:43:24] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:43:24] [Server thread/WARN]: handleDisconnection() called twice
+[21:43:27] [Thread-16/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
+[21:43:28] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:49056] logged in with entity id 1229 at ([world]186.0106545292822, 67.10408037809304, 95.99259082557725)
+[21:43:53] [Server thread/INFO]: KaiTheDick335 lost connection: Disconnected
+[21:43:53] [Server thread/INFO]: KaiTheDick335 left the game.
+[21:47:41] [Server thread/INFO]: Gman49 burned to death
+[21:47:52] [Server thread/INFO]: Gman49 issued server command: /back
+[21:48:03] [Server thread/INFO]: Gman49 issued server command: /back
+[21:50:40] [Thread-17/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[21:50:40] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:51702] logged in with entity id 2092 at ([world]218.46007009743218, 70.0625, 75.87621092275826)
+[21:50:55] [Async Chat Thread - #2/INFO]: <XTeliqYT> i had to do my homework[m
+
+[21:51:01] [Async Chat Thread - #2/INFO]: <Gman49> oh[m
+
+[21:51:07] [Async Chat Thread - #2/INFO]: <Gman49> oh[m
+
+[21:51:19] [Async Chat Thread - #2/INFO]: <Gman49> im so glitchy[m
+
+[21:51:28] [Async Chat Thread - #2/INFO]: <XTeliqYT> me too[m
+
+[21:51:54] [Async Chat Thread - #2/INFO]: <XTeliqYT> NO[m
+
+[21:51:57] [Async Chat Thread - #2/INFO]: <XTeliqYT> MY FARM[m
+
+[21:51:59] [Async Chat Thread - #2/INFO]: <XTeliqYT> WHY[m
+
+[21:52:03] [Async Chat Thread - #2/INFO]: <XTeliqYT> WHO DID IT!!!![m
+
+[21:52:50] [Async Chat Thread - #2/INFO]: <XTeliqYT> anyway gman[m
+
+[21:52:54] [Async Chat Thread - #2/INFO]: <XTeliqYT> where are u[m
+
+[21:53:00] [Async Chat Thread - #2/INFO]: <Gman49> caving[m
+
+[21:53:23] [Async Chat Thread - #2/INFO]: <Gman49> i murdered like 300 zombies[m
+
+[21:53:43] [Async Chat Thread - #2/INFO]: <XTeliqYT> and im gonna murder whoever destroyed my farm[m
+
+[21:55:16] [Server thread/INFO]: Gman49 tried to swim in lava
+[21:55:21] [Async Chat Thread - #3/INFO]: <XTeliqYT> lel[m
+
+[21:55:29] [Async Chat Thread - #3/INFO]: <Gman49> i did it on purpose[m
+
+[21:55:34] [Async Chat Thread - #3/INFO]: <XTeliqYT> why?[m
+
+[21:55:56] [Async Chat Thread - #3/INFO]: <Gman49> where u at?[m
+
+[21:56:01] [Async Chat Thread - #3/INFO]: <XTeliqYT> village[m
+
+[21:56:22] [Server thread/WARN]: Gman49 moved wrongly!
+[21:56:23] [Server thread/WARN]: Gman49 moved wrongly!
+[21:56:23] [Server thread/WARN]: Gman49 moved wrongly!
+[21:57:03] [Server thread/INFO]: Gman49 issued server command: /back
+[21:57:12] [Thread-18/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[21:57:12] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:35442] logged in with entity id 3457 at ([world]220.5, 75.0625, 69.5)
+[21:57:26] [Async Chat Thread - #4/INFO]: <Gman49> chinmay?[m
+
+[21:57:26] [Async Chat Thread - #4/INFO]: <ChinmayM_360> yooooo[m
+
+[21:57:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> yay big chin may[m
+
+[21:57:53] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}
+[21:57:53] [Server thread/INFO]: [ChinmayM_360: There is no such item with name minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}]
+[21:57:55] [Async Chat Thread - #4/INFO]: <XTeliqYT> oni chan[m
+
+[21:57:58] [Async Chat Thread - #4/INFO]: <XTeliqYT> daiski[m
+
+[21:58:03] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}
+[21:58:03] [Server thread/INFO]: [ChinmayM_360: There is no such item with name minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}]
+[21:58:26] [Async Chat Thread - #4/INFO]: <Gman49> chinmay can u send me your email in chat? we need to talk[m
+
+[21:58:48] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
+[21:58:48] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
+[21:58:57] [Async Chat Thread - #4/INFO]: <XTeliqYT> CHINMAY[m
+
+[21:59:00] [Async Chat Thread - #4/INFO]: <XTeliqYT> HELP[m
+
+[21:59:05] [Async Chat Thread - #4/INFO]: <Gman49> email[m
+
+[21:59:08] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[21:59:08] [Server thread/INFO]: ChinmayM_360 left the game.
+[21:59:12] [Async Chat Thread - #4/INFO]: <XTeliqYT> GMAN[m
+
+[21:59:14] [Async Chat Thread - #4/INFO]: <XTeliqYT> HELP ME[m
+
+[21:59:18] [Async Chat Thread - #4/INFO]: <XTeliqYT> I NEED HELP[m
+
+[21:59:20] [Async Chat Thread - #4/INFO]: <Gman49> okay[m
+
+[21:59:28] [Async Chat Thread - #4/INFO]: <XTeliqYT> MONSTERS ARE AT MY FRONT DOOR[m
+
+[21:59:33] [Thread-19/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[21:59:33] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:56600] logged in with entity id 3786 at ([world]-161.9819411662666, 15.0, -326.83034060448915)
+[21:59:35] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
+[21:59:37] [Async Chat Thread - #4/INFO]: <XTeliqYT> IM IN CHINMAYS HOUSE[m
+
+[21:59:42] [Async Chat Thread - #4/INFO]: <XTeliqYT> I RAN TO SAFTEY[m
+
+[21:59:45] [Server thread/INFO]: ChinmayM_360 issued server command: /kill
+[21:59:45] [Server thread/INFO]: ChinmayM_360 fell out of the world
+[21:59:45] [Server thread/INFO]: [ChinmayM_360: Killed ChinmayM_360]
+[21:59:47] [Async Chat Thread - #4/INFO]: <XTeliqYT> nvm[m
+
+[21:59:51] [Async Chat Thread - #4/INFO]: <XTeliqYT> they are gone[m
+
+[22:00:28] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 XTeliqYT
+[22:00:28] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to XTeliqYT]
+[22:00:33] [Async Chat Thread - #4/INFO]: <XTeliqYT> chinmau[m
+
+[22:00:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> can i have some diamonds[m
+
+[22:00:57] [Async Chat Thread - #4/INFO]: <ChinmayM_360> run!!![m
+
+[22:01:03] [Async Chat Thread - #4/INFO]: <XTeliqYT> i got them[m
+
+[22:01:54] [Server thread/INFO]: XTeliqYT was shot by ChinmayM_360
+[22:01:57] [Async Chat Thread - #4/INFO]: <Gman49> l[m
+
+[22:02:02] [Async Chat Thread - #4/INFO]: <XTeliqYT> chinmay[m
+
+[22:02:06] [Async Chat Thread - #4/INFO]: <XTeliqYT> stop[m
+
+[22:02:09] [Async Chat Thread - #4/INFO]: <ChinmayM_360> kk[m
+
+[22:02:09] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
+[22:02:09] [Server thread/INFO]: XTeliqYT left the game.
+[22:02:14] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[22:02:14] [Server thread/INFO]: ChinmayM_360 left the game.
+[22:07:03] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:07:03] [Server thread/INFO]: Gman49 left the game.
+[22:10:58] [Thread-21/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:10:58] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:49636] logged in with entity id 4358 at ([world]-155.30000001192093, 15.0, -329.69999998807907)
+[22:11:13] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:11:13] [Server thread/INFO]: Gman49 left the game.
+[22:11:17] [Thread-22/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:11:17] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:54106] logged in with entity id 4414 at ([world]-155.30000001192093, 15.0, -329.69999998807907)
+[22:12:12] [Server thread/INFO]: Gman49 tried to swim in lava
+[22:12:44] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:12:44] [Server thread/INFO]: Gman49 left the game.
+[22:15:04] [Thread-23/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:15:04] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:39678] logged in with entity id 4989 at ([world]210.07499998807907, 71.0, 98.07499998807907)
+[22:16:45] [Server thread/INFO]: Gman49 issued server command: /back
+[22:17:33] [Server thread/WARN]: Gman49 moved wrongly!
+[22:20:37] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:20:37] [Server thread/INFO]: Gman49 left the game.
+[22:22:56] [Thread-24/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:22:56] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:55146] logged in with entity id 5224 at ([world]208.52313291122212, 70.0, 97.69999998807907)
+[22:25:12] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:25:12] [Server thread/INFO]: Gman49 left the game.
+[22:25:20] [Thread-25/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:25:20] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:35636] logged in with entity id 5289 at ([world]206.762491706587, 77.0625, 84.4643707399284)
+[22:25:45] [Server thread/WARN]: Gman49 moved wrongly!
+[22:25:45] [Server thread/WARN]: Gman49 moved wrongly!
+[22:25:47] [Server thread/WARN]: Gman49 moved wrongly!
+[22:25:48] [Server thread/WARN]: Gman49 moved wrongly!
+[22:26:09] [Server thread/INFO]: Gman49 issued server command: /bugfix
+[22:26:15] [Server thread/INFO]: Gman49 issued server command: /help
+[22:26:31] [Server thread/INFO]: Gman49 issued server command: /help
+[22:26:38] [Thread-26/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[22:26:38] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:33392] logged in with entity id 5386 at ([world]216.10947582421306, 71.0, 99.49534868084821)
+[22:26:48] [Async Chat Thread - #5/INFO]: <Gman49> chinmay[m
+
+[22:26:54] [Async Chat Thread - #5/INFO]: <Gman49> ineed help[m
+
+[22:27:02] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
+[22:27:02] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
+[22:27:13] [Async Chat Thread - #5/INFO]: <Gman49> i cant break or place[m
+
+[22:27:24] [Async Chat Thread - #5/INFO]: <ChinmayM_360> wait 5 min[m
+
+[22:27:29] [Async Chat Thread - #5/INFO]: <Gman49> ok[m
+
+[22:27:36] [Thread-27/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[22:27:36] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:34132] logged in with entity id 5545 at ([world]208.8650650361878, 70.0, 123.38527144425476)
+[22:27:42] [Server thread/WARN]: Gman49 moved wrongly!
+[22:27:51] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
+[22:27:51] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
+[22:27:51] [Async Chat Thread - #5/INFO]: <XTeliqYT> hey guys[m
+
+[22:28:26] [Async Chat Thread - #5/INFO]: <ChinmayM_360> my dog wants to kil you[m
+
+[22:28:35] [Async Chat Thread - #5/INFO]: <Gman49> oh[m
+
+[22:28:42] [Async Chat Thread - #5/INFO]: <XTeliqYT> :([m
+
+[22:29:10] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:29:10] [Server thread/INFO]: Gman49 left the game.
+[22:29:13] [Async Chat Thread - #5/INFO]: <ChinmayM_360> lag[m
+
+[22:29:16] [Thread-28/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:29:16] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:55404] logged in with entity id 6000 at ([world]194.08278306751538, 70.0, 75.91102207621037)
+[22:29:38] [Async Chat Thread - #5/INFO]: <Gman49> how did u get out?[m
+
+[22:29:39] [Server thread/INFO]: XTeliqYT was slain by Wolf
+[22:29:43] [Async Chat Thread - #5/INFO]: <ChinmayM_360> oops[m
+
+[22:30:17] [Async Chat Thread - #5/INFO]: <Gman49> help m chinmay[m
+
+[22:30:31] [Async Chat Thread - #5/INFO]: <XTeliqYT> chinmay can i go in ur house[m
+
+[22:30:37] [Async Chat Thread - #5/INFO]: <XTeliqYT> i wanna see the inside[m
+
+[22:30:41] [Async Chat Thread - #5/INFO]: <Gman49> goodbye[m
+
+[22:30:56] [Async Chat Thread - #5/INFO]: <Gman49> break me out[m
+
+[22:31:16] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
+[22:31:16] [Server thread/INFO]: XTeliqYT left the game.
+[22:31:22] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:31:22] [Server thread/INFO]: Gman49 left the game.
+[22:31:25] [Thread-29/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[22:31:25] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:59288] logged in with entity id 6400 at ([world]194.3431706504939, 71.0, 74.92500001192093)
+[22:31:46] [Async Chat Thread - #5/INFO]: <Gman49> help[m
+
+[22:32:14] [Async Chat Thread - #5/INFO]: <Gman49> i will give you diamond[m
+
+[22:32:26] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[22:32:26] [Server thread/INFO]: Gman49 left the game.
+[22:32:38] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[22:32:38] [Server thread/INFO]: ChinmayM_360 left the game.
+[22:33:23] [Thread-30/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[22:33:23] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:45358] logged in with entity id 6648 at ([world]190.96647749143744, 70.0, 89.82085467410204)
+[22:34:09] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword 1 0 {ench:[{id:16,lvl:7500},{id:20,lvl:1000}­,{id:21,lvl:1000}]}
+[22:34:09] [Server thread/INFO]: [ChinmayM_360: Data tag parsing failed: Unbalanced curly brackets {}: lvl:1000}]
+[22:34:23] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
+[22:34:23] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
+[22:35:34] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant
+[22:35:59] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 sharpness 999
+[22:35:59] [Server thread/INFO]: [ChinmayM_360: The number you have entered (999) is too big, it must be at most 5]
+[22:36:19] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 sharpness 5
+[22:36:19] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
+[22:36:28] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 smite 5
+[22:36:28] [Server thread/INFO]: [ChinmayM_360: Smite V can't be combined with Sharpness V]
+[22:37:03] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 knockback 20
+[22:37:03] [Server thread/INFO]: [ChinmayM_360: The number you have entered (20) is too big, it must be at most 2]
+[22:37:13] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 knockback 2
+[22:37:13] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
+[22:37:47] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 5
+[22:37:47] [Server thread/INFO]: [ChinmayM_360: The number you have entered (5) is too big, it must be at most 3]
+[22:37:50] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 4
+[22:37:50] [Server thread/INFO]: [ChinmayM_360: The number you have entered (4) is too big, it must be at most 3]
+[22:37:58] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 3
+[22:37:58] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
+[22:38:48] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
+[22:38:48] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
+[22:40:18] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
+[22:40:18] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
+[22:46:36] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
+[22:46:36] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
+[22:46:43] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
+[22:46:43] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
+[22:46:51] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
+[22:46:51] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
+[22:49:39] [Server thread/INFO]: ChinmayM_360 issued server command: /give ChinmayM_360 tnt
+[22:49:39] [Server thread/INFO]: [ChinmayM_360: Given [TNT] * 1 to ChinmayM_360]
+[22:53:39] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[22:53:39] [Server thread/INFO]: ChinmayM_360 left the game.
+[23:00:20] [Thread-32/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[23:00:21] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:40658] logged in with entity id 8901 at ([world]167.68855114554756, 65.0, 143.7250440992618)
+[23:05:22] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[23:05:22] [Server thread/INFO]: ChinmayM_360 left the game.
+[23:05:34] [Thread-33/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[23:05:34] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:41588] logged in with entity id 9703 at ([world]162.89193697628428, 66.0, 114.8641913771391)
+[23:07:10] [Server thread/INFO]: ChinmayM_360 issued server command: //
+[23:10:00] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
+[23:10:00] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
+[23:12:26] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
+[23:12:26] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
+[23:16:15] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[23:16:15] [Server thread/INFO]: ChinmayM_360 left the game.
+[23:17:26] [Thread-35/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[23:17:26] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:41062] logged in with entity id 12274 at ([world]227.4298404542937, 70.0, 106.45085881735392)
+[23:18:00] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
+[23:18:00] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
+[23:25:54] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
+[23:25:54] [Server thread/INFO]: ChinmayM_360 left the game.
+[23:26:01] [Thread-2/INFO]: Stopping server
