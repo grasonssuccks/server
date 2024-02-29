@@ -195,3 +195,28 @@
 [21:28:55] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:35596|luke] -> UpstreamBridge has disconnected
 [21:28:55] [Netty Worker IO Thread #0/INFO]: [luke] disconnected with: Proxy lost connection to server.
 [21:28:55] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:35596|luke] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:29:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40548|QU4S3] -> UpstreamBridge has disconnected
+[21:29:42] [Netty Worker IO Thread #1/INFO]: [QU4S3] disconnected with: Proxy lost connection to server.
+[21:29:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40548|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:30:23] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46350|Reidbestyayayay] -> UpstreamBridge has disconnected
+[21:30:23] [Netty Worker IO Thread #2/INFO]: [Reidbestyayayay] disconnected with: Proxy lost connection to server.
+[21:30:23] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46350|Reidbestyayayay] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:30:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38490|money02] -> UpstreamBridge has disconnected
+[21:30:35] [Netty Worker IO Thread #2/INFO]: [money02] disconnected with: Proxy lost connection to server.
+[21:30:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38490|money02] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:31:18] [Netty Worker IO Thread #0/INFO]: [Invincible_Atlas] disconnected with: Server closed
+[21:31:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41020|Invincible_Atlas] -> UpstreamBridge has disconnected
+[21:31:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41020|Invincible_Atlas] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:31:18] [Netty Worker IO Thread #2/WARN]: [/[0:0:0:0:0:0:0:1%0]:58946|sia] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:31:18] [Netty Worker IO Thread #2/INFO]: [sia] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[21:31:18] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58946|sia] -> UpstreamBridge has disconnected
+[21:31:18] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:58946|sia] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:31:25] [Shutdown Thread/INFO]: Closing listener [id: 0x039e1557, L:/127.0.0.1:25577]
+[21:31:25] [Shutdown Thread/INFO]: Closing pending connections
+[21:31:25] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[21:31:26] [Shutdown Thread/INFO]: Disabling plugins
+[21:31:26] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[21:31:26] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[21:31:26] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[21:31:28] [Shutdown Thread/INFO]: Closing IO threads
+[21:31:30] [Shutdown Thread/INFO]: Thank you and goodbye
