@@ -1,292 +1,1453 @@
-[21:59:55] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[21:59:55] [Server thread/INFO]: Loading properties
-[21:59:55] [Server thread/INFO]: Default game type: SURVIVAL
-[21:59:56] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[21:59:56] [Server thread/INFO]: Debug logging is disabled
-[21:59:56] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[21:59:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:20:37] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:20:38] [Server thread/INFO]: Loading properties
+[12:20:38] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:38] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:20:38] [Server thread/INFO]: Debug logging is disabled
+[12:20:38] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:20:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[21:59:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:59:56] [Server thread/INFO]: Data value allowed items: 
-[21:59:56] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[12:20:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:20:38] [Server thread/INFO]: Data value allowed items: 
+[12:20:38] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[21:59:56] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[12:20:38] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[21:59:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[12:20:38] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[21:59:56] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[12:20:38] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[21:59:56] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[12:20:38] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[21:59:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[12:20:38] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[21:59:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[12:20:38] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[21:59:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[12:20:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[21:59:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:20:38] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[21:59:56] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:20:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[21:59:56] [Server thread/INFO]: Generating keypair
-[21:59:56] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[21:59:56] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[21:59:56] [Server thread/INFO]: Using default channel type
-[21:59:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[21:59:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[21:59:56] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[21:59:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[21:59:56] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[21:59:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:59:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:59:56] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[21:59:56] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[21:59:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:59:56] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:59:56] [Server thread/INFO]: Preparing level "world"
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:59:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:59:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:59:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:59:56] [Server thread/INFO]: Random Lighting Updates: false
-[21:59:56] [Server thread/INFO]: Structure Info Saving: true
-[21:59:56] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:59:56] [Server thread/INFO]: Max Entity Collisions: 8
-[21:59:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:59:56] [Server thread/INFO]: Max TNT Explosions: 100
-[21:59:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:59:56] [Server thread/INFO]: Mob Spawn Range: 4
-[21:59:56] [Server thread/INFO]: Anti X-Ray: true
-[21:59:56] [Server thread/INFO]: 	Engine Mode: 1
-[21:59:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:59:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:59:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:59:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:59:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:59:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:59:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:59:56] [Server thread/INFO]: View Distance: 4
-[21:59:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:59:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:59:56] [Server thread/INFO]: Clear tick list: false
-[21:59:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:59:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:59:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:59:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:59:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:59:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:59:56] [Server thread/INFO]: Water over lava flow speed: 5
-[21:59:56] [Server thread/INFO]: Fix TNT cannons: false
-[21:59:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:59:56] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:59:56] [Server thread/INFO]: World async lighting: false
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:59:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:59:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:59:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:59:56] [Server thread/INFO]: Random Lighting Updates: false
-[21:59:56] [Server thread/INFO]: Structure Info Saving: true
-[21:59:56] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:59:56] [Server thread/INFO]: Max Entity Collisions: 8
-[21:59:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:59:56] [Server thread/INFO]: Max TNT Explosions: 100
-[21:59:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:59:56] [Server thread/INFO]: Mob Spawn Range: 4
-[21:59:56] [Server thread/INFO]: Anti X-Ray: true
-[21:59:56] [Server thread/INFO]: 	Engine Mode: 1
-[21:59:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:59:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:59:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:59:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:59:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:59:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:59:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:59:56] [Server thread/INFO]: View Distance: 4
-[21:59:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:59:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:59:56] [Server thread/INFO]: Clear tick list: false
-[21:59:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:59:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:59:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:59:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:59:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:59:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:59:56] [Server thread/INFO]: Water over lava flow speed: 5
-[21:59:56] [Server thread/INFO]: Fix TNT cannons: false
-[21:59:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:59:56] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:59:56] [Server thread/INFO]: World async lighting: false
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:59:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:59:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:59:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:59:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:59:56] [Server thread/INFO]: Random Lighting Updates: false
-[21:59:56] [Server thread/INFO]: Structure Info Saving: true
-[21:59:56] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:59:56] [Server thread/INFO]: Max Entity Collisions: 8
-[21:59:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:59:56] [Server thread/INFO]: Max TNT Explosions: 100
-[21:59:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:59:56] [Server thread/INFO]: Mob Spawn Range: 4
-[21:59:56] [Server thread/INFO]: Anti X-Ray: true
-[21:59:56] [Server thread/INFO]: 	Engine Mode: 1
-[21:59:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:59:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:59:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:59:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:59:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:59:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:59:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:59:56] [Server thread/INFO]: View Distance: 4
-[21:59:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:59:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:59:56] [Server thread/INFO]: Clear tick list: false
-[21:59:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:59:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:59:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:59:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:59:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:59:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:59:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:59:56] [Server thread/INFO]: Water over lava flow speed: 5
-[21:59:56] [Server thread/INFO]: Fix TNT cannons: false
-[21:59:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:59:56] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:59:56] [Server thread/INFO]: World async lighting: false
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:59:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:59:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7912852821688784551)
-[21:59:57] [Server thread/INFO]: Preparing spawn area: 58%
-[21:59:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7912852821688784551)
-[21:59:59] [Server thread/INFO]: Preparing spawn area: 70%
-[21:59:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7912852821688784551)
-[21:59:59] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[21:59:59] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[12:20:38] [Server thread/INFO]: Generating keypair
+[12:20:38] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:20:38] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:20:38] [Server thread/INFO]: Using default channel type
+[12:20:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:20:39] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:20:39] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:20:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:20:39] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:20:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:20:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:20:39] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:20:39] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:20:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:20:39] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:20:39] [Server thread/INFO]: Preparing level "world"
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:20:39] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:39] [Server thread/INFO]: Anti X-Ray: true
+[12:20:39] [Server thread/INFO]: 	Engine Mode: 1
+[12:20:39] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:20:39] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:20:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:20:39] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:39] [Server thread/INFO]: Structure Info Saving: true
+[12:20:39] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:20:39] [Server thread/INFO]: Max Entity Collisions: 8
+[12:20:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:20:39] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:39] [Server thread/INFO]: View Distance: 4
+[12:20:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:20:39] [Server thread/INFO]: Clear tick list: false
+[12:20:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:20:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:20:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:20:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:20:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:20:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:20:39] [Server thread/INFO]: Fix TNT cannons: false
+[12:20:39] [Server thread/INFO]: Water over lava flow speed: 5
+[12:20:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:20:39] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:20:39] [Server thread/INFO]: World async lighting: false
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:20:39] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:39] [Server thread/INFO]: Anti X-Ray: true
+[12:20:39] [Server thread/INFO]: 	Engine Mode: 1
+[12:20:39] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:20:39] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:20:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:20:39] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:39] [Server thread/INFO]: Structure Info Saving: true
+[12:20:39] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:20:39] [Server thread/INFO]: Max Entity Collisions: 8
+[12:20:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:20:39] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:39] [Server thread/INFO]: View Distance: 4
+[12:20:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:20:39] [Server thread/INFO]: Clear tick list: false
+[12:20:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:20:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:20:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:20:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:20:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:20:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:20:39] [Server thread/INFO]: Fix TNT cannons: false
+[12:20:39] [Server thread/INFO]: Water over lava flow speed: 5
+[12:20:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:20:39] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:20:39] [Server thread/INFO]: World async lighting: false
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:20:39] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:39] [Server thread/INFO]: Anti X-Ray: true
+[12:20:39] [Server thread/INFO]: 	Engine Mode: 1
+[12:20:39] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:20:39] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:20:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:20:39] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:39] [Server thread/INFO]: Structure Info Saving: true
+[12:20:39] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:20:39] [Server thread/INFO]: Max Entity Collisions: 8
+[12:20:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:20:39] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:39] [Server thread/INFO]: View Distance: 4
+[12:20:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:20:39] [Server thread/INFO]: Clear tick list: false
+[12:20:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:20:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:20:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:20:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:20:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:20:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:20:39] [Server thread/INFO]: Fix TNT cannons: false
+[12:20:39] [Server thread/INFO]: Water over lava flow speed: 5
+[12:20:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:20:39] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:20:39] [Server thread/INFO]: World async lighting: false
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:20:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:20:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7912852821688784551)
+[12:20:40] [Server thread/INFO]: Preparing spawn area: 75%
+[12:20:40] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7912852821688784551)
+[12:20:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7912852821688784551)
+[12:20:41] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:20:41] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[21:59:59] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[12:20:41] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[21:59:59] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[21:59:59] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[21:59:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[22:00:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:00:00] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[22:00:00] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[22:00:00] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[22:00:00] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[22:00:00] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[22:00:00] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[22:00:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:00:00] [Server thread/INFO]: Done (3.905s)! For help, type "help" or "?"
-[22:00:00] [Server thread/INFO]: Timings Reset
-[22:00:01] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[12:20:41] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:20:41] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:20:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:20:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:20:42] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:20:42] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:20:42] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:20:42] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:20:42] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:20:42] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:20:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:20:42] [Server thread/INFO]: Done (3.412s)! For help, type "help" or "?"
+[12:20:42] [Server thread/INFO]: Timings Reset
+[12:20:43] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[22:00:01] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[12:20:43] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[22:00:01] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[12:20:43] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[22:02:02] [Thread-7/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[22:02:02] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:45812] logged in with entity id 228 at ([world]-102.30000001192093, 77.0, 452.7261707206906)
-[22:09:19] [Server thread/INFO]: Invincible_Atlas was slain by Spider
-[22:11:00] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[22:27:24] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[22:34:20] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[22:44:14] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[22:44:14] [Server thread/INFO]: Invincible_Atlas left the game.
-[23:02:20] [Thread-10/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[23:02:20] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:44342] logged in with entity id 6863 at ([world]-106.0788754162338, 78.0, 480.48215430850996)
-[23:03:06] [Server thread/INFO]: sia was slain by Zombie
-[23:27:13] [Server thread/INFO]: sia has just earned the achievement [Benchmarking]
-[23:28:50] [Server thread/INFO]: sia lost connection: Disconnected
-[23:28:50] [Server thread/INFO]: sia left the game.
-[23:29:44] [Thread-12/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[23:29:44] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:39278] logged in with entity id 9470 at ([world]-105.76662094306289, 79.0, 481.7982695234984)
-[23:50:55] [Server thread/INFO]: [Server] greetings
-[23:51:03] [Thread-14/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[23:51:03] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:34508] logged in with entity id 11777 at ([world]-88.54876537829122, 79.0, 478.0202463989575)
-[23:51:17] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> hi[m
+[12:21:19] [Thread-7/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[12:21:19] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:55274] logged in with entity id 218 at ([world]-104.21205745076709, 77.0, 445.0504050155326)
+[12:25:29] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[12:26:24] [Thread-9/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[12:26:24] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:52600] logged in with entity id 1331 at ([world]-92.29644246162198, 80.0, 462.09225667572883)
+[12:26:43] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> I found 19 IRON![m
 
-[23:52:02] [Server thread/INFO]: [Server] hello
-[23:52:11] [Async Chat Thread - #0/INFO]: <sia> wass up[m
+[12:26:50] [Async Chat Thread - #0/INFO]: <QU4S3> Really?[m
 
-[23:52:19] [Async Chat Thread - #0/INFO]: <sia> that for free[m
+[12:26:55] [Async Chat Thread - #0/INFO]: <QU4S3> That is great![m
 
-[23:52:24] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> ?[m
+[12:26:58] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> yeah![m
 
-[23:52:29] [Async Chat Thread - #0/INFO]: <sia> come[m
+[12:29:25] [Thread-10/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[12:29:25] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:50636] logged in with entity id 2399 at ([world]-109.84815345773352, 79.0, 481.55624714936545)
+[12:29:33] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> I found 19 iron![m
 
-[23:53:02] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> what's it for?[m
+[12:29:37] [Async Chat Thread - #1/INFO]: <QU4S3> wsg puneeth[m
 
-[23:53:11] [Async Chat Thread - #0/INFO]: <sia> I need to add more children to the basment[m
+[12:29:49] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Acquire Hardware]
+[12:30:56] [Async Chat Thread - #2/INFO]: <sia> help[m
 
-[23:53:16] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> WAHT[m
+[12:31:08] [Async Chat Thread - #2/INFO]: <Invincible_Atlas> with what[m
 
-[23:53:27] [Async Chat Thread - #0/INFO]: <Invincible_Atlas> CHILDREN?[m
+[12:31:14] [Async Chat Thread - #2/INFO]: <sia> zobies[m
 
-[23:53:29] [Async Chat Thread - #0/INFO]: <sia> hu nothin[m
+[12:31:28] [Async Chat Thread - #2/INFO]: <QU4S3> e[m
 
-[23:53:34] [Server thread/WARN]: Invincible_Atlas moved wrongly!
-[23:55:14] [Async Chat Thread - #1/INFO]: <sia> how to make torch[m
+[12:31:29] [Thread-11/INFO]: UUID of player money02 is 09e77e8b-473b-365e-813f-1b920e1b9d0d
+[12:31:29] [Server thread/INFO]: money02[/[0:0:0:0:0:0:0:1]:34140] logged in with entity id 2938 at ([world]-112.30000001192093, 79.0, 427.30000001192093)
+[12:31:42] [Async Chat Thread - #2/INFO]: <sia> more[m
 
-[23:55:23] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> coal on top of stick[m
+[12:32:20] [Async Chat Thread - #2/INFO]: <sia> spider by my house[m
 
-[23:55:30] [Async Chat Thread - #1/INFO]: <sia> bet[m
+[12:32:32] [Async Chat Thread - #2/INFO]: <QU4S3> Colin we are at war with the fucking zombies, help your city[m
 
-[23:56:19] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> the server is currently running on my school computer, which is pretty slo[m
+[12:32:48] [Async Chat Thread - #2/INFO]: <money02> naughty naughty[m
 
-[23:56:22] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> so[m
+[12:33:25] [Async Chat Thread - #2/INFO]: <Invincible_Atlas> i have .5 hearts and .5 food[m
 
-[23:56:31] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> I might take it down for a sec][m
+[12:33:37] [Async Chat Thread - #2/INFO]: <QU4S3> Undead are brutal[m
 
-[23:56:40] [Async Chat Thread - #1/INFO]: <sia> nooooooo[m
+[12:33:39] [Server thread/INFO]: Invincible_Atlas was blown up by Creeper
+[12:34:01] [Async Chat Thread - #2/INFO]: <sia> i wil rebiuld[m
 
-[23:56:41] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> to swap it to my good computer[m
+[12:34:02] [Async Chat Thread - #2/INFO]: <QU4S3> Damnit[m
 
-[23:56:48] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> Ill put it back up[m
+[12:34:11] [Async Chat Thread - #2/INFO]: <money02> mean word[m
 
-[23:56:49] [Async Chat Thread - #1/INFO]: <sia> k[m
+[12:35:59] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Time to Farm!]
+[12:36:25] [Server thread/INFO]: QU4S3 was slain by Zombie
+[12:36:30] [Server thread/INFO]: QU4S3 issued server command: /back
+[12:38:15] [Async Chat Thread - #3/INFO]: <QU4S3> My house is done![m
 
-[23:56:57] [Async Chat Thread - #1/INFO]: <sia> how long[m
+[12:38:22] [Async Chat Thread - #3/INFO]: <QU4S3> almost :=[m
 
-[23:57:09] [Async Chat Thread - #1/INFO]: <sia> will it take[m
+[12:42:46] [Async Chat Thread - #4/INFO]: <QU4S3> Can i give the server to someone[m
 
-[23:57:21] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> not very long, im only going to take it down once it's ready to start on the other pc[m
+[12:43:01] [Async Chat Thread - #4/INFO]: <money02> yes[m
 
-[23:57:26] [Async Chat Thread - #1/INFO]: <sia> go to bed[m
+[12:44:41] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
+[12:44:41] [Server thread/INFO]: Invincible_Atlas left the game.
+[12:48:59] [Thread-12/INFO]: UUID of player luke is 7476e557-bdb9-3ccd-b071-818fd40d7092
+[12:48:59] [Server thread/INFO]: luke[/[0:0:0:0:0:0:0:1]:37344] logged in with entity id 7329 at ([world]-120.30000001192094, 76.0, 441.09240409197787)
+[12:49:08] [Async Chat Thread - #5/INFO]: <QU4S3> Wsg lucas[m
 
-[23:57:32] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> k[m
+[12:50:35] [Async Chat Thread - #6/INFO]: <luke> where is everyone[m
 
-[23:57:34] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[23:57:35] [Async Chat Thread - #1/INFO]: <sia> mincraft[m
+[12:50:37] [Server thread/INFO]: money02 tried to swim in lava
+[12:50:47] [Server thread/INFO]: money02 issued server command: /back
+[12:50:54] [Server thread/INFO]: money02 tried to swim in lava
+[12:51:00] [Thread-13/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[12:51:01] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:51268] logged in with entity id 7836 at ([world]-263.5, 74.0, 241.5)
+[12:51:01] [Server thread/INFO]: money02 issued server command: /tpa qu
+[12:51:29] [Server thread/INFO]: money02 issued server command: /tpa luke
+[12:51:40] [Async Chat Thread - #7/INFO]: <money02> luke[m
 
-[23:57:41] [Async Chat Thread - #1/INFO]: <Invincible_Atlas> I know[m
+[12:51:41] [Server thread/INFO]: luke issued server command: /tpaccept
+[12:51:43] [Async Chat Thread - #7/INFO]: <money02> accept[m
 
+[12:51:47] [Async Chat Thread - #7/INFO]: <money02> good[m
+
+[12:51:54] [Async Chat Thread - #7/INFO]: <luke> iron already[m
+
+[12:54:25] [Async Chat Thread - #8/INFO]: <sia> where did my bed go[m
+
+[12:54:26] [Server thread/INFO]: Taxi issued server command: /tpa QU
+[12:54:32] [Async Chat Thread - #8/INFO]: <money02> ratio[m
+
+[12:54:38] [Server thread/INFO]: QU4S3 issued server command: /tpaccept
+[12:54:51] [Server thread/INFO]: sia was slain by Enderman
+[12:55:01] [Server thread/INFO]: sia issued server command: /back
+[12:55:06] [Async Chat Thread - #8/INFO]: <luke> colin[m
+
+[12:55:10] [Async Chat Thread - #8/INFO]: <money02> wugt[m
+
+[12:55:10] [Async Chat Thread - #8/INFO]: <luke> did u make a mine[m
+
+[12:55:16] [Async Chat Thread - #8/INFO]: <money02> why[m
+
+[12:55:22] [Async Chat Thread - #8/INFO]: <luke> i want to mine[m
+
+[12:55:30] [Server thread/INFO]: sia was slain by Enderman
+[12:55:31] [Async Chat Thread - #8/INFO]: <money02> sure[m
+
+[12:55:34] [Server thread/INFO]: sia issued server command: /back
+[12:55:59] [Async Chat Thread - #8/INFO]: <sia> who is QU4S3[m
+
+[12:55:59] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[12:55:59] [Server thread/INFO]: QU4S3 left the game.
+[12:56:03] [Async Chat Thread - #8/INFO]: <luke> gram[m
+
+[12:56:14] [Async Chat Thread - #8/INFO]: <sia> he stole my bed[m
+
+[12:56:38] [Server thread/INFO]: Taxi lost connection: Disconnected
+[12:56:38] [Server thread/INFO]: Taxi left the game.
+[12:56:59] [Async Chat Thread - #8/INFO]: <sia> should i steal my bed back[m
+
+[12:57:09] [Async Chat Thread - #8/INFO]: <money02> from who?[m
+
+[12:57:16] [Async Chat Thread - #8/INFO]: <sia> gram stole my bed[m
+
+[12:58:10] [Server thread/INFO]: luke has just earned the achievement [Benchmarking]
+[12:58:34] [Server thread/INFO]: luke has just earned the achievement [Time to Mine!]
+[12:58:34] [Server thread/INFO]: luke has just earned the achievement [Getting an Upgrade]
+[13:01:07] [Async Chat Thread - #9/INFO]: <luke> uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh[m
+
+[13:01:11] [Async Chat Thread - #9/INFO]: <luke> found some dims[m
+
+[13:01:17] [Async Chat Thread - #9/INFO]: <sia> what[m
+
+[13:01:17] [Async Chat Thread - #9/INFO]: <money02> cool[m
+
+[13:01:20] [Async Chat Thread - #9/INFO]: <luke> yep[m
+
+[13:01:27] [Async Chat Thread - #9/INFO]: <luke> and i have a stone pick[m
+
+[13:01:37] [Server thread/INFO]: [Server] greetings, mortals. It is I, your overlord
+[13:01:44] [Async Chat Thread - #9/INFO]: <money02> fanum tax:)[m
+
+[13:01:46] [Async Chat Thread - #9/INFO]: <luke> hey server, we found dims[m
+
+[13:01:50] [Server thread/INFO]: [Server] the great Invincible_Atlas
+[13:01:56] [Server thread/INFO]: [Server] cool
+[13:02:09] [Async Chat Thread - #9/INFO]: <luke> i knew this would happen[m
+
+[13:02:12] [Server thread/INFO]: [Server] hold on, i've got an iron pick
+[13:02:15] [Server thread/INFO]: sia issued server command: /tpa luke
+[13:02:18] [Server thread/INFO]: [Server] lemme join
+[13:02:22] [Thread-15/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[13:02:22] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:40816] logged in with entity id 11269 at ([world]-98.2926005536467, 77.0, 443.57589958044986)
+[13:02:46] [Server thread/INFO]: Invincible_Atlas issued server command: /tpa luke
+[13:03:14] [Async Chat Thread - #10/INFO]: <luke> i need iron[m
+
+[13:03:32] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> I have an iron pick[m
+
+[13:03:36] [Server thread/INFO]: Invincible_Atlas issued server command: /tpa luke
+[13:03:40] [Async Chat Thread - #10/INFO]: <luke> can i use it[m
+
+[13:03:44] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> yeah[m
+
+[13:03:45] [Server thread/INFO]: luke issued server command: /tpaccept
+[13:03:59] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> sorry[m
+
+[13:04:04] [Async Chat Thread - #10/INFO]: <luke> ill give it back[m
+
+[13:04:34] [Async Chat Thread - #10/INFO]: <luke> thx[m
+
+[13:04:38] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> yep[m
+
+[13:04:41] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:05:40] [Async Chat Thread - #11/INFO]: <luke> found more[m
+
+[13:06:44] [Server thread/INFO]: [Server] cool, hang on
+[13:06:52] [Server thread/INFO]: luke has just earned the achievement [Hot Topic]
+[13:07:05] [Server thread/INFO]: [Server] im in english and have a teacher looking over my shoulder, gimme a sec
+[13:07:10] [Async Chat Thread - #12/INFO]: <luke> found iron[m
+
+[13:07:13] [Async Chat Thread - #12/INFO]: <luke> no need[m
+
+[13:07:20] [Server thread/INFO]: luke has just earned the achievement [Acquire Hardware]
+[13:07:49] [Server thread/INFO]: luke has just earned the achievement [DIAMONDS!]
+[13:10:41] [Async Chat Thread - #13/INFO]: <sia> go to sleep[m
+
+[13:10:45] [Async Chat Thread - #13/INFO]: <sia> plz[m
+
+[13:10:53] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:11:08] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> everyone sleep[m
+
+[13:11:30] [Async Chat Thread - #13/INFO]: <sia> I dont want mosters plz sleep[m
+
+[13:11:47] [Server thread/INFO]: Invincible_Atlas issued server command: /time set day
+[13:11:47] [Server thread/INFO]: [Invincible_Atlas: Set the time to 1000]
+[13:12:24] [Async Chat Thread - #13/INFO]: <luke> good moring[m
+
+[13:12:37] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> good morning[m
+
+[13:12:53] [Async Chat Thread - #13/INFO]: <sia> I had no sleep[m
+
+[13:13:02] [Async Chat Thread - #13/INFO]: <sia> and no dream[m
+
+[13:13:36] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> wait, you've had dreams in minecraft?[m
+
+[13:13:41] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> that's cursed[m
+
+[13:13:43] [Async Chat Thread - #13/INFO]: <sia> ya[m
+
+[13:14:00] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> is there a /exorcise command?[m
+
+[13:14:16] [Server thread/INFO]: luke has just earned the achievement [Time to Strike!]
+[13:14:23] [Server thread/INFO]: money02 issued server command: /help
+[13:14:28] [Server thread/INFO]: money02 issued server command: /help 2
+[13:14:38] [Server thread/INFO]: money02 issued server command: /help3
+[13:14:41] [Server thread/INFO]: money02 issued server command: /help 3
+[13:14:44] [Server thread/INFO]: Invincible_Atlas issued server command: /back
+[13:14:47] [Server thread/INFO]: money02 issued server command: /set home
+[13:14:50] [Server thread/INFO]: money02 issued server command: /home
+[13:14:56] [Server thread/INFO]: money02 issued server command: /sethome new
+[13:14:59] [Server thread/INFO]: money02 lost connection: Disconnected
+[13:14:59] [Server thread/INFO]: money02 left the game.
+[13:15:02] [Server thread/INFO]: luke lost connection: Disconnected
+[13:15:02] [Server thread/INFO]: luke left the game.
+[13:16:32] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:18:04] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
+[13:18:04] [Server thread/INFO]: Invincible_Atlas left the game.
+[13:18:08] [Server thread/INFO]: sia lost connection: Disconnected
+[13:18:08] [Server thread/INFO]: sia left the game.
+[13:18:26] [Thread-16/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[13:18:27] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:46506] logged in with entity id 15433 at ([world]-98.51547691435646, 77.0, 444.51249998807907)
+[13:18:34] [Server thread/INFO]: Invincible_Atlas issued server command: /back
+[13:18:42] [Server thread/INFO]: Invincible_Atlas issued server command: /back
+[13:19:59] [Thread-17/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[13:19:59] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:47456] logged in with entity id 15683 at ([world]-109.44701103154343, 79.0, 477.7834685547148)
+[13:20:15] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
+[13:20:15] [Server thread/INFO]: Invincible_Atlas left the game.
+[13:20:53] [Thread-18/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[13:20:53] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:44530] logged in with entity id 15851 at ([world]-34.33376467532677, 32.0, 442.69999998807907)
+[13:21:51] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome cave
+[13:22:00] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:22:11] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
+[13:22:11] [Server thread/INFO]: Invincible_Atlas left the game.
+[13:23:37] [Thread-19/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[13:23:37] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:58102] logged in with entity id 16333 at ([world]-98.51547691435646, 77.0, 444.51249998807907)
+[13:23:49] [Server thread/INFO]: Invincible_Atlas issued server command: /home cave
+[13:24:32] [Server thread/INFO]: Invincible_Atlas issued server command: /homehome
+[13:24:35] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:27:43] [Async Chat Thread - #14/INFO]: <Invincible_Atlas> who's building a cobblestone shrine thingy?[m
+
+[13:27:58] [Async Chat Thread - #14/INFO]: <Invincible_Atlas> I swear to god, if it's herobrine...[m
+
+[13:30:33] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[13:35:29] [Async Chat Thread - #15/INFO]: <sia> sleep[m
+
+[13:35:32] [Async Chat Thread - #15/INFO]: <sia> plz[m
+
+[13:35:50] [Async Chat Thread - #15/INFO]: <sia> luke is building it[m
+
+[13:35:54] [Async Chat Thread - #15/INFO]: <sia> the shrine[m
+
+[13:39:19] [Server thread/INFO]: sia lost connection: Disconnected
+[13:39:19] [Server thread/INFO]: sia left the game.
+[14:02:17] [Thread-22/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[14:02:17] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:32992] logged in with entity id 19738 at ([world]-106.5, 79.0999984741211, 481.5)
+[14:12:01] [Server thread/INFO]: Invincible_Atlas issued server command: /home cave
+[14:14:12] [Server thread/INFO]: Invincible_Atlas issued server command: /delhome cave
+[14:14:16] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome mine
+[14:14:19] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:15:39] [Async Chat Thread - #16/INFO]: <Invincible_Atlas> sia, want a leather tunic?[m
+
+[14:15:43] [Server thread/INFO]: Invincible_Atlas issued server command: /tell
+[14:17:00] [Server thread/INFO]: sia lost connection: Disconnected
+[14:17:00] [Server thread/INFO]: sia left the game.
+[14:17:01] [Server thread/INFO]: Invincible_Atlas issued server command: /home mine
+[14:17:14] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [DIAMONDS!]
+[14:17:25] [Thread-23/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[14:17:25] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:45752] logged in with entity id 22933 at ([world]-125.46706125258822, 79.0, 481.96477414806884)
+[14:17:33] [Async Chat Thread - #17/INFO]: <Invincible_Atlas> I FOUND DIAMONDS!!![m
+
+[14:18:29] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:18:33] [Async Chat Thread - #17/INFO]: <sia> good now go to sleep[m
+
+[14:18:57] [Async Chat Thread - #17/INFO]: <Invincible_Atlas> you know, I can just use commands to set the time to day[m
+
+[14:19:03] [Async Chat Thread - #17/INFO]: <sia> o[m
+
+[14:20:36] [Server thread/WARN]: Invincible_Atlas moved wrongly!
+[14:20:36] [Server thread/WARN]: Invincible_Atlas moved wrongly!
+[14:20:36] [Server thread/WARN]: Invincible_Atlas moved wrongly!
+[14:21:13] [Server thread/INFO]: Invincible_Atlas issued server command: /homemine
+[14:21:17] [Server thread/INFO]: Invincible_Atlas issued server command: /home mine
+[14:22:44] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:23:09] [Server thread/INFO]: Invincible_Atlas issued server command: /tell sia i need sugarcane, do you have any?
+[14:28:54] [Thread-25/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[14:28:54] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:45716] logged in with entity id 27830 at ([world]-93.27806232145974, 80.0, 462.5601718208852)
+[14:29:07] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:29:10] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> hi![m
+
+[14:29:15] [Async Chat Thread - #18/INFO]: <QU4S3> Wsg isaac[m
+
+[14:29:27] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> i found diamonds![m
+
+[14:29:30] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> 6 of em![m
+
+[14:29:36] [Async Chat Thread - #18/INFO]: <QU4S3> Omg we are progressing so fast[m
+
+[14:29:55] [Async Chat Thread - #18/INFO]: <sia> dont steal my bed[m
+
+[14:29:55] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> Im making an enchanting table[m
+
+[14:30:02] [Server thread/INFO]: Invincible_Atlas issued server command: /home mine
+[14:30:19] [Async Chat Thread - #18/INFO]: <QU4S3> Who stole my bed[m
+
+[14:30:29] [Server thread/INFO]: Invincible_Atlas issued server command: /give QU4S3 bed
+[14:30:29] [Server thread/INFO]: [Invincible_Atlas: Given [Bed] * 1 to QU4S3]
+[14:30:31] [Async Chat Thread - #18/INFO]: <sia> you stole my bed[m
+
+[14:30:39] [Async Chat Thread - #18/INFO]: <sia> so i took it back[m
+
+[14:30:50] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> there, I gave you a bed[m
+
+[14:31:01] [Async Chat Thread - #18/INFO]: <QU4S3> Bet[m
+
+[14:31:04] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:31:11] [Async Chat Thread - #18/INFO]: <QU4S3> Isaac is very cool[m
+
+[14:31:25] [Server thread/INFO]: Invincible_Atlas has just earned the achievement [Enchanter]
+[14:31:25] [Async Chat Thread - #18/INFO]: <QU4S3> Go to sleep[m
+
+[14:31:42] [Server thread/INFO]: Invincible_Atlas issued server command: /time set day
+[14:31:42] [Server thread/INFO]: [Invincible_Atlas: Set the time to 1000]
+[14:31:43] [Server thread/INFO]: sia has just earned the achievement [Time to Strike!]
+[14:32:00] [Server thread/INFO]: sia has just earned the achievement [Time to Mine!]
+[14:32:00] [Server thread/INFO]: sia has just earned the achievement [Getting an Upgrade]
+[14:32:13] [Async Chat Thread - #18/INFO]: <Invincible_Atlas> we should make an enchanting hall[m
+
+[14:32:24] [Async Chat Thread - #18/INFO]: <QU4S3> Or a town hall in general[m
+
+[14:37:04] [Async Chat Thread - #19/INFO]: <Invincible_Atlas> we need cows for books[m
+
+[14:39:36] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[14:39:36] [Server thread/INFO]: QU4S3 left the game.
+[14:41:13] [Server thread/INFO]: Invincible_Atlas issued server command: /summon cow
+[14:41:13] [Server thread/WARN]: Skipping Entity with id cow
+[14:41:13] [Server thread/INFO]: [Invincible_Atlas: Unable to summon object]
+[14:41:31] [Server thread/INFO]: Invincible_Atlas issued server command: /summon cow
+[14:41:31] [Server thread/WARN]: Skipping Entity with id cow
+[14:41:31] [Server thread/INFO]: [Invincible_Atlas: Unable to summon object]
+[14:41:51] [Server thread/INFO]: Invincible_Atlas issued server command: /summon cow
+[14:41:51] [Server thread/WARN]: Skipping Entity with id cow
+[14:41:51] [Server thread/INFO]: [Invincible_Atlas: Unable to summon object]
+[14:42:05] [Async Chat Thread - #20/INFO]: <Invincible_Atlas> go to sleep[m
+
+[14:42:37] [Async Chat Thread - #20/INFO]: <Invincible_Atlas> sia go to sleep[m
+
+[14:46:33] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:48:31] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:50:02] [Server thread/INFO]: sia was slain by Zombie
+[14:50:43] [Thread-26/INFO]: UUID of player luke is 7476e557-bdb9-3ccd-b071-818fd40d7092
+[14:50:43] [Server thread/INFO]: luke[/[0:0:0:0:0:0:0:1]:33632] logged in with entity id 31233 at ([world]-109.2087526600967, 77.0, 446.4456013872064)
+[14:51:26] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> luke, I need you to find some cows[m
+
+[14:51:31] [Async Chat Thread - #21/INFO]: <luke> on it.[m
+
+[14:51:34] [Async Chat Thread - #21/INFO]: <luke> kill em?[m
+
+[14:51:45] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> no, we want them alive[m
+
+[14:51:51] [Async Chat Thread - #21/INFO]: <luke> ok, that will be harder[m
+
+[14:51:59] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> just send me a tpahere when you find one[m
+
+[14:52:02] [Async Chat Thread - #21/INFO]: <luke> k[m
+
+[14:52:06] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> thcx[m
+
+[14:52:09] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> thx[m
+
+[14:52:14] [Async Chat Thread - #21/INFO]: <luke> also, can we build a bakery[m
+
+[14:52:21] [Async Chat Thread - #21/INFO]: <luke> old thing[m
+
+[14:52:23] [Async Chat Thread - #21/INFO]: <Invincible_Atlas> sure[m
+
+[14:52:31] [Server thread/INFO]: luke has just earned the achievement [Monster Hunter]
+[14:52:39] [Thread-27/INFO]: UUID of player Reidbestyayayay is 4aced700-1290-32c1-b302-606fe776f91a
+[14:52:39] [Server thread/INFO]: Reidbestyayayay[/[0:0:0:0:0:0:0:1]:41478] logged in with entity id 31929 at ([world]-99.35899713755983, 81.0, 469.22984415298663)
+[14:55:45] [Server thread/INFO]: Invincible_Atlas issued server command: /give Invincible_Atlas bone 10
+[14:55:45] [Server thread/INFO]: [Invincible_Atlas: Given [Bone] * 10 to Invincible_Atlas]
+[14:56:01] [Server thread/INFO]: Invincible_Atlas issued server command: /give Invincible_Atlas bone 10
+[14:56:01] [Server thread/INFO]: [Invincible_Atlas: Given [Bone] * 10 to Invincible_Atlas]
+[14:56:19] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:58:47] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[14:58:56] [Server thread/INFO]: Reidbestyayayay issued server command: /sethome reid
+[15:00:35] [Server thread/INFO]: Invincible_Atlas issued server command: /home mine
+[15:00:39] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[15:01:32] [Async Chat Thread - #22/INFO]: <luke> wow[m
+
+[15:01:34] [Async Chat Thread - #22/INFO]: <luke> no cow[m
+
+[15:01:42] [Async Chat Thread - #22/INFO]: <luke> 1000 blocks traveled[m
+
+[15:01:57] [Async Chat Thread - #22/INFO]: <Invincible_Atlas> dang[m
+
+[15:02:21] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome mine
+[15:02:25] [Server thread/INFO]: Invincible_Atlas issued server command: /delhome mine
+[15:02:26] [Server thread/INFO]: luke issued server command: /tpa Inv
+[15:02:31] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome mine
+[15:02:34] [Server thread/INFO]: Invincible_Atlas issued server command: /tpaccept
+[15:02:37] [Async Chat Thread - #22/INFO]: <luke> gonna go back home[m
+
+[15:02:51] [Server thread/INFO]: luke issued server command: /tpa reid
+[15:02:58] [Server thread/INFO]: Reidbestyayayay issued server command: /tpaccept
+[15:03:00] [Async Chat Thread - #22/INFO]: <Invincible_Atlas> use sethome home[m
+
+[15:03:06] [Async Chat Thread - #22/INFO]: <luke> k[m
+
+[15:03:08] [Server thread/INFO]: luke issued server command: /tpa reid
+[15:03:12] [Async Chat Thread - #22/INFO]: <luke> i move[m
+
+[15:03:14] [Server thread/INFO]: Reidbestyayayay issued server command: /tpaccept
+[15:03:34] [Async Chat Thread - #22/INFO]: <luke> where is the village[m
+
+[15:03:42] [Async Chat Thread - #22/INFO]: <Invincible_Atlas> ?[m
+
+[15:04:01] [Server thread/INFO]: sia has just earned the achievement [Monster Hunter]
+[15:04:03] [Server thread/INFO]: Reidbestyayayay fell from a high place
+[15:04:05] [Server thread/INFO]: Reidbestyayayay issued server command: /back
+[15:04:18] [Server thread/INFO]: luke fell from a high place
+[15:06:01] [Server thread/INFO]: Reidbestyayayay issued server command: /home reid
+[15:07:42] [Server thread/INFO]: luke has just earned the achievement [Time to Farm!]
+[15:08:49] [Async Chat Thread - #23/INFO]: <Invincible_Atlas> gtg, I have archery. Server should stay up though.[m
+
+[15:08:52] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[15:08:54] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
+[15:08:54] [Server thread/INFO]: Invincible_Atlas left the game.
+[15:08:55] [Async Chat Thread - #23/INFO]: <luke> K[m
+
+[15:09:54] [Thread-29/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[15:09:54] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:43794] logged in with entity id 39082 at ([world]-91.07379709040876, 80.0, 462.5352337299083)
+[15:10:11] [Thread-30/INFO]: UUID of player money02 is 09e77e8b-473b-365e-813f-1b920e1b9d0d
+[15:10:11] [Server thread/INFO]: money02[/[0:0:0:0:0:0:0:1]:44614] logged in with entity id 39144 at ([world]-159.43961049825418, 81.0, 586.1869073138339)
+[15:10:35] [Server thread/INFO]: sia was slain by Reidbestyayayay
+[15:10:37] [Async Chat Thread - #24/INFO]: <QU4S3> Yo we are all here i think[m
+
+[15:11:07] [Async Chat Thread - #24/INFO]: <sia> reid come with me[m
+
+[15:11:12] [Async Chat Thread - #24/INFO]: <Reidbestyayayay> why[m
+
+[15:11:15] [Async Chat Thread - #24/INFO]: <money02> and you'll see[m
+
+[15:11:19] [Async Chat Thread - #24/INFO]: <sia> to show house[m
+
+[15:11:39] [Thread-31/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:11:39] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:35890] logged in with entity id 39399 at ([world]-189.38738786030638, 79.0, 416.76091955392116)
+[15:11:49] [Async Chat Thread - #24/INFO]: <Reidbestyayayay> p you can[m
+
+[15:11:50] [Async Chat Thread - #24/INFO]: <luke> who is taxi[m
+
+[15:11:57] [Async Chat Thread - #24/INFO]: <sia> what[m
+
+[15:12:00] [Async Chat Thread - #24/INFO]: <Reidbestyayayay> not place chest[m
+
+[15:12:05] [Async Chat Thread - #24/INFO]: <Reidbestyayayay> here[m
+
+[15:12:05] [Async Chat Thread - #24/INFO]: <QU4S3> Me and colins friend[m
+
+[15:12:09] [Server thread/INFO]: Taxi lost connection: Login timed out!
+[15:12:09] [Server thread/INFO]: Taxi left the game.
+[15:12:09] [Server thread/WARN]: handleDisconnection() called twice
+[15:12:11] [Async Chat Thread - #24/INFO]: <luke> who[m
+
+[15:12:13] [Thread-32/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:12:13] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:44036] logged in with entity id 39486 at ([world]-189.98155106777884, 79.0, 416.8535431277389)
+[15:12:14] [Async Chat Thread - #24/INFO]: <QU4S3> xavi[m
+
+[15:12:16] [Async Chat Thread - #24/INFO]: <sia> why not[m
+
+[15:12:16] [Async Chat Thread - #24/INFO]: <Reidbestyayayay> y ou can't use it[m
+
+[15:12:26] [Async Chat Thread - #24/INFO]: <sia> dontcare[m
+
+[15:12:28] [Async Chat Thread - #24/INFO]: <QU4S3> You probably don't know who he is[m
+
+[15:12:34] [Server thread/INFO]: Taxi issued server command: /Gogogaga
+[15:12:43] [Server thread/INFO]: Taxi lost connection: Login timed out!
+[15:12:43] [Server thread/INFO]: Taxi left the game.
+[15:12:43] [Server thread/WARN]: handleDisconnection() called twice
+[15:12:47] [Thread-33/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:12:47] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:55352] logged in with entity id 39565 at ([world]-189.91268066053104, 79.0, 416.7786994824812)
+[15:12:49] [Async Chat Thread - #24/INFO]: <sia> what is this[m
+
+[15:12:53] [Async Chat Thread - #24/INFO]: <sia> luke[m
+
+[15:12:56] [Async Chat Thread - #24/INFO]: <luke> restaraut[m
+
+[15:13:02] [Async Chat Thread - #24/INFO]: <sia> nioce[m
+
+[15:13:02] [Server thread/INFO]: Taxi issued server command: /unregister
+[15:13:17] [Server thread/INFO]: Taxi lost connection: Login timed out!
+[15:13:17] [Server thread/INFO]: Taxi left the game.
+[15:13:17] [Server thread/WARN]: handleDisconnection() called twice
+[15:13:37] [Thread-34/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:13:37] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:49202] logged in with entity id 39720 at ([world]-189.81129605659598, 79.0, 416.97262530002484)
+[15:14:08] [Server thread/INFO]: Taxi lost connection: Login timed out!
+[15:14:08] [Server thread/INFO]: Taxi left the game.
+[15:14:08] [Server thread/WARN]: handleDisconnection() called twice
+[15:14:17] [Thread-35/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:14:17] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:35802] logged in with entity id 39845 at ([world]-189.98399207771197, 79.0, 416.9150319961048)
+[15:14:21] [Server thread/INFO]: Taxi has just earned the achievement [Taking Inventory]
+[15:14:25] [Server thread/INFO]: money02 issued server command: /tpa luke
+[15:14:32] [Server thread/INFO]: luke issued server command: /tpaccept
+[15:14:34] [Async Chat Thread - #25/INFO]: <money02> acccept[m
+
+[15:14:36] [Async Chat Thread - #25/INFO]: <Reidbestyayayay> who taxi[m
+
+[15:14:47] [Server thread/INFO]: Taxi lost connection: Login timed out!
+[15:14:47] [Server thread/INFO]: Taxi left the game.
+[15:14:47] [Server thread/WARN]: handleDisconnection() called twice
+[15:14:51] [Thread-36/INFO]: UUID of player Taxi is 4e9b8009-2313-329a-a0b6-d5b409a7fcec
+[15:14:51] [Server thread/INFO]: Taxi[/[0:0:0:0:0:0:0:1]:39694] logged in with entity id 40135 at ([world]-189.9128928882611, 79.0, 416.98247756232087)
+[15:15:09] [Server thread/INFO]: Taxi issued server command: /logout
+[15:15:13] [Server thread/INFO]: Taxi lost connection: Disconnected
+[15:15:13] [Server thread/INFO]: Taxi left the game.
+[15:16:44] [Async Chat Thread - #26/INFO]: <QU4S3> Lucas, is this the town hall?[m
+
+[15:16:48] [Async Chat Thread - #26/INFO]: <luke> no[m
+
+[15:16:55] [Async Chat Thread - #26/INFO]: <QU4S3> Oh, what is it then[m
+
+[15:16:55] [Async Chat Thread - #26/INFO]: <luke> its a restarunat[m
+
+[15:17:00] [Async Chat Thread - #26/INFO]: <QU4S3> Oh, bet[m
+
+[15:17:08] [Thread-37/INFO]: UUID of player Ibepoppinbottles is c7db7150-60ee-3df8-b919-5454de0ca450
+[15:17:08] [Server thread/INFO]: Ibepoppinbottles[/[0:0:0:0:0:0:0:1]:36276] logged in with entity id 41539 at ([world]-246.5, 72.0, 247.5)
+[15:17:08] [Async Chat Thread - #26/INFO]: <QU4S3> Guys i have a great idea[m
+
+[15:17:27] [Async Chat Thread - #26/INFO]: <money02> bro ms raddock is yapping about her life story[m
+
+[15:17:28] [Async Chat Thread - #26/INFO]: <QU4S3> We should use paper as a currency[m
+
+[15:17:32] [Async Chat Thread - #26/INFO]: <luke> lol[m
+
+[15:17:42] [Server thread/INFO]: Ibepoppinbottles lost connection: Disconnected
+[15:17:42] [Server thread/INFO]: Ibepoppinbottles left the game.
+[15:17:46] [Thread-38/INFO]: UUID of player Ibepoppinbottles is c7db7150-60ee-3df8-b919-5454de0ca450
+[15:17:46] [Server thread/INFO]: Ibepoppinbottles[/[0:0:0:0:0:0:0:1]:47166] logged in with entity id 41994 at ([world]-247.5080115622448, 73.0, 251.6368488492516)
+[15:18:10] [Async Chat Thread - #26/INFO]: <sia> can i help[m
+
+[15:18:12] [Server thread/INFO]: Reidbestyayayay lost connection: Disconnected
+[15:18:12] [Server thread/INFO]: Reidbestyayayay left the game.
+[15:18:17] [Server thread/INFO]: Ibepoppinbottles issued server command: /tpu Q
+[15:18:19] [Async Chat Thread - #26/INFO]: <luke> yes[m
+
+[15:18:19] [Async Chat Thread - #26/INFO]: <sia> i will get door[m
+
+[15:18:26] [Async Chat Thread - #26/INFO]: <luke> get door and make the floor[m
+
+[15:18:32] [Server thread/INFO]: Ibepoppinbottles issued server command: /tpu QU
+[15:18:37] [Server thread/INFO]: Ibepoppinbottles issued server command: /help
+[15:18:46] [Async Chat Thread - #26/INFO]: <sia> k[m
+
+[15:19:05] [Server thread/INFO]: Ibepoppinbottles issued server command: /tpa QU
+[15:19:06] [Async Chat Thread - #26/INFO]: <luke> u make floor[m
+
+[15:19:15] [Server thread/INFO]: QU4S3 issued server command: /tpaccept
+[15:23:04] [Server thread/INFO]: luke issued server command: /sethome
+[15:23:08] [Server thread/INFO]: luke issued server command: /sethome house
+[15:23:49] [Async Chat Thread - #27/INFO]: <sia> need a bathroom[m
+
+[15:24:04] [Async Chat Thread - #27/INFO]: <luke> nah[m
+
+[15:24:07] [Async Chat Thread - #27/INFO]: <sia> k[m
+
+[15:24:50] [Server thread/INFO]: money02 was slain by QU4S3
+[15:24:56] [Server thread/INFO]: money02 issued server command: /back
+[15:25:03] [Async Chat Thread - #27/INFO]: <money02> graeme[m
+
+[15:25:05] [Async Chat Thread - #27/INFO]: <QU4S3> It was self defence[m
+
+[15:25:07] [Async Chat Thread - #27/INFO]: <luke> what next[m
+
+[15:25:18] [Async Chat Thread - #27/INFO]: <money02> why were you looking though my stuff?[m
+
+[15:25:18] [Async Chat Thread - #27/INFO]: <luke> wait can u make tables[m
+
+[15:25:21] [Async Chat Thread - #27/INFO]: <sia> k[m
+
+[15:25:26] [Async Chat Thread - #27/INFO]: <luke> ill make the kichen[m
+
+[15:25:30] [Async Chat Thread - #27/INFO]: <QU4S3> I was putting my shit in your thing[m
+
+[15:27:48] [Async Chat Thread - #28/INFO]: <luke> now we need coal in bulk[m
+
+[15:27:53] [Async Chat Thread - #28/INFO]: <luke> and assorted meats[m
+
+[15:28:09] [Async Chat Thread - #28/INFO]: <sia> come to restruant[m
+
+[15:28:18] [Async Chat Thread - #28/INFO]: <sia> i have stuff luke[m
+
+[15:28:41] [Async Chat Thread - #28/INFO]: <sia> I have coal and meat[m
+
+[15:28:53] [Server thread/INFO]: sia issued server command: /tp luke
+[15:29:09] [Async Chat Thread - #28/INFO]: <QU4S3> Im at the resturant[m
+
+[15:29:13] [Server thread/INFO]: sia lost connection: Disconnected
+[15:29:13] [Server thread/INFO]: sia left the game.
+[15:29:24] [Async Chat Thread - #28/INFO]: <luke> gram[m
+
+[15:29:28] [Async Chat Thread - #28/INFO]: <QU4S3> wha[m
+
+[15:29:35] [Async Chat Thread - #28/INFO]: <luke> get me tons of coal and assorted meats[m
+
+[15:29:40] [Async Chat Thread - #28/INFO]: <QU4S3> Ok[m
+
+[15:29:44] [Async Chat Thread - #28/INFO]: <luke> thx[m
+
+[15:29:45] [Thread-40/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[15:29:45] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:50190] logged in with entity id 45478 at ([world]-105.36127679944816, 79.0, 466.1091605369104)
+[15:30:05] [Async Chat Thread - #28/INFO]: <sia> luke come[m
+
+[15:30:25] [Async Chat Thread - #28/INFO]: <luke> niceeeeeee[m
+
+[15:32:28] [Async Chat Thread - #29/INFO]: <money02> do you have lava?[m
+
+[15:32:35] [Async Chat Thread - #29/INFO]: <sia> no[m
+
+[15:32:37] [Async Chat Thread - #29/INFO]: <money02> ok[m
+
+[15:33:20] [Server thread/INFO]: QU4S3 has just earned the achievement [Time to Farm!]
+[15:34:49] [Async Chat Thread - #30/INFO]: <luke> LUKES DINER NOW OPEN[m
+
+[15:35:00] [Async Chat Thread - #30/INFO]: <luke> sia u are employee[m
+
+[15:35:20] [Async Chat Thread - #30/INFO]: <luke> sia is waiter[m
+
+[15:35:54] [Server thread/INFO]: Ibepoppinbottles has just earned the achievement [Taking Inventory]
+[15:36:01] [Async Chat Thread - #30/INFO]: <QU4S3> Can you sponser Q-Farm? I will give straight natural resources right from the farm![m
+
+[15:36:03] [Async Chat Thread - #30/INFO]: <sia> luke am i an[m
+
+[15:36:11] [Async Chat Thread - #30/INFO]: <luke> yes[m
+
+[15:36:13] [Async Chat Thread - #30/INFO]: <luke> yes u are[m
+
+[15:36:17] [Async Chat Thread - #30/INFO]: <QU4S3> Ok thanks[m
+
+[15:36:18] [Async Chat Thread - #30/INFO]: <sia> less go[m
+
+[15:36:23] [Async Chat Thread - #30/INFO]: <luke> seat antwhere[m
+
+[15:36:46] [Async Chat Thread - #30/INFO]: <luke> what would you like today?[m
+
+[15:36:51] [Async Chat Thread - #30/INFO]: <QU4S3> Bread[m
+
+[15:36:56] [Async Chat Thread - #30/INFO]: <luke> and you?[m
+
+[15:37:07] [Async Chat Thread - #30/INFO]: <sia> rotten flesh[m
+
+[15:37:12] [Async Chat Thread - #30/INFO]: <luke> ok[m
+
+[15:37:32] [Server thread/INFO]: Ibepoppinbottles lost connection: Disconnected
+[15:37:32] [Server thread/INFO]: Ibepoppinbottles left the game.
+[15:37:35] [Async Chat Thread - #30/INFO]: <sia> someone else came[m
+
+[15:37:37] [Async Chat Thread - #30/INFO]: <QU4S3> I have one heart left do not hit me puneeth[m
+
+[15:37:47] [Server thread/INFO]: luke has just earned the achievement [Bake Bread]
+[15:37:49] [Async Chat Thread - #30/INFO]: <sia> k[m
+
+[15:37:58] [Async Chat Thread - #30/INFO]: <QU4S3> W[m
+
+[15:38:17] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[15:38:17] [Server thread/INFO]: QU4S3 left the game.
+[15:38:29] [Server thread/INFO]: money02 lost connection: Disconnected
+[15:38:29] [Server thread/INFO]: money02 left the game.
+[15:38:36] [Server thread/INFO]: sia lost connection: Disconnected
+[15:38:36] [Server thread/INFO]: sia left the game.
+[15:38:57] [Server thread/INFO]: luke lost connection: Disconnected
+[15:38:57] [Server thread/INFO]: luke left the game.
+[15:41:33] [Thread-41/INFO]: UUID of player money02 is 09e77e8b-473b-365e-813f-1b920e1b9d0d
+[15:41:33] [Server thread/INFO]: money02[/[0:0:0:0:0:0:0:1]:44230] logged in with entity id 49806 at ([world]-118.08626064003064, 77.0, 453.8176710066552)
+[15:41:44] [Thread-42/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[15:41:44] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:38456] logged in with entity id 50016 at ([world]-91.7540225834591, 80.0, 461.70214253697935)
+[15:42:14] [Server thread/INFO]: QU4S3 lost connection: Login timed out!
+[15:42:14] [Server thread/INFO]: QU4S3 left the game.
+[15:42:14] [Server thread/WARN]: handleDisconnection() called twice
+[15:42:50] [Thread-43/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[15:42:50] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:55558] logged in with entity id 50324 at ([world]-91.7540225834591, 80.0, 461.70214253697935)
+[15:43:32] [Server thread/INFO]: money02 lost connection: Disconnected
+[15:43:32] [Server thread/INFO]: money02 left the game.
+[16:03:49] [Thread-45/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
+[16:03:49] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:53440] logged in with entity id 52020 at ([world]-103.97771384353686, 79.0, 471.69999998807907)
+[16:06:06] [Server thread/INFO]: sia lost connection: Disconnected
+[16:06:06] [Server thread/INFO]: sia left the game.
+[16:11:28] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[16:11:28] [Server thread/INFO]: QU4S3 left the game.
+[16:38:11] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+
+[16:38:11] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mLoginSecurity: [0;37;1mAll commands for LoginSecurity[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mSimpleHomes: [0;37;1mAll commands for SimpleHomes[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mSimpleTpa: [0;37;1mAll commands for SimpleTpa[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22mWorldEdit: [0;37;1mAll commands for WorldEdit[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/.s: [0;37;1mExecute last CraftScript[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//: [0;37;1mToggle the super pickaxe function[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//calc: [0;37;1mEvaluate a mathematical expression[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//center: [0;37;1mSet the center block(s)[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//chunk: [0;37;1mSet the selection to your current chunk.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//clearhistory: [0;37;1mClear your history[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//contract: [0;37;1mContract the selection area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//copy: [0;37;1mCopy the selection to the clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//count: [0;37;1mCounts the number of a certain type of block[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//curve: [0;37;1mDraws a spline through selected points[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//cut: [0;37;1mCut the selection to the clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//cyl: [0;37;1mGenerates a cylinder.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//deform: [0;37;1mDeforms a selected region with an expression[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//distr: [0;37;1mGet the distribution of blocks in the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//drain: [0;37;1mDrain a pool[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//ex: [0;37;1mExtinguish nearby fire[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//expand: [0;37;1mExpand the selection area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//faces: [0;37;1mBuild the walls, ceiling, and floor of a selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//fast: [0;37;1mToggle fast mode[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//fill: [0;37;1mFill a hole[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//fillr: [0;37;1mFill a hole recursively[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//fixlava: [0;37;1mFix lava to be stationary[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//fixwater: [0;37;1mFix water to be stationary[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//flip: [0;37;1mFlip the contents of the clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//flora: [0;37;1mMake flora within the region[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//forest: [0;37;1mMake a forest within the region[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//generate: [0;37;1mGenerates a shape according to a formula.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//generatebiome: [0;37;1mSets biome according to a formula.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//gmask: [0;37;1mSet the global mask[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//green: [0;37;1mGreens the area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hcyl: [0;37;1mGenerates a hollow cylinder.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//help: [0;37;1mDisplays help for WorldEdit commands[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hollow: [0;37;1mHollows out the object contained in this selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hpos1: [0;37;1mSet position 1 to targeted block[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hpos2: [0;37;1mSet position 2 to targeted block[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hpyramid: [0;37;1mGenerate a hollow pyramid[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//hsphere: [0;37;1mGenerates a hollow sphere.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//inset: [0;37;1mInset the selection area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//limit: [0;37;1mModify block change limit[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//line: [0;37;1mDraws a line segment between cuboid selection corners[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//load: [0;37;1mLoad a schematic into your clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//move: [0;37;1mMove the contents of the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//naturalize: [0;37;1m3 layers of dirt on top then rock below[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//outset: [0;37;1mOutset the selection area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//overlay: [0;37;1mSet a block on top of blocks in the region[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//paste: [0;37;1mPaste the clipboard's contents[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//pos1: [0;37;1mSet position 1[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//pos2: [0;37;1mSet position 2[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//pyramid: [0;37;1mGenerate a filled pyramid[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//redo: [0;37;1mRedoes the last action (from history)[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//regen: [0;37;1mRegenerates the contents of the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//removeabove: [0;37;1mRemove blocks above your head.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//removebelow: [0;37;1mRemove blocks below you.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//removenear: [0;37;1mRemove blocks near you.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//replace: [0;37;1mReplace all blocks in the selection with another[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//replacenear: [0;37;1mReplace nearby blocks[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//rotate: [0;37;1mRotate the contents of the clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//save: [0;37;1mSave a schematic into your clipboard[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//searchitem: [0;37;1mSearch for an item[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//sel: [0;37;1mChoose a region selector[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//set: [0;37;1mSet all the blocks inside the selection to a block[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//setbiome: [0;37;1mSets the biome of the player's current block or region.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//shift: [0;37;1mShift the selection area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//size: [0;37;1mGet information about the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//smooth: [0;37;1mSmooth the elevation in the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//snow: [0;37;1mSimulates snow[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//sphere: [0;37;1mGenerates a filled sphere.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//stack: [0;37;1mRepeat the contents of the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//thaw: [0;37;1mThaws the area[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//toggleplace: [0;37;1mSwitch between your position and pos1 for placement[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//undo: [0;37;1mUndoes the last action[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//walls: [0;37;1mBuild the four sides of the selection[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m//wand: [0;37;1mGet the wand object[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/ascend: [0;37;1mGo up a floor[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/back: [0;37;1mTeleports you to the previous location.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/biomeinfo: [0;37;1mGet the biome of the targeted block.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/biomelist: [0;37;1mGets all biomes available.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/brush: [0;37;1mBrushing commands[m
+
+[16:38:11] [Server thread/INFO]: [0;33;22m/butcher: [0;37;1mKill all or nearby mobs[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/ceil: [0;37;1mGo to the celing[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/changepassword: [0;37;1mChange your account password.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/chunkinfo: [0;37;1mGet information about the chunk that you are inside[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/clearclipboard: [0;37;1mClear your clipboard[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/cs: [0;37;1mExecute a CraftScript[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/cycler: [0;37;1mBlock data cycler tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/delchunks: [0;37;1mDelete chunks that your selection includes[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/delhome: [0;37;1mDelete a home[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/deltree: [0;37;1mFloating tree remover tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/descend: [0;37;1mGo down a floor[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/farwand: [0;37;1mWand at a distance tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/floodfill: [0;37;1mFlood fill tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/forestgen: [0;37;1mGenerate a forest[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/home: [0;37;1mTeleport to a home[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/homes: [0;37;1mDisplays your currently set homes[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/info: [0;37;1mBlock information tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/jumpto: [0;37;1mTeleport to a location[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/lac: [0;37;1mLoginSecurity Admin command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/listchunks: [0;37;1mList chunks that your selection includes[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/login: [0;37;1mLogin with your account.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/logout: [0;37;1mLog out of your account.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/lrbuild: [0;37;1mLong-range building tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/mask: [0;37;1mSet the brush mask[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/mat: [0;37;1mSet the brush material[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/none: [0;37;1mUnbind a bound tool from your current item[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/pumpkins: [0;37;1mGenerate pumpkin patches[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/range: [0;37;1mSet the brush range[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/register: [0;37;1mSet a password for your account.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/remove: [0;37;1mRemove all entities of a type[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/repl: [0;37;1mBlock replacer tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/restore: [0;37;1mRestore the selection from a snapshot[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/schematic: [0;37;1mSchematic commands for saving/loading areas[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/sethome: [0;37;1mSet a new home at your current location[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/simpletpa: [0;37;1mOpens the help menu of the plugin.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/size: [0;37;1mSet the brush size[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/snapshot: [0;37;1mSchematic commands for saving/loading areas[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/superpickaxe: [0;37;1mSuper-pickaxe commands[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/thru: [0;37;1mPassthrough walls[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/toggleeditwand: [0;37;1mToggle functionality of the edit wand[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tool: [0;37;1mBind functions to held items[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpa: [0;37;1mSends a teleportation request to someone.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpaccept: [0;37;1mAccepts the teleportation request.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpahere: [0;37;1mSends a teleport here request to someone.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpahereall: [0;37;1mSends a teleport request to everyone[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpatoggle: [0;37;1mTurns on and off the teleportation mode.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpcancel: [0;37;1mCacenls the teleportation request.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tpdeny: [0;37;1mDenies the teleportation request.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/tree: [0;37;1mTree generator tool[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/unregister: [0;37;1mUnregister your account.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/unstuck: [0;37;1mEscape from being stuck inside a block[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/up: [0;37;1mGo upwards some distance[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/worldedit: [0;37;1mWorldEdit commands[m
+
+[16:38:12] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Minecraft [0;33;1m-----------------------[m
+
+[16:38:17] [Server thread/INFO]: [0;37;22mBelow is a list of all Minecraft commands:[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+
+[16:38:17] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+
+[16:38:29] [Server thread/INFO]: Usage: /spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>
+[16:38:46] [Server thread/INFO]: Toggled downfall
+[16:38:48] [Server thread/INFO]: Toggled downfall
+[16:39:07] [Server thread/INFO]: Usage: /title <player> <title|subtitle|clear|reset|times> ...
+[16:39:12] [Server thread/INFO]: Usage: /time <set|add|query> <value>
+[16:39:22] [Server thread/INFO]: Usage: /summon <EntityName> [x] [y] [z] [dataTag]
+[16:39:36] [Server thread/INFO]: Usage: /me <action ...>
