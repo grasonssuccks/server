@@ -14,6 +14,16 @@ Invincible_Atlas:
     X: 315.60700107892205
     Y: 11.0
     Z: 334.865742551524
+  spawner:
+    world: world
+    X: 141.3870721274835
+    Y: 26.0
+    Z: 596.6712026008242
+  spawner2:
+    world: world
+    X: 142.5623154771799
+    Y: 20.0
+    Z: 602.4581405727806
 money02:
   new:
     world: world
@@ -57,6 +67,16 @@ luke:
     X: 100.31065477312738
     Y: 11.0
     Z: 508.289401642876
+  mineshaft:
+    world: world
+    X: 233.60005374396007
+    Y: 26.0
+    Z: 578.983988127793
+  farm:
+    world: world
+    X: 142.56505724280677
+    Y: 20.0
+    Z: 603.6740191356791
 Doomscyzor:
   Home:
     world: world
