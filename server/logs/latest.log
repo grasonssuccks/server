@@ -1,535 +1,1111 @@
-[21:31:17] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[21:31:17] [Server thread/INFO]: Loading properties
-[21:31:17] [Server thread/INFO]: Default game type: SURVIVAL
-[21:31:17] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[21:31:17] [Server thread/INFO]: Debug logging is disabled
-[21:31:17] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[21:31:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[21:31:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:31:17] [Server thread/INFO]: Data value allowed items: 
-[21:31:17] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[21:31:17] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[21:31:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[21:31:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[21:31:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[21:31:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:31:17] [Server thread/INFO]: Generating keypair
-[21:31:17] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[21:31:17] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[21:31:17] [Server thread/INFO]: Using default channel type
-[21:31:17] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[21:31:17] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[21:31:17] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[21:31:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[21:31:17] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[21:31:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:31:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:31:17] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[21:31:17] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[21:31:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:31:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:31:17] [Server thread/INFO]: Preparing level "world"
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
-[21:31:18] [Server thread/INFO]: Anti X-Ray: true
-[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
-[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
-[21:31:18] [Server thread/INFO]: Structure Info Saving: true
-[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
-[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
-[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:31:18] [Server thread/INFO]: View Distance: 4
-[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:31:18] [Server thread/INFO]: Clear tick list: false
-[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
-[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
-[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:31:18] [Server thread/INFO]: World async lighting: false
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
-[21:31:18] [Server thread/INFO]: Anti X-Ray: true
-[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
-[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
-[21:31:18] [Server thread/INFO]: Structure Info Saving: true
-[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
-[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
-[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:31:18] [Server thread/INFO]: View Distance: 4
-[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:31:18] [Server thread/INFO]: Clear tick list: false
-[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
-[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
-[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:31:18] [Server thread/INFO]: World async lighting: false
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:31:18] [Server thread/INFO]: Mob Spawn Range: 4
-[21:31:18] [Server thread/INFO]: Anti X-Ray: true
-[21:31:18] [Server thread/INFO]: 	Engine Mode: 1
-[21:31:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:31:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:31:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:31:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:31:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:31:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:31:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:31:18] [Server thread/INFO]: Random Lighting Updates: false
-[21:31:18] [Server thread/INFO]: Structure Info Saving: true
-[21:31:18] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:31:18] [Server thread/INFO]: Max Entity Collisions: 8
-[21:31:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:31:18] [Server thread/INFO]: Max TNT Explosions: 100
-[21:31:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:31:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:31:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:31:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:31:18] [Server thread/INFO]: View Distance: 4
-[21:31:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:31:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:31:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:31:18] [Server thread/INFO]: Clear tick list: false
-[21:31:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:31:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:31:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[21:31:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[21:31:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[21:31:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[21:31:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[21:31:18] [Server thread/INFO]: Water over lava flow speed: 5
-[21:31:18] [Server thread/INFO]: Fix TNT cannons: false
-[21:31:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[21:31:18] [Server thread/INFO]: Keep spawn chunk loaded: true
-[21:31:18] [Server thread/INFO]: World async lighting: false
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[21:31:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[21:31:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8619265417696794404)
-[21:31:19] [Server thread/INFO]: Preparing spawn area: 53%
-[21:31:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8619265417696794404)
-[21:31:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8619265417696794404)
-[21:31:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[21:31:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[21:31:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[21:31:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[21:31:20] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[21:31:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[21:31:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:31:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[21:31:21] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[21:31:21] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[21:31:21] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[21:31:21] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[21:31:21] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[21:31:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:31:21] [Server thread/INFO]: Done (3.541s)! For help, type "help" or "?"
-[21:31:21] [Server thread/INFO]: Timings Reset
-[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[21:31:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[21:38:50] [Thread-8/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[21:38:51] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:51186] logged in with entity id 334 at ([world]-86.26855804424278, 51.0, -287.3175218300051)
-[21:39:57] [Thread-9/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
-[21:39:57] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:35598] logged in with entity id 475 at ([world]218.30000001192093, 70.0, 77.29392130045346)
-[21:40:02] [Async Chat Thread - #0/INFO]: <Gman49> sup[m
-
-[21:40:11] [Async Chat Thread - #0/INFO]: <XTeliqYT> hey grier[m
-
-[21:40:23] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
-[21:40:23] [Server thread/INFO]: XTeliqYT left the game.
-[21:40:32] [Thread-10/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:40:32] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:49084] logged in with entity id 660 at ([world]186.5, 67.0, 95.5)
-[21:40:40] [Async Chat Thread - #0/INFO]: <Gman49> sup[m
-
-[21:41:03] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
-[21:41:03] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:41:03] [Server thread/WARN]: handleDisconnection() called twice
-[21:41:11] [Thread-11/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:41:11] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:58764] logged in with entity id 792 at ([world]186.01498974712595, 67.0, 95.51455252926085)
-[21:41:41] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
-[21:41:41] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:41:41] [Server thread/WARN]: handleDisconnection() called twice
-[21:41:45] [Thread-12/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:41:45] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:35174] logged in with entity id 952 at ([world]186.05289850246373, 67.0, 95.95641018864924)
-[21:42:03] [Thread-13/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[21:42:03] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:36040] logged in with entity id 979 at ([world]220.5, 75.0625, 69.5)
-[21:42:14] [Async Chat Thread - #1/INFO]: <Gman49> hey chinmay[m
-
-[21:42:15] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
-[21:42:15] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:42:15] [Server thread/WARN]: handleDisconnection() called twice
-[21:42:20] [Thread-14/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:42:20] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:44108] logged in with entity id 1043 at ([world]186.01610847342627, 67.0, 95.86557796052006)
-[21:42:25] [Server thread/INFO]: KaiTheDick335 has just earned the achievement [Taking Inventory]
-[21:42:33] [Server thread/INFO]: ChinmayM_360 lost connection: Login timed out!
-[21:42:33] [Server thread/INFO]: ChinmayM_360 left the game.
-[21:42:33] [Server thread/WARN]: handleDisconnection() called twice
-[21:42:50] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
-[21:42:50] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:42:54] [Thread-15/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:42:54] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:40948] logged in with entity id 1106 at ([world]186.42610534282454, 67.0, 95.03297904158)
-[21:43:24] [Server thread/INFO]: KaiTheDick335 lost connection: Login timed out!
-[21:43:24] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:43:24] [Server thread/WARN]: handleDisconnection() called twice
-[21:43:27] [Thread-16/INFO]: UUID of player KaiTheDick335 is 67abd51b-e195-3c78-85dc-e86bb2088a31
-[21:43:28] [Server thread/INFO]: KaiTheDick335[/[0:0:0:0:0:0:0:1]:49056] logged in with entity id 1229 at ([world]186.0106545292822, 67.10408037809304, 95.99259082557725)
-[21:43:53] [Server thread/INFO]: KaiTheDick335 lost connection: Disconnected
-[21:43:53] [Server thread/INFO]: KaiTheDick335 left the game.
-[21:47:41] [Server thread/INFO]: Gman49 burned to death
-[21:47:52] [Server thread/INFO]: Gman49 issued server command: /back
-[21:48:03] [Server thread/INFO]: Gman49 issued server command: /back
-[21:50:40] [Thread-17/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
-[21:50:40] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:51702] logged in with entity id 2092 at ([world]218.46007009743218, 70.0625, 75.87621092275826)
-[21:50:55] [Async Chat Thread - #2/INFO]: <XTeliqYT> i had to do my homework[m
-
-[21:51:01] [Async Chat Thread - #2/INFO]: <Gman49> oh[m
-
-[21:51:07] [Async Chat Thread - #2/INFO]: <Gman49> oh[m
-
-[21:51:19] [Async Chat Thread - #2/INFO]: <Gman49> im so glitchy[m
-
-[21:51:28] [Async Chat Thread - #2/INFO]: <XTeliqYT> me too[m
-
-[21:51:54] [Async Chat Thread - #2/INFO]: <XTeliqYT> NO[m
-
-[21:51:57] [Async Chat Thread - #2/INFO]: <XTeliqYT> MY FARM[m
-
-[21:51:59] [Async Chat Thread - #2/INFO]: <XTeliqYT> WHY[m
-
-[21:52:03] [Async Chat Thread - #2/INFO]: <XTeliqYT> WHO DID IT!!!![m
-
-[21:52:50] [Async Chat Thread - #2/INFO]: <XTeliqYT> anyway gman[m
-
-[21:52:54] [Async Chat Thread - #2/INFO]: <XTeliqYT> where are u[m
-
-[21:53:00] [Async Chat Thread - #2/INFO]: <Gman49> caving[m
-
-[21:53:23] [Async Chat Thread - #2/INFO]: <Gman49> i murdered like 300 zombies[m
-
-[21:53:43] [Async Chat Thread - #2/INFO]: <XTeliqYT> and im gonna murder whoever destroyed my farm[m
-
-[21:55:16] [Server thread/INFO]: Gman49 tried to swim in lava
-[21:55:21] [Async Chat Thread - #3/INFO]: <XTeliqYT> lel[m
-
-[21:55:29] [Async Chat Thread - #3/INFO]: <Gman49> i did it on purpose[m
-
-[21:55:34] [Async Chat Thread - #3/INFO]: <XTeliqYT> why?[m
-
-[21:55:56] [Async Chat Thread - #3/INFO]: <Gman49> where u at?[m
-
-[21:56:01] [Async Chat Thread - #3/INFO]: <XTeliqYT> village[m
-
-[21:56:22] [Server thread/WARN]: Gman49 moved wrongly!
-[21:56:23] [Server thread/WARN]: Gman49 moved wrongly!
-[21:56:23] [Server thread/WARN]: Gman49 moved wrongly!
-[21:57:03] [Server thread/INFO]: Gman49 issued server command: /back
-[21:57:12] [Thread-18/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[21:57:12] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:35442] logged in with entity id 3457 at ([world]220.5, 75.0625, 69.5)
-[21:57:26] [Async Chat Thread - #4/INFO]: <Gman49> chinmay?[m
-
-[21:57:26] [Async Chat Thread - #4/INFO]: <ChinmayM_360> yooooo[m
-
-[21:57:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> yay big chin may[m
-
-[21:57:53] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}
-[21:57:53] [Server thread/INFO]: [ChinmayM_360: There is no such item with name minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}]
-[21:57:55] [Async Chat Thread - #4/INFO]: <XTeliqYT> oni chan[m
-
-[21:57:58] [Async Chat Thread - #4/INFO]: <XTeliqYT> daiski[m
-
-[21:58:03] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}
-[21:58:03] [Server thread/INFO]: [ChinmayM_360: There is no such item with name minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:255}]}]
-[21:58:26] [Async Chat Thread - #4/INFO]: <Gman49> chinmay can u send me your email in chat? we need to talk[m
-
-[21:58:48] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
-[21:58:48] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
-[21:58:57] [Async Chat Thread - #4/INFO]: <XTeliqYT> CHINMAY[m
-
-[21:59:00] [Async Chat Thread - #4/INFO]: <XTeliqYT> HELP[m
-
-[21:59:05] [Async Chat Thread - #4/INFO]: <Gman49> email[m
-
-[21:59:08] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[21:59:08] [Server thread/INFO]: ChinmayM_360 left the game.
-[21:59:12] [Async Chat Thread - #4/INFO]: <XTeliqYT> GMAN[m
-
-[21:59:14] [Async Chat Thread - #4/INFO]: <XTeliqYT> HELP ME[m
-
-[21:59:18] [Async Chat Thread - #4/INFO]: <XTeliqYT> I NEED HELP[m
-
-[21:59:20] [Async Chat Thread - #4/INFO]: <Gman49> okay[m
-
-[21:59:28] [Async Chat Thread - #4/INFO]: <XTeliqYT> MONSTERS ARE AT MY FRONT DOOR[m
-
-[21:59:33] [Thread-19/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[21:59:33] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:56600] logged in with entity id 3786 at ([world]-161.9819411662666, 15.0, -326.83034060448915)
-[21:59:35] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
-[21:59:37] [Async Chat Thread - #4/INFO]: <XTeliqYT> IM IN CHINMAYS HOUSE[m
-
-[21:59:42] [Async Chat Thread - #4/INFO]: <XTeliqYT> I RAN TO SAFTEY[m
-
-[21:59:45] [Server thread/INFO]: ChinmayM_360 issued server command: /kill
-[21:59:45] [Server thread/INFO]: ChinmayM_360 fell out of the world
-[21:59:45] [Server thread/INFO]: [ChinmayM_360: Killed ChinmayM_360]
-[21:59:47] [Async Chat Thread - #4/INFO]: <XTeliqYT> nvm[m
-
-[21:59:51] [Async Chat Thread - #4/INFO]: <XTeliqYT> they are gone[m
-
-[22:00:28] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 XTeliqYT
-[22:00:28] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to XTeliqYT]
-[22:00:33] [Async Chat Thread - #4/INFO]: <XTeliqYT> chinmau[m
-
-[22:00:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> can i have some diamonds[m
-
-[22:00:57] [Async Chat Thread - #4/INFO]: <ChinmayM_360> run!!![m
-
-[22:01:03] [Async Chat Thread - #4/INFO]: <XTeliqYT> i got them[m
-
-[22:01:54] [Server thread/INFO]: XTeliqYT was shot by ChinmayM_360
-[22:01:57] [Async Chat Thread - #4/INFO]: <Gman49> l[m
-
-[22:02:02] [Async Chat Thread - #4/INFO]: <XTeliqYT> chinmay[m
-
-[22:02:06] [Async Chat Thread - #4/INFO]: <XTeliqYT> stop[m
-
-[22:02:09] [Async Chat Thread - #4/INFO]: <ChinmayM_360> kk[m
-
-[22:02:09] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
-[22:02:09] [Server thread/INFO]: XTeliqYT left the game.
-[22:02:14] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[22:02:14] [Server thread/INFO]: ChinmayM_360 left the game.
-[22:07:03] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:07:03] [Server thread/INFO]: Gman49 left the game.
-[22:10:58] [Thread-21/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:10:58] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:49636] logged in with entity id 4358 at ([world]-155.30000001192093, 15.0, -329.69999998807907)
-[22:11:13] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:11:13] [Server thread/INFO]: Gman49 left the game.
-[22:11:17] [Thread-22/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:11:17] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:54106] logged in with entity id 4414 at ([world]-155.30000001192093, 15.0, -329.69999998807907)
-[22:12:12] [Server thread/INFO]: Gman49 tried to swim in lava
-[22:12:44] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:12:44] [Server thread/INFO]: Gman49 left the game.
-[22:15:04] [Thread-23/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:15:04] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:39678] logged in with entity id 4989 at ([world]210.07499998807907, 71.0, 98.07499998807907)
-[22:16:45] [Server thread/INFO]: Gman49 issued server command: /back
-[22:17:33] [Server thread/WARN]: Gman49 moved wrongly!
-[22:20:37] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:20:37] [Server thread/INFO]: Gman49 left the game.
-[22:22:56] [Thread-24/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:22:56] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:55146] logged in with entity id 5224 at ([world]208.52313291122212, 70.0, 97.69999998807907)
-[22:25:12] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:25:12] [Server thread/INFO]: Gman49 left the game.
-[22:25:20] [Thread-25/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:25:20] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:35636] logged in with entity id 5289 at ([world]206.762491706587, 77.0625, 84.4643707399284)
-[22:25:45] [Server thread/WARN]: Gman49 moved wrongly!
-[22:25:45] [Server thread/WARN]: Gman49 moved wrongly!
-[22:25:47] [Server thread/WARN]: Gman49 moved wrongly!
-[22:25:48] [Server thread/WARN]: Gman49 moved wrongly!
-[22:26:09] [Server thread/INFO]: Gman49 issued server command: /bugfix
-[22:26:15] [Server thread/INFO]: Gman49 issued server command: /help
-[22:26:31] [Server thread/INFO]: Gman49 issued server command: /help
-[22:26:38] [Thread-26/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[22:26:38] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:33392] logged in with entity id 5386 at ([world]216.10947582421306, 71.0, 99.49534868084821)
-[22:26:48] [Async Chat Thread - #5/INFO]: <Gman49> chinmay[m
-
-[22:26:54] [Async Chat Thread - #5/INFO]: <Gman49> ineed help[m
-
-[22:27:02] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
-[22:27:02] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
-[22:27:13] [Async Chat Thread - #5/INFO]: <Gman49> i cant break or place[m
-
-[22:27:24] [Async Chat Thread - #5/INFO]: <ChinmayM_360> wait 5 min[m
-
-[22:27:29] [Async Chat Thread - #5/INFO]: <Gman49> ok[m
-
-[22:27:36] [Thread-27/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
-[22:27:36] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:34132] logged in with entity id 5545 at ([world]208.8650650361878, 70.0, 123.38527144425476)
-[22:27:42] [Server thread/WARN]: Gman49 moved wrongly!
-[22:27:51] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 Gman49
-[22:27:51] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to Gman49]
-[22:27:51] [Async Chat Thread - #5/INFO]: <XTeliqYT> hey guys[m
-
-[22:28:26] [Async Chat Thread - #5/INFO]: <ChinmayM_360> my dog wants to kil you[m
-
-[22:28:35] [Async Chat Thread - #5/INFO]: <Gman49> oh[m
-
-[22:28:42] [Async Chat Thread - #5/INFO]: <XTeliqYT> :([m
-
-[22:29:10] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:29:10] [Server thread/INFO]: Gman49 left the game.
-[22:29:13] [Async Chat Thread - #5/INFO]: <ChinmayM_360> lag[m
-
-[22:29:16] [Thread-28/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:29:16] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:55404] logged in with entity id 6000 at ([world]194.08278306751538, 70.0, 75.91102207621037)
-[22:29:38] [Async Chat Thread - #5/INFO]: <Gman49> how did u get out?[m
-
-[22:29:39] [Server thread/INFO]: XTeliqYT was slain by Wolf
-[22:29:43] [Async Chat Thread - #5/INFO]: <ChinmayM_360> oops[m
-
-[22:30:17] [Async Chat Thread - #5/INFO]: <Gman49> help m chinmay[m
-
-[22:30:31] [Async Chat Thread - #5/INFO]: <XTeliqYT> chinmay can i go in ur house[m
-
-[22:30:37] [Async Chat Thread - #5/INFO]: <XTeliqYT> i wanna see the inside[m
-
-[22:30:41] [Async Chat Thread - #5/INFO]: <Gman49> goodbye[m
-
-[22:30:56] [Async Chat Thread - #5/INFO]: <Gman49> break me out[m
-
-[22:31:16] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
-[22:31:16] [Server thread/INFO]: XTeliqYT left the game.
-[22:31:22] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:31:22] [Server thread/INFO]: Gman49 left the game.
-[22:31:25] [Thread-29/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
-[22:31:25] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:59288] logged in with entity id 6400 at ([world]194.3431706504939, 71.0, 74.92500001192093)
-[22:31:46] [Async Chat Thread - #5/INFO]: <Gman49> help[m
-
-[22:32:14] [Async Chat Thread - #5/INFO]: <Gman49> i will give you diamond[m
-
-[22:32:26] [Server thread/INFO]: Gman49 lost connection: Disconnected
-[22:32:26] [Server thread/INFO]: Gman49 left the game.
-[22:32:38] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[22:32:38] [Server thread/INFO]: ChinmayM_360 left the game.
-[22:33:23] [Thread-30/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[22:33:23] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:45358] logged in with entity id 6648 at ([world]190.96647749143744, 70.0, 89.82085467410204)
-[22:34:09] [Server thread/INFO]: ChinmayM_360 issued server command: /give @p minecraft:diamond_sword 1 0 {ench:[{id:16,lvl:7500},{id:20,lvl:1000}­,{id:21,lvl:1000}]}
-[22:34:09] [Server thread/INFO]: [ChinmayM_360: Data tag parsing failed: Unbalanced curly brackets {}: lvl:1000}]
-[22:34:23] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
-[22:34:23] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
-[22:35:34] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant
-[22:35:59] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 sharpness 999
-[22:35:59] [Server thread/INFO]: [ChinmayM_360: The number you have entered (999) is too big, it must be at most 5]
-[22:36:19] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 sharpness 5
-[22:36:19] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
-[22:36:28] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 smite 5
-[22:36:28] [Server thread/INFO]: [ChinmayM_360: Smite V can't be combined with Sharpness V]
-[22:37:03] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 knockback 20
-[22:37:03] [Server thread/INFO]: [ChinmayM_360: The number you have entered (20) is too big, it must be at most 2]
-[22:37:13] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 knockback 2
-[22:37:13] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
-[22:37:47] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 5
-[22:37:47] [Server thread/INFO]: [ChinmayM_360: The number you have entered (5) is too big, it must be at most 3]
-[22:37:50] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 4
-[22:37:50] [Server thread/INFO]: [ChinmayM_360: The number you have entered (4) is too big, it must be at most 3]
-[22:37:58] [Server thread/INFO]: ChinmayM_360 issued server command: /enchant ChinmayM_360 looting 3
-[22:37:58] [Server thread/INFO]: [ChinmayM_360: Enchanting succeeded]
-[22:38:48] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
-[22:38:48] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
-[22:40:18] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
-[22:40:18] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
-[22:46:36] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
-[22:46:36] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
-[22:46:43] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
-[22:46:43] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
-[22:46:51] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
-[22:46:51] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
-[22:49:39] [Server thread/INFO]: ChinmayM_360 issued server command: /give ChinmayM_360 tnt
-[22:49:39] [Server thread/INFO]: [ChinmayM_360: Given [TNT] * 1 to ChinmayM_360]
-[22:53:39] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[22:53:39] [Server thread/INFO]: ChinmayM_360 left the game.
-[23:00:20] [Thread-32/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[23:00:21] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:40658] logged in with entity id 8901 at ([world]167.68855114554756, 65.0, 143.7250440992618)
-[23:05:22] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[23:05:22] [Server thread/INFO]: ChinmayM_360 left the game.
-[23:05:34] [Thread-33/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[23:05:34] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:41588] logged in with entity id 9703 at ([world]162.89193697628428, 66.0, 114.8641913771391)
-[23:07:10] [Server thread/INFO]: ChinmayM_360 issued server command: //
-[23:10:00] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
-[23:10:00] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
-[23:12:26] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode s
-[23:12:26] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Survival Mode]
-[23:16:15] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[23:16:15] [Server thread/INFO]: ChinmayM_360 left the game.
-[23:17:26] [Thread-35/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
-[23:17:26] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:41062] logged in with entity id 12274 at ([world]227.4298404542937, 70.0, 106.45085881735392)
-[23:18:00] [Server thread/INFO]: ChinmayM_360 issued server command: /gamemode c
-[23:18:00] [Server thread/INFO]: [ChinmayM_360: Set own game mode to Creative Mode]
-[23:25:54] [Server thread/INFO]: ChinmayM_360 lost connection: Disconnected
-[23:25:54] [Server thread/INFO]: ChinmayM_360 left the game.
-[23:26:01] [Thread-2/INFO]: Stopping server
+[20:56:00] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:56:00] [Server thread/INFO]: Loading properties
+[20:56:00] [Server thread/INFO]: Default game type: SURVIVAL
+[20:56:00] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:56:00] [Server thread/INFO]: Debug logging is disabled
+[20:56:00] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[20:56:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[20:56:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:56:00] [Server thread/INFO]: Data value allowed items: 
+[20:56:00] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[20:56:00] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[20:56:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[20:56:00] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[20:56:00] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[20:56:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[20:56:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[20:56:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[20:56:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[20:56:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20:56:00] [Server thread/INFO]: Generating keypair
+[20:56:00] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[20:56:00] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[20:56:00] [Server thread/INFO]: Using default channel type
+[20:56:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:56:01] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[20:56:01] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[20:56:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[20:56:01] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[20:56:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:56:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:56:01] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:56:01] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:56:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:56:01] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:56:01] [Server thread/INFO]: Preparing level "world"
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:56:01] [Server thread/INFO]: Mob Spawn Range: 4
+[20:56:01] [Server thread/INFO]: Anti X-Ray: true
+[20:56:01] [Server thread/INFO]: 	Engine Mode: 1
+[20:56:01] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:56:01] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:56:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:56:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:56:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:56:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:56:01] [Server thread/INFO]: Random Lighting Updates: false
+[20:56:01] [Server thread/INFO]: Structure Info Saving: true
+[20:56:01] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:56:01] [Server thread/INFO]: Max Entity Collisions: 8
+[20:56:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:56:01] [Server thread/INFO]: Max TNT Explosions: 100
+[20:56:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:56:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:56:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:56:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:56:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:56:01] [Server thread/INFO]: View Distance: 4
+[20:56:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:56:01] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:56:01] [Server thread/INFO]: Clear tick list: false
+[20:56:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:56:01] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:56:01] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:56:01] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:56:01] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:56:01] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:56:01] [Server thread/INFO]: Water over lava flow speed: 5
+[20:56:01] [Server thread/INFO]: Fix TNT cannons: false
+[20:56:01] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:56:01] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:56:01] [Server thread/INFO]: World async lighting: false
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:56:01] [Server thread/INFO]: Mob Spawn Range: 4
+[20:56:01] [Server thread/INFO]: Anti X-Ray: true
+[20:56:01] [Server thread/INFO]: 	Engine Mode: 1
+[20:56:01] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:56:01] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:56:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:56:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:56:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:56:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:56:01] [Server thread/INFO]: Random Lighting Updates: false
+[20:56:01] [Server thread/INFO]: Structure Info Saving: true
+[20:56:01] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:56:01] [Server thread/INFO]: Max Entity Collisions: 8
+[20:56:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:56:01] [Server thread/INFO]: Max TNT Explosions: 100
+[20:56:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:56:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:56:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:56:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:56:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:56:01] [Server thread/INFO]: View Distance: 4
+[20:56:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:56:01] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:56:01] [Server thread/INFO]: Clear tick list: false
+[20:56:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:56:01] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:56:01] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:56:01] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:56:01] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:56:01] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:56:01] [Server thread/INFO]: Water over lava flow speed: 5
+[20:56:01] [Server thread/INFO]: Fix TNT cannons: false
+[20:56:01] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:56:01] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:56:01] [Server thread/INFO]: World async lighting: false
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:56:01] [Server thread/INFO]: Mob Spawn Range: 4
+[20:56:01] [Server thread/INFO]: Anti X-Ray: true
+[20:56:01] [Server thread/INFO]: 	Engine Mode: 1
+[20:56:01] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:56:01] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:56:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:56:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:56:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:56:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:56:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:56:01] [Server thread/INFO]: Random Lighting Updates: false
+[20:56:01] [Server thread/INFO]: Structure Info Saving: true
+[20:56:01] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:56:01] [Server thread/INFO]: Max Entity Collisions: 8
+[20:56:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:56:01] [Server thread/INFO]: Max TNT Explosions: 100
+[20:56:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:56:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:56:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:56:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:56:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:56:01] [Server thread/INFO]: View Distance: 4
+[20:56:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:56:01] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:56:01] [Server thread/INFO]: Clear tick list: false
+[20:56:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:56:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:56:01] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:56:01] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:56:01] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:56:01] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:56:01] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:56:01] [Server thread/INFO]: Water over lava flow speed: 5
+[20:56:01] [Server thread/INFO]: Fix TNT cannons: false
+[20:56:01] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:56:01] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:56:01] [Server thread/INFO]: World async lighting: false
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:56:01] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:56:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8619265417696794404)
+[20:56:02] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8619265417696794404)
+[20:56:02] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8619265417696794404)
+[20:56:02] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[20:56:02] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[20:56:02] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[20:56:02] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[20:56:02] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[20:56:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[20:56:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:56:03] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:56:03] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[20:56:03] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:56:03] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:56:03] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:56:03] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:56:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:56:03] [Server thread/INFO]: Done (2.402s)! For help, type "help" or "?"
+[20:56:03] [Server thread/INFO]: Timings Reset
+[20:56:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[20:56:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[20:56:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[20:56:11] [Thread-7/INFO]: UUID of player RyGuyThePieGuy35 is 8344d8c6-fe1b-3855-b6bc-06b02f4982dd
+[20:56:11] [Server thread/INFO]: RyGuyThePieGuy35[/[0:0:0:0:0:0:0:1]:49962] logged in with entity id 401 at ([world]190.0906856273485, 65.0, 31.764549183664208)
+[21:01:04] [Thread-9/INFO]: UUID of player Gman49 is 33ff2650-37dd-3d42-9299-ba1f0d3cd0f2
+[21:01:04] [Server thread/INFO]: Gman49[/[0:0:0:0:0:0:0:1]:35218] logged in with entity id 5940 at ([world]212.30000001192093, 68.0, 128.30000001192093)
+[21:01:29] [Async Chat Thread - #0/INFO]: <Gman49> yo[m
+
+[21:01:55] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> where are u[m
+
+[21:02:02] [Thread-10/INFO]: UUID of player SEXY_BALLS_1234 is 0199dfea-7d33-3d60-b2f7-76b260373cb3
+[21:02:02] [Server thread/INFO]: SEXY_BALLS_1234[/[0:0:0:0:0:0:0:1]:46920] logged in with entity id 6284 at ([world]197.5, 70.0, 92.5)
+[21:02:11] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> ayyy[m
+
+[21:02:12] [Async Chat Thread - #0/INFO]: <Gman49> wtf[m
+
+[21:02:22] [Async Chat Thread - #0/INFO]: <Gman49> u got food?[m
+
+[21:02:32] [Server thread/INFO]: SEXY_BALLS_1234 lost connection: Login timed out!
+[21:02:32] [Server thread/INFO]: SEXY_BALLS_1234 left the game.
+[21:02:32] [Server thread/WARN]: handleDisconnection() called twice
+[21:02:35] [Async Chat Thread - #0/INFO]: <Gman49> plz?[m
+
+[21:02:35] [Thread-11/INFO]: UUID of player SEXY_BALLS_1234 is 0199dfea-7d33-3d60-b2f7-76b260373cb3
+[21:02:35] [Server thread/INFO]: SEXY_BALLS_1234[/[0:0:0:0:0:0:0:1]:36130] logged in with entity id 6427 at ([world]197.5, 70.0, 92.5)
+[21:02:57] [Async Chat Thread - #0/INFO]: <Gman49> thx[m
+
+[21:03:02] [Thread-12/INFO]: UUID of player nado3090 is 0d4c2043-cf29-38b9-9b75-9544cd0635d5
+[21:03:02] [Server thread/INFO]: nado3090[/[0:0:0:0:0:0:0:1]:48306] logged in with entity id 6480 at ([world]171.10613861553665, 67.0, 115.62868963435486)
+[21:03:04] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> ur good[m
+
+[21:03:13] [Server thread/INFO]: nado3090 issued server command: /logbin <donut dog>
+[21:03:17] [Async Chat Thread - #0/INFO]: <SEXY_BALLS_1234> DURRRRR[m
+
+[21:03:32] [Async Chat Thread - #0/INFO]: <nado3090> hello[m
+
+[21:03:33] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> ?!?!?![m
+
+[21:03:36] [Server thread/INFO]: SEXY_BALLS_1234 lost connection: Disconnected
+[21:03:36] [Server thread/INFO]: SEXY_BALLS_1234 left the game.
+[21:04:12] [Async Chat Thread - #0/INFO]: <nado3090> g man[m
+
+[21:04:37] [Async Chat Thread - #0/INFO]: <nado3090> fight at arena[m
+
+[21:05:11] [Async Chat Thread - #0/INFO]: <nado3090> fight at arean[m
+
+[21:05:31] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> need XP[m
+
+[21:05:44] [Async Chat Thread - #0/INFO]: <nado3090> same bro[m
+
+[21:05:51] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> one min[m
+
+[21:06:11] [Async Chat Thread - #0/INFO]: <RyGuyThePieGuy35> BACK[m
+
+[21:06:25] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:08:27] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> PVP[m
+
+[21:08:59] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> someone?[m
+
+[21:09:30] [Server thread/INFO]: RyGuyThePieGuy35 issued server command: /tell nado3090 PVP?
+[21:09:43] [Async Chat Thread - #1/INFO]: <nado3090> yes[m
+
+[21:09:45] [Server thread/INFO]: RyGuyThePieGuy35 issued server command: /tell nado3090 1v1
+[21:09:53] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> come[m
+
+[21:09:54] [Async Chat Thread - #1/INFO]: <nado3090> yes[m
+
+[21:10:03] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 3[m
+
+[21:10:06] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 2[m
+
+[21:10:08] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 1[m
+
+[21:10:22] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:10:30] [Async Chat Thread - #1/INFO]: <nado3090> LETS GO[m
+
+[21:10:33] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> again[m
+
+[21:10:40] [Async Chat Thread - #1/INFO]: <nado3090> yes[m
+
+[21:11:11] [Async Chat Thread - #1/INFO]: <nado3090> come[m
+
+[21:11:30] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> one[m
+
+[21:11:32] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> min[m
+
+[21:11:59] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:12:04] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> LLLLLLLLLL[m
+
+[21:12:49] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:12:57] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> come to arena[m
+
+[21:13:11] [Async Chat Thread - #1/INFO]: <nado3090> yes[m
+
+[21:13:53] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:14:02] [Async Chat Thread - #1/INFO]: <nado3090> we did not start[m
+
+[21:14:06] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:14:15] [Server thread/INFO]: RyGuyThePieGuy35 lost connection: Internal Exception: java.net.SocketException: Connection reset
+[21:14:15] [Server thread/INFO]: RyGuyThePieGuy35 left the game.
+[21:14:39] [Thread-13/INFO]: UUID of player RyGuyThePieGuy35 is 8344d8c6-fe1b-3855-b6bc-06b02f4982dd
+[21:14:39] [Server thread/INFO]: RyGuyThePieGuy35[/[0:0:0:0:0:0:0:1]:51140] logged in with entity id 12034 at ([world]286.2242656574537, 70.0, 77.247864835712)
+[21:14:57] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> gO]w[m
+
+[21:14:58] [Async Chat Thread - #1/INFO]: <nado3090> 3[m
+
+[21:15:03] [Async Chat Thread - #1/INFO]: <nado3090> 2[m
+
+[21:15:09] [Async Chat Thread - #1/INFO]: <nado3090> 1[m
+
+[21:15:32] [Server thread/INFO]: RyGuyThePieGuy35 burned to death
+[21:15:37] [Server thread/INFO]: Gman49 lost connection: Disconnected
+[21:15:37] [Server thread/INFO]: Gman49 left the game.
+[21:15:37] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> NOOOOOOOOOOOOOOOOO[m
+
+[21:15:45] [Async Chat Thread - #1/INFO]: <nado3090> hafe a hart[m
+
+[21:15:50] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> luchy[m
+
+[21:15:54] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> again[m
+
+[21:15:59] [Async Chat Thread - #1/INFO]: <nado3090> yes[m
+
+[21:16:09] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> did u see my sword name?[m
+
+[21:16:25] [Async Chat Thread - #1/INFO]: <nado3090> yes hate it[m
+
+[21:16:49] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 3[m
+
+[21:16:51] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 2[m
+
+[21:16:52] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> 1[m
+
+[21:16:54] [Async Chat Thread - #1/INFO]: <nado3090> no[m
+
+[21:16:56] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> go[m
+
+[21:17:07] [Async Chat Thread - #1/INFO]: <nado3090> need to regen[m
+
+[21:17:12] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> ok sorry[m
+
+[21:17:30] [Async Chat Thread - #1/INFO]: <nado3090> no dont break it[m
+
+[21:17:44] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:18:00] [Async Chat Thread - #1/INFO]: <nado3090> sorry but put it back[m
+
+[21:18:12] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> i did not get it[m
+
+[21:18:19] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> it gliched[m
+
+[21:19:02] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> come to me[m
+
+[21:19:20] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> GOOOO[m
+
+[21:19:43] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:19:48] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> L[m
+
+[21:19:49] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> L[m
+
+[21:19:50] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> L[m
+
+[21:20:08] [Async Chat Thread - #1/INFO]: <nado3090> i had to regen[m
+
+[21:20:14] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> okkkkk[m
+
+[21:20:18] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> sure[m
+
+[21:20:24] [Async Chat Thread - #1/INFO]: <nado3090> gOOOOOOO[m
+
+[21:20:47] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:21:15] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> wait[m
+
+[21:21:23] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:21:30] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> me have gift[m
+
+[21:21:34] [Async Chat Thread - #1/INFO]: <nado3090> never[m
+
+[21:21:40] [Async Chat Thread - #1/INFO]: <nado3090> ok[m
+
+[21:21:50] [Async Chat Thread - #1/INFO]: <nado3090> drop it[m
+
+[21:22:06] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:22:09] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:22:13] [Async Chat Thread - #1/INFO]: <RyGuyThePieGuy35> hahaha[m
+
+[21:22:26] [Async Chat Thread - #1/INFO]: <nado3090> i hate my sword it has nock back[m
+
+[21:22:38] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:22:53] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:22:56] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:23:30] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:23:37] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:23:50] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:24:08] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> arena[m
+
+[21:24:16] [Async Chat Thread - #2/INFO]: <nado3090> yes[m
+
+[21:24:43] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> arena[m
+
+[21:24:49] [Async Chat Thread - #2/INFO]: <nado3090> sure[m
+
+[21:25:13] [Server thread/INFO]: RyGuyThePieGuy35 lost connection: Disconnected
+[21:25:13] [Server thread/INFO]: RyGuyThePieGuy35 left the game.
+[21:25:18] [Thread-14/INFO]: UUID of player RyGuyThePieGuy35 is 8344d8c6-fe1b-3855-b6bc-06b02f4982dd
+[21:25:18] [Server thread/INFO]: RyGuyThePieGuy35[/[0:0:0:0:0:0:0:1]:33834] logged in with entity id 14760 at ([world]246.3159018841202, 71.0, 73.49827442945264)
+[21:25:39] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ill be on in one min[m
+
+[21:25:44] [Async Chat Thread - #2/INFO]: <nado3090> come on[m
+
+[21:25:51] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ill be on in one min[m
+
+[21:25:57] [Server thread/INFO]: RyGuyThePieGuy35 lost connection: Disconnected
+[21:25:57] [Server thread/INFO]: RyGuyThePieGuy35 left the game.
+[21:26:21] [Thread-15/INFO]: UUID of player RyGuyThePieGuy35 is 8344d8c6-fe1b-3855-b6bc-06b02f4982dd
+[21:26:21] [Server thread/INFO]: RyGuyThePieGuy35[/[0:0:0:0:0:0:0:1]:52146] logged in with entity id 17227 at ([world]250.0911103801894, 71.0, 70.49389079167186)
+[21:26:32] [Async Chat Thread - #2/INFO]: <nado3090> fight[m
+
+[21:26:33] [Server thread/INFO]: RyGuyThePieGuy35 lost connection: Disconnected
+[21:26:33] [Server thread/INFO]: RyGuyThePieGuy35 left the game.
+[21:27:17] [Thread-16/INFO]: UUID of player ChinmayM_360 is 29daeb64-230e-34a5-8b76-d0c51c301c47
+[21:27:17] [Server thread/INFO]: ChinmayM_360[/[0:0:0:0:0:0:0:1]:56998] logged in with entity id 20923 at ([world]292.9044916899951, 71.0, 65.40045438388982)
+[21:27:25] [Thread-17/INFO]: UUID of player RyGuyThePieGuy35 is 8344d8c6-fe1b-3855-b6bc-06b02f4982dd
+[21:27:25] [Server thread/INFO]: RyGuyThePieGuy35[/[0:0:0:0:0:0:0:1]:48584] logged in with entity id 20948 at ([world]250.9862464622818, 71.0, 70.77993728093901)
+[21:27:26] [Async Chat Thread - #2/INFO]: <nado3090> chinmat fight[m
+
+[21:27:40] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:27:46] [pool-4-thread-2/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[21:27:47] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> arena[m
+
+[21:27:52] [Async Chat Thread - #2/INFO]: <nado3090> sure[m
+
+[21:27:58] [Async Chat Thread - #2/INFO]: <ChinmayM_360> bro!!![m
+
+[21:28:03] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ?[m
+
+[21:28:07] [Async Chat Thread - #2/INFO]: <nado3090> creeper[m
+
+[21:28:30] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:28:39] [Async Chat Thread - #2/INFO]: <nado3090> we never started[m
+
+[21:28:43] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:28:46] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> chinmay[m
+
+[21:28:57] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> any luck with the skin???[m
+
+[21:29:07] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk thank[m
+
+[21:29:15] [Async Chat Thread - #2/INFO]: <nado3090> sorry[m
+
+[21:29:16] [Async Chat Thread - #2/INFO]: <ChinmayM_360> give sword back nado[m
+
+[21:29:20] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ur good[m
+
+[21:29:40] [Async Chat Thread - #2/INFO]: <nado3090> olwwwwwwww[m
+
+[21:30:00] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> PVP!!!!!!![m
+
+[21:30:03] [Async Chat Thread - #2/INFO]: <nado3090> only if you give me my old one[m
+
+[21:30:07] [Async Chat Thread - #2/INFO]: <ChinmayM_360> wait[m
+
+[21:30:25] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:30:29] [Async Chat Thread - #2/INFO]: <ChinmayM_360> bro[m
+
+[21:30:39] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i like it[m
+
+[21:30:45] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> good job!!!![m
+
+[21:30:53] [Async Chat Thread - #2/INFO]: <nado3090> i was useing a stne sword[m
+
+[21:31:05] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i will use one too[m
+
+[21:31:15] [Async Chat Thread - #2/INFO]: <ChinmayM_360> watch ou[m
+
+[21:31:27] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> thx[m
+
+[21:32:00] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:32:05] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35
+[21:32:09] [Async Chat Thread - #2/INFO]: <ChinmayM_360> lol[m
+
+[21:32:18] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i was using a shovel[m
+
+[21:32:19] [Async Chat Thread - #2/INFO]: <nado3090> you teamed on me[m
+
+[21:32:26] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> LOL!!!!![m
+
+[21:32:38] [Async Chat Thread - #2/INFO]: <nado3090> i had no chest plate[m
+
+[21:32:42] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:32:54] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH[m
+
+[21:33:05] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> nado[m
+
+[21:33:10] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> fist[m
+
+[21:33:13] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> duel[m
+
+[21:33:17] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> no armor[m
+
+[21:33:27] [Async Chat Thread - #2/INFO]: <nado3090> yes[m
+
+[21:33:35] [Async Chat Thread - #2/INFO]: <nado3090> stone swords[m
+
+[21:33:51] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> fist[m
+
+[21:33:57] [Async Chat Thread - #2/INFO]: <nado3090> yes[m
+
+[21:34:01] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> come[m
+
+[21:34:10] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 3[m
+
+[21:34:14] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 2[m
+
+[21:34:15] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 1[m
+
+[21:34:18] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> gooooo[m
+
+[21:34:18] [Async Chat Thread - #2/INFO]: <nado3090> for notch[m
+
+[21:34:50] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35
+[21:34:56] [Async Chat Thread - #2/INFO]: <ChinmayM_360> OOF!!![m
+
+[21:34:57] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> LOL[m
+
+[21:35:03] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> im soooo good[m
+
+[21:35:04] [Async Chat Thread - #2/INFO]: <nado3090> aging[m
+
+[21:35:07] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:35:15] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> let me heal[m
+
+[21:35:28] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:35:30] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:35:37] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ok come[m
+
+[21:35:41] [Async Chat Thread - #2/INFO]: <ChinmayM_360> no mining[m
+
+[21:35:45] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> WITCH[m
+
+[21:35:49] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:35:50] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:36:04] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> any luck with the skin???[m
+
+[21:36:10] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> no?[m
+
+[21:36:19] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ok keep looking[m
+
+[21:36:27] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> nado?[m
+
+[21:36:41] [Async Chat Thread - #2/INFO]: <nado3090> 3[m
+
+[21:36:45] [Async Chat Thread - #2/INFO]: <nado3090> 2[m
+
+[21:36:48] [Async Chat Thread - #2/INFO]: <nado3090> 1[m
+
+[21:37:25] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35
+[21:37:32] [Async Chat Thread - #2/INFO]: <ChinmayM_360> OOF!!![m
+
+[21:37:35] [Async Chat Thread - #2/INFO]: <nado3090> NOOOO((OOOOOOOOOOOOOOOOOOOO\[m
+
+[21:37:39] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> hah[m
+
+[21:37:39] [Async Chat Thread - #2/INFO]: <nado3090> NNIOOOOOOOO\[m
+
+[21:37:45] [Async Chat Thread - #2/INFO]: <nado3090> must kill[m
+
+[21:37:47] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> armor???[m
+
+[21:38:03] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> and sword?[m
+
+[21:38:14] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> or fist???[m
+
+[21:38:15] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:38:20] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:38:33] [Server thread/INFO]: nado3090 was burnt to a crisp whilst fighting RyGuyThePieGuy35
+[21:38:38] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> hahahahah[m
+
+[21:38:40] [Async Chat Thread - #2/INFO]: <nado3090> no armor[m
+
+[21:38:41] [Async Chat Thread - #2/INFO]: <ChinmayM_360> lol[m
+
+[21:38:44] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:38:56] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> one tick[m
+
+[21:39:11] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> no armor[m
+
+[21:39:45] [Async Chat Thread - #2/INFO]: <nado3090> your in creavtiv[m
+
+[21:39:51] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:39:52] [Async Chat Thread - #2/INFO]: <ChinmayM_360> idc[m
+
+[21:39:56] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i hit him[m
+
+[21:39:58] [Server thread/INFO]: nado3090 was slain by ChinmayM_360
+[21:40:08] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090 using [The OP Sword Of Chinmay]
+[21:40:08] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:40:19] [Server thread/INFO]: nado3090 was burnt to a crisp whilst fighting RyGuyThePieGuy35
+[21:40:24] [Server thread/INFO]: RyGuyThePieGuy35 burned to death
+[21:40:42] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:40:54] [Async Chat Thread - #2/INFO]: <ChinmayM_360> chill!!!!![m
+
+[21:41:03] [Async Chat Thread - #2/INFO]: <nado3090> shut up[m
+
+[21:41:12] [Server thread/INFO]: ChinmayM_360 issued server command: /kill nado3090
+[21:41:12] [Server thread/INFO]: nado3090 fell out of the world
+[21:41:12] [Server thread/INFO]: [ChinmayM_360: Killed nado3090]
+[21:41:19] [Async Chat Thread - #2/INFO]: <nado3090> i need blood[m
+
+[21:41:26] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> u will never find me[m
+
+[21:41:26] [Async Chat Thread - #2/INFO]: <ChinmayM_360> pvp[m
+
+[21:41:57] [Server thread/INFO]: ChinmayM_360 issued server command: /tp RyGuyThePieGuy35 ChinmayM_360
+[21:41:57] [Server thread/INFO]: [ChinmayM_360: Teleported RyGuyThePieGuy35 to ChinmayM_360]
+[21:41:58] [Async Chat Thread - #2/INFO]: <nado3090> no creative[m
+
+[21:42:09] [Server thread/INFO]: nado3090 was burnt to a crisp whilst fighting RyGuyThePieGuy35
+[21:42:12] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:42:14] [Async Chat Thread - #2/INFO]: <ChinmayM_360> lol[m
+
+[21:42:16] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> ha[m
+
+[21:42:20] [Async Chat Thread - #2/INFO]: <nado3090> ha[m
+
+[21:43:14] [Async Chat Thread - #2/INFO]: <nado3090> go to the deseret it will make you not clichy[m
+
+[21:43:37] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:44:01] [Server thread/INFO]: RyGuyThePieGuy35 was burnt to a crisp whilst fighting nado3090
+[21:44:06] [Async Chat Thread - #2/INFO]: <nado3090> hehehehe[m
+
+[21:44:17] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> one moment[m
+
+[21:44:39] [Server thread/INFO]: nado3090 hit the ground too hard
+[21:44:42] [Async Chat Thread - #2/INFO]: <ChinmayM_360> lol[m
+
+[21:45:18] [Async Chat Thread - #2/INFO]: <nado3090> come to me[m
+
+[21:45:23] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> arena[m
+
+[21:45:42] [Async Chat Thread - #2/INFO]: <nado3090> no its raining its glichy[m
+
+[21:45:50] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> kk[m
+
+[21:45:51] [Server thread/INFO]: ChinmayM_360 issued server command: /weather clear
+[21:45:51] [Server thread/INFO]: [ChinmayM_360: Changing to clear weather]
+[21:45:52] [Async Chat Thread - #2/INFO]: <nado3090> deseret[m
+
+[21:45:55] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> chinmay[m
+
+[21:46:00] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> nvm[m
+
+[21:46:13] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> chinmay made the rain go away[m
+
+[21:46:21] [Async Chat Thread - #2/INFO]: <ChinmayM_360> yeah[m
+
+[21:46:26] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> little lag[m
+
+[21:46:29] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> now[m
+
+[21:46:34] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> come to arena[m
+
+[21:46:35] [Async Chat Thread - #2/INFO]: <nado3090> sure[m
+
+[21:46:52] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> chinmay the arena looks awesome!!![m
+
+[21:47:02] [Async Chat Thread - #2/INFO]: <ChinmayM_360> thx!!![m
+
+[21:47:07] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> wellcome[m
+
+[21:47:09] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 3[m
+
+[21:47:10] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 2[m
+
+[21:47:11] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 1[m
+
+[21:47:14] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> goooooo![m
+
+[21:47:26] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[21:47:31] [Async Chat Thread - #2/INFO]: <ChinmayM_360> yooooo[m
+
+[21:47:35] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> haha[m
+
+[21:47:40] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> lol[m
+
+[21:47:44] [Async Chat Thread - #2/INFO]: <nado3090> stone on stone[m
+
+[21:47:51] [Async Chat Thread - #2/INFO]: <nado3090> no amor[m
+
+[21:47:52] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> one min[m
+
+[21:48:00] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i need stone sword[m
+
+[21:48:08] [Async Chat Thread - #2/INFO]: <nado3090> pluse i had no helmet[m
+
+[21:48:17] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> thxxx[m
+
+[21:48:28] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> nado[m
+
+[21:48:35] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> go[m
+
+[21:48:48] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090
+[21:48:55] [Async Chat Thread - #2/INFO]: <nado3090> YESSSSS[m
+
+[21:48:58] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> i was not on full heath'[m
+
+[21:49:03] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> no fair[m
+
+[21:49:11] [Async Chat Thread - #2/INFO]: <nado3090> ya right[m
+
+[21:49:17] [Async Chat Thread - #2/INFO]: <nado3090> book[m
+
+[21:49:19] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> lets go again[m
+
+[21:49:42] [Async Chat Thread - #2/INFO]: <nado3090> sure i had all most full helth[m
+
+[21:50:06] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> GO!![m
+
+[21:50:35] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> chinamy[m
+
+[21:50:57] [Server thread/INFO]: ChinmayM_360 issued server command: /weather clear
+[21:50:57] [Server thread/INFO]: [ChinmayM_360: Changing to clear weather]
+[21:51:02] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> is nado AFK?????????????[m
+
+[21:51:27] [Async Chat Thread - #2/INFO]: <ChinmayM_360> idk[m
+
+[21:51:31] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> GO!![m
+
+[21:51:34] [Async Chat Thread - #2/INFO]: <nado3090> not yet[m
+
+[21:52:10] [Async Chat Thread - #2/INFO]: <ChinmayM_360> not allowd[m
+
+[21:52:31] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> GO[m
+
+[21:52:41] [Async Chat Thread - #2/INFO]: <nado3090> need to get helth[m
+
+[21:52:55] [Async Chat Thread - #2/INFO]: <nado3090> hehehe[m
+
+[21:53:24] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> GO[m
+
+[21:53:37] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090
+[21:53:40] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> haha[m
+
+[21:53:42] [Async Chat Thread - #2/INFO]: <nado3090> yes[m
+
+[21:53:43] [Server thread/INFO]: ChinmayM_360 issued server command: /kill nado3090
+[21:53:43] [Server thread/INFO]: nado3090 fell out of the world
+[21:53:43] [Server thread/INFO]: [ChinmayM_360: Killed nado3090]
+[21:53:50] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35
+[21:53:52] [Server thread/INFO]: ChinmayM_360 issued server command: /butcher
+[21:54:03] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35
+[21:54:28] [Server thread/INFO]: RyGuyThePieGuy35 was slain by Zombie
+[21:54:31] [Async Chat Thread - #2/INFO]: <nado3090> thank you[m
+
+[21:54:42] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> 1v1[m
+
+[21:54:55] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> now[m
+
+[21:54:57] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> fair[m
+
+[21:55:04] [Async Chat Thread - #2/INFO]: <nado3090> with no amor[m
+
+[21:55:10] [Async Chat Thread - #2/INFO]: <RyGuyThePieGuy35> yes armor[m
+
+[21:55:25] [Async Chat Thread - #2/INFO]: <nado3090> my amor is trash[m
+
+[21:55:42] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090
+[21:56:31] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090 using [The OP Sword Of Chinmay]
+[21:58:10] [Server thread/INFO]: nado3090 was blown up by Creeper
+[21:59:04] [Server thread/INFO]: RyGuyThePieGuy35 was slain by nado3090 using [The OP Sword Of Chinmay]
+[21:59:45] [Async Chat Thread - #3/INFO]: <nado3090> no dtop[m
+
+[21:59:57] [Server thread/INFO]: nado3090 was shot by RyGuyThePieGuy35
+[22:00:16] [Async Chat Thread - #3/INFO]: <nado3090> my amor i sbroken[m
+
+[22:00:30] [Async Chat Thread - #3/INFO]: <ChinmayM_360> noooooooo![m
+
+[22:00:43] [Server thread/INFO]: ChinmayM_360 issued server command: //fill dirt 5 5
+[22:00:47] [Server thread/INFO]: ChinmayM_360 issued server command: //fill dirt 5 5
+[22:00:52] [Async Chat Thread - #3/INFO]: <nado3090> chinmay cani have a op bow with arows[m
+
+[22:01:45] [Async Chat Thread - #3/INFO]: <nado3090> op bow[m
+
+[22:02:34] [Async Chat Thread - #3/INFO]: <nado3090> hello[m
+
+[22:03:07] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> nado[m
+
+[22:03:22] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> fight[m
+
+[22:04:12] [Async Chat Thread - #3/INFO]: <nado3090> you got any spare arows[m
+
+[22:04:16] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> no[m
+
+[22:04:27] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> can u hit the lever[m
+
+[22:04:29] [Server thread/INFO]: ChinmayM_360 issued server command: //fill dirt 5 5
+[22:04:32] [Async Chat Thread - #3/INFO]: <ChinmayM_360> ???[m
+
+[22:04:34] [Server thread/INFO]: ChinmayM_360 issued server command: //fill dirt 5 5
+[22:04:48] [Async Chat Thread - #3/INFO]: <ChinmayM_360> something sus is going on .....[m
+
+[22:04:51] [Async Chat Thread - #3/INFO]: <nado3090> chinmay op bow[m
+
+[22:05:16] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:05:16] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:05:40] [Async Chat Thread - #3/INFO]: <ChinmayM_360> what is this!?!?[m
+
+[22:05:53] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> thats what i want to know[m
+
+[22:06:15] [Async Chat Thread - #3/INFO]: <nado3090> chinmay chill[m
+
+[22:06:42] [Server thread/INFO]: nado3090 was slain by ChinmayM_360
+[22:06:46] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:06:46] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:06:52] [Async Chat Thread - #3/INFO]: <nado3090> op bow[m
+
+[22:06:57] [Async Chat Thread - #3/INFO]: <ChinmayM_360> NO![m
+
+[22:07:05] [Async Chat Thread - #3/INFO]: <ChinmayM_360> YOU DID THIS!!![m
+
+[22:07:27] [Async Chat Thread - #3/INFO]: <RyGuyThePieGuy35> i did not do anything[m
+
+[22:07:55] [Server thread/INFO]: ChinmayM_360 issued server command: /weather clear
+[22:07:55] [Server thread/INFO]: [ChinmayM_360: Changing to clear weather]
+[22:08:27] [Server thread/INFO]: RyGuyThePieGuy35 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:08:33] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:08:33] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:01] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:01] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:09] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:09] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:10] [Thread-20/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[22:09:10] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:53634] logged in with entity id 35255 at ([world]285.0462041783761, 69.0, 91.55209742314965)
+[22:09:13] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:13] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:19] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:19] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:20] [Async Chat Thread - #4/INFO]: <XTeliqYT> hi[m
+
+[22:09:24] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:24] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:25] [Server thread/INFO]: nado3090 fell from a high place
+[22:09:30] [Async Chat Thread - #4/INFO]: <nado3090> stop[m
+
+[22:09:31] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:09:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> lol[m
+
+[22:09:42] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:42] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:47] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:47] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:51] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:51] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:09:55] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> CAOSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![m
+
+[22:09:55] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:09:55] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:01] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:01] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:06] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:06] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:08] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:10:11] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:11] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:14] [Async Chat Thread - #4/INFO]: <nado3090> STOP[m
+
+[22:10:19] [Async Chat Thread - #4/INFO]: <XTeliqYT> where are yall[m
+
+[22:10:24] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:10:27] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:27] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:30] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:10:37] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:37] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:43] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:43] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:46] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:10:48] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:10:48] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:10:51] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
+[22:10:51] [Server thread/INFO]: XTeliqYT left the game.
+[22:10:51] [Async Chat Thread - #4/INFO]: <nado3090> STOP[m
+
+[22:10:53] [Async Chat Thread - #4/INFO]: <nado3090> STOP[m
+
+[22:10:55] [Async Chat Thread - #4/INFO]: <nado3090> OP[m
+
+[22:10:59] [Async Chat Thread - #4/INFO]: <nado3090> STOP[m
+
+[22:11:11] [Async Chat Thread - #4/INFO]: <ChinmayM_360> YOU BLEW UP MY HOUSE WITH RYAN!!![m
+
+[22:11:14] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:11:14] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:11:18] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> ???[m
+
+[22:11:23] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:11:23] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:11:24] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:11:27] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:11:27] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:11:31] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:11:35] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:11:38] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:11:43] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> i did not do anything[m
+
+[22:11:45] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:11:45] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:11:52] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:11:52] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:11:55] [Server thread/INFO]: nado3090 was shot by RyGuyThePieGuy35
+[22:11:58] [Async Chat Thread - #4/INFO]: <nado3090> same[m
+
+[22:12:01] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:01] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:08] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:12:16] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:12:29] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:29] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:33] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:33] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:35] [Thread-21/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[22:12:35] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:39176] logged in with entity id 36043 at ([world]169.69960051514124, 66.0, 104.15461874686669)
+[22:12:38] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:38] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:39] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:12:44] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:44] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:48] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:12:48] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:12:49] [Async Chat Thread - #4/INFO]: <XTeliqYT> hi ryan[m
+
+[22:12:50] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:13:06] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:13:10] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:13:12] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:13:14] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:13:35] [Server thread/INFO]: XTeliqYT was slain by RyGuyThePieGuy35 using [Penis]
+[22:13:41] [Async Chat Thread - #4/INFO]: <XTeliqYT> WHAT THE FUCK[m
+
+[22:13:47] [Async Chat Thread - #4/INFO]: <XTeliqYT> THAT SWORD NAME IS WILD[m
+
+[22:13:48] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> AYYYYYYYYYYYYY[m
+
+[22:14:02] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> haha[m
+
+[22:14:08] [Server thread/INFO]: XTeliqYT was slain by RyGuyThePieGuy35 using [Penis]
+[22:14:09] [Async Chat Thread - #4/INFO]: <nado3090> chinmay stop we did nothing[m
+
+[22:14:13] [Async Chat Thread - #4/INFO]: <XTeliqYT> ya[m
+
+[22:14:17] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> ya[m
+
+[22:14:22] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:14:22] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:14:23] [Async Chat Thread - #4/INFO]: <XTeliqYT> hes abusing creative[m
+
+[22:14:23] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:14:27] [Server thread/INFO]: ChinmayM_360 issued server command: /tp ChinmayM_360 nado3090
+[22:14:27] [Server thread/INFO]: [ChinmayM_360: Teleported ChinmayM_360 to nado3090]
+[22:14:30] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:14:45] [Async Chat Thread - #4/INFO]: <XTeliqYT> ayo[m
+
+[22:14:46] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:14:52] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:02] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:10] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:16] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:17] [Async Chat Thread - #4/INFO]: <XTeliqYT> wait ryan[m
+
+[22:15:25] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:37] [Server thread/INFO]: RyGuyThePieGuy35 was slain by XTeliqYT
+[22:15:43] [Async Chat Thread - #4/INFO]: <ChinmayM_360> give my sword nado[m
+
+[22:15:44] [Async Chat Thread - #4/INFO]: <XTeliqYT> rayan[m
+
+[22:15:45] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> LAGGY[m
+
+[22:15:46] [Server thread/INFO]: nado3090 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:15:51] [Async Chat Thread - #4/INFO]: <nado3090> ok[m
+
+[22:15:53] [Async Chat Thread - #4/INFO]: <XTeliqYT> lets go in the pvp arena[m
+
+[22:15:57] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> kkkkkkk[m
+
+[22:16:15] [Async Chat Thread - #4/INFO]: <ChinmayM_360> give it[m
+
+[22:16:19] [Server thread/WARN]: XTeliqYT moved wrongly!
+[22:16:21] [Async Chat Thread - #4/INFO]: <nado3090> give me a new sword[m
+
+[22:16:31] [Server thread/INFO]: nado3090 was slain by ChinmayM_360 using [The OP Sword Of Chinmay]
+[22:16:38] [Server thread/INFO]: ChinmayM_360 issued server command: /weather clear
+[22:16:38] [Server thread/INFO]: [ChinmayM_360: Changing to clear weather]
+[22:16:43] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> teliq[m
+
+[22:16:43] [Async Chat Thread - #4/INFO]: <nado3090> i dont have it[m
+
+[22:16:52] [Server thread/INFO]: nado3090 was slain by ChinmayM_360 using [The OP Sword Of Chinmay]
+[22:16:53] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> PVP[m
+
+[22:16:54] [Async Chat Thread - #4/INFO]: <XTeliqYT> yea[m
+
+[22:16:57] [Async Chat Thread - #4/INFO]: <XTeliqYT> oh ok[m
+
+[22:16:57] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> arena[m
+
+[22:17:05] [Async Chat Thread - #4/INFO]: <nado3090> give me a sword[m
+
+[22:17:23] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> hey[m
+
+[22:17:24] [Async Chat Thread - #4/INFO]: <ChinmayM_360> illigal move[m
+
+[22:17:28] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> chill[m
+
+[22:17:31] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> ok sorry[m
+
+[22:17:32] [Server thread/INFO]: RyGuyThePieGuy35 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:17:36] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> chill[m
+
+[22:17:55] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> teliq[m
+
+[22:17:58] [Async Chat Thread - #4/INFO]: <XTeliqYT> here[m
+
+[22:18:01] [Server thread/INFO]: nado3090 was slain by RyGuyThePieGuy35 using [Penis]
+[22:18:09] [Async Chat Thread - #4/INFO]: <XTeliqYT> i love penis[m
+
+[22:18:15] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> me too[m
+
+[22:18:18] [Async Chat Thread - #4/INFO]: <XTeliqYT> nah im kidiing[m
+
+[22:18:23] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> me too[m
+
+[22:18:38] [Async Chat Thread - #4/INFO]: <nado3090> where are you[m
+
+[22:18:42] [Async Chat Thread - #4/INFO]: <XTeliqYT> 3[m
+
+[22:18:43] [Async Chat Thread - #4/INFO]: <XTeliqYT> 2[m
+
+[22:18:45] [Async Chat Thread - #4/INFO]: <XTeliqYT> 1[m
+
+[22:18:47] [Async Chat Thread - #4/INFO]: <XTeliqYT> go[m
+
+[22:18:56] [Server thread/INFO]: nado3090 was slain by Spider
+[22:19:08] [Server thread/INFO]: XTeliqYT was burnt to a crisp whilst fighting RyGuyThePieGuy35
+[22:19:11] [Async Chat Thread - #4/INFO]: <XTeliqYT> gg[m
+
+[22:19:14] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> gg[m
+
+[22:19:18] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> agian??????[m
+
+[22:19:21] [Async Chat Thread - #4/INFO]: <XTeliqYT> sure[m
+
+[22:19:32] [Server thread/INFO]: RyGuyThePieGuy35 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:19:37] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> chill[m
+
+[22:19:41] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> chinmay[m
+
+[22:20:31] [Server thread/INFO]: RyGuyThePieGuy35 was shot by ChinmayM_360 using [The OP Bow Of Chinmay]
+[22:20:35] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> hey[m
+
+[22:20:56] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> me and teliq are trying to 1v1'[m
+
+[22:21:04] [Async Chat Thread - #4/INFO]: <XTeliqYT> ya[m
+
+[22:21:18] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> im sorry for any reason[m
+
+[22:21:25] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> but i did nothing[m
+
+[22:21:31] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> i swear[m
+
+[22:21:32] [Server thread/INFO]: XTeliqYT lost connection: Disconnected
+[22:21:32] [Server thread/INFO]: XTeliqYT left the game.
+[22:22:13] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> im sorry for any reason[m
+
+[22:22:16] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> but i did nothing[m
+
+[22:22:18] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> i swear[m
+
+[22:22:33] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> great job on the arena[m
+
+[22:22:39] [Async Chat Thread - #4/INFO]: <nado3090> chinmay cill out[m
+
+[22:22:46] [Async Chat Thread - #4/INFO]: <ChinmayM_360> bro[m
+
+[22:22:56] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> and im guessin those are the doors?[m
+
+[22:23:01] [Thread-22/INFO]: UUID of player XTeliqYT is ac9a61b7-bab1-3eb2-8be3-e8ee4bab48f7
+[22:23:01] [Server thread/INFO]: XTeliqYT[/[0:0:0:0:0:0:0:1]:56556] logged in with entity id 38917 at ([world]291.07540626546944, 70.0, 86.49943119164423)
+[22:23:10] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> 3[m
+
+[22:23:11] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> 2[m
+
+[22:23:13] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> 1[m
+
+[22:23:15] [Async Chat Thread - #4/INFO]: <RyGuyThePieGuy35> go[m
+

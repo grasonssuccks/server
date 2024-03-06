@@ -9,7 +9,7 @@ def ping_codespace():
             print(f"Ping successful! Status code: {response.status_code}")
         except requests.RequestException as e:
             print(f"Error pinging codespace: {e}")
-        time.sleep(300)  # Ping every 5 minutes
+        time.sleep(100)  
 
 if __name__ == "__main__":
     ping_codespace()
