@@ -1,619 +1,360 @@
-[14:45:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[14:45:50] [Server thread/INFO]: Loading properties
-[14:45:50] [Server thread/INFO]: Default game type: SURVIVAL
-[14:45:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[14:45:51] [Server thread/INFO]: Debug logging is disabled
-[14:45:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[14:45:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[14:45:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:45:51] [Server thread/INFO]: Data value allowed items: 
-[14:45:51] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[14:45:51] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[14:45:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[14:45:51] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[14:45:51] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[14:45:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[14:45:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[14:45:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[14:45:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[14:45:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[14:45:51] [Server thread/INFO]: Generating keypair
-[14:45:51] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[14:45:51] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[14:45:51] [Server thread/INFO]: Using default channel type
-[14:45:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[14:45:52] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[14:45:52] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[14:45:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[14:45:52] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[14:45:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:45:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:45:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[14:45:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[14:45:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:45:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[14:45:52] [Server thread/INFO]: Preparing level "world"
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:45:52] [Server thread/INFO]: Mob Spawn Range: 4
-[14:45:52] [Server thread/INFO]: Anti X-Ray: true
-[14:45:52] [Server thread/INFO]: 	Engine Mode: 1
-[14:45:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[14:45:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[14:45:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:45:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[14:45:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:45:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[14:45:52] [Server thread/INFO]: Random Lighting Updates: false
-[14:45:52] [Server thread/INFO]: Structure Info Saving: true
-[14:45:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[14:45:52] [Server thread/INFO]: Max Entity Collisions: 8
-[14:45:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[14:45:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:45:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:45:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:45:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:45:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:45:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:45:52] [Server thread/INFO]: View Distance: 4
-[14:45:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:45:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[14:45:52] [Server thread/INFO]: Clear tick list: false
-[14:45:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:45:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[14:45:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[14:45:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[14:45:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[14:45:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[14:45:52] [Server thread/INFO]: Water over lava flow speed: 5
-[14:45:52] [Server thread/INFO]: Fix TNT cannons: false
-[14:45:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[14:45:52] [Server thread/INFO]: Keep spawn chunk loaded: true
-[14:45:52] [Server thread/INFO]: World async lighting: false
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:45:52] [Server thread/INFO]: Mob Spawn Range: 4
-[14:45:52] [Server thread/INFO]: Anti X-Ray: true
-[14:45:52] [Server thread/INFO]: 	Engine Mode: 1
-[14:45:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[14:45:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[14:45:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:45:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[14:45:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:45:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[14:45:52] [Server thread/INFO]: Random Lighting Updates: false
-[14:45:52] [Server thread/INFO]: Structure Info Saving: true
-[14:45:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[14:45:52] [Server thread/INFO]: Max Entity Collisions: 8
-[14:45:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[14:45:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:45:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:45:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:45:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:45:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:45:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:45:52] [Server thread/INFO]: View Distance: 4
-[14:45:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:45:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[14:45:52] [Server thread/INFO]: Clear tick list: false
-[14:45:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:45:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[14:45:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[14:45:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[14:45:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[14:45:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[14:45:52] [Server thread/INFO]: Water over lava flow speed: 5
-[14:45:52] [Server thread/INFO]: Fix TNT cannons: false
-[14:45:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[14:45:52] [Server thread/INFO]: Keep spawn chunk loaded: true
-[14:45:52] [Server thread/INFO]: World async lighting: false
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:45:52] [Server thread/INFO]: Mob Spawn Range: 4
-[14:45:52] [Server thread/INFO]: Anti X-Ray: true
-[14:45:52] [Server thread/INFO]: 	Engine Mode: 1
-[14:45:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[14:45:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[14:45:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:45:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:45:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[14:45:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:45:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[14:45:52] [Server thread/INFO]: Random Lighting Updates: false
-[14:45:52] [Server thread/INFO]: Structure Info Saving: true
-[14:45:52] [Server thread/INFO]: Sending up to 10 chunks per packet
-[14:45:52] [Server thread/INFO]: Max Entity Collisions: 8
-[14:45:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[14:45:52] [Server thread/INFO]: Max TNT Explosions: 100
-[14:45:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:45:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:45:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:45:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:45:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:45:52] [Server thread/INFO]: View Distance: 4
-[14:45:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:45:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[14:45:52] [Server thread/INFO]: Clear tick list: false
-[14:45:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:45:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:45:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[14:45:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[14:45:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[14:45:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[14:45:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[14:45:52] [Server thread/INFO]: Water over lava flow speed: 5
-[14:45:52] [Server thread/INFO]: Fix TNT cannons: false
-[14:45:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[14:45:52] [Server thread/INFO]: Keep spawn chunk loaded: true
-[14:45:52] [Server thread/INFO]: World async lighting: false
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[14:45:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[14:45:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7912852821688784551)
-[14:45:53] [Server thread/INFO]: Preparing spawn area: 79%
-[14:45:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7912852821688784551)
-[14:45:54] [Server thread/INFO]: Preparing spawn area: 60%
-[14:45:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7912852821688784551)
-[14:45:54] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[14:45:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[14:45:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[14:45:55] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[14:45:55] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[14:45:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[14:45:55] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:45:55] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[14:45:55] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[14:45:55] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[14:45:55] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[14:45:55] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[14:45:55] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[14:45:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:45:55] [Server thread/INFO]: Done (3.612s)! For help, type "help" or "?"
-[14:45:55] [Server thread/INFO]: Timings Reset
-[14:45:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[14:45:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[14:45:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[14:45:58] [Thread-7/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[14:45:58] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:49212] logged in with entity id 268 at ([world]-105.42182606831614, 77.0, 449.30412556351325)
-[14:46:03] [pool-4-thread-1/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
-[14:46:06] [Thread-8/INFO]: UUID of player FCPS_ADMIN12345 is 4039e662-5e8d-39d5-9113-5764300cc855
-[14:46:06] [Server thread/INFO]: FCPS_ADMIN12345[/[0:0:0:0:0:0:0:1]:55806] logged in with entity id 362 at ([world]-264.5, 60.0, 250.5)
-[14:46:16] [Server thread/INFO]: FCPS_ADMIN12345 lost connection: You are banned from this server.
-[14:46:16] [Server thread/INFO]: FCPS_ADMIN12345 left the game.
-[14:46:16] [Server thread/INFO]: Banned player FCPS_ADMIN12345
-[14:46:16] [Server thread/WARN]: handleDisconnection() called twice
-[14:46:21] [Server thread/INFO]: The world's default game mode is now Spectator Mode
-[14:46:28] [Thread-9/INFO]: UUID of player FCPS_ADMIN123456 is 22bab605-5cf8-3604-bf4a-93335c6276dc
-[14:46:28] [Server thread/INFO]: FCPS_ADMIN123456[/[0:0:0:0:0:0:0:1]:53598] logged in with entity id 503 at ([world]-255.5, 71.0, 256.5)
-[14:46:55] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[14:46:55] [Server thread/INFO]: Invincible_Atlas left the game.
-[14:46:56] [Async Chat Thread - #0/INFO]: <FCPS_ADMIN123456> lololololoooooooooooooooooooooooooooooooooooooooooooo[m
-
-[14:46:58] [Thread-10/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
-[14:46:58] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:44954] logged in with entity id 511 at ([world]-335.73980418341154, 86.0, 583.6400809441923)
-[14:47:01] [Thread-11/INFO]: UUID of player luke is 7476e557-bdb9-3ccd-b071-818fd40d7092
-[14:47:02] [Server thread/INFO]: luke[/[0:0:0:0:0:0:0:1]:38752] logged in with entity id 604 at ([world]99.6683793920602, 12.0, 515.6445538193932)
-[14:47:02] [Async Chat Thread - #0/INFO]: <FCPS_ADMIN123456> ratio[m
-
-[14:47:10] [Server thread/INFO]: FCPS_ADMIN123456 lost connection: You are banned from this server.
-[14:47:10] [Server thread/INFO]: FCPS_ADMIN123456 left the game.
-[14:47:10] [Server thread/INFO]: Banned player FCPS_ADMIN123456
-[14:47:10] [Server thread/WARN]: handleDisconnection() called twice
-[14:47:24] [Async Chat Thread - #0/INFO]: <QU4S3> It said i got IP banned for a sec[m
-
-[14:47:33] [Server thread/INFO]: Usage: /say <message ...>
-[14:47:34] [Thread-12/INFO]: UUID of player 1991919191991919 is 06f79c74-34a5-3b4f-9db0-9238cd755306
-[14:47:34] [Server thread/INFO]: 1991919191991919[/[0:0:0:0:0:0:0:1]:33860] logged in with entity id 715 at ([world]-255.5, 61.0, 246.5)
-[14:47:38] [Server thread/INFO]: 1991919191991919 lost connection: You are banned from this server.
-[14:47:38] [Server thread/INFO]: 1991919191991919 left the game.
-[14:47:38] [Server thread/INFO]: Banned player 1991919191991919
-[14:47:38] [Server thread/WARN]: handleDisconnection() called twice
-[14:47:49] [Server thread/INFO]: [Server] btw, there is going to be an ip change
-[14:47:49] [Async Chat Thread - #0/INFO]: <QU4S3> Who is 1991919191991919[m
-
-[14:47:50] [Thread-13/INFO]: UUID of player 199191919199191w is f8280e00-1608-3c7e-b655-3b7af31f1fb4
-[14:47:50] [Server thread/INFO]: 199191919199191w[/[0:0:0:0:0:0:0:1]:33908] logged in with entity id 726 at ([world]-254.5, 70.0, 254.5)
-[14:47:52] [Thread-14/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[14:47:52] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:33910] logged in with entity id 727 at ([world]-34.71724919240261, 13.001335979112149, 549.6999999880791)
-[14:48:07] [Server thread/INFO]: 199191919199191w lost connection: You are banned from this server.
-[14:48:07] [Server thread/INFO]: 199191919199191w left the game.
-[14:48:07] [Server thread/INFO]: Banned player 199191919199191w
-[14:48:07] [Server thread/WARN]: handleDisconnection() called twice
-[14:48:09] [Async Chat Thread - #0/INFO]: <QU4S3> colin just leave[m
-
-[14:48:13] [Async Chat Thread - #0/INFO]: <QU4S3> Its not funny[m
-
-[14:48:30] [Server thread/INFO]: sia lost connection: Disconnected
-[14:48:30] [Server thread/INFO]: sia left the game.
-[14:48:40] [Server thread/INFO]: [Server] server is going down, there will be an ip change. I will inform everyone of the new ip on thursday at makerspace
-[14:48:49] [Async Chat Thread - #0/INFO]: <luke> rn?[m
-
-[14:49:23] [Server thread/INFO]: [Server] in a bit
-[14:50:32] [Server thread/INFO]: QU4S3 lost connection: Disconnected
-[14:50:32] [Server thread/INFO]: QU4S3 left the game.
-[14:52:58] [Thread-16/INFO]: UUID of player theinfamouscoder is c7e019f8-0f0e-340e-93cf-7acb5f245183
-[14:52:58] [Server thread/INFO]: theinfamouscoder[/[0:0:0:0:0:0:0:1]:48542] logged in with entity id 1437 at ([world]-109.60560641312071, 75.0, 459.2097469070034)
-[14:53:16] [Server thread/INFO]: [Server] actually, Im just going to turn on whitelist. Everyone will be banned for a sec, but ill unban everyone asap
-[14:53:18] [Server thread/INFO]: Turned on the whitelist
-[14:53:21] [Async Chat Thread - #1/INFO]: <theinfamouscoder> ok[m
-
-[14:53:34] [Server thread/INFO]: theinfamouscoder lost connection: Disconnected
-[14:53:34] [Server thread/INFO]: theinfamouscoder left the game.
-[14:53:54] [Server thread/INFO]: Usage: /whitelist <on|off|list|add|remove|reload>
-[14:53:57] [Server thread/INFO]: There are 0 (out of 27 seen) whitelisted players:
-[14:53:57] [Server thread/INFO]: 
-[14:54:15] [Server thread/INFO]: Usage: /whitelist add <player>
-[14:54:19] [Server thread/INFO]: Added theinfamouscoder to the whitelist
-[14:54:25] [Server thread/INFO]: Added qu4s3 to the whitelist
-[14:54:32] [Server thread/INFO]: Added luke to the whitelist
-[14:54:36] [Server thread/INFO]: Added sia to the whitelist
-[14:54:49] [Server thread/INFO]: Added chummsterx to the whitelist
-[14:54:52] [Server thread/INFO]: Added chummsterzx to the whitelist
-[14:55:01] [Server thread/INFO]: Added invincible_atlas to the whitelist
-[14:55:07] [Server thread/INFO]: Added ibepoppinbottles to the whitelist
-[14:55:36] [Async Chat Thread - #2/INFO]: <luke> found a spawner[m
-
-[14:55:46] [Server thread/INFO]: Added reidbestyayayay to the whitelist
-[14:55:53] [Server thread/INFO]: Added doomscyzor to the whitelist
-[14:55:57] [Server thread/INFO]: Added doomscyzor_ to the whitelist
-[14:56:03] [Server thread/INFO]: Added fancy_man to the whitelist
-[14:56:28] [Thread-17/INFO]: UUID of player Invincible_test is bc854602-a96d-3e59-8bb2-8d5b58dbff73
-[14:56:28] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@63b4daf7[id=bc854602-a96d-3e59-8bb2-8d5b58dbff73,name=Invincible_test,properties={textures=[com.mojang.authlib.properties.Property@6e1c5ab8], isEaglerPlayer=[com.mojang.authlib.properties.Property@73f3575b]},legacy=false] (/[0:0:0:0:0:0:0:1]:44168): You are not whitelisted on this server!
-[14:56:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@63b4daf7[id=bc854602-a96d-3e59-8bb2-8d5b58dbff73,name=Invincible_test,properties={textures=[com.mojang.authlib.properties.Property@6e1c5ab8], isEaglerPlayer=[com.mojang.authlib.properties.Property@73f3575b]},legacy=false] (/[0:0:0:0:0:0:0:1]:44168) lost connection: You are not whitelisted on this server!
-[14:56:33] [Async Chat Thread - #2/INFO]: <luke> guys[m
-
-[14:56:44] [Async Chat Thread - #2/INFO]: <luke> we need to make a mob farm out of this[m
-
-[14:56:51] [Server thread/INFO]: [Server] alright, collin cant join anymore; I have whitelisting on
-[14:57:07] [Server thread/INFO]: [Server] If there's anyone who wants to join, they need my permission
-[14:57:26] [Thread-18/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[14:57:26] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:55520] logged in with entity id 2281 at ([world]-99.09240931383626, 77.0, 443.86405752390533)
-[14:57:31] [pool-4-thread-2/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
-[14:57:40] [Async Chat Thread - #2/INFO]: <luke> someone help me mke a farm[m
-
-[14:59:31] [Thread-19/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[14:59:31] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:35914] logged in with entity id 2653 at ([world]-33.348411514061155, 14.0, 549.138121630093)
-[15:00:31] [Async Chat Thread - #3/INFO]: <luke> issac[m
-
-[15:00:35] [Async Chat Thread - #3/INFO]: <Invincible_Atlas> yeah?[m
-
-[15:00:38] [Async Chat Thread - #3/INFO]: <luke> help me make mob farm[m
-
-[15:00:41] [Async Chat Thread - #3/INFO]: <luke> i found spanwer[m
-
-[15:00:50] [Async Chat Thread - #3/INFO]: <Invincible_Atlas> hold on, I have to repair[m
-
-[15:00:51] [Server thread/INFO]: sia lost connection: Disconnected
-[15:00:51] [Server thread/INFO]: sia left the game.
-[15:00:58] [Thread-20/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[15:00:58] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:56896] logged in with entity id 3026 at ([world]-37.33019814751306, 11.0, 546.4382263468559)
-[15:02:13] [Server thread/INFO]: sia tried to swim in lava
-[15:02:18] [Server thread/INFO]: sia issued server command: /back
-[15:02:26] [Server thread/INFO]: sia tried to swim in lava
-[15:02:31] [Server thread/INFO]: sia issued server command: /back
-[15:02:38] [Server thread/INFO]: sia tried to swim in lava
-[15:02:44] [Server thread/INFO]: sia issued server command: /back
-[15:02:52] [Server thread/INFO]: sia lost connection: Disconnected
-[15:02:52] [Server thread/INFO]: sia left the game.
-[15:03:15] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[15:03:15] [Server thread/INFO]: Invincible_Atlas left the game.
-[15:03:54] [Thread-21/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[15:03:54] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:47172] logged in with entity id 4070 at ([world]0.30000001192092896, 11.0, 540.5989539543125)
-[15:04:16] [Thread-22/INFO]: UUID of player Reidbestyayayay is 4aced700-1290-32c1-b302-606fe776f91a
-[15:04:16] [Server thread/INFO]: Reidbestyayayay[/[0:0:0:0:0:0:0:1]:56682] logged in with entity id 4160 at ([world]-207.30000001192093, 64.10408037809304, 670.3595051282861)
-[15:04:41] [Server thread/INFO]: sia lost connection: Disconnected
-[15:04:41] [Server thread/INFO]: sia left the game.
-[15:05:10] [Server thread/INFO]: Reidbestyayayay issued server command: /tpa luke
-[15:05:17] [Server thread/INFO]: luke issued server command: /tpaccept
-[15:07:03] [Server thread/INFO]: Reidbestyayayay has just earned the achievement [Time to Strike!]
-[15:07:50] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> luke you need to make hoppers to collect loot[m
-
-[15:08:13] [Server thread/INFO]: [Server] this doc has the server ip, I'll be changing the ip soon so make sure to check it often
-[15:08:16] [Server thread/INFO]: [Server] https://docs.google.com/document/d/e/2PACX-1vSWixDcGOoK_U8yqOdn6ldIJ5XXpezlk2yeihw0Q_2pDJCBquNH6EzEak7QYmpd_TGJ9ZKx7qjrHOk_/pub
-[15:08:27] [Thread-23/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
-[15:08:27] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:43924] logged in with entity id 4780 at ([world]-126.30000001192087, 76.6822265535593, 461.9434113827312)
-[15:08:29] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> what that[m
-
-[15:08:32] [pool-4-thread-3/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
-[15:08:47] [Server thread/INFO]: [Server] doc with the server ip
-[15:08:52] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> ok[m
-
-[15:09:08] [Server thread/INFO]: [Server] everyone save the link, the ip will be changing soon
-[15:09:33] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> ok but will we keep our stuff?[m
-
-[15:09:38] [Async Chat Thread - #4/INFO]: <Invincible_Atlas> yes[m
-
-[15:09:41] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> ok[m
-
-[15:09:53] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[15:09:56] [Server thread/INFO]: Reidbestyayayay has just earned the achievement [Monster Hunter]
-[15:10:20] [Thread-24/INFO]: UUID of player CX9 is f601e632-0e81-3579-b146-0a2235a45a9f
-[15:10:20] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5a75ae99[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@14ba718b], isEaglerPlayer=[com.mojang.authlib.properties.Property@41b98409]},legacy=false] (/[0:0:0:0:0:0:0:1]:51194): You are not whitelisted on this server!
-[15:10:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@5a75ae99[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@14ba718b], isEaglerPlayer=[com.mojang.authlib.properties.Property@41b98409]},legacy=false] (/[0:0:0:0:0:0:0:1]:51194) lost connection: You are not whitelisted on this server!
-[15:10:24] [Async Chat Thread - #4/INFO]: <Reidbestyayayay> lukas where village[m
-
-[15:10:27] [Async Chat Thread - #4/INFO]: <luke> idk[m
-
-[15:10:33] [Thread-25/INFO]: UUID of player CX9 is f601e632-0e81-3579-b146-0a2235a45a9f
-[15:10:33] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@dbb4d7a[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@53a0fc8a], isEaglerPlayer=[com.mojang.authlib.properties.Property@71358f53]},legacy=false] (/[0:0:0:0:0:0:0:1]:33456): You are not whitelisted on this server!
-[15:10:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@dbb4d7a[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@53a0fc8a], isEaglerPlayer=[com.mojang.authlib.properties.Property@71358f53]},legacy=false] (/[0:0:0:0:0:0:0:1]:33456) lost connection: You are not whitelisted on this server!
-[15:10:41] [Server thread/INFO]: Reidbestyayayay issued server command: /tpa Invincible_Atlas
-[15:10:44] [Server thread/INFO]: Invincible_Atlas issued server command: /tpaccept
-[15:10:44] [Thread-26/INFO]: UUID of player CX9 is f601e632-0e81-3579-b146-0a2235a45a9f
-[15:10:44] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6e76f878[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@70cd8909], isEaglerPlayer=[com.mojang.authlib.properties.Property@14a29502]},legacy=false] (/[0:0:0:0:0:0:0:1]:52718): You are not whitelisted on this server!
-[15:10:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@6e76f878[id=f601e632-0e81-3579-b146-0a2235a45a9f,name=CX9,properties={textures=[com.mojang.authlib.properties.Property@70cd8909], isEaglerPlayer=[com.mojang.authlib.properties.Property@14a29502]},legacy=false] (/[0:0:0:0:0:0:0:1]:52718) lost connection: You are not whitelisted on this server!
-[15:11:48] [Thread-27/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[15:11:48] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:54476] logged in with entity id 5613 at ([world]8.69999998807907, 11.0, 546.3281315199331)
-[15:11:56] [Server thread/INFO]: Invincible_Atlas was shot by Skeleton
-[15:12:28] [Server thread/INFO]: sia lost connection: Disconnected
-[15:12:28] [Server thread/INFO]: sia left the game.
-[15:13:00] [Thread-28/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
-[15:13:00] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:47702] logged in with entity id 5879 at ([world]-336.6752034592742, 86.0, 584.4283919813341)
-[15:13:10] [Async Chat Thread - #5/INFO]: <QU4S3> Yo isaac[m
-
-[15:13:16] [Async Chat Thread - #5/INFO]: <QU4S3> Could you unban xavi now[m
-
-[15:13:16] [Async Chat Thread - #5/INFO]: <Invincible_Atlas> yeah?[m
-
-[15:13:22] [Async Chat Thread - #5/INFO]: <Invincible_Atlas> hes already unbanned[m
-
-[15:13:40] [Async Chat Thread - #5/INFO]: <QU4S3> CX9 sorry[m
-
-[15:13:42] [Server thread/INFO]: luke issued server command: /sethome spawner
-[15:13:46] [Async Chat Thread - #5/INFO]: <QU4S3> Not ibepoppinbottles[m
-
-[15:13:53] [Async Chat Thread - #5/INFO]: <Invincible_Atlas> and lemme know when he joins, bc Im going to apologize with a stack of dims[m
-
-[15:14:00] [Server thread/INFO]: Invincible_Atlas issued server command: /pardon cx9
-[15:14:00] [Server thread/INFO]: [Invincible_Atlas: Could not unban player cx9]
-[15:14:08] [Server thread/INFO]: Invincible_Atlas issued server command: /whitelist add cx9
-[15:14:08] [Server thread/INFO]: [Invincible_Atlas: Added cx9 to the whitelist]
-[15:14:12] [Async Chat Thread - #5/INFO]: <QU4S3> alr, he is sitting right in front of me so ok[m
-
-[15:14:13] [Server thread/INFO]: luke issued server command: /home home
-[15:14:15] [Server thread/INFO]: luke issued server command: /home
-[15:14:15] [Async Chat Thread - #5/INFO]: <Reidbestyayayay> ok[m
-
-[15:14:18] [Server thread/INFO]: luke issued server command: /homes
-[15:14:20] [Async Chat Thread - #5/INFO]: <Reidbestyayayay> yay[m
-
-[15:14:26] [Server thread/INFO]: luke issued server command: /home house
-[15:14:28] [Async Chat Thread - #5/INFO]: <Invincible_Atlas> he's whitelisted now[m
-
-[15:14:37] [Async Chat Thread - #5/INFO]: <QU4S3> Hes joining[m
-
-[15:15:01] [Server thread/INFO]: Invincible_Atlas issued server command: /home temp
-[15:15:08] [Async Chat Thread - #5/INFO]: <luke> issac[m
-
-[15:15:14] [Async Chat Thread - #5/INFO]: <luke> help me with this spawner[m
-
-[15:15:20] [Server thread/INFO]: Invincible_Atlas issued server command: /tpa luke
-[15:15:28] [Server thread/INFO]: luke issued server command: /home spanwer
-[15:15:32] [Server thread/INFO]: luke issued server command: /home spawner
-[15:15:35] [Server thread/INFO]: Reidbestyayayay issued server command: /home reieid
-[15:15:35] [Async Chat Thread - #5/INFO]: <luke> one sec[m
-
-[15:15:42] [Server thread/INFO]: Invincible_Atlas issued server command: /difficulty hard
-[15:15:42] [Server thread/INFO]: [Invincible_Atlas: Set game difficulty to Hard]
-[15:15:51] [Server thread/INFO]: luke issued server command: /tpaccept
-[15:15:53] [Async Chat Thread - #5/INFO]: <Invincible_Atlas> diff is hard now, btw[m
-
-[15:15:57] [Async Chat Thread - #5/INFO]: <luke> k[m
-
-[15:15:58] [Async Chat Thread - #5/INFO]: <QU4S3> I am currently making stuff[m
-
-[15:15:59] [Thread-29/INFO]: UUID of player GrumMasterx is 6535874b-718a-3230-9fa7-d0935147349a
-[15:16:00] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2d1c7bba[id=6535874b-718a-3230-9fa7-d0935147349a,name=GrumMasterx,properties={textures=[com.mojang.authlib.properties.Property@1e4032b5], isEaglerPlayer=[com.mojang.authlib.properties.Property@4ad0d95b]},legacy=false] (/[0:0:0:0:0:0:0:1]:53152): You are not whitelisted on this server!
-[15:16:00] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2d1c7bba[id=6535874b-718a-3230-9fa7-d0935147349a,name=GrumMasterx,properties={textures=[com.mojang.authlib.properties.Property@1e4032b5], isEaglerPlayer=[com.mojang.authlib.properties.Property@4ad0d95b]},legacy=false] (/[0:0:0:0:0:0:0:1]:53152): You are not whitelisted on this server!
-[15:16:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@2d1c7bba[id=6535874b-718a-3230-9fa7-d0935147349a,name=GrumMasterx,properties={textures=[com.mojang.authlib.properties.Property@1e4032b5], isEaglerPlayer=[com.mojang.authlib.properties.Property@4ad0d95b]},legacy=false] (/[0:0:0:0:0:0:0:1]:53152) lost connection: You are not whitelisted on this server!
-[15:16:05] [Async Chat Thread - #5/INFO]: <QU4S3> Wait why is it hard now[m
-
-[15:16:10] [Async Chat Thread - #5/INFO]: <luke> we need to make it good[m
-
-[15:16:13] [Server thread/INFO]: Reidbestyayayay issued server command: /home reieid
-[15:16:23] [Async Chat Thread - #5/INFO]: <QU4S3> Ok fair[m
-
-[15:16:57] [Server thread/INFO]: QU4S3 lost connection: Disconnected
-[15:16:57] [Server thread/INFO]: QU4S3 left the game.
-[15:16:59] [Thread-30/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
-[15:17:00] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:56728] logged in with entity id 8251 at ([world]-336.27464250466454, 80.0, 583.2353534357675)
-[15:17:20] [Server thread/INFO]: QU4S3 lost connection: Disconnected
-[15:17:20] [Server thread/INFO]: QU4S3 left the game.
-[15:17:21] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome spawner
-[15:17:24] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[15:17:53] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner
-[15:19:08] [Async Chat Thread - #6/INFO]: <luke> we need water source[m
-
-[15:19:16] [Async Chat Thread - #6/INFO]: <luke> ill get some[m
-
-[15:19:17] [Async Chat Thread - #6/INFO]: <Invincible_Atlas> already got one[m
-
-[15:19:23] [Async Chat Thread - #6/INFO]: <luke> ok[m
-
-[15:20:33] [Async Chat Thread - #7/INFO]: <luke> found a mineshaft[m
-
-[15:20:47] [Thread-31/INFO]: UUID of player sia is 7c517cee-f75c-3810-9406-7b9cd7439ef2
-[15:20:47] [Server thread/INFO]: sia[/[0:0:0:0:0:0:0:1]:40004] logged in with entity id 14195 at ([world]8.69999998807907, 11.0, 546.3281315199331)
-[15:22:16] [Thread-33/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
-[15:22:16] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:52106] logged in with entity id 21442 at ([world]-336.27464250466454, 80.0, 583.2353534357675)
-[15:23:29] [Server thread/INFO]: luke issued server command: /sethome mineshaft
-[15:23:38] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner
-[15:24:11] [Server thread/INFO]: Invincible_Atlas issued server command: /sethome spawner2
-[15:24:18] [Async Chat Thread - #8/INFO]: <Invincible_Atlas> spawner set up[m
-
-[15:24:25] [Async Chat Thread - #8/INFO]: <luke> nice[m
-
-[15:24:45] [Server thread/INFO]: luke issued server command: /home spawner
-[15:24:49] [Thread-34/INFO]: UUID of player CX9 is f601e632-0e81-3579-b146-0a2235a45a9f
-[15:24:49] [Server thread/INFO]: CX9[/[0:0:0:0:0:0:0:1]:42226] logged in with entity id 24416 at ([world]-216.32152998784807, 63.0, 305.5056326399002)
-[15:24:58] [Async Chat Thread - #8/INFO]: <QU4S3> Xavi joined isaac[m
-
-[15:25:00] [Server thread/INFO]: luke suffocated in a wall
-[15:25:03] [Async Chat Thread - #8/INFO]: <QU4S3> He is CX9[m
-
-[15:25:04] [Server thread/INFO]: luke issued server command: /back
-[15:25:11] [Async Chat Thread - #8/INFO]: <CX9> yes indeed[m
-
-[15:25:13] [Async Chat Thread - #8/INFO]: <Invincible_Atlas> hi xavi, sorry for banning u[m
-
-[15:25:18] [Server thread/INFO]: sia tried to swim in lava
-[15:25:22] [Async Chat Thread - #8/INFO]: <CX9> Dw about it[m
-
-[15:25:25] [Server thread/INFO]: sia issued server command: /back
-[15:25:32] [Server thread/INFO]: sia tried to swim in lava
-[15:25:33] [Server thread/INFO]: Invincible_Atlas issued server command: /give CX9 minecraft:diamond 32
-[15:25:33] [Server thread/INFO]: [Invincible_Atlas: Given [Diamond] * 32 to CX9]
-[15:25:39] [Async Chat Thread - #8/INFO]: <Invincible_Atlas> an apology gift[m
-
-[15:25:48] [Async Chat Thread - #8/INFO]: <CX9> Thank's[m
-
-[15:25:58] [Server thread/INFO]: Invincible_Atlas fell from a high place
-[15:25:58] [Server thread/INFO]: CX9 has just earned the achievement [Taking Inventory]
-[15:26:02] [Server thread/INFO]: Invincible_Atlas issued server command: /back
-[15:26:11] [Server thread/INFO]: Reidbestyayayay lost connection: Disconnected
-[15:26:11] [Server thread/INFO]: Reidbestyayayay left the game.
-[15:26:21] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[15:26:36] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
-[15:27:08] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
-[15:27:19] [Async Chat Thread - #9/INFO]: <Invincible_Atlas> u r not a skelly[m
-
-[15:28:04] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
-[15:28:07] [Server thread/INFO]: CX9 issued server command: /tpa q
-[15:28:12] [Server thread/INFO]: QU4S3 issued server command: /tpaccept
-[15:28:21] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> bro, u r in the wrong place[m
-
-[15:28:25] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> come with me[m
-
-[15:28:36] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> come[m
-
-[15:28:41] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> slu[m
-
-[15:28:51] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> here[m
-
-[15:28:55] [Async Chat Thread - #10/INFO]: <QU4S3> this is the mine[m
-
-[15:29:01] [Async Chat Thread - #10/INFO]: <CX9> Alrighty[m
-
-[15:29:06] [Async Chat Thread - #10/INFO]: <QU4S3> Inf water[m
-
-[15:29:08] [Server thread/INFO]: luke issued server command: /home cave
-[15:29:23] [Async Chat Thread - #10/INFO]: <QU4S3> Im gonna get u a bed soon[m
-
-[15:29:29] [Async Chat Thread - #10/INFO]: <CX9> Ok[m
-
-[15:29:33] [Server thread/INFO]: Invincible_Atlas issued server command: /give CX9 minecraft:be
-[15:29:33] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:be]
-[15:29:36] [Server thread/INFO]: Invincible_Atlas issued server command: /give CX9 minecraft:bed
-[15:29:36] [Server thread/INFO]: [Invincible_Atlas: Given [Bed] * 1 to CX9]
-[15:29:42] [Async Chat Thread - #10/INFO]: <Invincible_Atlas> no i will[m
-
-[15:29:56] [Async Chat Thread - #10/INFO]: <CX9> Thank you lad[m
-
-[15:30:05] [Async Chat Thread - #10/INFO]: <QU4S3> Farm[m
-
-[15:30:08] [Async Chat Thread - #10/INFO]: <QU4S3> No touchy[m
-
-[15:30:10] [Async Chat Thread - #10/INFO]: <QU4S3> Is mine[m
-
-[15:30:19] [Async Chat Thread - #10/INFO]: <QU4S3> We are gonna make a new room[m
-
-[15:30:22] [Async Chat Thread - #10/INFO]: <QU4S3> for beds[m
-
-[15:30:23] [Async Chat Thread - #10/INFO]: <CX9> ok[m
-
-[15:30:29] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[15:31:36] [Server thread/INFO]: luke issued server command: /home huse
-[15:31:43] [Server thread/INFO]: luke issued server command: /home house
-[15:32:55] [Server thread/INFO]: sia has just earned the achievement [Hot Topic]
-[15:32:59] [Server thread/INFO]: luke issued server command: /home spawner
-[15:33:11] [Server thread/INFO]: luke suffocated in a wall
-[15:33:12] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
-[15:33:14] [Server thread/INFO]: luke issued server command: /back
-[15:33:29] [Async Chat Thread - #11/INFO]: <Invincible_Atlas> dude change ur home[m
-
-[15:33:37] [Server thread/INFO]: Invincible_Atlas issued server command: /sorry
-[15:33:39] [Async Chat Thread - #11/INFO]: <Invincible_Atlas> sorry[m
-
-[15:33:45] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
-[15:34:13] [Server thread/INFO]: luke issued server command: /rehome
-[15:34:20] [Server thread/INFO]: luke issued server command: /rehome spawner
-[15:34:22] [Server thread/INFO]: luke issued server command: /help
-[15:34:32] [Server thread/INFO]: luke issued server command: /SimpleHomes
-[15:34:45] [Async Chat Thread - #12/INFO]: <luke> SimpleHomes[m
-
-[15:34:46] [Async Chat Thread - #12/INFO]: <QU4S3> give me andesite[m
-
-[15:34:54] [Async Chat Thread - #12/INFO]: <CX9> Got it[m
-
-[15:34:55] [Server thread/INFO]: luke issued server command: /help SimpleHomes
-[15:34:57] [Async Chat Thread - #12/INFO]: <QU4S3> Ooga chooga[m
-
-[15:35:05] [Server thread/INFO]: Invincible_Atlas issued server command: /give QU4S3 minecraft:andesite
-[15:35:05] [Server thread/INFO]: [Invincible_Atlas: There is no such item with name minecraft:andesite]
-[15:35:07] [Server thread/INFO]: luke issued server command: /delhome spawner
-[15:35:13] [Server thread/INFO]: luke issued server command: /sethome farm
-[15:35:27] [Server thread/INFO]: luke issued server command: /help WorldEdit
-[15:35:39] [Server thread/INFO]: luke issued server command: /help
-[15:36:10] [Async Chat Thread - #13/INFO]: <luke> bro[m
-
-[15:36:13] [Async Chat Thread - #13/INFO]: <luke> can i use far,[m
-
-[15:36:14] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
-[15:36:18] [Server thread/INFO]: CX9 lost connection: Disconnected
-[15:36:18] [Server thread/INFO]: CX9 left the game.
-[15:36:21] [Async Chat Thread - #13/INFO]: <Invincible_Atlas> yeah, i just wanted l30[m
-
-[15:36:25] [Async Chat Thread - #13/INFO]: <luke> k[m
-
-[15:36:48] [Server thread/INFO]: QU4S3 lost connection: Disconnected
-[15:36:48] [Server thread/INFO]: QU4S3 left the game.
-[15:37:58] [Server thread/INFO]: Invincible_Atlas issued server command: /xp
-[15:38:05] [Server thread/INFO]: Invincible_Atlas issued server command: /xp 100 Invincible_Atlas
-[15:38:05] [Server thread/INFO]: [Invincible_Atlas: Given 100 experience to Invincible_Atlas]
-[15:38:32] [Server thread/INFO]: Invincible_Atlas lost connection: Disconnected
-[15:38:32] [Server thread/INFO]: Invincible_Atlas left the game.
-[15:38:35] [Server thread/INFO]: luke lost connection: Disconnected
-[15:38:35] [Server thread/INFO]: luke left the game.
-[15:38:42] [Server thread/INFO]: [Server] server might go down for a bit
-[15:47:12] [Server thread/INFO]: sia starved to death
+[19:11:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:11:47] [Server thread/INFO]: Loading properties
+[19:11:47] [Server thread/INFO]: Default game type: SURVIVAL
+[19:11:47] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:11:48] [Server thread/INFO]: Debug logging is disabled
+[19:11:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[19:11:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[19:11:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:11:48] [Server thread/INFO]: Data value allowed items: 
+[19:11:48] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[19:11:48] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[19:11:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[19:11:48] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[19:11:48] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[19:11:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[19:11:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[19:11:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[19:11:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[19:11:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[19:11:48] [Server thread/INFO]: Generating keypair
+[19:11:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[19:11:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[19:11:48] [Server thread/INFO]: Using default channel type
+[19:11:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:11:48] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[19:11:48] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[19:11:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[19:11:48] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[19:11:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:11:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:11:48] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:11:48] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:11:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:11:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:11:48] [Server thread/INFO]: Preparing level "world"
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:11:49] [Server thread/INFO]: Mob Spawn Range: 4
+[19:11:49] [Server thread/INFO]: Anti X-Ray: true
+[19:11:49] [Server thread/INFO]: 	Engine Mode: 1
+[19:11:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:11:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:11:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:11:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:11:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:11:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:11:49] [Server thread/INFO]: Random Lighting Updates: false
+[19:11:49] [Server thread/INFO]: Structure Info Saving: true
+[19:11:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:11:49] [Server thread/INFO]: Max Entity Collisions: 8
+[19:11:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:11:49] [Server thread/INFO]: Max TNT Explosions: 100
+[19:11:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:11:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:11:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:11:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:11:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:11:49] [Server thread/INFO]: View Distance: 4
+[19:11:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:11:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:11:49] [Server thread/INFO]: Clear tick list: false
+[19:11:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:11:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:11:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:11:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:11:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:11:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:11:49] [Server thread/INFO]: Fix TNT cannons: false
+[19:11:49] [Server thread/INFO]: Water over lava flow speed: 5
+[19:11:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:11:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:11:49] [Server thread/INFO]: World async lighting: false
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:11:49] [Server thread/INFO]: Mob Spawn Range: 4
+[19:11:49] [Server thread/INFO]: Anti X-Ray: true
+[19:11:49] [Server thread/INFO]: 	Engine Mode: 1
+[19:11:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:11:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:11:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:11:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:11:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:11:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:11:49] [Server thread/INFO]: Random Lighting Updates: false
+[19:11:49] [Server thread/INFO]: Structure Info Saving: true
+[19:11:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:11:49] [Server thread/INFO]: Max Entity Collisions: 8
+[19:11:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:11:49] [Server thread/INFO]: Max TNT Explosions: 100
+[19:11:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:11:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:11:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:11:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:11:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:11:49] [Server thread/INFO]: View Distance: 4
+[19:11:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:11:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:11:49] [Server thread/INFO]: Clear tick list: false
+[19:11:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:11:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:11:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:11:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:11:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:11:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:11:49] [Server thread/INFO]: Fix TNT cannons: false
+[19:11:49] [Server thread/INFO]: Water over lava flow speed: 5
+[19:11:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:11:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:11:49] [Server thread/INFO]: World async lighting: false
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:11:49] [Server thread/INFO]: Mob Spawn Range: 4
+[19:11:49] [Server thread/INFO]: Anti X-Ray: true
+[19:11:49] [Server thread/INFO]: 	Engine Mode: 1
+[19:11:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:11:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:11:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:11:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:11:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:11:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:11:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:11:49] [Server thread/INFO]: Random Lighting Updates: false
+[19:11:49] [Server thread/INFO]: Structure Info Saving: true
+[19:11:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:11:49] [Server thread/INFO]: Max Entity Collisions: 8
+[19:11:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:11:49] [Server thread/INFO]: Max TNT Explosions: 100
+[19:11:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:11:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:11:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:11:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:11:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:11:49] [Server thread/INFO]: View Distance: 4
+[19:11:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:11:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:11:49] [Server thread/INFO]: Clear tick list: false
+[19:11:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:11:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:11:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:11:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:11:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:11:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:11:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:11:49] [Server thread/INFO]: Fix TNT cannons: false
+[19:11:49] [Server thread/INFO]: Water over lava flow speed: 5
+[19:11:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:11:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:11:49] [Server thread/INFO]: World async lighting: false
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:11:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:11:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7912852821688784551)
+[19:11:50] [Server thread/INFO]: Preparing spawn area: 8%
+[19:11:51] [Server thread/INFO]: Preparing spawn area: 28%
+[19:11:52] [Server thread/INFO]: Preparing spawn area: 69%
+[19:11:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7912852821688784551)
+[19:11:54] [Server thread/INFO]: Preparing spawn area: 33%
+[19:11:55] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7912852821688784551)
+[19:11:55] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[19:11:55] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[19:11:55] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[19:11:55] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[19:11:55] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[19:11:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[19:11:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:11:56] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:11:56] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[19:11:56] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[19:11:56] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[19:11:56] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[19:11:56] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[19:11:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:11:56] [Server thread/INFO]: Done (7.606s)! For help, type "help" or "?"
+[19:11:56] [Server thread/INFO]: Timings Reset
+[19:11:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[19:11:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[19:11:57] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[19:12:00] [Server thread/INFO]: Usage: /whitelist add <player>
+[19:12:02] [Thread-7/INFO]: UUID of player Canadauan is 7c820399-35af-36ce-95e1-59de8f5e13fd
+[19:12:02] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@51877e4d[id=7c820399-35af-36ce-95e1-59de8f5e13fd,name=Canadauan,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@1ac93a1]},legacy=false] (/[0:0:0:0:0:0:0:1]:42942): You are not whitelisted on this server!
+[19:12:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@51877e4d[id=7c820399-35af-36ce-95e1-59de8f5e13fd,name=Canadauan,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@1ac93a1]},legacy=false] (/[0:0:0:0:0:0:0:1]:42942) lost connection: You are not whitelisted on this server!
+[19:12:06] [Thread-8/INFO]: UUID of player Canadauan is 7c820399-35af-36ce-95e1-59de8f5e13fd
+[19:12:06] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1cdbb01d[id=7c820399-35af-36ce-95e1-59de8f5e13fd,name=Canadauan,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@3348f428]},legacy=false] (/[0:0:0:0:0:0:0:1]:42956): You are not whitelisted on this server!
+[19:12:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@1cdbb01d[id=7c820399-35af-36ce-95e1-59de8f5e13fd,name=Canadauan,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@3348f428]},legacy=false] (/[0:0:0:0:0:0:0:1]:42956) lost connection: You are not whitelisted on this server!
+[19:12:10] [Server thread/INFO]: Added minhkhanh123 to the whitelist
+[19:12:51] [Thread-9/INFO]: UUID of player Invincible_Atlas is f8d2b7df-92b8-33a1-96fe-d128da3049e3
+[19:12:51] [Server thread/INFO]: Invincible_Atlas[/[0:0:0:0:0:0:0:1]:53620] logged in with entity id 224 at ([world]-102.01402277832796, 77.0, 452.475729542012)
+[19:12:58] [pool-4-thread-1/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[19:12:59] [Thread-10/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:12:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@74281be0[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@2412a955]},legacy=false] (/[0:0:0:0:0:0:0:1]:53628): You are not whitelisted on this server!
+[19:12:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@74281be0[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@2412a955]},legacy=false] (/[0:0:0:0:0:0:0:1]:53628) lost connection: You are not whitelisted on this server!
+[19:13:10] [Thread-11/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:13:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@192dfb7c[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@719b439]},legacy=false] (/[0:0:0:0:0:0:0:1]:49690): You are not whitelisted on this server!
+[19:13:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@192dfb7c[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@719b439]},legacy=false] (/[0:0:0:0:0:0:0:1]:49690) lost connection: You are not whitelisted on this server!
+[19:13:11] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
+[19:13:12] [Thread-12/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:13:12] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@732a8ab[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@7275fe13]},legacy=false] (/[0:0:0:0:0:0:0:1]:49692): You are not whitelisted on this server!
+[19:13:12] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@732a8ab[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@7275fe13]},legacy=false] (/[0:0:0:0:0:0:0:1]:49692): You are not whitelisted on this server!
+[19:13:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@732a8ab[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@7275fe13]},legacy=false] (/[0:0:0:0:0:0:0:1]:49692) lost connection: You are not whitelisted on this server!
+[19:13:15] [Thread-13/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:13:15] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@28bf32b7[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@5027b294]},legacy=false] (/[0:0:0:0:0:0:0:1]:49694): You are not whitelisted on this server!
+[19:13:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@28bf32b7[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@5027b294]},legacy=false] (/[0:0:0:0:0:0:0:1]:49694) lost connection: You are not whitelisted on this server!
+[19:13:47] [Server thread/INFO]: Invincible_Atlas issued server command: /whitelist add minhkhanh123
+[19:13:47] [Server thread/INFO]: [Invincible_Atlas: Added minhkhanh123 to the whitelist]
+[19:13:52] [Thread-14/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:13:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1becfebc[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@11c430be]},legacy=false] (/[0:0:0:0:0:0:0:1]:53280): You are not whitelisted on this server!
+[19:13:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1becfebc[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@11c430be]},legacy=false] (/[0:0:0:0:0:0:0:1]:53280): You are not whitelisted on this server!
+[19:13:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@1becfebc[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@11c430be]},legacy=false] (/[0:0:0:0:0:0:0:1]:53280) lost connection: You are not whitelisted on this server!
+[19:13:54] [Thread-15/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:13:54] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1cc2362d[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@6074f776]},legacy=false] (/[0:0:0:0:0:0:0:1]:53294): You are not whitelisted on this server!
+[19:13:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@1cc2362d[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@6074f776]},legacy=false] (/[0:0:0:0:0:0:0:1]:53294) lost connection: You are not whitelisted on this server!
+[19:14:00] [Thread-16/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:14:00] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@534d9fc3[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@434d8e87]},legacy=false] (/[0:0:0:0:0:0:0:1]:39388): You are not whitelisted on this server!
+[19:14:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@534d9fc3[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@434d8e87]},legacy=false] (/[0:0:0:0:0:0:0:1]:39388) lost connection: You are not whitelisted on this server!
+[19:14:24] [Thread-17/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:14:24] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@7dac377f[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@576c1e0a]},legacy=false] (/[0:0:0:0:0:0:0:1]:33458): You are not whitelisted on this server!
+[19:14:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@7dac377f[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@576c1e0a]},legacy=false] (/[0:0:0:0:0:0:0:1]:33458) lost connection: You are not whitelisted on this server!
+[19:14:26] [Thread-18/INFO]: UUID of player minhkhanh123 is d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b
+[19:14:26] [Server thread/INFO]: Invincible_Atlas issued server command: /whitelist list
+[19:14:26] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@43bccb13[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@4017b185]},legacy=false] (/[0:0:0:0:0:0:0:1]:33470): You are not whitelisted on this server!
+[19:14:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@43bccb13[id=d2a59d13-9f0b-333b-81bb-d0a7ee9fba8b,name=minhkhanh123,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@4017b185]},legacy=false] (/[0:0:0:0:0:0:0:1]:33470) lost connection: You are not whitelisted on this server!
+[19:17:48] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[19:18:00] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner
+[19:18:06] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
+[19:20:23] [Server thread/INFO]: Added minhkhanh123 to the whitelist
+[19:22:15] [Server thread/INFO]: Invincible_Atlas issued server command: /difficulty hard
+[19:22:15] [Server thread/INFO]: [Invincible_Atlas: Set game difficulty to Hard]
+[19:33:16] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[19:33:42] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[19:34:14] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
+[19:52:31] [Thread-21/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[19:52:31] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:39904] logged in with entity id 4500 at ([world]-335.4897839345493, 86.0, 583.8163910619968)
+[19:53:01] [Async Chat Thread - #0/INFO]: <QU4S3> Yo why does ChummasterX get admin[m
+
+[19:53:56] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[19:53:56] [Server thread/INFO]: QU4S3 left the game.
+[19:54:52] [Server thread/INFO]: [Server] he doesn't
+[20:01:47] [Thread-22/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:01:47] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:40292] logged in with entity id 4882 at ([world]-335.33322397178483, 86.0, 587.4160455786972)
+[20:02:40] [Async Chat Thread - #1/INFO]: <QU4S3> hi[m
+
+[20:04:09] [Async Chat Thread - #2/INFO]: <QU4S3> Go bet[m
+
+[20:04:12] [Async Chat Thread - #2/INFO]: <QU4S3> bed[m
+
+[20:04:32] [Async Chat Thread - #2/INFO]: <QU4S3> Go bed please[m
+
+[20:04:36] [Async Chat Thread - #2/INFO]: <QU4S3> Isaac are you on[m
+
+[20:08:36] [Server thread/INFO]: Invincible_Atlas issued server command: /time set day
+[20:08:36] [Server thread/INFO]: [Invincible_Atlas: Set the time to 1000]
+[20:08:57] [Async Chat Thread - #3/INFO]: <Invincible_Atlas> QU4S3, the skelly farm is full. I need your help to harvest dem skellys[m
+
+[20:09:05] [Async Chat Thread - #3/INFO]: <QU4S3> Im far away[m
+
+[20:09:05] [Server thread/INFO]: Invincible_Atlas issued server command: /tpahere QU4S3
+[20:09:14] [Async Chat Thread - #3/INFO]: <QU4S3> Wait is there a /home command[m
+
+[20:09:21] [Async Chat Thread - #3/INFO]: <Invincible_Atlas> yes, and sethome[m
+
+[20:09:34] [Server thread/INFO]: QU4S3 issued server command: /sethome
+[20:10:00] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[20:10:10] [Server thread/INFO]: QU4S3 issued server command: /sethome Ákwárna
+[20:10:10] [Server thread/INFO]: Invincible_Atlas issued server command: /home spawner2
+[20:10:16] [Server thread/INFO]: QU4S3 issued server command: /tpaccept
+[20:10:27] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[20:10:27] [Server thread/INFO]: QU4S3 left the game.
+[20:10:30] [Thread-23/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:10:30] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:59380] logged in with entity id 6741 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:10:35] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[20:10:35] [Server thread/INFO]: QU4S3 left the game.
+[20:11:07] [Thread-24/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:11:07] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:50446] logged in with entity id 6887 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:11:28] [Server thread/INFO]: Invincible_Atlas issued server command: /home home
+[20:11:28] [Server thread/INFO]: QU4S3 lost connection: Disconnected
+[20:11:28] [Server thread/INFO]: QU4S3 left the game.
+[20:11:30] [Thread-25/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:11:30] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:42142] logged in with entity id 7250 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:12:00] [Server thread/INFO]: QU4S3 lost connection: Login timed out!
+[20:12:00] [Server thread/INFO]: QU4S3 left the game.
+[20:12:00] [Server thread/WARN]: handleDisconnection() called twice
+[20:12:04] [Thread-26/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:12:04] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:44522] logged in with entity id 7575 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:12:34] [Server thread/INFO]: QU4S3 lost connection: Login timed out!
+[20:12:34] [Server thread/INFO]: QU4S3 left the game.
+[20:12:34] [Server thread/WARN]: handleDisconnection() called twice
+[20:12:37] [Thread-27/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:12:37] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:42842] logged in with entity id 7802 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:13:08] [Server thread/INFO]: QU4S3 lost connection: Login timed out!
+[20:13:08] [Server thread/INFO]: QU4S3 left the game.
+[20:13:08] [Server thread/WARN]: handleDisconnection() called twice
+[20:13:55] [Thread-28/INFO]: UUID of player QU4S3 is 92baf221-5a4b-3807-917b-84656ca864fa
+[20:13:55] [Server thread/INFO]: QU4S3[/[0:0:0:0:0:0:0:1]:59284] logged in with entity id 8149 at ([world]-336.6203018029122, 86.0, 584.1179685536085)
+[20:14:05] [Async Chat Thread - #4/INFO]: <QU4S3> Sorry[m
+
+[20:14:09] [Async Chat Thread - #4/INFO]: <QU4S3> stuff was lagging[m
+
+[20:14:26] [Server thread/INFO]: QU4S3 issued server command: /home
+[20:14:35] [Server thread/INFO]: QU4S3 issued server command: /gohome
+[20:14:41] [Async Chat Thread - #4/INFO]: <QU4S3> how do you teleport home[m
+
+[20:15:02] [Server thread/INFO]: QU4S3 issued server command: /sethome Akwarna
+[20:15:49] [Server thread/INFO]: QU4S3 issued server command: /home Akwarna
+[20:16:10] [Async Chat Thread - #5/INFO]: <QU4S3> Ok isaac i can teleport to you now[m
+
+[20:17:16] [Async Chat Thread - #6/INFO]: <QU4S3> Isaac[m
+
+[20:17:19] [Async Chat Thread - #6/INFO]: <QU4S3> do the TPA[m
+
+[20:17:35] [Server thread/INFO]: QU4S3 issued server command: /tpa Invincible_Atlas
+[20:17:59] [Async Chat Thread - #6/INFO]: <QU4S3> Yo[m
+
+[20:18:01] [Async Chat Thread - #6/INFO]: <QU4S3> Isaac[m
+
+[20:18:05] [Async Chat Thread - #6/INFO]: <QU4S3> You there?[m
+
+[20:19:47] [Server thread/INFO]: Invincible_Atlas issued server command: /tpaccept
+[20:19:56] [Async Chat Thread - #7/INFO]: <Invincible_Atlas> yeah, sorry i was afk[m
+
