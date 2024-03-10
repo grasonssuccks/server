@@ -283,3 +283,11 @@
 
 [01:36:54] [Server thread/INFO]: ADMIN lost connection: Disconnected
 [01:36:54] [Server thread/INFO]: ADMIN left the game.
+[01:45:14] [Thread-9/INFO]: UUID of player ADMIN is f462eb29-aa29-3588-8da2-a2565774ca02
+[01:45:14] [Server thread/INFO]: ADMIN[/[0:0:0:0:0:0:0:1]:60266] logged in with entity id 1714 at ([world]-157.50080091382125, 64.0, 106.7291692219546)
+[01:45:31] [Server thread/INFO]: ADMIN issued server command: /lac update
+[01:45:31] [Craft Scheduler Thread - 1/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
+[01:45:31] [Craft Scheduler Thread - 1/INFO]: [LoginSecurity] Download complete!
+[01:45:36] [Server thread/INFO]: ADMIN issued server command: /
+[01:45:50] [Server thread/INFO]: ADMIN lost connection: Disconnected
+[01:45:50] [Server thread/INFO]: ADMIN left the game.
