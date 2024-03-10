@@ -296,3 +296,7 @@
 [01:48:48] [Server thread/INFO]: ADMIN issued server command: /lac update
 [01:48:58] [Server thread/INFO]: ADMIN lost connection: Disconnected
 [01:48:58] [Server thread/INFO]: ADMIN left the game.
+[01:49:47] [Thread-11/INFO]: UUID of player ADMIN is f462eb29-aa29-3588-8da2-a2565774ca02
+[01:49:47] [Server thread/INFO]: ADMIN[/[0:0:0:0:0:0:0:1]:46946] logged in with entity id 2171 at ([world]-146.8814607107419, 63.0, 94.10473478121149)
+[01:49:51] [Server thread/INFO]: ADMIN lost connection: Disconnected
+[01:49:51] [Server thread/INFO]: ADMIN left the game.

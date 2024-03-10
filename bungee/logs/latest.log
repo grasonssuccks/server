@@ -92,3 +92,11 @@
 [01:48:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41734|ADMIN] -> UpstreamBridge has disconnected
 [01:48:58] [Netty Worker IO Thread #0/INFO]: [ADMIN] disconnected with: Proxy lost connection to server.
 [01:48:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:41734|ADMIN] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:49:47] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35610]: Connected via websocket
+[01:49:47] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35610]: Origin header is https://undefined_s_eaglercrackx_vercel_app.p.cloudflare.works
+[01:49:47] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35610]: Logged in as 'ADMIN'
+[01:49:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35610|ADMIN] -> UpstreamBridge has connected
+[01:49:47] [Netty Worker IO Thread #2/INFO]: [ADMIN|/[0:0:0:0:0:0:0:1%0]:35610] <-> ServerConnector [lobby] has connected
+[01:49:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35610|ADMIN] -> UpstreamBridge has disconnected
+[01:49:51] [Netty Worker IO Thread #2/INFO]: [ADMIN] disconnected with: Proxy lost connection to server.
+[01:49:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35610|ADMIN] <-> DownstreamBridge <-> [lobby] has disconnected
