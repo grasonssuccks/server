@@ -624,3 +624,8 @@
 
 [18:31:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
+[18:33:44] [Server thread/INFO]: Usage: /weather <clear|rain|thunder> [duration in seconds]
+[18:33:51] [Server thread/INFO]: Changing to clear weather
+[18:34:00] [Server thread/INFO]: [0;31;1mYou must be a player to execute this command![m
+
+[18:34:08] [Server thread/INFO]: Opped dev_
