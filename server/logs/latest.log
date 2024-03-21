@@ -311,3 +311,171 @@
 [16:44:18] [Server thread/WARN]: handleDisconnection() called twice
 [16:45:32] [Server thread/INFO]: deez____ has just earned the achievement [Taking Inventory]
 [16:45:34] [Server thread/INFO]: YeeYee636_ has just earned the achievement [Taking Inventory]
+[16:49:14] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:49:26] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:49:29] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+
+[16:49:29] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+
+[16:49:29] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+
+[16:50:17] [Thread-28/INFO]: UUID of player ViggYeeler is 1a8119bd-84f7-39d8-b17d-d2d5368750bd
+[16:50:18] [Server thread/INFO]: ViggYeeler[/[0:0:0:0:0:0:0:1]:42926] logged in with entity id 5546 at ([world]-141.5, 78.0, 262.5)
+[16:50:30] [Server thread/INFO]: ViggYeeler lost connection: Disconnected
+[16:50:30] [Server thread/INFO]: ViggYeeler left the game.
+[16:51:24] [Server thread/INFO]: DABEAST has just earned the achievement [Hot Topic]
+[16:51:53] [Thread-29/INFO]: UUID of player ViggYeeler is 1a8119bd-84f7-39d8-b17d-d2d5368750bd
+[16:51:53] [Server thread/INFO]: ViggYeeler[/[0:0:0:0:0:0:0:1]:36990] logged in with entity id 5733 at ([world]-141.5, 78.0, 262.5)
+[16:52:18] [Server thread/INFO]: ViggYeeler has just earned the achievement [Taking Inventory]
+[16:52:33] [Server thread/INFO]: ViggYeeler has just earned the achievement [Getting Wood]
+[16:52:39] [Server thread/INFO]: dev__ has just earned the achievement [Taking Inventory]
+[16:53:12] [Server thread/INFO]: ViggYeeler has just earned the achievement [Benchmarking]
+[16:53:18] [Server thread/INFO]: dev__ was slain by Zombie
+[16:53:24] [Server thread/INFO]: dev__ issued server command: /tp me
+[16:53:28] [Server thread/INFO]: ViggYeeler has just earned the achievement [Time to Mine!]
+[16:53:38] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:54:07] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+
+[16:54:07] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+
+[16:54:07] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+
+[16:54:19] [Server thread/INFO]: ViggYeeler has just earned the achievement [Getting an Upgrade]
+[16:54:23] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:54:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:54:32] [Server thread/INFO]: dev__ was slain by Zombie
+[16:54:40] [Server thread/INFO]: ViggYeeler has just earned the achievement [Time to Strike!]
+[16:54:48] [Server thread/INFO]: dev__ has just earned the achievement [Getting Wood]
+[16:56:16] [Server thread/INFO]: ViggYeeler has just earned the achievement [Monster Hunter]
+[16:56:28] [Server thread/INFO]: deez____ has just earned the achievement [Getting Wood]
+[16:58:03] [Server thread/INFO]: cheez_knees_is_L has just earned the achievement [Time to Farm!]
+[16:58:13] [Server thread/INFO]: dev__ was blown up by Creeper
+[16:59:10] [Server thread/INFO]: ViggYeeler has just earned the achievement [Cow Tipper]
+[17:00:02] [Server thread/INFO]: dev__ has just earned the achievement [Benchmarking]
+[17:00:38] [Server thread/INFO]: dev__ has just earned the achievement [Time to Mine!]
+[17:00:51] [Server thread/INFO]: YeeYee636_ was slain by deez____
+[17:01:12] [Server thread/INFO]: cheez_knees_is_L was slain by ViggYeeler
+[17:02:58] [Server thread/INFO]: dev__ has just earned the achievement [Time to Strike!]
+[17:03:08] [Server thread/INFO]: dev__ has just earned the achievement [Getting an Upgrade]
+[17:03:47] [Async Chat Thread - #2/INFO]: <dev__> yo wussssssup[m
+
+[17:04:18] [Server thread/INFO]: ViggYeeler has just earned the achievement [Hot Topic]
+[17:04:41] [Server thread/INFO]: cheez_knees_is_L has just earned the achievement [Getting an Upgrade]
+[17:04:57] [Server thread/INFO]: cheez_knees_is_L has just earned the achievement [Time to Strike!]
+[17:05:17] [Async Chat Thread - #3/INFO]: <dev__> 9.5/10[m
+
+[17:05:26] [Async Chat Thread - #3/INFO]: <dev__> 4/10][m
+
+[17:05:44] [Server thread/INFO]: dev__ has just earned the achievement [Monster Hunter]
+[17:06:13] [Server thread/INFO]: dev__ has just earned the achievement [Hot Topic]
+[17:07:46] [Server thread/INFO]: deez____ was slain by YeeYee636_
+[17:08:01] [Server thread/INFO]: deez____ lost connection: Disconnected
+[17:08:01] [Server thread/INFO]: deez____ left the game.
+[17:08:03] [Server thread/INFO]: YeeYee636_ lost connection: Disconnected
+[17:08:03] [Server thread/INFO]: YeeYee636_ left the game.
+[17:08:24] [Server thread/INFO]: dev__ lost connection: Disconnected
+[17:08:24] [Server thread/INFO]: dev__ left the game.
+[17:08:57] [Server thread/INFO]: DABEAST lost connection: Disconnected
+[17:08:57] [Server thread/INFO]: DABEAST left the game.
+[17:09:00] [Server thread/INFO]: ViggYeeler lost connection: Disconnected
+[17:09:00] [Server thread/INFO]: ViggYeeler left the game.
+[17:09:01] [Server thread/INFO]: Stopping the server
+[17:09:01] [Server thread/INFO]: Stopping server
+[17:09:01] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[17:09:01] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[17:09:01] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[17:09:01] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[17:09:01] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[17:09:01] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[17:09:01] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[17:09:01] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[17:09:01] [Server thread/INFO]: Saving players
+[17:09:01] [Server thread/INFO]: cheez_knees_is_L lost connection: Server closed
+[17:09:01] [Server thread/INFO]: cheez_knees_is_L left the game.
+[17:09:01] [Server thread/INFO]: Saving worlds
+[17:09:01] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:09:01] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[17:09:01] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

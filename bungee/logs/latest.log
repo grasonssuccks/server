@@ -198,3 +198,46 @@
 [16:44:18] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1%0]:59110|Pls_stop] -> UpstreamBridge has disconnected
 [16:44:18] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1%0]:59110|Pls_stop] <-> DownstreamBridge <-> [lobby] has disconnected
 [16:45:35] [main/INFO]: Command not found
+[16:50:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49114]: Connected via websocket
+[16:50:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49114]: Origin header is https://eaglercrack.vercel.app
+[16:50:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49114]: Logged in as 'ViggYeeler'
+[16:50:17] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49114|ViggYeeler] -> UpstreamBridge has connected
+[16:50:17] [Netty Worker IO Thread #0/INFO]: [ViggYeeler|/[0:0:0:0:0:0:0:1%0]:49114] <-> ServerConnector [lobby] has connected
+[16:50:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49114|ViggYeeler] -> UpstreamBridge has disconnected
+[16:50:30] [Netty Worker IO Thread #0/INFO]: [ViggYeeler] disconnected with: Proxy lost connection to server.
+[16:50:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49114|ViggYeeler] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:51:53] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54996]: Connected via websocket
+[16:51:53] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54996]: Origin header is https://eaglercrack.vercel.app
+[16:51:53] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54996]: Logged in as 'ViggYeeler'
+[16:51:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54996|ViggYeeler] -> UpstreamBridge has connected
+[16:51:53] [Netty Worker IO Thread #2/INFO]: [ViggYeeler|/[0:0:0:0:0:0:0:1%0]:54996] <-> ServerConnector [lobby] has connected
+[16:53:52] [main/INFO]: Command not found
+[16:53:55] [main/INFO]: Command not found
+[16:53:58] [main/INFO]: Command not found
+[16:54:00] [main/INFO]: Command not found
+[17:08:01] [Netty Worker IO Thread #5/INFO]: [/[0:0:0:0:0:0:0:1%0]:42902|deez____] -> UpstreamBridge has disconnected
+[17:08:01] [Netty Worker IO Thread #5/INFO]: [deez____] disconnected with: Proxy lost connection to server.
+[17:08:01] [Netty Worker IO Thread #5/INFO]: [/[0:0:0:0:0:0:0:1%0]:42902|deez____] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:08:02] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37292|YeeYee636_] -> UpstreamBridge has disconnected
+[17:08:02] [Netty Worker IO Thread #1/INFO]: [YeeYee636_] disconnected with: Proxy lost connection to server.
+[17:08:02] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37292|YeeYee636_] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:08:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46198|dev__] -> UpstreamBridge has disconnected
+[17:08:24] [Netty Worker IO Thread #2/INFO]: [dev__] disconnected with: Proxy lost connection to server.
+[17:08:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46198|dev__] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:08:57] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57610|DABEAST] -> UpstreamBridge has disconnected
+[17:08:57] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: Proxy lost connection to server.
+[17:08:57] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57610|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:09:00] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54996|ViggYeeler] -> UpstreamBridge has disconnected
+[17:09:00] [Netty Worker IO Thread #2/INFO]: [ViggYeeler] disconnected with: Proxy lost connection to server.
+[17:09:00] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54996|ViggYeeler] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:09:01] [Netty Worker IO Thread #4/INFO]: [cheez_knees_is_L] disconnected with: Server closed
+[17:09:01] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:37354|cheez_knees_is_L] -> UpstreamBridge has disconnected
+[17:09:01] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:37354|cheez_knees_is_L] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:13:19] [main/INFO]: Command not found
+[17:13:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50870]: Connected via websocket
+[17:13:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50870]: Origin header is https://eaglercrack.vercel.app
+[17:13:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50870]: Logged in as 'dev__'
+[17:13:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50870|dev__] -> UpstreamBridge has connected
+[17:13:26] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for dev__ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:13:26] [Netty Worker IO Thread #3/INFO]: [dev__] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:13:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50870|dev__] -> UpstreamBridge has disconnected
