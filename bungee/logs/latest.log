@@ -48,3 +48,4 @@
 [18:10:35] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [18:10:35] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [18:10:36] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
+[18:28:33] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Classboard-Official-Server/bungee/server-icon.png

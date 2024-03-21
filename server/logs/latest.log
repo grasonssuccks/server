@@ -208,3 +208,419 @@
 
 [18:10:12] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[18:30:39] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+
+[18:30:39] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mLoginSecurity: [0;37;1mAll commands for LoginSecurity[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mSimpleHomes: [0;37;1mAll commands for SimpleHomes[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mSimpleTpa: [0;37;1mAll commands for SimpleTpa[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22mWorldEdit: [0;37;1mAll commands for WorldEdit[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/.s: [0;37;1mExecute last CraftScript[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//: [0;37;1mToggle the super pickaxe function[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//calc: [0;37;1mEvaluate a mathematical expression[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//center: [0;37;1mSet the center block(s)[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//chunk: [0;37;1mSet the selection to your current chunk.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//clearhistory: [0;37;1mClear your history[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//contract: [0;37;1mContract the selection area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//copy: [0;37;1mCopy the selection to the clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//count: [0;37;1mCounts the number of a certain type of block[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//curve: [0;37;1mDraws a spline through selected points[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//cut: [0;37;1mCut the selection to the clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//cyl: [0;37;1mGenerates a cylinder.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//deform: [0;37;1mDeforms a selected region with an expression[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//distr: [0;37;1mGet the distribution of blocks in the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//drain: [0;37;1mDrain a pool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//ex: [0;37;1mExtinguish nearby fire[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//expand: [0;37;1mExpand the selection area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//faces: [0;37;1mBuild the walls, ceiling, and floor of a selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//fast: [0;37;1mToggle fast mode[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//fill: [0;37;1mFill a hole[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//fillr: [0;37;1mFill a hole recursively[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//fixlava: [0;37;1mFix lava to be stationary[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//fixwater: [0;37;1mFix water to be stationary[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//flip: [0;37;1mFlip the contents of the clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//flora: [0;37;1mMake flora within the region[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//forest: [0;37;1mMake a forest within the region[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//generate: [0;37;1mGenerates a shape according to a formula.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//generatebiome: [0;37;1mSets biome according to a formula.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//gmask: [0;37;1mSet the global mask[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//green: [0;37;1mGreens the area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hcyl: [0;37;1mGenerates a hollow cylinder.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//help: [0;37;1mDisplays help for WorldEdit commands[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hollow: [0;37;1mHollows out the object contained in this selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hpos1: [0;37;1mSet position 1 to targeted block[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hpos2: [0;37;1mSet position 2 to targeted block[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hpyramid: [0;37;1mGenerate a hollow pyramid[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//hsphere: [0;37;1mGenerates a hollow sphere.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//inset: [0;37;1mInset the selection area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//limit: [0;37;1mModify block change limit[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//line: [0;37;1mDraws a line segment between cuboid selection corners[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//load: [0;37;1mLoad a schematic into your clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//move: [0;37;1mMove the contents of the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//naturalize: [0;37;1m3 layers of dirt on top then rock below[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//outset: [0;37;1mOutset the selection area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//overlay: [0;37;1mSet a block on top of blocks in the region[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//paste: [0;37;1mPaste the clipboard's contents[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//pos1: [0;37;1mSet position 1[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//pos2: [0;37;1mSet position 2[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//pyramid: [0;37;1mGenerate a filled pyramid[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//redo: [0;37;1mRedoes the last action (from history)[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//regen: [0;37;1mRegenerates the contents of the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//removeabove: [0;37;1mRemove blocks above your head.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//removebelow: [0;37;1mRemove blocks below you.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//removenear: [0;37;1mRemove blocks near you.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//replace: [0;37;1mReplace all blocks in the selection with another[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//replacenear: [0;37;1mReplace nearby blocks[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//rotate: [0;37;1mRotate the contents of the clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//save: [0;37;1mSave a schematic into your clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//searchitem: [0;37;1mSearch for an item[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//sel: [0;37;1mChoose a region selector[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//set: [0;37;1mSet all the blocks inside the selection to a block[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//setbiome: [0;37;1mSets the biome of the player's current block or region.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//shift: [0;37;1mShift the selection area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//size: [0;37;1mGet information about the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//smooth: [0;37;1mSmooth the elevation in the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//snow: [0;37;1mSimulates snow[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//sphere: [0;37;1mGenerates a filled sphere.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//stack: [0;37;1mRepeat the contents of the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//thaw: [0;37;1mThaws the area[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//toggleplace: [0;37;1mSwitch between your position and pos1 for placement[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//undo: [0;37;1mUndoes the last action[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//walls: [0;37;1mBuild the four sides of the selection[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m//wand: [0;37;1mGet the wand object[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/ascend: [0;37;1mGo up a floor[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/back: [0;37;1mTeleports you to the previous location.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/biomeinfo: [0;37;1mGet the biome of the targeted block.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/biomelist: [0;37;1mGets all biomes available.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/brush: [0;37;1mBrushing commands[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/butcher: [0;37;1mKill all or nearby mobs[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/ceil: [0;37;1mGo to the celing[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/changepassword: [0;37;1mChange your account password.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/chunkinfo: [0;37;1mGet information about the chunk that you are inside[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/clearclipboard: [0;37;1mClear your clipboard[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/cs: [0;37;1mExecute a CraftScript[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/cycler: [0;37;1mBlock data cycler tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/delchunks: [0;37;1mDelete chunks that your selection includes[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/delhome: [0;37;1mDelete a home[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/deltree: [0;37;1mFloating tree remover tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/descend: [0;37;1mGo down a floor[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/farwand: [0;37;1mWand at a distance tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/floodfill: [0;37;1mFlood fill tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/forestgen: [0;37;1mGenerate a forest[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/home: [0;37;1mTeleport to a home[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/homes: [0;37;1mDisplays your currently set homes[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/info: [0;37;1mBlock information tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/jumpto: [0;37;1mTeleport to a location[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/lac: [0;37;1mLoginSecurity Admin command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/listchunks: [0;37;1mList chunks that your selection includes[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/login: [0;37;1mLogin with your account.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/logout: [0;37;1mLog out of your account.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/lrbuild: [0;37;1mLong-range building tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/mask: [0;37;1mSet the brush mask[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/mat: [0;37;1mSet the brush material[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/none: [0;37;1mUnbind a bound tool from your current item[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/pumpkins: [0;37;1mGenerate pumpkin patches[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/range: [0;37;1mSet the brush range[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/register: [0;37;1mSet a password for your account.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/remove: [0;37;1mRemove all entities of a type[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/repl: [0;37;1mBlock replacer tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/restore: [0;37;1mRestore the selection from a snapshot[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/schematic: [0;37;1mSchematic commands for saving/loading areas[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/sethome: [0;37;1mSet a new home at your current location[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/simpletpa: [0;37;1mOpens the help menu of the plugin.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/size: [0;37;1mSet the brush size[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/snapshot: [0;37;1mSchematic commands for saving/loading areas[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/superpickaxe: [0;37;1mSuper-pickaxe commands[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/thru: [0;37;1mPassthrough walls[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/toggleeditwand: [0;37;1mToggle functionality of the edit wand[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tool: [0;37;1mBind functions to held items[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpa: [0;37;1mSends a teleportation request to someone.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpaccept: [0;37;1mAccepts the teleportation request.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpahere: [0;37;1mSends a teleport here request to someone.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpahereall: [0;37;1mSends a teleport request to everyone[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpatoggle: [0;37;1mTurns on and off the teleportation mode.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpcancel: [0;37;1mCacenls the teleportation request.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tpdeny: [0;37;1mDenies the teleportation request.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/tree: [0;37;1mTree generator tool[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/unregister: [0;37;1mUnregister your account.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/unstuck: [0;37;1mEscape from being stuck inside a block[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/up: [0;37;1mGo upwards some distance[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/worldedit: [0;37;1mWorldEdit commands[m
+
+[18:30:39] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+
+[18:30:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[18:31:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
