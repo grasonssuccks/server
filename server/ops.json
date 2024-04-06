@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "f35e83d1-572e-3b9e-961c-b9001dae19fc",
+    "name": "MjPlaysGames",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1bd61f74-5f23-325a-9669-52a8b3f0dda3",
+    "name": "cosmicneverdies",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b0746686-38f3-3515-97f9-68102adc6a87",
+    "name": "a_____",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
