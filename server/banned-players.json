@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "fc439ee5-b5e3-3e81-8031-41ae394df315",
+    "name": "em",
+    "created": "2024-04-06 18:57:08 +0000",
+    "source": "§4Secret§r",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "f9c19c95-c4ac-4933-95d2-b5f091498d14",
+    "name": "____",
+    "created": "2024-04-06 20:31:30 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "3aa10d45-6372-352e-b9af-2eba497ed912",
+    "name": "___",
+    "created": "2024-04-06 20:31:31 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

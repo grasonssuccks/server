@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "bebd52d3-b487-3ade-a76f-4842a0332ef4",
+    "name": "xAlphabet",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ad06061e-fa35-302f-bcfe-dba975231028",
+    "name": "whowantfact",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d8defc9d-cbb6-3f32-b745-7b12829a2f7a",
+    "name": "Secret",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "66dba463-23ad-35a4-ab41-0514d1eb72f3",
+    "name": "Woofplayz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
