@@ -112,3 +112,19 @@
 [14:06:04] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51156|King_Jasir] -> UpstreamBridge has disconnected
 [14:06:04] [Netty Worker IO Thread #3/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
 [14:06:04] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51156|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:13:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53734]: Connected via websocket
+[14:13:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53734]: Origin header is http://localhost:8081
+[14:13:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53734]: Logged in as 'King_Jasir'
+[14:13:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53734|King_Jasir] -> UpstreamBridge has connected
+[14:13:07] [Netty Worker IO Thread #1/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:53734] <-> ServerConnector [lobby] has connected
+[14:20:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53734|King_Jasir] -> UpstreamBridge has disconnected
+[14:20:36] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
+[14:20:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53734|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:20:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60728]: Connected via websocket
+[14:20:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60728]: Origin header is http://localhost:8081
+[14:20:58] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60728]: Logged in as 'King_Jasir'
+[14:20:58] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60728|King_Jasir] -> UpstreamBridge has connected
+[14:20:58] [Netty Worker IO Thread #2/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:60728] <-> ServerConnector [lobby] has connected
+[14:22:19] [Netty Worker IO Thread #2/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
+[14:22:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60728|King_Jasir] -> UpstreamBridge has disconnected
+[14:22:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60728|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
