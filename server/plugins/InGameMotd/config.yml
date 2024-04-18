@@ -6,7 +6,7 @@
 InGameMotdActive: true
 SystemMotdActive: true
 motd:
-  ingame-text: '&9Welcome to the -newline-&4server&f! '
+  ingame-text: '&6Welcome to Kings SMP -name- '
   system-motds:
   - '&5DEFAULT&f-&cMOTD -newline-&9EXAMPLE:&21'
   - '&5DEFAULT&f-&cMOTD -newline-&9EXAMPLE:&22'
@@ -21,7 +21,7 @@ messages:
   ReloadConfig: '&bConfig has been reloaded!'
   ConfigReset: '&bConfig has been reset!'
   IngameSET: '&dIN-GAME MOTD set to: '
-  joinANDquitMSG: false
-  JoinMSG: '&e-name- has joined the game.'
-  QuitMSG: '&e-name- has quit the game.'
+  joinANDquitMSG: true
+  JoinMSG: '&e-name- has joined &6&lKings SMP.'
+  QuitMSG: '&e-name- has left &6&lKings SMP.'
 Version: 1
