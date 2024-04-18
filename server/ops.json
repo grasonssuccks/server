@@ -4,5 +4,11 @@
     "name": "King_Jasir",
     "level": 4,
     "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "4c37c5f3-98ff-381c-ba7e-2a18669a1ddb",
+    "name": "XJ_",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
