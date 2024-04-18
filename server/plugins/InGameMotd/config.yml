@@ -6,7 +6,7 @@
 InGameMotdActive: true
 SystemMotdActive: true
 motd:
-  ingame-text: '&6Welcome to Kings SMP -name- '
+  ingame-text: '&6Welcome to Kings SMP'
   system-motds:
   - '&5DEFAULT&f-&cMOTD -newline-&9EXAMPLE:&21'
   - '&5DEFAULT&f-&cMOTD -newline-&9EXAMPLE:&22'

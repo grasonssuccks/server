@@ -30,12 +30,14 @@ Scoreboard:
    title: '&6Kings SMP'
    layout: 
    - '&7&l&m-------------'
+   - '%blank-2%'
    - '&7%date%'
+   - '&7%user%'
    - '%blank-1%'
-   - '&cKills: &e%kills%'
-   - '&fDeaths: &5%deaths%'
-   - '&fKD: &3%kd%'
-   - '&fStreak: &2%streak%'
+   - '&cKills: &c%kills%'
+   - '&6Deaths: &6%deaths%'
+   - '&aKD: &2%kd%'
+   - '&5Streak: &5%streak%'
    - '%blank-2%'
    - '&7&l&m-------------'
 
@@ -56,7 +58,7 @@ StatsCommand:
 
 # Leaderboard Settings. Custom Message supported.
 Leaderboard: 
-   update-time-in-seconds: 60
+   update-time-in-seconds: 10
    number-of-players-to-show: 10
    playerFormat: '&7  #&f%rank% &3%player% &f- &7%amount%'
    killsTitle: Kills Leaderboard
