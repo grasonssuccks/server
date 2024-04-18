@@ -1,0 +1,45 @@
+#  ::::::::  :::::::::::     :::     :::::::::  ::::::::::: :::::::::: :::::::::  :::    ::: ::::::::::: ::::::::::: 
+# :+:    :+:     :+:       :+: :+:   :+:    :+:     :+:     :+:        :+:    :+: :+:   :+:      :+:         :+:     
+# +:+            +:+      +:+   +:+  +:+    +:+     +:+     +:+        +:+    +:+ +:+  +:+       +:+         +:+     
+# +#++:++#++     +#+     +#++:++#++: +#++:++#:      +#+     +#++:++#   +#++:++#:  +#++:++        +#+         +#+     
+#        +#+     +#+     +#+     +#+ +#+    +#+     +#+     +#+        +#+    +#+ +#+  +#+       +#+         +#+     
+# #+#    #+#     #+#     #+#     #+# #+#    #+#     #+#     #+#        #+#    #+# #+#   #+#      #+#         #+#     
+#  ########      ###     ###     ### ###    ###     ###     ########## ###    ### ###    ### ###########     ###  
+
+
+#Prefix
+
+prefix: '&7[&bStarterKit&7]&f'
+
+
+#Messages
+
+message-unknown-command: '%prefix% Unknown command! Use &3/kit help &fto get a list of commands.'
+message-no-permissions: '%prefix% You do not have access to this command!'
+message-create-kit: '%prefix% Kit &3%kit% &fwas successfully created!'
+message-kit-already-created: '%prefix% This kit has already been created!'
+message-delete-kit: '%prefix% The kit was successfully deleted!'
+message-kit-dont-exist: '%prefix% This kit has not been created yet!'
+message-give-kit: '%prefix% You got the kit &3%kit%&f!'
+message-set-starterkit: '%prefix% The kit was set successfully!'
+message-remove-starterkit: '%prefix% The kit was removed successfully!'
+message-set-permission: '%prefix% The permission was set successfully!'
+message-save-kit: '%prefix% The kit was saved successfully!'
+message-info:
+   - '&7==========[&bStarterKit&7]=========='
+   - '&8StarterKit: &f%starterkit%'
+   - '&8Kits:'
+   - '&f%kits%'
+   - '&7=============================='
+message-help:
+   - '&7=====================[&bStarterKit&7]====================='
+   - '&f/kit create [kit] &8starterkit.create'
+   - '&f/kit delete [kit] &8starterkit.delete'
+   - '&f/kit setpermission [kit] [permission] &8starterkit.setpermission'
+   - '&f/kit give [kit] &8starterkit.give'
+   - '&f/kit setstarterkit [kit] &8starterkit.setstarterkit'
+   - '&f/kit removestarterkit &8starterkit.removestarterkit'
+   - '&f/kit save [kit] &8starterkit.save'
+   - '&f/kit info &8starterkit.info'
+   - '&f/kit help &8starterkit.help'
+   - '&7===================================================='  

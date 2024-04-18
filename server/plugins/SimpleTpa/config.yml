@@ -16,7 +16,7 @@ enable-teleport-logging: false
 
 #If you set it to true, you will disable the prefix
 #Make sure to restart the server in order to apply it
-disable-prefix: false
+disable-prefix: true
 prefix: "&c[&6SimpleTpa&c]"
 
 #Messages:

@@ -8,7 +8,7 @@ register:
   # When enabled, requires users to enter their password twice upon registration.
   confirm-password: false
 login:
-  max-tries: 5
+  max-tries: 3
   # Only allow registered players to join using exactly the same name as registered.
   username-match-exact: true
 password:
@@ -16,7 +16,7 @@ password:
 password-max-length: 32
 join:
   # When enabled, player gets a blindness effect when not logged in.
-  blindness: true
+  blindness: false
   # Temporarily login location until player has logged in.
   # Available options: DEFAULT, SPAWN
   location: DEFAULT
@@ -31,7 +31,7 @@ username:
   max-length: 16
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: false
+  enabled: true
   login: /l
   register: /reg
 updater:
@@ -41,9 +41,9 @@ updater:
 # Session timeout in seconds, set to -1 to disable.
 session-timeout: 0
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 30
+login-timeout: -1
 # Login/register message delay in seconds.
-login-message-delay: 10
+login-message-delay: 1
 # Language for messages, check wiki for more info.
 # List: https://github.com/lenis0012/Translations
 # This setting should be set tot he file name without .json

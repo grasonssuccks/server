@@ -1,0 +1,48 @@
+id: StarterK
+permission: ''
+contents:
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_AXE
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+- ==: org.bukkit.inventory.ItemStack
+  type: COOKED_BEEF
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_HELMET
+- ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_LEGGINGS
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_BOOTS
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
