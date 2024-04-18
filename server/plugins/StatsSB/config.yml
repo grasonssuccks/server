@@ -32,7 +32,7 @@ Scoreboard:
    - '&7&l&m-------------'
    - '%blank-2%'
    - '&7%date%'
-   - '&7%user%'
+   - '&7Name: &7%user%'
    - '%blank-1%'
    - '&cKills: &c%kills%'
    - '&6Deaths: &6%deaths%'
@@ -47,14 +47,14 @@ StatsCommand:
    enable-permission: false
    no-permission-message: '&cYou do not have the Correct Permissions for this Command!'
    message: 
-   - '&9&l&m----------------------'
-   - '&3User: &7%user%'
+   - '&7&l&m----------------------'
+   - '&7Name: &7%user%'
    - '&3Placement: &7%kills_rank%'
-   - '&3Kills: &7%kills%'
-   - '&3Deaths: &7%deaths%'
-   - '&3KD: &7%kd%'
-   - '&3Streak: &7%streak%'
-   - '&9&l&m----------------------'
+   - '&cKills: &c%kills%'
+   - '&6Deaths: &6%deaths%'
+   - '&aKD: &2%kd%'
+   - '&5Streak: &5%streak%'
+   - '&7&l&m----------------------'
 
 # Leaderboard Settings. Custom Message supported.
 Leaderboard: 
