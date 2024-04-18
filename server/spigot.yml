@@ -14,6 +14,18 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
+  late-bind: false
+  sample-count: 12
+  player-shuffle: 0
+  filter-creative-items: true
+  user-cache-size: 1000
+  int-cache-limit: 1024
+  bungeecord: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
   netty-threads: 4
   attribute:
     maxHealth:
@@ -22,18 +34,6 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  late-bind: false
-  sample-count: 12
-  player-shuffle: 0
-  filter-creative-items: true
-  user-cache-size: 1000
-  int-cache-limit: 1024
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-threshold: 100.0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  bungeecord: true
 timings:
   enabled: true
   verbose: true
@@ -45,6 +45,7 @@ timings:
   history-length: 3600
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -53,7 +54,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 messages:
   whitelist: Server is Currently under maintenance
   unknown-command: That Command Dose Not exitst.
@@ -132,8 +132,8 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     view-distance: 4
     hanging-tick-frequency: 100
