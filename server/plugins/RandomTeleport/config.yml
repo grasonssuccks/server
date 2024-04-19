@@ -12,10 +12,10 @@
 #this int value is the mapreduce for the teleportation (2000 by default)
 radius: 5000
 #cooldown(default : 10s)
-Cooldown: 10
+Cooldown: 60
 #Worlds(the plugin will work only on those worlds [Nether , End are not supported !]) the world
 #this world the player will be able to teleport on:
-Worlds: "world"
+Worlds: "Kings SMP"
 #---------
 #Bugs ? feedback ? just dm me on discord {NullClass#9694}
 
