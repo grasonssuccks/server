@@ -33,14 +33,14 @@ anti-spam:
     # Whether or not this feature is enabled
     enabled: true
     # Seconds required between /afk commands
-    cooldown: 60
+    cooldown: 30
 # Options for automatic AFK mode
 auto:
     # Whether or not automatic AFK mode is enabled
     # (AFK mode will still cancel if a player does something)
     enabled: true
     # Time in minutes after player is automatically put into AFK mode
-    time: 5
+    time: 3
 # Options for automatic AFK teleport
 teleport:
     # Whether or not players in AFK mode will be teleported somewhere
@@ -61,7 +61,7 @@ kick:
     # Whether or not to kick players only when server is full
     onlywhenfull: false
     # Time in minutes player has to be in AFK mode in order to be kicked (at least 1)
-    time: 10
+    time: 20
     # true - commands below are executed by console
     # false - commands below are executed by the player
     command-as-console: true
@@ -75,7 +75,7 @@ protection:
     # Whether or not players in AFK mode should be protected from moving
     move: false
     # Whether or not players in AFK mode should be protected from taking damage
-    damage: false
+    damage: true
 # Options to ignore AFK players for
 ignore:
     # Whether or not players in AFK mode should be exempt from sleeping to skip the night
@@ -148,12 +148,12 @@ listeners:
     toggle:
         flight: true
         sprint: true
-        sneak: false
+        sneak: true
     unleash: true
     bucket:
         fill: true
         empty: true
-    move: false
+    move: true
     xp: false
     commands: true
     
