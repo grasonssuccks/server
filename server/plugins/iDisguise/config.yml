@@ -60,6 +60,7 @@ commands:
    restricted-player-names: 
    - player1
    - player2
+   
    # Do disguised players need to have 'iDisguise.undisguise' permission to be allowed to undisguise
    undisguise-permission: false
    

@@ -14,7 +14,7 @@ listener_01:
   allow_motd: true
   allow_query: true
   request_motd_cache:
-    cache_ttl: 7200
+    cache_ttl: 100
     online_server_list_animation: false
     online_server_list_results: true
     online_server_list_trending: true

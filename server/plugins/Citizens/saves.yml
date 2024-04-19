@@ -152,7 +152,7 @@ npc:
           cachePaths: false
           cycle: false
         provider: linear
-    traitnames: type,rotationtrait,owner,location,spawned,skintrait,inventory,waypoints,lookclose,mounttrait,scoreboardtrait,commandtrait
+    traitnames: rotationtrait,scoreboardtrait,skintrait,owner,commandtrait,lookclose,type,waypoints,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
             experienceCost: -1
       scoreboardtrait: {}
       spawned: true
-    traitnames: type,rotationtrait,owner,location,skintrait,inventory,spawned,lookclose,mounttrait,scoreboardtrait,commandtrait
+    traitnames: scoreboardtrait,rotationtrait,skintrait,owner,lookclose,commandtrait,type,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -403,7 +403,7 @@ npc:
           amount: 1
           mdata: 0
       spawned: true
-    traitnames: owner,rotationtrait,location,scoreboardtrait,commandtrait,sittrait,type,skintrait,spawned,inventory,lookclose,mounttrait,hometrait,equipment
+    traitnames: scoreboardtrait,skintrait,hometrait,owner,sittrait,lookclose,commandtrait,location,rotationtrait,type,inventory,spawned,equipment,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -455,7 +455,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: type,owner,rotationtrait,location,spawned,skintrait,inventory,lookclose,mounttrait,scoreboardtrait
+    traitnames: rotationtrait,scoreboardtrait,skintrait,owner,lookclose,type,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -507,7 +507,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: type,rotationtrait,owner,location,inventory,skintrait,spawned,lookclose,mounttrait,scoreboardtrait
+    traitnames: rotationtrait,scoreboardtrait,skintrait,owner,lookclose,type,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -559,7 +559,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: type,owner,rotationtrait,location,spawned,inventory,skintrait,lookclose,mounttrait,scoreboardtrait
+    traitnames: scoreboardtrait,rotationtrait,skintrait,owner,lookclose,type,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -697,7 +697,7 @@ npc:
             cost: '-1.0'
             experienceCost: -1
       type: PLAYER
-    traitnames: type,owner,location,skintrait,inventory,spawned,mounttrait,scoreboardtrait,commandtrait
+    traitnames: scoreboardtrait,skintrait,owner,commandtrait,type,inventory,spawned,location,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
