@@ -8,7 +8,7 @@ menu-settings:
 
   # REQUIRED
   # Appears as the title of the menu.
-  name: '&e&lHelp Menu'
+  name: '&6&lHelp Menu'
 
   # REQUIRED
   # The number of rows in the menu.
@@ -17,7 +17,7 @@ menu-settings:
   # OPTIONAL
   # Set which commands a player can execute to open the menu.
   commands:
-  - 'spawn'
+  - 'help'
 
   # OPTIONAL
   # How frequently the menu will be refreshed, in seconds.
@@ -49,7 +49,7 @@ spawn-command:
   MATERIAL: enderpearl
   POSITION-X: 1
   POSITION-Y: 1
-  NAME: '&eSpawn'
+  NAME: '&eTP Spawn'
   LORE:
     - 'Takes You To Spawn'
   ACTIONS:
