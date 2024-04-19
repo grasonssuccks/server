@@ -163,3 +163,11 @@ Reason: Test
 [19:33:44] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
 [19:33:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60284|King_Jasir] -> UpstreamBridge has disconnected
 [19:33:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60284|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:56:22] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44360]: Connected via websocket
+[19:56:22] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44360]: Origin header is https://eaglercraft.com
+[19:56:22] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44360]: Logged in as 'King_Jasir'
+[19:56:22] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1%0]:44360|King_Jasir] -> UpstreamBridge has connected
+[19:56:22] [Netty Worker IO Thread #6/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:44360] <-> ServerConnector [lobby] has connected
+[20:01:22] [Netty Worker IO Thread #6/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
+[20:01:22] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1%0]:44360|King_Jasir] -> UpstreamBridge has disconnected
+[20:01:22] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1%0]:44360|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
