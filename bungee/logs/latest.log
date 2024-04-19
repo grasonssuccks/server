@@ -1,183 +1,58 @@
-[00:01:18] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:44208|ShadowWolf] -> UpstreamBridge has disconnected
-[00:01:18] [Netty Worker IO Thread #1/INFO]: [ShadowWolf] disconnected with: Proxy lost connection to server.
-[00:01:18] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:44208|ShadowWolf] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:01:26] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36634]: Connected via websocket
-[00:01:26] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36634]: Origin header is https://reslauncher.vercel.app
-[00:01:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36634]: Logged in as 'ShadowWolf'
-[00:01:27] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36634|ShadowWolf] -> UpstreamBridge has connected
-[00:01:27] [Netty Worker IO Thread #0/INFO]: [ShadowWolf|/[0:0:0:0:0:0:0:1%0]:36634] <-> ServerConnector [lobby] has connected
-[00:06:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:42966|XJ_] -> UpstreamBridge has disconnected
-[00:06:11] [Netty Worker IO Thread #2/INFO]: [XJ_] disconnected with: Proxy lost connection to server.
-[00:06:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:42966|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:11:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46130]: Connected via websocket
-[00:11:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46130]: Origin header is http://localhost:8081
-[00:11:55] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46130]: Logged in as 'XJ_'
-[00:11:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46130|XJ_] -> UpstreamBridge has connected
-[00:11:55] [Netty Worker IO Thread #2/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:46130] <-> ServerConnector [lobby] has connected
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [69ShadowViper69] disconnected with: The Server has temporarily closed
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60360|69ShadowViper69] -> UpstreamBridge has disconnected
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60360|69ShadowViper69] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [XJ_] disconnected with: The Server has temporarily closed
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46130|XJ_] -> UpstreamBridge has disconnected
-[00:23:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46130|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:23:06] [Netty Worker IO Thread #0/WARN]: [/[0:0:0:0:0:0:0:1%0]:36634|ShadowWolf] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
-[00:23:06] [Netty Worker IO Thread #0/INFO]: [ShadowWolf] disconnected with: The server you were previously on went down, you have been connected to a fallback server
-[00:23:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36634|ShadowWolf] -> UpstreamBridge has disconnected
-[00:23:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36634|ShadowWolf] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:24:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52006]: Connected via websocket
-[00:24:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52006]: Origin header is https://reslauncher.vercel.app
-[00:24:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52006]: Logged in as 'ShadowWolf'
-[00:24:26] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:52006|ShadowWolf] -> UpstreamBridge has connected
-[00:24:26] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for ShadowWolf AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[00:24:26] [Netty Worker IO Thread #1/INFO]: [ShadowWolf] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[00:24:26] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:52006|ShadowWolf] -> UpstreamBridge has disconnected
-[00:24:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56676]: Connected via websocket
-[00:24:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56676]: Origin header is https://reslauncher.vercel.app
-[00:24:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56676]: Logged in as 'ShadowWolf'
-[00:24:39] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56676|ShadowWolf] -> UpstreamBridge has connected
-[00:24:39] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for ShadowWolf AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[00:24:39] [Netty Worker IO Thread #3/INFO]: [ShadowWolf] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[00:24:39] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56676|ShadowWolf] -> UpstreamBridge has disconnected
-[00:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52876]: Connected via websocket
-[00:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52876]: Origin header is http://localhost:8081
-[00:26:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52876]: Logged in as 'XJ_'
-[00:26:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:52876|XJ_] -> UpstreamBridge has connected
-[00:26:02] [Netty Worker IO Thread #0/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:52876] <-> ServerConnector [lobby] has connected
-[00:29:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60408]: Connected via websocket
-[00:29:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60408]: Origin header is https://reslauncher.vercel.app
-[00:29:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60408]: Logged in as 'ShadowWolf'
-[00:29:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60408|ShadowWolf] -> UpstreamBridge has connected
-[00:29:57] [Netty Worker IO Thread #2/INFO]: [ShadowWolf|/[0:0:0:0:0:0:0:1%0]:60408] <-> ServerConnector [lobby] has connected
-[00:36:36] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:52876|XJ_] -> UpstreamBridge has disconnected
-[00:36:36] [Netty Worker IO Thread #0/INFO]: [XJ_] disconnected with: Proxy lost connection to server.
-[00:36:36] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:52876|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:40:34] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57596]: Connected via websocket
-[00:40:34] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57596]: Origin header is https://reslauncher.vercel.app
-[00:40:34] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57596]: Logged in as '69ShadowViper69'
-[00:40:34] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:57596|69ShadowViper69] -> UpstreamBridge has connected
-[00:40:34] [Netty Worker IO Thread #3/INFO]: [69ShadowViper69|/[0:0:0:0:0:0:0:1%0]:57596] <-> ServerConnector [lobby] has connected
-[00:41:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51146]: Connected via websocket
-[00:41:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51146]: Origin header is https://reslauncher.vercel.app
-[00:41:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51146]: Logged in as 'King_Jasir'
-[00:41:48] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51146|King_Jasir] -> UpstreamBridge has connected
-[00:41:48] [Netty Worker IO Thread #1/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:51146] <-> ServerConnector [lobby] has connected
-[01:09:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:57596|69ShadowViper69] -> UpstreamBridge has disconnected
-[01:09:15] [Netty Worker IO Thread #3/INFO]: [69ShadowViper69] disconnected with: Proxy lost connection to server.
-[01:09:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:57596|69ShadowViper69] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:09:25] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51146|King_Jasir] -> UpstreamBridge has disconnected
-[01:09:25] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
-[01:09:25] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51146|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:09:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40470]: Connected via websocket
-[01:09:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40470]: Origin header is https://reslauncher.vercel.app
-[01:09:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40470]: Logged in as 'King_Jasir'
-[01:09:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40470|King_Jasir] -> UpstreamBridge has connected
-[01:09:29] [Netty Worker IO Thread #2/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:40470] <-> ServerConnector [lobby] has connected
-[01:17:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42596]: Connected via websocket
-[01:17:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42596]: Origin header is https://reslauncher.vercel.app
-[01:17:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42596]: Logged in as '69ShadowViper69'
-[01:17:27] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42596|69ShadowViper69] -> UpstreamBridge has connected
-[01:17:27] [Netty Worker IO Thread #0/INFO]: [69ShadowViper69|/[0:0:0:0:0:0:0:1%0]:42596] <-> ServerConnector [lobby] has connected
-[01:20:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42596|69ShadowViper69] -> UpstreamBridge has disconnected
-[01:20:06] [Netty Worker IO Thread #0/INFO]: [69ShadowViper69] disconnected with: Proxy lost connection to server.
-[01:20:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:42596|69ShadowViper69] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:25:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60408|ShadowWolf] -> UpstreamBridge has disconnected
-[01:25:12] [Netty Worker IO Thread #2/INFO]: [ShadowWolf] disconnected with: Proxy lost connection to server.
-[01:25:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60408|ShadowWolf] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:25:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47320]: Connected via websocket
-[01:25:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47320]: Origin header is https://reslauncher.vercel.app
-[01:25:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47320]: Logged in as 'Google'
-[01:25:25] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47320|Google] -> UpstreamBridge has connected
-[01:25:25] [Netty Worker IO Thread #2/INFO]: [Google|/[0:0:0:0:0:0:0:1%0]:47320] <-> ServerConnector [lobby] has connected
-[01:27:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47320|Google] -> UpstreamBridge has disconnected
-[01:27:47] [Netty Worker IO Thread #2/INFO]: [Google] disconnected with: Proxy lost connection to server.
-[01:27:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47320|Google] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:28:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47044]: Connected via websocket
-[01:28:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47044]: Origin header is https://reslauncher.vercel.app
-[01:28:03] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47044]: Logged in as 'ShadowWolf'
-[01:28:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47044|ShadowWolf] -> UpstreamBridge has connected
-[01:28:03] [Netty Worker IO Thread #0/INFO]: [ShadowWolf|/[0:0:0:0:0:0:0:1%0]:47044] <-> ServerConnector [lobby] has connected
-[01:33:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40470|King_Jasir] -> UpstreamBridge has disconnected
-[01:33:55] [Netty Worker IO Thread #2/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
-[01:33:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40470|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:33:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36920]: Connected via websocket
-[01:33:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36920]: Origin header is https://reslauncher.vercel.app
-[01:33:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36920]: Logged in as 'King_Jasir'
-[01:33:59] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36920|King_Jasir] -> UpstreamBridge has connected
-[01:33:59] [Netty Worker IO Thread #1/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:36920] <-> ServerConnector [lobby] has connected
-[01:43:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47044|ShadowWolf] -> UpstreamBridge has disconnected
-[01:43:05] [Netty Worker IO Thread #0/INFO]: [ShadowWolf] disconnected with: Proxy lost connection to server.
-[01:43:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47044|ShadowWolf] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:43:06] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
-[01:43:06] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36920|King_Jasir] -> UpstreamBridge has disconnected
-[01:43:06] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36920|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[01:47:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48202]: Connected via websocket
-[01:47:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48202]: Origin header is https://reslauncher.vercel.app
-[01:47:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48202]: Logged in as 'ShadowWolf'
-[01:47:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:48202|ShadowWolf] -> UpstreamBridge has connected
-[01:47:42] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for ShadowWolf AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[01:47:42] [Netty Worker IO Thread #2/INFO]: [ShadowWolf] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[01:47:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:48202|ShadowWolf] -> UpstreamBridge has disconnected
-[01:48:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36194]: Connected via websocket
-[01:48:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36194]: Origin header is https://reslauncher.vercel.app
-[01:48:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36194]: Logged in as 'King_Jasir'
-[01:48:45] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36194|King_Jasir] -> UpstreamBridge has connected
-[01:48:45] [Netty Worker IO Thread #0/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:36194] <-> ServerConnector [lobby] has connected
-[01:48:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34384]: Connected via websocket
-[01:48:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34384]: Origin header is https://reslauncher.vercel.app
-[01:48:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34384]: Logged in as 'ShadowWolf'
-[01:48:48] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:34384|ShadowWolf] -> UpstreamBridge has connected
-[01:48:48] [Netty Worker IO Thread #1/INFO]: [ShadowWolf|/[0:0:0:0:0:0:0:1%0]:34384] <-> ServerConnector [lobby] has connected
-[02:06:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35140]: Connected via websocket
-[02:06:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35140]: Origin header is https://reslauncher.vercel.app
-[02:06:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35140]: Logged in as '69ShadowViper69'
-[02:06:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35140|69ShadowViper69] -> UpstreamBridge has connected
-[02:06:20] [Netty Worker IO Thread #3/INFO]: [69ShadowViper69|/[0:0:0:0:0:0:0:1%0]:35140] <-> ServerConnector [lobby] has connected
-[02:25:29] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:34384|ShadowWolf] -> UpstreamBridge has disconnected
-[02:25:29] [Netty Worker IO Thread #1/INFO]: [ShadowWolf] disconnected with: Proxy lost connection to server.
-[02:25:29] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:34384|ShadowWolf] <-> DownstreamBridge <-> [lobby] has disconnected
-[02:25:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35140|69ShadowViper69] -> UpstreamBridge has disconnected
-[02:25:58] [Netty Worker IO Thread #3/INFO]: [69ShadowViper69] disconnected with: Proxy lost connection to server.
-[02:25:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35140|69ShadowViper69] <-> DownstreamBridge <-> [lobby] has disconnected
-[02:26:25] [Netty Worker IO Thread #0/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
-[02:26:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36194|King_Jasir] -> UpstreamBridge has disconnected
-[02:26:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36194|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Connected via websocket
-[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Origin header is https://reslauncher.vercel.app
-[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Logged in as 'King_Jasir'
-[02:37:20] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] -> UpstreamBridge has connected
-[02:37:20] [Netty Worker IO Thread #0/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:58618] <-> ServerConnector [lobby] has connected
-[02:38:52] [Netty Worker IO Thread #0/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
-[02:38:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] -> UpstreamBridge has disconnected
-[02:38:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[02:43:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40132]: Connected via websocket
-[02:43:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40132]: Origin header is https://reslauncher.vercel.app
-[02:43:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40132]: Logged in as 'King_Jasir'
-[02:43:56] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40132|King_Jasir] -> UpstreamBridge has connected
-[02:43:56] [Netty Worker IO Thread #1/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:40132] <-> ServerConnector [lobby] has connected
-[02:47:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49048]: Connected via websocket
-[02:47:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49048]: Origin header is https://eaglercraft.com
-[02:47:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49048]: Logged in as 'XJ_'
-[02:47:16] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49048|XJ_] -> UpstreamBridge has connected
-[02:47:16] [Netty Worker IO Thread #0/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:49048] <-> ServerConnector [lobby] has connected
-[02:50:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49048|XJ_] -> UpstreamBridge has disconnected
-[02:50:24] [Netty Worker IO Thread #0/INFO]: [XJ_] disconnected with: Proxy lost connection to server.
-[02:50:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:49048|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
-[02:59:43] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
-[02:59:43] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40132|King_Jasir] -> UpstreamBridge has disconnected
-[02:59:43] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40132|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[03:05:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35038]: Connected via websocket
-[03:05:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35038]: Origin header is https://reslauncher.vercel.app
-[03:05:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35038]: Logged in as 'King_Jasir'
-[03:05:02] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35038|King_Jasir] -> UpstreamBridge has connected
-[03:05:02] [Netty Worker IO Thread #2/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:35038] <-> ServerConnector [lobby] has connected
-[03:14:07] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35038|King_Jasir] -> UpstreamBridge has disconnected
-[03:14:07] [Netty Worker IO Thread #2/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
-[03:14:07] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35038|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
-[03:14:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45588]: Connected via websocket
-[03:14:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45588]: Origin header is https://reslauncher.vercel.app
-[03:14:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45588]: Logged in as 'King_Jasir'
-[03:14:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:45588|King_Jasir] -> UpstreamBridge has connected
-[03:14:15] [Netty Worker IO Thread #3/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:45588] <-> ServerConnector [lobby] has connected
-[03:21:20] [Netty Worker IO Thread #3/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
-[03:21:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:45588|King_Jasir] -> UpstreamBridge has disconnected
-[03:21:20] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:45588|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:06:42] [main/INFO]: Using mbed TLS based native cipher.
+[11:06:42] [main/INFO]: Using zlib based native compressor.
+[11:06:42] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[11:06:42] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[11:06:42] [main/INFO]: Epoll is working, utilising it!
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[11:06:42] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[11:06:43] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:43] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[11:06:43] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[11:06:43] [main/WARN]: :>  apart from the versions listed below:
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[11:06:43] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[11:06:43] [main/WARN]: :>  - FlameCord: 1.1.1
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[11:06:43] [main/WARN]: :>  
+[11:06:43] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:06:43] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[11:06:43] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[11:06:43] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:06:44] [main/WARN]: Forced host server pvp is not defined
+[11:06:44] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:06:44] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[11:06:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[11:06:44] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[11:06:44] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:06:44] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[11:06:44] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Kings-SMP/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
+[11:08:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45946]: Connected via websocket
+[11:08:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45946]: Origin header is https://reslauncher.vercel.app
+[11:08:22] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45946]: Logged in as 'King_Jasir'
+[11:08:22] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45946|King_Jasir] -> UpstreamBridge has connected
+[11:08:22] [Netty Worker IO Thread #2/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:45946] <-> ServerConnector [lobby] has connected
+[11:09:18] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45946|King_Jasir] -> UpstreamBridge has disconnected
+[11:09:18] [Netty Worker IO Thread #2/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
+[11:09:18] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45946|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected

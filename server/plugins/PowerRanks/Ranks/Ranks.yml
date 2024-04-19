@@ -6,10 +6,10 @@ Groups:
     inheritance: []
     build: true
     chat:
-      prefix: '[&7Member&r]'
+      prefix: '&7[Member]'
       suffix: ''
-      chatColor: '&f'
-      nameColor: '&f'
+      chatColor: '&7'
+      nameColor: '&7'
     level:
       promote: ''
       demote: ''
@@ -40,10 +40,10 @@ Groups:
     inheritance: []
     build: true
     chat:
-      prefix: '[&4Admin&r]'
+      prefix: '&3[&bADMIN&3]'
       suffix: ''
-      chatColor: '&f'
-      nameColor: '&f'
+      chatColor: '&9'
+      nameColor: '&b'
     level:
       promote: Owner
       demote: Moderator
@@ -53,7 +53,15 @@ Groups:
     gui:
       icon: redstone
   Owner:
-    permissions: []
+    permissions:
+    - minecraft.command.op
+    - minecraft.command.deop
+    - minecraft.command.ban
+    - minecraft.command.pardon
+    - minecraft.command.warn
+    - minecraft.command.unwarn
+    - minecraft.command.kick
+    - minecraft.command.stop
     inheritance: []
     build: true
     chat:
