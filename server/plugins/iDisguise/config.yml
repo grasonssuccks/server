@@ -49,7 +49,7 @@ disguise:
    
    # Change this to true if you use BungeeCord
    # Explanation: BungeeCord breaks the standard player disguises, this option fixes that.
-   bungee-cord: false
+   bungee-cord: true
    
 # Options affecting the commands and permissions of iDisguise (these do NOT affect the developer API)
 commands:
@@ -60,7 +60,6 @@ commands:
    restricted-player-names: 
    - player1
    - player2
-   
    # Do disguised players need to have 'iDisguise.undisguise' permission to be allowed to undisguise
    undisguise-permission: false
    

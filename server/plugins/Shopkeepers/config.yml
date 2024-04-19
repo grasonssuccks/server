@@ -45,7 +45,7 @@ bypass-shop-interaction-blocking: false
 
 # If enabled, players will only be able to place shopkeepers where they have
 # permission from WorldGuard to build or where the 'allow-shop' flag is set.
-enable-world-guard-restrictions: false
+enable-world-guard-restrictions: true
 # If enabled (additionally to the enable-world-guard-restrictions setting),
 # players will only be able to place shopkeepers in regions where the
 # 'allow-shop' flag is set, but nowhere else. However, players will still require
@@ -173,7 +173,7 @@ disable-gravity: false
 gravity-chunk-range: 4
 
 # Whether mob shopkeepers make sounds.
-silence-living-shop-entities: true
+silence-living-shop-entities: false
 
 # Whether to show nameplates of mob shopkeepers.
 show-nameplates: true

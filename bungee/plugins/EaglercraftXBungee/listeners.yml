@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - "    &6Kings SMP &2- &cSimply survival &2- &5&k||&r &6&lBata &5&k||&r\n    &bBy &9ShadoWolf, 69ShadowViper69, &cKing_Jasir"
+  - "  &6Kings SMP &2- &cSimply survival &2- &5&k||&r &6&lBata &5&k||&r    &r\n     &bBy &5Shadow Duo, 11Animation, &cKing_Jasir"
   allow_motd: true
   allow_query: true
   request_motd_cache:
