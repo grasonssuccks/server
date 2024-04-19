@@ -44,4 +44,4 @@ IsWorking: 19:4:49 false
 SpamList:
 - DummyPlayer 10
 ServerJoinMessage: \u00A76Welcome to \u00A76\u00A7lKings SMP
-PlayerJoinMessage: 
+PlayerJoinMessage: Welcome to this server! Change this message through the /cc PlayerJoinMessage <message>   command, colour tags can be applied to this message, for full colour tags help type /ColorTags.
