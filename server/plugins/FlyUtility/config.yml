@@ -2,7 +2,7 @@
 # FlyUtility by Paperboypaddy16
 # Version 0.6
 Enabled Fly message: '&aFly Enabled'
-Disabled Fly message: '&aFly Disabled'
+Disabled Fly message: '&cFly Disabled'
 Enabled Other Fly message: '&aEnabled Fly to &6'
 Disabled Other Fly message: '&aDisabled Fly to &6'
 Got Enabled From Admin message: '&aYour Fly was Enabled by a Admin'
