@@ -14,8 +14,8 @@ regions:
         min: {x: 169.0, y: 67.0, z: 237.0}
         max: {x: 199.0, y: 76.0, z: 267.0}
         members: {}
-        flags: {tnt: deny, pvp: deny, farewell: '§c§lYou Are leaveing spawn, Players
-                Can PVP You.'}
+        flags: {exit: deny, passthrough: deny, tnt: deny, pvp: deny, farewell: '§c§lYou
+                Are leaveing spawn, Players Can PVP You.'}
         owners: {}
         type: cuboid
         priority: 0
