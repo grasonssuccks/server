@@ -116,4 +116,4 @@ PlasmoVoice:
 # When set to true and when this plugin is placed in a server (not Bungee), it will enable you
 # to use the plugin's GUIs in that server.
 # DOES NOT DO ANYTHING FOR NOW, IN THE MIDDLE OF DEVELOPMENT
-Bungee-Mode: true
+Bungee-Mode: false
