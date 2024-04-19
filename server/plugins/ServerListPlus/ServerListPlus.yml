@@ -34,12 +34,9 @@
 --- !Status
 Default:
   Description:
-  - |-
-    &aA Minecraft Server.
-    &7Now with [&a&lPvP&7], [&a&lMinigames&7], and much more!
-  - |-
-    &aA Minecraft Server.
-    &eWe have updated our server to &lMinecraft 1.8&e!
+ - |-
+    &6Kings SMP &2- &cSimply survival &2- &5&k||&r &6&lBata &5&k||&r    &r
+       &bBy &5Shadow Duo, 11Animation, &cKing_Jasir
   Players:
     Hover:
     - |-
