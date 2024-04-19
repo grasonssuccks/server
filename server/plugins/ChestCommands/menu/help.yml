@@ -8,7 +8,7 @@ menu-settings:
 
   # REQUIRED
   # Appears as the title of the menu.
-  name: '&1Example menu'
+  name: '&e&lHelp Menu'
 
   # REQUIRED
   # The number of rows in the menu.
@@ -17,7 +17,7 @@ menu-settings:
   # OPTIONAL
   # Set which commands a player can execute to open the menu.
   commands:
-  - 'menu'
+  - 'spawn'
 
   # OPTIONAL
   # How frequently the menu will be refreshed, in seconds.
@@ -28,7 +28,7 @@ menu-settings:
   # These actions will be executed when the menu is opened.
   # Supports all the icon action types.
   open-actions:
-  - 'tell: &eYou opened the example menu.'
+  - 'tell: &eYou opened the Help menu.'
 
   # OPTIONAL
   # The menu will open only when right-clicking with a compass.
@@ -49,7 +49,7 @@ spawn-command:
   MATERIAL: enderpearl
   POSITION-X: 1
   POSITION-Y: 1
-  NAME: '&e/spawn'
+  NAME: '&eSpawn'
   LORE:
     - 'Takes You To Spawn'
   ACTIONS:

@@ -1,0 +1,47 @@
+# CleanChat config file. Simply the best anti- abuse and chat control plugin around! 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# DO NOT EDIT!
+RemovedWords:
+- fuck
+- shit
+- pussy
+- nigger
+- wanker
+- retard
+- gay
+- fanny
+- cunt
+- dick
+- penis
+- rape
+- tit
+- pen15
+- peni5
+- pen1s
+PrintConsole: 'true'
+ReplaceWith: '*******'
+DefaultMuteReason: No reason
+MutedPlayers:
+- DummyPlayer
+MuteDuration:
+- 2
+ReasonMuted:
+- Because
+MuteHistory:
+- DummyPlayer 2 2017:04:01 Because
+- 4c37c5f3-98ff-381c-ba7e-2a18669a1ddb 10.2 2024:04:19  test
+- '4c37c5f3-98ff-381c-ba7e-2a18669a1ddb 0 2024:04:19  test '
+SpamCheck: 'true'
+SpamWarning: Please do not spam chat!
+ConsoleBroadcast: true
+Broadcasts:
+- 0 1 0
+- 0 1 1
+- 0 1 2
+- 0 1 3
+IgnoringBroadcasts: []
+IsWorking: 19:4:49 false
+SpamList:
+- DummyPlayer 10
+ServerJoinMessage: \u00A76Welcome to \u00A76\u00A7lKings SMP
+PlayerJoinMessage: 
