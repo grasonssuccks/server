@@ -1,0 +1,73 @@
+players:
+  4c37c5f3-98ff-381c-ba7e-2a18669a1ddb:
+    subranks: ''
+    playtime: 0
+    usertag: ''
+    rank: Owner
+    name: XJ_
+    permissions: []
+  c04dd39d-e293-38f7-ae95-50ec6d55f286:
+    rank: ShadowBros
+    name: ShadowWolf
+    permissions: []
+    subranks:
+      Moderator:
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+    usertag: ''
+    playtime: 0
+  9e803241-4a96-394f-bba8-8e95caac654e:
+    playtime: 0
+    name: 69ShadowViper69
+    permissions: []
+    usertag: ''
+    rank: Moderator
+    subranks:
+      ShadowBros:
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+      '&6Builder':
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+      '&6Test':
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+      '&lMVP++':
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+      MVP++:
+        use_prefix: true
+        use_suffix: true
+        use_permissions: true
+        worlds:
+        - All
+  d69e4b5f-d82f-353d-8c72-6d5b945e2e7a:
+    name: King_Jasir
+    rank: Owner
+    usertag: ''
+    subranks: ''
+    permissions: []
+    playtime: 1465
+  84f47cb7-c1e9-3085-9437-7036cba3e4ac:
+    usertag: ''
+    rank: Member
+    subranks: ''
+    name: Google
+    playtime: 0
+    permissions: []
+version: '1.8'

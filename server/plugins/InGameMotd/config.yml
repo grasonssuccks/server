@@ -22,6 +22,6 @@ messages:
   ConfigReset: '&bConfig has been reset!'
   IngameSET: '&dIN-GAME MOTD set to: '
   joinANDquitMSG: true
-  JoinMSG: '&e-name- has joined &6&lKings SMP.'
-  QuitMSG: '&e-name- has left &6&lKings SMP.'
+  JoinMSG: '&e-name- has joined &6&lKings SMP &c[The Name May Have an Error]'
+  QuitMSG: '&e-name- has left &6&lKings SMP &c[The Name May Have an Error]'
 Version: 1
