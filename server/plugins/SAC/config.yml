@@ -1,0 +1,20 @@
+Developer: Soul_Eater301
+Version: 0.4.1.3
+Link: none yet
+notify:
+  flag: true
+  state: true
+  ban:
+    initiate: true
+    execute: true
+kick:
+  packets:
+    movement: false
+    regen: true
+    bow: true
+ban:
+  enabled: true
+  chicken: true
+  time:
+    minimum: 1
+    maximum: 3

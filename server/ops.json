@@ -22,11 +22,5 @@
     "name": "ShadoWolf",
     "level": 2,
     "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "9eba4205-1f5e-331e-a83b-c9ce172851a5",
-    "name": "11Animation",
-    "level": 2,
-    "bypassesPlayerLimit": false
   }
 ]
