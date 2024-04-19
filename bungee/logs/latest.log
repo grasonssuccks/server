@@ -141,3 +141,11 @@
 [02:26:25] [Netty Worker IO Thread #0/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
 [02:26:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36194|King_Jasir] -> UpstreamBridge has disconnected
 [02:26:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:36194|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Connected via websocket
+[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Origin header is https://reslauncher.vercel.app
+[02:37:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58618]: Logged in as 'King_Jasir'
+[02:37:20] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] -> UpstreamBridge has connected
+[02:37:20] [Netty Worker IO Thread #0/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:58618] <-> ServerConnector [lobby] has connected
+[02:38:52] [Netty Worker IO Thread #0/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
+[02:38:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] -> UpstreamBridge has disconnected
+[02:38:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58618|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected

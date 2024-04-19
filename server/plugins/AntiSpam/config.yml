@@ -1,0 +1,4 @@
+# 
+# Config file for XxDaShTixX-AntiSpam
+EnableAntiSpam: true
+SpamSeconds: 3

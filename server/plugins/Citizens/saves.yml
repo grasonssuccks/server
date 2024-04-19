@@ -33,13 +33,13 @@ npc:
         uuid: 9e803241-4a96-394f-bba8-8e95caac654e
       type: PLAYER
       location:
-        bodyYaw: -172.60754
+        bodyYaw: -176.95938
         world: world
         x: '184.4585'
         y: '67.0'
         z: '265.3517'
-        yaw: '-172.6075'
-        pitch: '-16.7057'
+        yaw: '-176.9594'
+        pitch: '-17.1814'
       inventory: {}
       scoreboardtrait: {}
       spawned: true
@@ -152,7 +152,7 @@ npc:
           cachePaths: false
           cycle: false
         provider: linear
-    traitnames: spawned,location,type,lookclose,skintrait,mounttrait,scoreboardtrait,rotationtrait,waypoints,commandtrait,inventory,owner
+    traitnames: mounttrait,type,rotationtrait,skintrait,commandtrait,waypoints,location,lookclose,inventory,scoreboardtrait,spawned,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
             experienceCost: -1
       scoreboardtrait: {}
       spawned: true
-    traitnames: spawned,location,type,skintrait,lookclose,mounttrait,scoreboardtrait,rotationtrait,inventory,commandtrait,owner
+    traitnames: mounttrait,type,skintrait,rotationtrait,commandtrait,location,inventory,lookclose,scoreboardtrait,spawned,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -304,7 +304,7 @@ npc:
       owner:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       mounttrait:
-        mountedon: 1d4d2a61-054e-43b6-98ea-24384be14a16
+        mountedon: dd9dd99a-a496-40e9-ace5-6da1abbdffef
       location:
         bodyYaw: 111.52826
         world: world
@@ -403,7 +403,7 @@ npc:
           amount: 1
           mdata: 0
       spawned: true
-    traitnames: spawned,equipment,skintrait,sittrait,hometrait,location,type,lookclose,mounttrait,scoreboardtrait,rotationtrait,commandtrait,inventory,owner
+    traitnames: type,skintrait,hometrait,location,lookclose,scoreboardtrait,sittrait,mounttrait,equipment,rotationtrait,commandtrait,inventory,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -419,13 +419,13 @@ npc:
         globalParameters: {}
       inventory: {}
       location:
-        bodyYaw: -158.97699
+        bodyYaw: -161.73376
         world: world
         x: '183.7'
         y: '64.0'
         z: '254.5794'
-        yaw: '-158.977'
-        pitch: '-70.0032'
+        yaw: '-161.7338'
+        pitch: '-67.5593'
       scoreboardtrait: {}
       lookclose:
         range: '10.0'
@@ -455,7 +455,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: spawned,location,type,lookclose,skintrait,mounttrait,scoreboardtrait,rotationtrait,inventory,owner
+    traitnames: mounttrait,type,rotationtrait,skintrait,location,lookclose,inventory,scoreboardtrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -471,13 +471,13 @@ npc:
         globalParameters: {}
       inventory: {}
       location:
-        bodyYaw: -79.22474
+        bodyYaw: -84.03403
         world: world
         x: '181.3'
         y: '64.0'
         z: '252.3'
-        yaw: '-79.2247'
-        pitch: '-58.1387'
+        yaw: '-84.034'
+        pitch: '-58.5014'
       scoreboardtrait: {}
       lookclose:
         range: '10.0'
@@ -507,7 +507,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: spawned,location,type,lookclose,skintrait,mounttrait,scoreboardtrait,rotationtrait,inventory,owner
+    traitnames: mounttrait,type,rotationtrait,skintrait,location,lookclose,inventory,scoreboardtrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -523,13 +523,13 @@ npc:
         globalParameters: {}
       inventory: {}
       location:
-        bodyYaw: -48.32935
+        bodyYaw: -63.802406
         world: world
         x: '183.7'
         y: '64.0'
         z: '252.3'
-        yaw: '-48.3293'
-        pitch: '-80.0866'
+        yaw: '-63.8024'
+        pitch: '-81.7907'
       scoreboardtrait: {}
       lookclose:
         range: '10.0'
@@ -559,7 +559,7 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: spawned,location,type,skintrait,lookclose,mounttrait,scoreboardtrait,rotationtrait,inventory,owner
+    traitnames: mounttrait,type,skintrait,rotationtrait,location,inventory,lookclose,scoreboardtrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -697,7 +697,7 @@ npc:
             cost: '-1.0'
             experienceCost: -1
       type: PLAYER
-    traitnames: spawned,location,type,skintrait,mounttrait,scoreboardtrait,commandtrait,inventory,owner
+    traitnames: mounttrait,type,skintrait,commandtrait,location,inventory,scoreboardtrait,owner,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
