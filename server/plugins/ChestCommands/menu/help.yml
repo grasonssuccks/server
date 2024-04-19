@@ -51,7 +51,7 @@ spawn-command:
   POSITION-Y: 1
   NAME: '&e/spawn'
   LORE:
-    - 'Makes the player run the /spawn command.'
+    - 'Takes You To Spawn'
   ACTIONS:
     - 'spawn'
 
