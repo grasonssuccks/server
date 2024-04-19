@@ -224,3 +224,35 @@
 [14:27:40] [Netty Worker IO Thread #1/INFO]: [XJ_] disconnected with: The Server has temporarily closed
 [14:27:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58764|XJ_] -> UpstreamBridge has disconnected
 [14:27:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58764|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:36:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47510]: Connected via websocket
+[14:36:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47510]: Origin header is null
+[14:36:03] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47510]: Logged in as 'XJ_'
+[14:36:03] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47510|XJ_] -> UpstreamBridge has connected
+[14:36:03] [Netty Worker IO Thread #2/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:47510] <-> ServerConnector [lobby] has connected
+[14:40:14] [Netty Worker IO Thread #2/INFO]: [XJ_] disconnected with: Flying is not enabled on this server
+[14:40:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47510|XJ_] -> UpstreamBridge has disconnected
+[14:40:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47510|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:40:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43642]: Connected via websocket
+[14:40:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43642]: Origin header is http://localhost:8081
+[14:40:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43642]: Logged in as 'King_Jasir'
+[14:40:31] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43642|King_Jasir] -> UpstreamBridge has connected
+[14:40:31] [Netty Worker IO Thread #3/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:43642] <-> ServerConnector [lobby] has connected
+[14:40:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60524]: Connected via websocket
+[14:40:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60524]: Origin header is null
+[14:40:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60524]: Logged in as 'XJ_'
+[14:40:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60524|XJ_] -> UpstreamBridge has connected
+[14:40:46] [Netty Worker IO Thread #0/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:60524] <-> ServerConnector [lobby] has connected
+[14:41:01] [Netty Worker IO Thread #0/INFO]: [XJ_] disconnected with: Flying is not enabled on this server
+[14:41:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60524|XJ_] -> UpstreamBridge has disconnected
+[14:41:01] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60524|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:41:16] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55792]: Connected via websocket
+[14:41:16] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55792]: Origin header is null
+[14:41:16] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55792]: Logged in as 'XJ_'
+[14:41:16] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:55792|XJ_] -> UpstreamBridge has connected
+[14:41:16] [Netty Worker IO Thread #1/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:55792] <-> ServerConnector [lobby] has connected
+[14:41:47] [Netty Worker IO Thread #1/INFO]: [XJ_] disconnected with: Flying is not enabled on this server
+[14:41:47] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:55792|XJ_] -> UpstreamBridge has disconnected
+[14:41:47] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:55792|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:42:25] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43642|King_Jasir] -> UpstreamBridge has disconnected
+[14:42:25] [Netty Worker IO Thread #3/INFO]: [King_Jasir] disconnected with: Proxy lost connection to server.
+[14:42:25] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43642|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
