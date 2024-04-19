@@ -1,9 +1,0 @@
-# BanGUI #
-messages:
-  prefix: '&8[&2BanGUI&8]'
-  noPermission: '&cYou dont have permission do to that!'
-  ban: '&eYou &cbanned &5%player%&e!'
-  pardon: '&eYou &aunbanned &5%player%&e!'
-  banMessage: "§cYou have been banned! \n &6Reason: &e%reason%"
-  TempBanMessage: "&cYou have been temporally banned! \n &6Reason: &e%reason% \n &eTime:\
-    \ %time%"

@@ -137,3 +137,29 @@ Reason: Test
 [19:24:06] [Netty Worker IO Thread #0/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
 [19:24:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54100|King_Jasir] -> UpstreamBridge has disconnected
 [19:24:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54100|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:26:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60284]: Connected via websocket
+[19:26:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60284]: Origin header is https://eaglercraft.com
+[19:26:58] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60284]: Logged in as 'King_Jasir'
+[19:26:58] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60284|King_Jasir] -> UpstreamBridge has connected
+[19:26:58] [Netty Worker IO Thread #1/INFO]: [King_Jasir|/[0:0:0:0:0:0:0:1%0]:60284] <-> ServerConnector [lobby] has connected
+[19:29:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47802]: Connected via websocket
+[19:29:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47802]: Origin header is https://eaglercraft.com
+[19:29:34] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47802]: Logged in as 'XJ_'
+[19:29:34] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47802|XJ_] -> UpstreamBridge has connected
+[19:29:34] [Netty Worker IO Thread #3/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:47802] <-> ServerConnector [lobby] has connected
+[19:31:32] [Netty Worker IO Thread #3/INFO]: [XJ_] disconnected with: [BanGUI] You have been banned! 
+ Reason:  
+[19:31:32] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47802|XJ_] -> UpstreamBridge has disconnected
+[19:31:32] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47802|XJ_] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:31:43] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49194]: Connected via websocket
+[19:31:43] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49194]: Origin header is https://eaglercraft.com
+[19:31:43] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49194]: Logged in as 'XJ_'
+[19:31:43] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:49194|XJ_] -> UpstreamBridge has connected
+[19:31:43] [Netty Worker IO Thread #4/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:49194] <-> ServerConnector [lobby] has connected
+[19:31:43] [Netty Worker IO Thread #4/INFO]: [XJ_] disconnected with: Kicked whilst connecting to lobby: [BanGUI] You have been banned! 
+ Reason: 
+[19:31:43] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:49194|XJ_] -> UpstreamBridge has disconnected
+[19:31:43] [Netty Worker IO Thread #4/INFO]: [XJ_|/[0:0:0:0:0:0:0:1%0]:49194] <-> ServerConnector [lobby] has disconnected
+[19:33:44] [Netty Worker IO Thread #1/INFO]: [King_Jasir] disconnected with: The Server has temporarily closed
+[19:33:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60284|King_Jasir] -> UpstreamBridge has disconnected
+[19:33:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:60284|King_Jasir] <-> DownstreamBridge <-> [lobby] has disconnected
