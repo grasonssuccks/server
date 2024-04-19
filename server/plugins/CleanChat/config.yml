@@ -43,5 +43,6 @@ IgnoringBroadcasts: []
 IsWorking: 19:4:49 false
 SpamList:
 - DummyPlayer 10
+- d69e4b5f-d82f-353d-8c72-6d5b945e2e7a 1
 ServerJoinMessage: \u00A76Welcome to \u00A76\u00A7lKings SMP
 PlayerJoinMessage: Welcome to this server! Change this message through the /cc PlayerJoinMessage <message>   command, colour tags can be applied to this message, for full colour tags help type /ColorTags.

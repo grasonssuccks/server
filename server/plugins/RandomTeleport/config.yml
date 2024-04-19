@@ -1,0 +1,21 @@
+#Welcome to Random Teleport !
+#If you made any changes please restart or reload the server
+#-----------------
+#Plugin version = 0.1.5 Alpha
+#Updating Notifications soon for now you could check if this plugin is in the last update.
+#[https://www.spigotmc.org/resources/randometeleport.88978/]
+#-----------------
+#-
+#Enable or disable the location when changed its require
+#restart/reload
+#-
+#this int value is the mapreduce for the teleportation (2000 by default)
+radius: 5000
+#cooldown(default : 10s)
+Cooldown: 10
+#Worlds(the plugin will work only on those worlds [Nether , End are not supported !]) the world
+#this world the player will be able to teleport on:
+Worlds: "world"
+#---------
+#Bugs ? feedback ? just dm me on discord {NullClass#9694}
+
