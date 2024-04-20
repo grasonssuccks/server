@@ -2,7 +2,8 @@ Default: Member
 Usertags: ''
 Groups:
   Member:
-    permissions: []
+    permissions:
+    - autoafk
     inheritance: []
     build: true
     chat:

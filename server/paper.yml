@@ -88,10 +88,10 @@ world-settings:
     container-update-tick-rate: 1
     keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
-    disable-mood-sounds: false
-    use-async-lighting: false

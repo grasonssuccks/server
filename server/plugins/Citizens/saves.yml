@@ -14,241 +14,8 @@
 
 
 
-last-created-npc-id: 9
+last-created-npc-id: 17
 npc:
-  '2':
-    metadata:
-      cached-skin-uuid: a865229e-503a-4c2d-918f-35857d071d52
-      cached-skin-uuid-name: survival
-    name: Survival
-    uuid: 2c0ef25e-75c6-4f6f-80da-14a565fb6306
-    traits:
-      skintrait:
-        fetchDefaultSkin: true
-        signature: T0T/MBj7F7tdyZE/LOMQZXELfEOZMb9NrAHzNcbP0C616/XjVkiKN869vp9vdTMkZUUEoX6pG2hpF0J1TPa2liK28FjjAbeayh5iQR1kHS0prP8X+UJKEgqXAFha4g824c5rTaFiyEfbnl1VwJazCbYfljz6q1MOQd0X36ZpPTm2zN2gsFkNtovwFplLZBv+lXyRJdJc7IAv8k/qtkZLr+emCWlz+wWvmI+hxcmKnkvUR5FhKV8cYbfXD6liVLE5ZG+M6fB6lImBNs3C8yLx8wEadCtlfMT5bRb2sttYIhwdA2plNvjHeo0mUfcHwb0sQ4iYYp1n0Poc08TywbHIScuSUvS4/sbUfhEDIoynRmq0S0AJkfk+ldiF1tlUH+T/2sJgaf+xwT5QZZENUfETsXMU7sOwcpvadpqRQTwg0HU0J7jANaB3I0L6E2qIa3r+/nRWY2nfLwvlP44+rxe5CWZQg+nIKcHlTdoTYVxWtNAZ0es33CMZjBPtrzcU1Gxkz7dklTZqBFKPNxLefD3Qw7dqfuVbzMYCUTFKfxzdDKvwjXiJFaSlNEqvOpJSc+jNYLd4gfdPPjOD4F5Z7v5fclTno4N0qic3nJFH+qkbB2UykAuGegGGb6G3+MofIfe7S22wAPM73LCNMvqHjDGzSN13bxCbPv8VAPjIFwmkkuQ=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzQ4MzYwODUxMSwKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9
-        updateSkins: false
-        skinName: Survival
-      owner:
-        uuid: 9e803241-4a96-394f-bba8-8e95caac654e
-      type: PLAYER
-      location:
-        bodyYaw: 106.629456
-        world: world
-        x: '184.4585'
-        y: '67.0'
-        z: '265.3517'
-        yaw: '106.6295'
-        pitch: '-77.52'
-      inventory: {}
-      scoreboardtrait: {}
-      spawned: true
-      rotationtrait:
-        globalParameters: {}
-      commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
-        commands:
-          '0':
-            command: tpr
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '1':
-            command: /tpr
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '2':
-            command: tp 35 69 285
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '3':
-            command: tp @p 35 69 285
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '4':
-            command: tp @s 35 69 285
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '5':
-            command: /tp @a[r=2] 35 69 285
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '6':
-            command: tp[r=2] 179 66 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-      lookclose:
-        range: '10.0'
-        disablewhilenavigating: true
-        enabled: true
-        enableRandomLook: false
-        headonly: false
-        linkedbody: false
-        perplayer: false
-        randomLookDelay: 60
-        randomSwitchTargets: false
-        realisticlooking: false
-        targetnpcs: false
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      waypoints:
-        linear:
-          cachePaths: false
-          cycle: false
-        provider: linear
-    traitnames: type,mounttrait,scoreboardtrait,waypoints,commandtrait,location,lookclose,rotationtrait,skintrait,spawned,owner,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: false
-  '4':
-    metadata:
-      cached-skin-uuid: e39266ab-7849-45d9-8e07-3588ac088b60
-      cached-skin-uuid-name: dauts
-    name: Lobby
-    uuid: e8940b53-22fd-4eaf-9691-9713fe156459
-    traits:
-      skintrait:
-        fetchDefaultSkin: true
-        signature: cHg+8z8K0ELEt5ySb2J9oL44MtVEhwcV8c9J+/ruf9W1Hj4vNqvgg/iTgTlRW89+8yCTx5orj0ArUNHyG+/k87XCfPG77TB80Dy6bziHtAbt6pXEyuLumKg9VjAT2BQsagK20QltiVqt084C//v8XKnGaON619/SdDBo991/mc+aRapWRq0Z7uqJ23c2eHm8J/d1GRkiMbkm0uoXvxqbG3JILYYpzXgBbcS0vwhrPB7yhHQhVXQrt8/AWFtDs/k7IBf+bzNmK6afI9T3ANbmWWlE+iAz6i7oNi3HkjJy1jZ70vMLVW9ep+OEbE3uOBE/4jCuYaHeurg6v1ES6/Ui4DzRbwF53NYokSp6gm4P+n68v8qSp1MlR7pTMatw+upYsNzTDe2KOOTKbYlFiOBiPzfhuZDn7WVcwDS1qQ44qFnIu9Sv7XFGYfB2o3yMNa6Jxc5Zjns38QtcspNixgV/TrqWIPjS7XP9LQfRbc/avwfT7CP8FCt79O9VO4RqUKE9AWlpLaAdP07/rXtnaifemXEH4IFzfxmD3Mq512z5W8Ydx6mnPgSaeX45CWR1yHiPoAOIn/rm5umRIFol+nMHUDjGNN+oxN6MIpIXbGYOeWoXpP01Q+Ph/VdIq1ok8+D5B7vv+5xO2nIoJwUnxaIIRZd4RyzMr/U+lxIR+JDnagw=
-        skinName: dauts
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzQ4NTM4NjYxOCwKICAicHJvZmlsZUlkIiA6ICJlMzkyNjZhYjc4NDk0NWQ5OGUwNzM1ODhhYzA4OGI2MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXV0cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iODA3ZTVhYjE1NDg1MDRkZGM2MDI0NmNiNDRiMjMwMmJhMzNhYmVlZWVmODUzOWEzZGIyMzNkNmFjYTRkM2FiIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
-        updateSkins: false
-      rotationtrait:
-        globalParameters: {}
-      owner:
-        uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
-      type: PLAYER
-      location:
-        bodyYaw: -102.26744
-        world: world
-        x: '37.6982'
-        y: '69.0'
-        z: '284.4206'
-        yaw: '-102.2674'
-        pitch: '-0.3814'
-      inventory: {}
-      lookclose:
-        range: '10.0'
-        disablewhilenavigating: true
-        enabled: true
-        enableRandomLook: false
-        headonly: false
-        linkedbody: false
-        perplayer: false
-        randomLookDelay: 60
-        randomSwitchTargets: false
-        realisticlooking: false
-        targetnpcs: false
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
-        commands:
-          '0':
-            command: msg @p Going to Lobby
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '1':
-            command: tp @p 184 70 252
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '2':
-            command: say Teleporting to Lobby
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-      scoreboardtrait: {}
-      spawned: true
-    traitnames: type,mounttrait,scoreboardtrait,commandtrait,location,lookclose,skintrait,rotationtrait,inventory,spawned,owner
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: false
   '3':
     metadata:
       cached-skin-uuid: 425b009c-d0c2-493d-a394-4a00e56532e4
@@ -403,7 +170,7 @@ npc:
           amount: 1
           mdata: 0
       spawned: true
-    traitnames: type,mounttrait,scoreboardtrait,equipment,commandtrait,location,skintrait,sittrait,owner,spawned,inventory,hometrait,lookclose,rotationtrait
+    traitnames: skintrait,hometrait,spawned,location,owner,commandtrait,type,lookclose,inventory,mounttrait,equipment,scoreboardtrait,rotationtrait,sittrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -455,141 +222,157 @@ npc:
         uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
       spawned: true
       type: PLAYER
-    traitnames: type,mounttrait,scoreboardtrait,location,lookclose,rotationtrait,skintrait,owner,spawned,inventory
+    traitnames: type,lookclose,skintrait,inventory,spawned,location,owner,mounttrait,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
-  '8':
-    metadata:
-      cached-skin-uuid: 47dbc5c4-d3e4-4b92-b241-dde2ed212f8a
-      cached-skin-uuid-name: shadow
-    name: ShadowWolf
-    uuid: 070a6098-d952-46a5-8b1c-bca8ef07d163
+  '17':
+    name: '&a&lSHOP'
+    uuid: 30105a55-0964-4de3-9751-140f9116f46a
     traits:
-      rotationtrait:
-        globalParameters: {}
+      type: VILLAGER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: Ba1racthq2gZDCYqzP4iIc673TL0w0Y+4RkUPFuZoAxk+Sql6eNv5AwzhjAEdkkTDhNFTL47hPlI5XCT4yy5zP/dtLg6ADPl8jpG45v8YMnxIDM1uOleWfdRs9vs+zf+gI4oQaJhC10Nd1cTJq0Ab5qqot8fokdAgYyloC/NU0wagsB9mNUifxn8XtlQ+M/59RBOXf04s7C/JcUy/rIheLUwP5r2Zg+0Tb+cn03OEl/CRF4anlTpZo8Ya+9IfNvzLjN4CvOjYHwn0a7fgoytLxQQFym5rleEMVV18bEAmjLRBCiMus3nsvUpLaqZ+YOVqXngX9t6orNVcQvMjlwXpq0Rl+l3767n98UEiVMReyUlDLemcKxrYnDo+G1iCkmtnoN9+y9d7Lsh0Vt99CZr7x154hGUDG9p0KEM8hy+44r4nHMgWbxPu/odcUtVGCNc0EuTzI5oMEMSVF3drqP3EhqjGIl4kc8imuG01qqPcwuQJfUeAbGGGxGD3LLv5wvLLGrXu+jmNuioRHSunNjdMo5gdUVeIMj1VtPJ8pkSw6E++0YLSp1rXfkwjxbOkX/yNZS7RExXhbbQP38KcBjIVjCjs17F4tfr9TfEq8zKVjBrnGPCWg8X0+HkoejuEm9/pO+Wy95f+Br6KSUhvLGiR9aP0p3PbO+RasPZa3jv96E=
+        skinName: Villager
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzU3NjMxNTQ4OSwKICAicHJvZmlsZUlkIiA6ICJhMDVkZWVjMDdhMGU0MDc2ODdjYmRjNWRjYWNhODU4NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWxsYWdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YWY3YzA3ZDFkZWQ2MWIxZDMzMTI2ODViMzJlNDU2OGZmZGRhNzYyZWM4ZDgwODg5NWNjMzI5YTkzZDYwNmUwIgogICAgfQogIH0KfQ==
       inventory: {}
+      spawned: true
       location:
-        bodyYaw: 102.21637
-        world: world
-        x: '181.3'
-        y: '64.0'
-        z: '252.3'
-        yaw: '102.2164'
-        pitch: '-39.1842'
+        bodyYaw: 225.03178
+        world: Kings SMP
+        x: '233.5'
+        y: '73.0'
+        z: '237.5'
+        yaw: '225.0318'
+        pitch: '0.0'
+      owner:
+        uuid: d69e4b5f-d82f-353d-8c72-6d5b945e2e7a
       scoreboardtrait: {}
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
-        enabled: true
+        enabled: false
         enableRandomLook: false
         headonly: false
         linkedbody: false
         perplayer: false
         randomLookDelay: 60
-        randomSwitchTargets: false
-        realisticlooking: false
-        targetnpcs: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
+        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-      skintrait:
-        fetchDefaultSkin: true
-        signature: we6pCZM88KoA0qewJX+s+VxzFakIKRKbjnrsG+5c1NGiPQPJpkD1XHOtZJd2fCVrJges7m3UO1WyU45m3BWtFItDrkBf4AhPaVVEgrFqLj+63DSej89YiQXg66w4uhwxY0RgItf2YWKZIfE7SstvObSbrkVxqFVZr1abw56itmId9Q75r7ip2PKWCTjdqkEsNJWvXZ3nCo6p71kTdnDVXHpIUbSdKaXrvoowsbH1ylPC7TXBDplKHkdv1cwtfbHuxMzr3HW7GIf3HfHwlwomVhRIrdLmJ1N7d3SZgbhSbynM31Oi031hE7BVthinbiMEtCn2xBvtpGiNfBu08Nlu/fa6VgbWIpFXpyzF/sk9Jl6y9xJg0rrh7sxlHRpAy4pKLr9psTYvOiDDME9zLMQhWaiTn3fG1UV4FzaLTF3ooLg4TvB/13IEDSiFp/4qLbz2cUd2AMGdtmONXSIZSkecGTqysn+hW5tL/BC7F5xrP7iDKl9Z332VAddTSMo5hc3C107WpXcxs0nWeZw6J3HJ2+Y779z9g8F+U10X2Yz13GtTjvLh4to0O03S9FewpE/LpNB1LXoUg7B+k0Taa6kil7MtkOYZtWGMQyHnkfKvQLjiYqZV/rPCQJ6O4zuaJNK2ifXI5/T+oq8qxly8/jHU1TKX3P/khLFSIgrKrDOIC2s=
-        skinName: Shadow
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzQ4OTA5OTU0MiwKICAicHJvZmlsZUlkIiA6ICI0N2RiYzVjNGQzZTQ0YjkyYjI0MWRkZTJlZDIxMmY4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaGFkb3ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY5YzliOWM5OWYwYTNlMWMyM2FiOWY5M2E3NTgxZDJhZDI2MWRhMzU5YThkNGU3ZjlkZWZjMzQ0ZmYzMTVkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
-        updateSkins: false
-      owner:
-        uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
-      spawned: true
-      type: PLAYER
-    traitnames: type,mounttrait,scoreboardtrait,location,lookclose,rotationtrait,skintrait,owner,inventory,spawned
+        realisticlooking: false
+        targetnpcs: false
+    traitnames: type,skintrait,inventory,lookclose,spawned,location,owner,mounttrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
-  '7':
     metadata:
-      cached-skin-uuid: c66f7c8a-ed0c-4469-90b0-421d8ff7ca49
-      cached-skin-uuid-name: sapnap
-    name: King_Jassir
-    uuid: aca40093-3a28-49ff-b12f-7380f2f226a3
+      cached-skin-uuid: a05deec0-7a0e-4076-87cb-dc5dcaca8586
+      cached-skin-uuid-name: villager
+  '16':
+    metadata:
+      cached-skin-uuid: d7d1f984-ff4b-43b3-8909-8ae1cc409740
+      cached-skin-uuid-name: chill
+    name: '&eHelp'
+    uuid: afc87149-9f63-46ea-8139-76cc5a52dd70
     traits:
-      rotationtrait:
-        globalParameters: {}
-      inventory: {}
-      location:
-        bodyYaw: 143.2582
-        world: world
-        x: '183.7'
-        y: '64.0'
-        z: '252.3'
-        yaw: '143.2582'
-        pitch: '-35.2526'
-      scoreboardtrait: {}
-      lookclose:
-        range: '10.0'
-        disablewhilenavigating: true
-        enabled: true
-        enableRandomLook: false
-        headonly: false
-        linkedbody: false
-        perplayer: false
-        randomLookDelay: 60
-        randomSwitchTargets: false
-        realisticlooking: false
-        targetnpcs: false
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
+      type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: wGibKI/r57Dy0nOCd4BL3RFhQTIGb/aYzcIpzO/N+lKDs3uPWrqzZhPIEzKof6e6Dvd3kfNmecLSx1Ob84swfgJmBubfi3JvvipymAOKbB0RgnG4oAFZQN9swHNh3v9RHqC7b0ZGt05UlEyOG/aIzn1Qf6E7ayB/JrMUveax4jF6HDml+H7oq7osTZOToJkHE5QDH37nO0+l6dEWMs+KQVCr38Gm34vmCSwPw08zaAL0C91yMd/sVPhX3yIq/s02X1l1gDu+kmdXKurVrwOP53jCZll1xMubZegQSfBmisiLMAPsjsvqbwqxCj7NB/gXifhshPNJYaVIqJHC3XIJeON716WXDszO3iO3DWz3UNt9ZNj2DXEzfn3Xb9ZgXjDquso0uetG767Ia+8lvg09eGP/JpWxIGxyrRcucN9mXC3U9AVggB8mwqMVvChUrt5/R57QFT7Y2ALscyhlFH+BRIGjP574WBPBRMulCsU7a43uQw69Ab1skQ9w1uPCtHTdrSPVCylhCRq6hlmBDcHrlnvaA1HcOUeO1HkWuRPtNxSgKTukNb9iXAcmCpA3j9Wjn5aaolML5tiFPaUjfFDaeLb1fw1IB2zAmkRyeB7KFfGHgB4XyAK2XIem0UaCSPsr6i55mNs/lzrB54nDZAmJdgm+sTBXIKu0hWlMbqwDMyE=
-        skinName: Sapnap
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzQ4OTA1MTUzNywKICAicHJvZmlsZUlkIiA6ICJjNjZmN2M4YWVkMGM0NDY5OTBiMDQyMWQ4ZmY3Y2E0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYXBuYXAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTliYTQ3NGNiODQwY2E4NjkyYzg2N2JlNDU5ZmI0MTQyZmYwMTRhMjZjMTViYzY2NzhhODBhMWQzOGQ0MjQ5NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        signature: H0cNtlUT+p6GXX6BbhoHV9lHXMKvkmCcJ2kWF/fvrBvwqxdVU0p6sjglbDfazD/gpXb8MaiW8UYgiqitb3I4ap6jAyZBS3iC+8XTpnHtGhtFFNeNd82r4yQsTZ4E2KjXAFcez0O3j8cKwpxLXgQZjEsTCSbrxUZZEKj/1hBu3iD+MusWIv1/U0whDXeaL0TYt87CsyjXV0Ri2FWE0Vo7jJ9XgBo2ZvNoE3OZPtZ1BODPJ/HAUnKFGlzFR9KoLQIiNRa59DH6041XJcxekAuH+4VMKNtjUloDXG60br7Q8rMy8mxum0xvmgEN+kWCU+Flc4KNPTs9u+q9/GPTTd/a/osQ4udnvvQaQd2Ep8rE6WyBE+R9ClIBCJ+kGTGPXYwuDbcWE3CPMZV219CpwlbiJQ9PDu+EI0yav+l34hcLxUCz0w+fl4Og84Zn31Ai+8nXBelvqmbWFRDsYoat6pXaybrGkJ3KCLA75jn8B1/m0V40UVQo9RCJoTnq4gkQuEdzSlHkBdm7gOXkkQ+Gu87WwFVIoDiRGQFoNGFOEqa3f7pDcTGn+t4eJrAAOZ/sSXq74tdy4+zILW2XejjJRfWgDdvMKtNpm85fBPyk8PB1Iya7JqIfNcRsPaK45x3XyCJbr8Ri5wZY2Av6xP0pwY+iTFPWiuxVYnMUOn6lcx1XhmI=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzU3NDg1OTUzNywKICAicHJvZmlsZUlkIiA6ICJkN2QxZjk4NGZmNGI0M2IzODkwOThhZTFjYzQwOTc0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGlsbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODJiYWFhZWY0ZmQ1MTZiZDk1M2RhMWYwYTRjZjFjZDNiMGU4M2I3ZDA4YWI5MGFjY2FkYWQzYTg2NTY0MzVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUzYjFhMGRmY2JhZTk1M2NkZWI2ZjJjMmJmNmJmNzk5NDMyMzliMTM3Mjc4MGRhNDRiY2JiMjkyNzMxMzFkYSIKICAgIH0KICB9Cn0=
         updateSkins: false
-      owner:
-        uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
+        skinName: Chill
+      inventory: {}
       spawned: true
-      type: PLAYER
-    traitnames: type,mounttrait,scoreboardtrait,location,lookclose,skintrait,rotationtrait,owner,spawned,inventory
+      location:
+        bodyYaw: 135.23758
+        world: Kings SMP
+        x: '238.5'
+        y: '73.0'
+        z: '237.5'
+        yaw: '135.2376'
+        pitch: '15.3455'
+      owner:
+        uuid: d69e4b5f-d82f-353d-8c72-6d5b945e2e7a
+      scoreboardtrait: {}
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+    traitnames: type,skintrait,inventory,spawned,location,owner,mounttrait,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
-  '6':
+  '15':
     metadata:
-      cached-skin-uuid: c823834b-ac56-4d07-9203-217e5070c76e
-      cached-skin-uuid-name: easteregg
-      nameplate-visible: 'false'
-    name: EasterEgg
-    uuid: 53739ba5-c7ca-4c3e-9d1c-22a1f27f6fc6
+      cached-skin-uuid: c15681cb-b5b8-4220-b179-6c4bd3f4e0e4
+      cached-skin-uuid-name: rules
+    name: '&c&l&nRULES'
+    uuid: 2e6d8f57-0d67-4ff3-a314-093d2ca2c825
     traits:
-      inventory: {}
-      location:
-        bodyYaw: -203.2734
-        world: world
-        x: '179.4947'
-        y: '66.0'
-        z: '254.3'
-        yaw: '-203.2734'
-        pitch: '-5.0091'
-      scoreboardtrait: {}
+      type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: fP13hG4lf7l5TQmEXTrf/TRHBzxgHQBXfPcQnPipqgqqccDUXfwblB8DqKmeCkIei3X9f2AW2LQrQuNclxSP77Av9pmb295uL1SlcKCAxJdOkEZVWcZ6eIADN+OZGlzXLrqPXkUwHFG2JqtG5jeXWGxnefb8Tq/z7e+hbqv2EF2J0J37OxpFRD6RswmG9d93Koxn+f2lju6JcYKWZ852cJchdrsg7Lo9BznfO8DOmfYMcge6vNA4J2lL6oC5wRh8DsO6sXq8bJk8vrdFwlJwuveUUw2tEwn43Et1lZTUhVTDDBEWlLHz11qVkO2fwxjos8koRTdwrD9NSZjMt4hUgy9srE+q0BrQtA+vBANexpfZZDMYnZBX/LsuKUQNSJVdO9d4yXWivTb5JX7tOkaue8T4zcTsgqDozKUDe+Wm6M4072WVijuzi+sSdwVPQMMkUGTrXM7ZxG30acXZA6YV0FJL2bX/Ms47c/hncBx+W7YQdwvfloRMUYrigh9oA4wh8eP1V4Xp0FiF2y3DUFJqnOYfDW/WmCWam0HrXTubCUe5IbpOkRbvsQJm5bI4U7MLcgqm0GBxXuqKyuTdEZHT7wEH2P31CsXJqaTrrjxr0XxRfYX1+Jj7GJsI/7iXBnjsd2fdiRFaNLrVH3ZBt52Pr0wSqjOvkdCRw49i+k4j9OA=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzQ4ODY0MDM3MCwKICAicHJvZmlsZUlkIiA6ICJjODIzODM0YmFjNTY0ZDA3OTIwMzIxN2U1MDcwYzc2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJlYXN0ZXJlZ2ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4MmQzYjEyYTIwZDllZmQxYTg2MWJlMTM4Mzg3N2EwYjkxNTEwYmVhYmEwOTBkZTQ4NGEzNDQ3MWVmNjEwNCIKICAgIH0KICB9Cn0=
+        signature: uiE4KJ/XSNB506puCtMt57pN5h72YvUMVPG0SnPIoKOaYhQ20l+PbZSpCqH8BGnfKph60BW5mrAJizVAFn6jAni0yAzJR6MzbaYFbFddF6DnrSrBnZatwO9o3fCv9YI30F53qI/fedtWmZTbQEbjvXLpY7+l0W6NEej2fGlsR19H86p1fMWpW8BoHITzsxLzQd71dBj5bnT9hy5yMHRd0Q5WWr8FynlTdAWg7m3iif+Mqn7pJny+Bi8lcI4wFWmumlk/eOTL/CibxEuzuyeXbVKZNAQSmdA9hCqNCd83p+ebOiWBKLihCVdkQDvIpWxdyahIBmfgfKtH9ipBKJKxcweyP/vphQ2bR40fXXk02TuDjTSG8tQmPfKuNjpuJwHL4fMhmj9dywOqDYrBdacsSbBMko9hMVuBuCTZIPF5NVnp1wrY4Z5cIfCx7Eag32EmcPglF6zIY+oE07c9OOrDeK2GYnbHbfsT3eY0vuHe74Jayyl/aBtA28DdCtouOgg1DP2s8xFiP9Z+4I/xwWagd4RKqhJvkcYoMXGsl3S9KwqP76C7VapGK/b82qUNJLtClPKqQbIh1LkHR90GO8B69TOs3m1E0uDzqtPleBJBRL+XAZnDnJq53caXTm1u1pak5yjE67XpY6qk4DM09t/l4b1xXVCEbeSdcwPSjrKYG6Y=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzU3MDY1Mjk3MSwKICAicHJvZmlsZUlkIiA6ICJjMTU2ODFjYmI1Yjg0MjIwYjE3OTZjNGJkM2Y0ZTBlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdWxlcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZDJkZWU2NzE1YjBlMjNkYzZmZDkwYTdiY2M4MDVlNjdiYzkzOWFmZjc1ZGM3NTczM2VlMzVhZWM4Y2IxYjNjIgogICAgfQogIH0KfQ==
         updateSkins: false
-      owner:
-        uuid: c04dd39d-e293-38f7-ae95-50ec6d55f286
+      inventory: {}
       spawned: true
+      location:
+        bodyYaw: 44.921307
+        world: Kings SMP
+        x: '238.5'
+        y: '73.0'
+        z: '232.5'
+        yaw: '44.9213'
+        pitch: '15.0845'
+      owner:
+        uuid: d69e4b5f-d82f-353d-8c72-6d5b945e2e7a
+      scoreboardtrait: {}
+    traitnames: type,skintrait,inventory,spawned,location,owner,mounttrait,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    metadata:
+      cached-skin-uuid: cf416ebd-925e-4fb4-b415-09a0d18e6fb3
+      cached-skin-uuid-name: rtp
+    name: '&6&lRTP'
+    uuid: a0512db1-fd05-405d-b2cf-9fc94937e0f5
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: uz1SicQ5RVjIet/dI7Mj/wKlEvfddrW1v6oWGubDLBA5wt4/PDXtTVQ2f7wXeyPuvnN/XVniVgxiiKgJrFcCngx1uOi6J5nU3mDL3A6xv10DyHVi9vlitmNGXUsE5RCCDGFP/EXFX4I65EyVAlLhdvHWaIpathE3ywu8Mt5g4kZye6RxxcqvfjXH+YwpPgPM2CheyEH1uW/BzvLLcWfl601897FBpCMx/UD75SqfyB6Xxswy6TwBXjaqd70oagGPmjiwWpGy2ca3LSB2G1Ep9vN9DV07mYskgl7c55cJ9CTMcFxpBF3BdxRIaZxnbbgQXkNYeNv+pdwphv3U9fGraIqNVFiWbdkAEtAr9KRBZH2MbzmZ9i2xZbUysp8SACJrr22EWeimkSdtjFJmXE7H/dtCdziZCfPZZdfzEmy+ej8i95bqj+pJpjPctq0zRjjvwN8YKiCqoAhH2YrpurcRByRh3qs9CWO8+ZT7eaoRVclT4/VPY35UxZmqOzJs7O1gHdzuXkm/nVzqL2hsyug9lFav6CePT9Z8LJKxoqxE1IlVgpNkEKR/fd07vqxGExueUqG6mFfYjryPyknUR5CG7yN1US4PZ2YryAT+pjz0PMz4RzdkQ3iIL5/U6zQDSHximDyGzCqfFRn9xaC9DcuYI0OskiJZmKX0iLOS+ZnKmjI=
+        skinName: RTP
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxMzU3MTA3MDQ3MCwKICAicHJvZmlsZUlkIiA6ICJjZjQxNmViZDkyNWU0ZmI0YjQxNTA5YTBkMThlNmZiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSVFAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhlMDQwMGVhMzMxNDgwZDhkYTA1MTBiNjQyYmE3MzExOWVhZTg4OTFmOGEwMTlkNjVkYjJjYWQyNDkyZGM2NSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      inventory: {}
+      spawned: true
+      location:
+        bodyYaw: 315.1271
+        world: Kings SMP
+        x: '233.5'
+        y: '73.0'
+        z: '232.5'
+        yaw: '315.1271'
+        pitch: '20.3051'
+      owner:
+        uuid: d69e4b5f-d82f-353d-8c72-6d5b945e2e7a
+      scoreboardtrait: {}
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -598,7 +381,7 @@ npc:
         persistSequence: false
         commands:
           '0':
-            command: tp @p 18063 254
+            command: /execute @a[r=2] ~ ~ ~ rtp
             hand: RIGHT
             player: false
             op: false
@@ -609,7 +392,7 @@ npc:
             cost: '-1.0'
             experienceCost: -1
           '1':
-            command: tp @p 18063 254
+            command: /rtp
             hand: RIGHT
             player: false
             op: false
@@ -619,85 +402,7 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-          '2':
-            command: /tp @p 18063 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '3':
-            command: /tp @p 18063 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '4':
-            command: /tp @p 180 63 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '5':
-            command: /tp @s 180 63 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '6':
-            command: tp @p 180 63 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '7':
-            command: tp @p 180 62 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-          '8':
-            command: tp @p 180 68 254
-            hand: RIGHT
-            player: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: '-1.0'
-            experienceCost: -1
-      type: PLAYER
-    traitnames: type,mounttrait,scoreboardtrait,commandtrait,location,skintrait,owner,inventory,spawned
+    traitnames: type,skintrait,inventory,spawned,location,owner,mounttrait,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
