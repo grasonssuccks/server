@@ -1,0 +1,30 @@
+{
+  "CMD": "b",
+  "noPerm": "\u0026cder Computer sagt nein!",
+  "Reasons": {
+    "1": {
+      "Name": "Hacks | Clientmods",
+      "Reason": "Hacks | Clientmods",
+      "Type": "BAN",
+      "BanTime": 336
+    },
+    "2": {
+      "Name": "Beleidigung",
+      "Reason": "Beleidigung",
+      "Type": "MUTE",
+      "BanTime": 24
+    },
+    "3": {
+      "Name": "Extrem",
+      "Reason": "Extrem",
+      "Type": "BAN",
+      "BanTime": -1,
+      "Perm": "ban.extrem"
+    }
+  },
+  "ImmunePlayers": [
+    "4723c900-4b13-4901-96fb-4baec8e52a84",
+    "ee3bc545-c9b5-465d-b2de-5fdc8376c285",
+    "be3889f8-e71c-4fba-a20a-3a8060c19c67"
+  ]
+}

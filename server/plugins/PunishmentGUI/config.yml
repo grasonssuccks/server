@@ -1,0 +1,11 @@
+appeal-site: yoursite.com/appeals
+prevented-cmds:
+- whisper
+- msg
+- message
+- w
+- tell
+- t
+- me
+- minecraft:me
+- minecraft:tell

@@ -1,0 +1,89 @@
+[11:42:54] [main/INFO]: Using mbed TLS based native cipher.
+[11:42:54] [main/INFO]: Using zlib based native compressor.
+[11:42:54] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[11:42:54] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[11:42:54] [main/INFO]: Epoll is working, utilising it!
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[11:42:55] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:42:55] [main/INFO]: Loaded plugin Advancedbans-Numbers version 1.0 by Phyrone
+[11:42:55] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[11:42:55] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[11:42:55] [main/WARN]: :>  apart from the versions listed below:
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[11:42:55] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[11:42:55] [main/WARN]: :>  - FlameCord: 1.1.1
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[11:42:55] [main/WARN]: :>  
+[11:42:55] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[11:42:55] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[11:43:00] [main/WARN] [EaglercraftXBungee]: Profile load timed out
+[11:43:00] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:43:00] [main/WARN]: Forced host server pvp is not defined
+[11:43:00] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[11:43:00] [main/INFO]: Downloading AdvancedBans...
+[11:43:00] [Skin Download Thread #0/ERROR] [EaglercraftXBungee]: Exception loading vanilla default profile!
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:43:01] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/server-test/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[11:43:03] [main/INFO]: SmartInvs.jar saved!
+[11:43:03] [main/INFO]: Enable SmartInvs...
+[11:43:03] [main/INFO]: Installed Advancedbans
+[11:43:03] [main/INFO]: >>>Please Restart<<<
+[11:43:03] [main/INFO]: Enabled plugin Advancedbans-Numbers version 1.0 by Phyrone
+[11:43:03] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[11:43:03] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[11:43:03] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[11:43:03] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[11:43:03] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[11:43:28] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38170]: Connected via websocket
+[11:43:28] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38170]: Origin header is null
+[11:43:28] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38170]: Logged in as 'SawYou438'
+[11:43:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38170|SawYou438] -> UpstreamBridge has connected
+[11:43:28] [Netty Worker IO Thread #1/INFO]: [SawYou438|/[0:0:0:0:0:0:0:1%0]:38170] <-> ServerConnector [lobby] has connected
+[11:43:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38184]: Connected via websocket
+[11:43:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38184]: Origin header is null
+[11:43:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38184]: Logged in as 'weewilliwonkafac'
+[11:43:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38184|weewilliwonkafac] -> UpstreamBridge has connected
+[11:43:29] [Netty Worker IO Thread #2/INFO]: [weewilliwonkafac|/[0:0:0:0:0:0:0:1%0]:38184] <-> ServerConnector [lobby] has connected
+[11:44:19] [Netty Worker IO Thread #1/INFO]: /
+[11:44:47] [Netty Worker IO Thread #1/INFO]: /effect 
+[11:44:47] [Netty Worker IO Thread #1/INFO]: /effect 
+[11:44:47] [Netty Worker IO Thread #1/INFO]: /effect 
+[11:45:13] [Netty Worker IO Thread #1/INFO]: /effect remo
+[11:45:18] [Netty Worker IO Thread #1/INFO]: /effect 
+[11:46:25] [Netty Worker IO Thread #1/INFO]: /give 
+[11:46:42] [Netty Worker IO Thread #1/INFO]: /give 
+[11:47:34] [Netty Worker IO Thread #1/INFO]: /give 
+[11:48:46] [Netty Worker IO Thread #1/INFO]: /tp 
+[11:48:46] [Netty Worker IO Thread #1/INFO]: /tp SawYou438 
+[11:50:03] [Netty Worker IO Thread #1/INFO]: /gamemode c 
+[11:50:20] [Netty Worker IO Thread #1/INFO]: /gamemode sur
+[11:50:21] [Netty Worker IO Thread #1/INFO]: /gamemode survival 
+[11:50:34] [Netty Worker IO Thread #1/INFO]: /time set 
+[11:51:57] [Netty Worker IO Thread #1/INFO]: /
+[11:52:02] [Netty Worker IO Thread #1/INFO]: /adva
+[11:52:03] [Netty Worker IO Thread #1/INFO]: /advancedban 
+[11:52:19] [Netty Worker IO Thread #1/INFO]: /pun
+[11:52:19] [Netty Worker IO Thread #1/INFO]: /punish
