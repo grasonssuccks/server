@@ -1,0 +1,103 @@
+player:
+  uuid: 0b517ee6-af5d-3ef5-b042-f64902932f04
+  punish:
+    chatOffense:
+      severity:
+        '1':
+          offences: 0
+        '2':
+          offences: 0
+        '3':
+          offences: 0
+    generalOffense:
+      severity:
+        '1':
+          offences: 0
+    clientMod:
+      severity:
+        '1':
+          offences: 0
+        '2':
+          offences: 0
+        '3':
+          offences: 0
+    ban:
+      reason: ''
+      staff: ''
+      end: ''
+    mute:
+      state: false
+      reason: ''
+      staff: ''
+      end: ''
+    reportBan:
+      state: false
+      staff: ''
+      reason: ''
+    history:
+      '1':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '2':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '3':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '4':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '5':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '6':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '7':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '8':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+      '9':
+        state: false
+        lore: ' '
+        end: 0
+        removed: false
+        removeAdmin: ' '
+        removeReason: ' '
+  punishents:
+    ban:
+      state: false

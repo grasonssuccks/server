@@ -1,0 +1,265 @@
+# Retribution - An AdvancedBan Addon by RossRao
+#
+# Placeholders
+# %player% = Player name
+#
+# Available Materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Available Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+#
+
+Invalid_Argument: '&cThis argument does not exist...'
+Unknown_Player: '&cPlayer not found.'
+No_Punishments: '&cThat player does not have any punishments...'
+No_Permission: '&cYou do not have permission to do that!'
+Unknown_Punishment: '&cThat punishment does not exist!'
+
+Deleted_Punishment: '&aYou deleted punishment %id%!'
+Cleared_Punishments: '&aYou cleared the punishments of %player%!'
+
+Reloaded: '&aRetribution reloaded!'
+
+Help_Command:
+  - ''
+  - '&f&lRetribution Commands:'
+  - ' &f- /history <player> &7- View punishment history of a player'
+  - ' &f- /retribution reload &7- Reload the config'
+  - ' &f- /retribution help &7- Retribution help'
+  - ' &f- /retribution delete <id> &7- Delete a punishment from a players history'
+  - ' &f- /retribution clear <player> &7- Clear a players punishment history'
+  - ''
+
+Sounds:
+  Open_History: 'ENTITY_VILLAGER_YES'
+  Switch_Sort: 'BLOCK_WOODEN_BUTTON_CLICK_ON'
+  Switch_Filter: 'BLOCK_WOODEN_BUTTON_CLICK_ON'
+
+Revoke:
+  Revoke_Message: '&bYou revoked the punishment %id% from %player%!'
+  Lore_Addon:
+    - '&8---------------------------'
+    - '&bClick to revoke this punishment!'
+
+Menus:
+  History:
+    Title: '%player%''s Punishments'
+    Rows: 6
+    Background:
+      Material: 'BLACK_STAINED_GLASS_PANE'
+      Glowing: false
+      Name: '&7'
+      Lore: []
+      Slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 51
+        - 52
+        - 53
+    Close:
+      Material: 'BARRIER'
+      Glowing: false
+      Slot: 49
+      Name: '&cClose Menu'
+      Lore: []
+    Player:
+      Material: 'PLAYER_HEAD'
+      Glowing: false
+      isPunishedsHead: true
+      Slot: 4
+      Name: '&a%player%''s Punishments'
+      Lore:
+        - ''
+        - '&f&lPunishments:'
+        - ' &a- %total_punishments% Total Punishments'
+        - ''
+    Sort_All:
+      Material: 'STONE_BUTTON'
+      Glowing: false
+      Slot: 50
+      Name: '&f&lSort by: &aAll Punishments'
+      Lore:
+        - ''
+        - '&fSorting by: &b%sort%'
+        - ''
+        - '&aClick to change the sorting type!'
+    Sort_Active:
+      Material: 'STONE_BUTTON'
+      Glowing: false
+      Name: '&f&lSort by: &2Active Punishments'
+      Lore:
+        - ''
+        - '&fSorting by: &b%sort%'
+        - ''
+        - '&aClick to change the sorting type!'
+    Filter:
+      Material: HOPPER
+      Glowing: false
+      Slot: 48
+      Name: '&f&lFilter'
+      Lore:
+        - ''
+        - '&fFiltering by: &b%filter%'
+        - ''
+        - '&aClick to change the filter type!'
+    Next_Page:
+      Material: 'ARROW'
+      Glowing: false
+      Slot: 53
+      Name: '&aNext Page'
+      Lore: []
+    Previous_Page:
+      Material: 'ARROW'
+      Glowing: false
+      Slot: 45
+      Name: '&cPrevious Page'
+      Lore: []
+    BAN:
+      Material: 'IRON_AXE'
+      Glowing: false
+      Name: '&4&lBAN&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    TEMP_BAN:
+      Material: 'GOLDEN_AXE'
+      Glowing: false
+      Name: '&c&lTEMP BAN&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Duration: &f%duration%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ' &f- &7Expiry Date:'
+        - '   &f%expiry%'
+        - ''
+    KICK:
+      Material: 'GOLDEN_BOOTS'
+      Glowing: false
+      Name: '&c&lKICK&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    MUTE:
+      Material: 'GRAY_DYE'
+      Glowing: false
+      Name: '&d&lMUTE&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    TEMP_MUTE:
+      Material: 'ORANGE_DYE'
+      Glowing: false
+      Name: '&6&lTEMP MUTE&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Duration: &f%duration%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ' &f- &7Expiry Date:'
+        - '   &f%expiry%'
+        - ''
+    IP_BAN:
+      Material: 'BARRIER'
+      Glowing: false
+      Name: '&4&lIP BAN&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    TEMP_IP_BAN:
+      Material: 'BARRIER'
+      Glowing: false
+      Name: '&c&lTEMP BAN&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Duration: &f%duration%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ' &f- &7Expiry Date:'
+        - '   &f%expiry%'
+        - ''
+    NOTE:
+      Material: 'WRITABLE_BOOK'
+      Glowing: false
+      Name: '&a&lNOTE&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    WARNING:
+      Material: 'PAPER'
+      Glowing: false
+      Name: '&d&lWARNING&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ''
+    TEMP_WARNING:
+      Material: 'PAPER'
+      Glowing: false
+      Name: '&d&lTEMP WARNING&r &8[&7ID-%id%&8]'
+      Lore:
+        - ''
+        - '&f&lInformation:'
+        - ' &f- &7Reason: &f%reason%'
+        - ' &f- &7Staff: &f%staff%'
+        - ' &f- &7Duration: &f%duration%'
+        - ' &f- &7Punishment Date:'
+        - '   &f%date%'
+        - ' &f- &7Expiry Date:'
+        - '   &f%expiry%'
+        - ''
+
+config-version: 1.3
