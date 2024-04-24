@@ -1,0 +1,98 @@
+# +-------------------------------------------+ #
+# |                                           | #
+# |     UltimateChairs Configuration File     | #
+# |                                           | #
+# +-------------------------------------------+ #
+
+# Set the locale for all messages.
+# For example, to set language to English, set "locale: en"
+# Note! setting locale to "en" the translations will be used from messages.yml file.
+# Currently, available languages: en, cs, de, es, fr, lt, nl, pt, ru, tr, zh
+locale: en
+
+# Add prefix for messages.
+# You can also add %prefix% tag to message if you need to change where prefix is shown.
+prefix: ""
+
+# List of block types to behave like chairs.
+# Any block can be added to the list.
+# STAIR - All stair types.
+# SLAB - All slab types.
+# CARPET - All carpet types.
+supported_blocks:
+  - STAIR
+  - SLAB
+  - CARPET
+
+# Worlds where chair behaviour should be disabled.
+disabled_worlds:
+  - world_name_here
+
+# Potion effects list. Set "applied_potion_effects_list: false" to disable.
+# Usage: POTION_EFFECT_NAME:AMPLIFIER:DURATION:AMBIENT:DELAY
+# AMBIENT[true/false] - Makes potion effect produce more, translucent, particles.
+# DELAY[number] - Delay in seconds before applying effect to sitting player.
+applied_potion_effects_list:
+  - REGENERATION:0:3:false:10
+
+# Should stairs/slabs require minimum of 2 signs placed to work as chairs.
+chair_requires_signs: false
+
+# Should carpet require fence bellow to work as a chair.
+carpet_chair_requires_fence: false
+
+# Allow sitting in a chair when holding any block in hand.
+allow_sit_holding_anything: false
+
+# Allow sitting underwater.
+allow_sit_underwater: true
+
+# Default chairs to off. Players will have to use "/chair toggle" command to enable sitting.
+default_chairs_off: false
+
+# Distance player has to be within to use the chair.
+# Set to 0 to remove this limitation.
+max_interaction_distance: 4
+
+# Move player to center of the block when using /sit command.
+center_on_block: true
+
+# How long to wait (in seconds) before allowing player to sit after he was hit by other player.
+# Set to -1 to disable.
+in_combat_delay: 15
+
+# Kick player from the chair when in combat.
+kick_sitting_on_hit: true
+
+# Check if player has permission to sit down or toggle chairs.
+check_permissions: true
+
+# Check op players for permissions.
+op_need_permissions: false
+
+# Automatically update when there is a new version available.
+auto_update: true
+
+# Store player chair toggle status info in userdata.json file.
+keep_player_records: true
+
+# Send messages in action bar instead of chat.
+messages_in_action_bar: true
+
+# Hook into GriefPrevention plugin.
+griefprevention_support: true
+
+# Hook into PlotSquared and register "chairs" flag.
+plotsquared_support: true
+
+# Hook into Residence and register "chairs" flag.
+residence_support: true
+
+# Hook into WorldGuard and register "allow-chair-sitting" flag.
+worldguard_support: true
+
+# Hook into Lands and register "chairs" flag.
+lands_support: true
+
+# Config version. Do NOT change this value.
+config_version: 3.0

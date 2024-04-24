@@ -1,0 +1,97 @@
+messages:
+  balances_header: '&eBalances:'
+  balances_message: '&e%symbol% %currency_name%: %balance%'
+  balance_single_currency: '&7[&9%symbol%&7] &eYour balance for %currency_name%: %balance%'
+  cannot_add_vault: '&cYou cannot add Vault as a currency.'
+  cannot_pay_self: '&cYou cannot pay yourself.'
+  currency_added: '&aCurrency ''%currency_name%'' added successfully.'
+  currency_already_exists: '&cThe currency ''%currency_name%'' already exists.'
+  currency_entry: '&e- %display_name% (%symbol%)'
+  currency_list: '&eCurrencies:'
+  no_permission_list: '&cYou do not have permission to list currencies.'
+  currency_not_exist: '&cCurrency ''%currency_name%'' does not exist.'
+  currency_removed: '&aCurrency ''%currency_name%'' removed successfully.'
+  currency_rename_error: '&cFailed to rename currency %old_currency_name%. Make sure
+    the old currency exists and the new currency name ''%new_currency_name%'' is available.'
+  currency_renamed: '&aCurrency ''%old_currency_name%'' renamed to ''%new_currency_name%''
+    successfully.'
+  error_adding_currency: '&cAn error occurred while adding the currency.'
+  error_listing_currencies: '&cAn error occurred while listing currencies.'
+  error_renaming_currency: '&cAn error occurred while renaming the currency.'
+  error_removing_currency: '&cAn error occurred while removing the currency.'
+  error_processing_command: '&cAn error occurred while processing the command.'
+  exchange_not_enough_worth: '&cYou need to exchange more %from_currency_display_name%
+    to get at least 1 %to_currency_display_name%.'
+  exchanged_successfully: '&bYou have exchanged &9%cost_amount% &6%from_currency_display_name%
+    &bfor &9%reward_amount% &6%to_currency_display_name%&b.'
+  give_recipient: '&aYou have been given &e%amount% %currency_display_name% &aby &c%player_name%&a.'
+  give_sender: '&eYou have given &a%player_name% &e%amount% %currency_display_name%&e.'
+  help: |
+    &eCurrency Plugin Commands:
+    &e/currency add <name> <displayName> <symbol>
+    &e/currency balance [currencyName]
+    &e/currency give <currencyName> <playerName> <amount>
+    &e/currency list
+    &e/currency pay <playerName> <currencyName> <amount>
+    &e/currency reload
+    &e/currency remove <name>
+    &e/currency rename <oldName> <newName> <newDisplayName> <newSymbol>
+    &e/currency set <currencyName> <playerName> <amount>
+    &e/currency take <currencyName> <playerName> <amount>
+  insufficient_funds: '&cInsufficient funds! You have %balance% %currency_display_name%,
+    but you need %needed_balance% more %currency_display_name% to do that.'
+  invalid_amount: '&cError: Invalid amount. Please enter a valid whole number.'
+  invalid_subcommand: '&cInvalid subcommand.'
+  invalid_usage_add: '&cUsage: /currency add <name> <displayName> <symbol>'
+  invalid_usage_exchange: '&cUsage: /currency exchange <fromCurrency> <toCurrency>
+    <amount>'
+  invalid_usage_give: '&eUsage: &a/currency give <currencyName> <playerName> <amount>'
+  invalid_usage_pay: '&eUsage: &a/currency pay <playerName> <currencyName> <amount>'
+  invalid_usage_remove: '&cUsage: /currency remove <name>'
+  invalid_usage_rename: '&cUsage: /currency rename <oldName> <newName> <newDisplayName>
+    <newSymbol>'
+  invalid_usage_set: '&eUsage: &a/currency set <currencyName> <playerName> <amount>'
+  invalid_worth: '&cInvalid worth. Please enter a valid whole number.'
+  help_no_op: |
+    &eCurrency Plugin Commands:
+    &e/currency balance [currencyName]
+    &e/currency pay <playerName> <currencyName> <amount>"
+  no_currencies_available: '&f No currencies available.'
+  no_money_in_any_currency: '&eYou don''t have any money in any currency.'
+  no_permission_add: '&cYou do not have permission to add currencies.'
+  no_permission_exchange: '&cYou do not have permission to exchange currencies.'
+  no_permission_give: '&cYou don''t have permission to give currency.'
+  no_permission_reload: '&cYou do not have permission to reload the currency.'
+  no_permission_remove: '&cYou do not have permission to remove currencies.'
+  no_permission_rename: '&cYou do not have permission to rename currencies.'
+  no_permission_set: '&cYou do not have permission to set the currency.'
+  no_permission_take: You don't have permission to take currency.
+  no_permission_view: '&cYou do not have permission to view balances.'
+  no_permission_pay: '&cYou do not have permission to pay currency.'
+  no_money_in_currency: '&eYou don''t have any money in %currency_name%.'
+  no_permission_check: '&cYou do not have permission to check balances.'
+  no_player_specified: '&cNo player specified.'
+  no_players_found: '&cNo players found.'
+  no_recipient_specified: '&cNo recipient specified.'
+  no_player_balance: '&cPlayer ''%player_name%'' has no money in any currency.'
+  no_permission: '&cYou don''t have permission to do that.'
+  no_permission_check_other: '&cYou do not have permission to check others'' balances.'
+  player_not_exist: '&cPlayer ''%player_name%'' does not exist.'
+  player_offline: '&cPlayer ''%player_name%'' is offline.'
+  player_only_command: '&eThis command can only be executed by players.'
+  player_not_found: '&cPlayer ''%player_name%'' not found.'
+  plugin_reloaded: '&aPlugin reloaded successfully.'
+  prefix: '&7[Currency]'
+  take_recipient: '&c%amount% %currency_display_name% has been taken from you by %sender%.'
+  take_sender: '&aYou have taken &e%amount% %currency_display_name%&a from %player_name%.'
+  take_usage: 'Usage: /currency take <currencyName> <playerName> <amount>'
+  unknown_command: '&fUnknown command. Type "%help_command%" for help.'
+  pay_sender: '&eYou have given &a%player_name% &e%amount% %currency_display_name%&e.'
+  pay_recipient: '&aYou have been given &e%amount% %currency_display_name% &aby &c%sender%&a.'
+  same_currency: '&cYou cannot exchange the same currency.'
+  set_recipient: '&aYour balance was set to &e%amount% &a- %currency_display_name%
+    &aby &c%player_name%&a.'
+  set_sender: '&aYou set &c%player_name%''s &abalance to &e%amount% &a- &6(&a%currency_display_name%
+    &a%currency_name%&6) &b(&a%symbol%&b)&7.'
+  messages:
+    cannot_pay_self: '&cYou cannot pay yourself.'

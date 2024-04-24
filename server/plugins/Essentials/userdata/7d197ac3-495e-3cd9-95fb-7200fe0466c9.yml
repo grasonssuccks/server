@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713975061104
+  login: 1713977704933
+money: '0'
+last-account-name: Jack_King_Kov
+lastlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: 323.49632993731313
+  y: 62.350503435261416
+  z: -38.9597201296995
+  yaw: -84.63793182373047
+  pitch: 1.3499921560287476
+logoutlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -94.60633203416964
+  y: 75.0
+  z: 206.81039451401
+  yaw: -333.65972900390625
+  pitch: 34.19999694824219

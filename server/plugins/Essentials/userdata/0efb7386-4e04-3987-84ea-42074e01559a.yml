@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713963547832
+  login: 1713963543837
+money: '0'
+last-account-name: Planepilot
+lastlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -40.5
+  y: 64.0
+  z: 244.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -72.60105230829775
+  y: 75.0
+  z: 224.69999998807907
+  yaw: 199.62342834472656
+  pitch: 35.53387451171875
+past-usernames:
+- planepilot

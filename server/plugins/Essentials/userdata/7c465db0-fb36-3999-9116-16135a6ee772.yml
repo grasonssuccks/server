@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713985650267
+  login: 1713985498624
+money: '0'
+last-account-name: cosmalisk
+lastlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -102.13782797408273
+  y: 75.0
+  z: 226.15058679274514
+  yaw: 95.68817901611328
+  pitch: 24.66482925415039
+logoutlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -77.03904369881315
+  y: 75.0
+  z: 229.1177796006692
+  yaw: -171.9317626953125
+  pitch: 44.037479400634766

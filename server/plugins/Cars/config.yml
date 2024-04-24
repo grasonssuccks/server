@@ -1,0 +1,8 @@
+# ==== Cars Config ==== #
+GiveKey: true
+StartSpeed: 40
+SpeedUpgradeBy: 20
+MaxSpeed: 80
+UpdateCheck: true
+DisableMessages: false
+DestroyEnvironment: true

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713323969070
+  login: 1713323364486
+money: '0'
+last-account-name: Thediamondminer
+lastlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: 29.247454205810158
+  y: 80.0
+  z: 420.61997389325825
+  yaw: -21.998411178588867
+  pitch: 5.230391502380371
+logoutlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: -75.41230103598325
+  y: 75.0
+  z: 227.4392426741368
+  yaw: 192.90005493164062
+  pitch: 90.0

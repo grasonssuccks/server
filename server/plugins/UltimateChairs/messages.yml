@@ -1,0 +1,32 @@
+# +-------------------------------------------+ #
+# |                                           | #
+# |          UltimateChairs Messages          | #
+# |                                           | #
+# +-------------------------------------------+ #
+
+chair_occupied_message: "This chair is already occupied"
+chair_too_far_away: "The chair is too far away to sit down"
+chair_disabled_for_player: "To enable chairs type: /chair"
+chair_toggle_on_message: "You have &2enabled&r chair behavior"
+chair_toggle_off_message: "You have &4disabled&r chair behavior"
+chair_dismount_message: ""
+
+player_in_combat: "&cYou're in combat you may not sit for &f%ss"
+player_not_found: "&cPlayer not found or is offline."
+player_kicked: "&cPlayer %s was kicked from the chair."
+player_kick_exempt: "&cYou can't kick this player from the chair."
+player_not_sitting: "&cPlayer is not sitting."
+
+griefprevention_no_sitting: "You can't sit in this claim"
+plotsquared_no_sitting: "You can't sit in this plot"
+residence_no_sitting: "You can't sit in this residence"
+worldguard_no_sitting: "You can't sit in this region"
+lands_no_sitting: "You can't sit in this land"
+
+invalid_sit_location: "You are unable to sit in this location"
+no_permission: "You don't have permission to do that."
+only_in_game: "Command can only be run in-game."
+reload_config: "Configuration reloaded."
+
+# Config version. Do NOT change this value.
+config_version: 3.0

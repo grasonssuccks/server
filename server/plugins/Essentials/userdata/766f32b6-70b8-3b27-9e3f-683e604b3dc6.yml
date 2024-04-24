@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713966166755
+  login: 1713966141665
+money: '0'
+last-account-name: Cosmalis
+lastlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -40.5
+  y: 64.0
+  z: 244.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: -74.87262220387234
+  y: 75.0
+  z: 228.63106117674508
+  yaw: 61.38275909423828
+  pitch: 21.268253326416016

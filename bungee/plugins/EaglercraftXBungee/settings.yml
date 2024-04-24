@@ -1,4 +1,4 @@
-server_name: 'EaglercraftXBungee Server'
+server_name: 'MichaelSSMP'
 server_uuid: 85284b1b-0fcc-48f6-af75-d02360f59775
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
@@ -19,3 +19,4 @@ skin_cache_antagonists_ratelimit: 15
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
 eagler_players_vanilla_skin: 'lax1dude'
+allow_voice: true

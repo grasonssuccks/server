@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1714000090224
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713995033414
+  login: 1713995912029
+money: '7040.0'
+logoutlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: 100005.16594613162
+  y: 70.0
+  z: 100013.65064516186
+  yaw: 289.6304931640625
+  pitch: 70.83988189697266
+last-account-name: MjPlaysGames
+lastlocation:
+  world: 997846f5-8fb4-42d8-8c27-b65eac13b1e3
+  world-name: world
+  x: 100035.3259532192
+  y: 636.6236245639742
+  z: 100042.79572742185
+  yaw: 259.563720703125
+  pitch: 11.644503593444824
