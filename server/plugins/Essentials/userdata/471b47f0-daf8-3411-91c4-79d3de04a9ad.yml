@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713286124644
+  login: 1713285897434
+money: '0'
+last-account-name: slay_queen_600
+lastlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: -44.5
+  y: 67.0
+  z: 249.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: -75.59215785147404
+  y: 75.0
+  z: 227.43520725660068
+  yaw: -217.31651306152344
+  pitch: 10.214406967163086

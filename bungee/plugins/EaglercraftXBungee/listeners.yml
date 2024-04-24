@@ -1,4 +1,5 @@
 listener_01:
+  allow_voice: true
   address: 0.0.0.0:8081
   address_v6: 'null'
   max_players: 60
@@ -10,7 +11,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&l&l&9Michael&6S&aSMP &2- &bSurvival &4And &9Voice &eChat'
   allow_motd: true
   allow_query: true
   request_motd_cache:

@@ -1,0 +1,83 @@
+# Config
+version: 0.4.3
+trails:
+  barrier:
+    amount: 5
+  cloud:
+    amount: 15
+  crit:
+    amount: 15
+  magiccrit:
+    amount: 15
+  water:
+    amount: 15
+  lava:
+    amount: 15
+  letters:
+    amount: 15
+  explosion:
+    amount: 15
+  largeexplosion:
+    amount: 4
+  hugeexplosion:
+    amount: 1
+  spark:
+    amount: 15
+  flame:
+    amount: 15
+  footstep:
+    amount: 15
+  hearts:
+    amount: 15
+  magma:
+    amount: 15
+  mobappearance:
+    amount: 15
+  note:
+    amount: 15
+  ender:
+    amount: 45
+  redstone:
+    amount: 15
+  colorful:
+    amount: 15
+  slime:
+    amount: 15
+  smoke:
+    amount: 15
+  largesmoke:
+    amount: 15
+  snowball:
+    amount: 15
+  snow:
+    amount: 15
+  spell:
+    amount: 15
+  instantspell:
+    amount: 15
+  spellmob:
+    amount: 15
+  spellmobambient:
+    amount: 15
+  witch:
+    amount: 15
+  suspended:
+    amount: 15
+  suspendeddepth:
+    amount: 15
+  townaura:
+    amount: 15
+  angry:
+    amount: 15
+  happy:
+    amount: 15
+  bubble:
+    amount: 15
+  drop:
+    amount: 15
+  splash:
+    amount: 15
+  wake:
+    amount: 15
+  disco:
+    amount: 15

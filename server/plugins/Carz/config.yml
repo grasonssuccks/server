@@ -1,0 +1,66 @@
+# ==== Carz Config ==== #
+Key:
+  Material: STICK
+  GiveOnCarEnter: true
+  RequireCarzKey: true
+Speed:
+  Start: 50.0
+  Upgrade:
+    Increment: 25.0
+    Max: 200.0
+Command:
+  Spawn: true
+  Purchase: true
+  Refuel: true
+  Upgrade: true
+Fuel:
+  Enable: true
+  StartAmount: 3000.0
+  GaugeScale: 40
+Economy:
+  Use: true
+  Cost:
+    Purchase: 10.0
+    Upgrade: 8.0
+    Refuel: 2.0
+ClimbBlocks:
+  Materials:
+  - GOLD_BLOCK
+  Strength: 0.05
+Other:
+  OnlyOwnedCarsDrive: false
+  ControlCarsWhileFalling: true
+  DestroyInLiquid: true
+  UsePermissions: true
+  UseEffects: true
+  UpdateCheck: true
+Message:
+  Prefix: '&0[&bCarz&0]&7 '
+  SignHeader: '&0[&bCarz&0]'
+  Spawned: Car Spawned!
+  Purchased: Car purchased!
+  Refuel: Car Refuelled!
+  EngineStart: You switch the engine on.
+  EngineStop: You switch the engine off.
+  CarLocked: You lock the car.
+  CarUnlocked: You unlock the car.
+  Commands: To Display all commands enter &f/carz cmds
+  PlayerCar: '%PLAYER%''s car'
+  FuelEmpty: This car has run out of fuel!
+  KeyReceived: You receive a key.
+  LiquidDamage: Your car has been destroyed by liquid!
+  UpgradeSpeed: 'New top speed: %SPEED%'
+  ConfigReloaded: The config has been reloaded.
+  Error:
+    NoPermission: 'You do not have permission: &b%PERMISSION%'
+    SignProtected: This sign is protected!
+    UnknownCommand: Unknown Command!
+    UnknownSignCommand: Unknown Sign Command!
+    CommandDisabled: This command has been disabled!
+    InCar: You are already in a car!
+    NotInCar: You are not in a car!
+    HaveCar: You already have a car!
+    FuelDisabled: Fuel is disabled.
+    PurchaseFailed: 'Purchase failed. Cost: %COST%'
+    FullyUpgraded: Your car is already fully upgraded!
+    Owned: This car is owned by someone else!

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713279884107
+  login: 1713279807598
+money: '0'
+last-account-name: cosmictheII
+lastlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: -74.67874473673979
+  y: 75.0
+  z: 229.86458556666489
+  yaw: 168.31536865234375
+  pitch: 17.813663482666016
+logoutlocation:
+  world: 3ea423e8-312f-422e-b685-b80d7565f7e5
+  world-name: world
+  x: -93.72464757773031
+  y: 56.0
+  z: 402.2922454161838
+  yaw: 118.95083618164062
+  pitch: 16.39134979248047
