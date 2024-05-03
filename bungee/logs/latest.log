@@ -1,82 +1,296 @@
-[22:23:41] [main/INFO]: Using mbed TLS based native cipher.
-[22:23:41] [main/INFO]: Using zlib based native compressor.
-[22:23:41] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[22:23:42] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[22:23:42] [main/INFO]: Epoll is working, utilising it!
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[22:23:42] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:42] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[22:23:42] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[22:23:42] [main/WARN]: :>  apart from the versions listed below:
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
-[22:23:42] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
-[22:23:42] [main/WARN]: :>  - FlameCord: 1.1.1
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[22:23:42] [main/WARN]: :>  
-[22:23:42] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[22:23:42] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[22:23:43] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[22:23:43] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[22:23:43] [main/WARN]: Forced host server pvp is not defined
-[22:23:43] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[22:23:43] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[22:23:43] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[22:23:43] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[22:23:43] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[22:23:43] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[22:23:43] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
-[22:23:43] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
-[22:24:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52274]: Connected via websocket
-[22:24:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52274]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[22:24:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52274]: Logged in as 'Demon_Slayer'
-[22:24:07] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:52274|Demon_Slayer] -> UpstreamBridge has connected
-[22:24:07] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:52274] <-> ServerConnector [lobby] has connected
-[22:40:46] [Netty Worker IO Thread #2/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Classboard-Official-Server/bungee/server-icon.png
-[22:40:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51846]: Connected via websocket
-[22:40:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51846]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[22:40:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51846]: Logged in as 'dev_'
-[22:40:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51846|dev_] -> UpstreamBridge has connected
-[22:40:48] [Netty Worker IO Thread #3/INFO]: [dev_|/[0:0:0:0:0:0:0:1%0]:51846] <-> ServerConnector [lobby] has connected
-[22:45:46] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51846|dev_] -> UpstreamBridge has disconnected
-[22:45:46] [Netty Worker IO Thread #3/INFO]: [dev_] disconnected with: Proxy lost connection to server.
-[22:45:46] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51846|dev_] <-> DownstreamBridge <-> [lobby] has disconnected
-[23:02:57] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer] disconnected with: Server closed
-[23:02:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:52274|Demon_Slayer] -> UpstreamBridge has disconnected
-[23:02:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:52274|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
-[23:21:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41622]: Connected via websocket
-[23:21:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41622]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[23:21:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41622]: Logged in as 'DABEAST'
-[23:21:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41622|DABEAST] -> UpstreamBridge has connected
-[23:21:57] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for DABEAST AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[23:21:57] [Netty Worker IO Thread #2/INFO]: [DABEAST] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[23:21:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41622|DABEAST] -> UpstreamBridge has disconnected
-[23:22:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41632]: Connected via websocket
-[23:22:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41632]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[23:22:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41632]: Logged in as 'DABEAST'
-[23:22:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41632|DABEAST] -> UpstreamBridge has connected
-[23:22:03] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for DABEAST AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[23:22:03] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[23:22:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41632|DABEAST] -> UpstreamBridge has disconnected
+[16:42:24] [main/INFO]: Using mbed TLS based native cipher.
+[16:42:24] [main/INFO]: Using zlib based native compressor.
+[16:42:24] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[16:42:24] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[16:42:24] [main/INFO]: Epoll is working, utilising it!
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[16:42:24] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:24] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[16:42:24] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[16:42:24] [main/WARN]: :>  apart from the versions listed below:
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[16:42:24] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[16:42:24] [main/WARN]: :>  - FlameCord: 1.1.1
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[16:42:24] [main/WARN]: :>  
+[16:42:24] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:42:24] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[16:42:25] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[16:42:25] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[16:42:25] [main/WARN]: Forced host server pvp is not defined
+[16:42:25] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:42:25] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[16:42:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[16:42:26] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[16:42:26] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[16:42:26] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[16:42:26] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[16:42:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57866]: Connected via websocket
+[16:42:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57866]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:42:49] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57866]: Logged in as 'Demon_Slayer'
+[16:42:49] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57866|Demon_Slayer] -> UpstreamBridge has connected
+[16:42:49] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:57866] <-> ServerConnector [lobby] has connected
+[16:44:07] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Classboard-Official-Server/bungee/server-icon.png
+[16:44:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52278]: Connected via websocket
+[16:44:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52278]: Origin header is https://localhost:8081
+[16:44:09] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52278]: Logged in as 'DeevEagl351'
+[16:44:09] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52278|DeevEagl351] -> UpstreamBridge has connected
+[16:44:09] [Netty Worker IO Thread #2/INFO]: [DeevEagl351|/[0:0:0:0:0:0:0:1%0]:52278] <-> ServerConnector [lobby] has connected
+[16:46:11] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57994]: Connected via websocket
+[16:46:11] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57994]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:46:11] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57994]: Logged in as 'DABEAST'
+[16:46:11] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57994|DABEAST] -> UpstreamBridge has connected
+[16:46:11] [Netty Worker IO Thread #0/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:57994] <-> ServerConnector [lobby] has connected
+[16:46:30] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: i kicked you bc im stupid :D
+[16:46:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57994|DABEAST] -> UpstreamBridge has disconnected
+[16:46:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57994|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:46:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56778]: Connected via websocket
+[16:46:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56778]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:46:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56778]: Logged in as 'YeeYee636___'
+[16:46:32] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56778|YeeYee636___] -> UpstreamBridge has connected
+[16:46:32] [Netty Worker IO Thread #2/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:56778] <-> ServerConnector [lobby] has connected
+[16:46:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56782]: Connected via websocket
+[16:46:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56782]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:46:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56782]: Logged in as 'DABEAST'
+[16:46:36] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56782|DABEAST] -> UpstreamBridge has connected
+[16:46:36] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:56782] <-> ServerConnector [lobby] has connected
+[16:46:53] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: im kicking you because i want to test something log back onnnn
+[16:46:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56778|YeeYee636___] -> UpstreamBridge has disconnected
+[16:46:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56778|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:47:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34822]: Connected via websocket
+[16:47:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34822]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:47:05] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34822]: Logged in as 'YeeYee636___'
+[16:47:05] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34822|YeeYee636___] -> UpstreamBridge has connected
+[16:47:05] [Netty Worker IO Thread #0/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:34822] <-> ServerConnector [lobby] has connected
+[16:47:12] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer] disconnected with: oops wrong button
+[16:47:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57866|Demon_Slayer] -> UpstreamBridge has disconnected
+[16:47:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57866|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:47:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45834]: Connected via websocket
+[16:47:18] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45834]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:47:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45834]: Logged in as 'Demon_Slayer'
+[16:47:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45834|Demon_Slayer] -> UpstreamBridge has connected
+[16:47:19] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:45834] <-> ServerConnector [lobby] has connected
+[16:47:20] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer] disconnected with: oops wrong button again
+[16:47:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45834|Demon_Slayer] -> UpstreamBridge has disconnected
+[16:47:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45834|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46042]: Connected via websocket
+[16:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46042]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46042]: Logged in as 'Demon_Slayer'
+[16:47:25] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46042|Demon_Slayer] -> UpstreamBridge has connected
+[16:47:25] [Netty Worker IO Thread #2/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:46042] <-> ServerConnector [lobby] has connected
+[16:47:38] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: wake up, go outside, touch grass, and get light
+[16:47:38] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56782|DABEAST] -> UpstreamBridge has disconnected
+[16:47:38] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56782|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:47:42] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36698]: Connected via websocket
+[16:47:42] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36698]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:47:43] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36698]: Logged in as 'DABEAST'
+[16:47:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36698|DABEAST] -> UpstreamBridge has connected
+[16:47:43] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:36698] <-> ServerConnector [lobby] has connected
+[16:47:48] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: ok hero man
+[16:47:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36698|DABEAST] -> UpstreamBridge has disconnected
+[16:47:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36698|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:47:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57574]: Connected via websocket
+[16:47:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57574]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:47:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57574]: Logged in as 'DABEAST'
+[16:47:53] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57574|DABEAST] -> UpstreamBridge has connected
+[16:47:53] [Netty Worker IO Thread #0/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:57574] <-> ServerConnector [lobby] has connected
+[16:48:03] [Netty Worker IO Thread #0/INFO]: [YeeYee636___] disconnected with: oops wrong command
+[16:48:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34822|YeeYee636___] -> UpstreamBridge has disconnected
+[16:48:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34822|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56356]: Connected via websocket
+[16:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56356]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56356]: Logged in as 'YeeYee636___'
+[16:48:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56356|YeeYee636___] -> UpstreamBridge has connected
+[16:48:13] [Netty Worker IO Thread #1/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:56356] <-> ServerConnector [lobby] has connected
+[16:49:58] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: mining away (doo doo, doo doo) i don't know what to mine but ill mine this anyway (doo doo, doo doo) in this minecraft world so beautiful! (continue)
+[16:49:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57574|DABEAST] -> UpstreamBridge has disconnected
+[16:49:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:57574|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:50:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52568]: Connected via websocket
+[16:50:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52568]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:50:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52568]: Logged in as 'DABEAST'
+[16:50:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52568|DABEAST] -> UpstreamBridge has connected
+[16:50:19] [Netty Worker IO Thread #2/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:52568] <-> ServerConnector [lobby] has connected
+[16:55:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38472]: Connected via websocket
+[16:55:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38472]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:55:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38472]: Logged in as 'deez____'
+[16:55:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38472|deez____] -> UpstreamBridge has connected
+[16:55:29] [Netty Worker IO Thread #0/INFO]: [deez____|/[0:0:0:0:0:0:0:1%0]:38472] <-> ServerConnector [lobby] has connected
+[16:55:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42338]: Connected via websocket
+[16:55:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42338]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[16:55:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42338]: Logged in as 'dev_'
+[16:55:47] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42338|dev_] -> UpstreamBridge has connected
+[16:55:47] [Netty Worker IO Thread #1/INFO]: [dev_|/[0:0:0:0:0:0:0:1%0]:42338] <-> ServerConnector [lobby] has connected
+[16:59:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57970]: Connected via websocket
+[16:59:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57970]: Origin header is https://localhost:8081
+[16:59:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57970]: Logged in as 'YeeishYeeish'
+[16:59:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57970|YeeishYeeish] -> UpstreamBridge has connected
+[16:59:29] [Netty Worker IO Thread #2/INFO]: [YeeishYeeish|/[0:0:0:0:0:0:0:1%0]:57970] <-> ServerConnector [lobby] has connected
+[17:05:13] [Netty Worker IO Thread #2/INFO]: [YeeishYeeish] disconnected with: You are banned from this server.
+[17:05:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57970|YeeishYeeish] -> UpstreamBridge has disconnected
+[17:05:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57970|YeeishYeeish] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:05:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57330]: Connected via websocket
+[17:05:20] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57330]: Origin header is https://localhost:8081
+[17:05:21] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57330]: Logged in as 'YeeishYeeish'
+[17:05:21] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:57330|YeeishYeeish] -> UpstreamBridge has connected
+[17:05:21] [Netty Worker IO Thread #3/INFO]: [YeeishYeeish|/[0:0:0:0:0:0:0:1%0]:57330] <-> ServerConnector [lobby] has connected
+[17:05:21] [Netty Worker IO Thread #3/INFO]: [YeeishYeeish] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: sry but we don't know who you are :(
+[17:05:21] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:57330|YeeishYeeish] -> UpstreamBridge has disconnected
+[17:05:21] [Netty Worker IO Thread #3/INFO]: [YeeishYeeish|/[0:0:0:0:0:0:0:1%0]:57330] <-> ServerConnector [lobby] has disconnected
+[17:06:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55062]: Connected via websocket
+[17:06:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55062]: Origin header is https://localhost:8081
+[17:06:19] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55062]: Logged in as 'hunk_the_hinkley'
+[17:06:19] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55062|hunk_the_hinkley] -> UpstreamBridge has connected
+[17:06:19] [Netty Worker IO Thread #2/INFO]: [hunk_the_hinkley|/[0:0:0:0:0:0:0:1%0]:55062] <-> ServerConnector [lobby] has connected
+[17:06:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38472|deez____] -> UpstreamBridge has disconnected
+[17:06:58] [Netty Worker IO Thread #0/INFO]: [deez____] disconnected with: Proxy lost connection to server.
+[17:06:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38472|deez____] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:13:24] [Netty Worker IO Thread #2/INFO]: [DABEAST] disconnected with: You are banned from this server.
+[17:13:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52568|DABEAST] -> UpstreamBridge has disconnected
+[17:13:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52568|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:13:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35014]: Connected via websocket
+[17:13:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35014]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:13:54] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35014]: Logged in as 'DABEAST'
+[17:13:54] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35014|DABEAST] -> UpstreamBridge has connected
+[17:13:54] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:35014] <-> ServerConnector [lobby] has connected
+[17:13:54] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: stop griefing
+[17:13:54] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35014|DABEAST] -> UpstreamBridge has disconnected
+[17:13:54] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:35014] <-> ServerConnector [lobby] has disconnected
+[17:14:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39072]: Connected via websocket
+[17:14:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39072]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:14:02] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39072]: Logged in as 'DABEAST'
+[17:14:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39072|DABEAST] -> UpstreamBridge has connected
+[17:14:02] [Netty Worker IO Thread #0/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:39072] <-> ServerConnector [lobby] has connected
+[17:14:02] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: stop griefing
+[17:14:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39072|DABEAST] -> UpstreamBridge has disconnected
+[17:14:02] [Netty Worker IO Thread #0/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:39072] <-> ServerConnector [lobby] has disconnected
+[17:16:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39726]: Connected via websocket
+[17:16:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39726]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:16:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39726]: Logged in as 'DABEAST'
+[17:16:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39726|DABEAST] -> UpstreamBridge has connected
+[17:16:12] [Netty Worker IO Thread #1/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:39726] <-> ServerConnector [lobby] has connected
+[17:17:52] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52278|DeevEagl351] -> UpstreamBridge has disconnected
+[17:17:52] [Netty Worker IO Thread #2/INFO]: [DeevEagl351] disconnected with: Proxy lost connection to server.
+[17:17:52] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52278|DeevEagl351] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:18:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52870]: Connected via websocket
+[17:18:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52870]: Origin header is https://localhost:8081
+[17:18:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52870]: Logged in as 'DeevEagl351'
+[17:18:37] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52870|DeevEagl351] -> UpstreamBridge has connected
+[17:18:37] [Netty Worker IO Thread #3/INFO]: [DeevEagl351|/[0:0:0:0:0:0:0:1%0]:52870] <-> ServerConnector [lobby] has connected
+[17:18:57] [Netty Worker IO Thread #1/INFO]: [YeeYee636___] disconnected with: stop asking me.
+[17:18:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56356|YeeYee636___] -> UpstreamBridge has disconnected
+[17:18:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56356|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:19:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41266]: Connected via websocket
+[17:19:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41266]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:19:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41266]: Logged in as 'YeeYee636___'
+[17:19:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41266|YeeYee636___] -> UpstreamBridge has connected
+[17:19:10] [Netty Worker IO Thread #1/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:41266] <-> ServerConnector [lobby] has connected
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [Demon_Slayer] disconnected with: Womp Womp.
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46042|Demon_Slayer] -> UpstreamBridge has disconnected
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46042|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [hunk_the_hinkley] disconnected with: Womp Womp.
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55062|hunk_the_hinkley] -> UpstreamBridge has disconnected
+[17:21:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55062|hunk_the_hinkley] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:27] [Netty Worker IO Thread #1/INFO]: [YeeYee636___] disconnected with: Womp Womp.
+[17:21:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41266|YeeYee636___] -> UpstreamBridge has disconnected
+[17:21:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41266|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:28] [Netty Worker IO Thread #1/WARN]: [/[0:0:0:0:0:0:0:1%0]:42338|dev_] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[17:21:28] [Netty Worker IO Thread #3/WARN]: [/[0:0:0:0:0:0:0:1%0]:52870|DeevEagl351] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[17:21:28] [Netty Worker IO Thread #3/INFO]: [DeevEagl351] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[17:21:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52870|DeevEagl351] -> UpstreamBridge has disconnected
+[17:21:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52870|DeevEagl351] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [dev_] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42338|dev_] -> UpstreamBridge has disconnected
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:42338|dev_] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:28] [Netty Worker IO Thread #1/WARN]: [/[0:0:0:0:0:0:0:1%0]:39726|DABEAST] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [DABEAST] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39726|DABEAST] -> UpstreamBridge has disconnected
+[17:21:28] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39726|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:21:31] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38000]: Connected via websocket
+[17:21:31] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38000]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:31] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38000]: Logged in as 'YeeYee636___'
+[17:21:31] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38000|YeeYee636___] -> UpstreamBridge has connected
+[17:21:31] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for YeeYee636___ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:31] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:31] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38000|YeeYee636___] -> UpstreamBridge has disconnected
+[17:21:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48644]: Connected via websocket
+[17:21:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48644]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48644]: Logged in as 'YeeYee636___'
+[17:21:35] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48644|YeeYee636___] -> UpstreamBridge has connected
+[17:21:35] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for YeeYee636___ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:35] [Netty Worker IO Thread #3/INFO]: [YeeYee636___] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:35] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48644|YeeYee636___] -> UpstreamBridge has disconnected
+[17:21:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48648]: Connected via websocket
+[17:21:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48648]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48648]: Logged in as 'DABEAST'
+[17:21:37] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:48648|DABEAST] -> UpstreamBridge has connected
+[17:21:37] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for DABEAST AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:37] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:37] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:48648|DABEAST] -> UpstreamBridge has disconnected
+[17:21:46] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49572]: Connected via websocket
+[17:21:46] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49572]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:46] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49572]: Logged in as 'dev_'
+[17:21:46] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49572|dev_] -> UpstreamBridge has connected
+[17:21:46] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for dev_ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:46] [Netty Worker IO Thread #1/INFO]: [dev_] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:46] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:49572|dev_] -> UpstreamBridge has disconnected
+[17:21:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49574]: Connected via websocket
+[17:21:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49574]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:51] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49574]: Logged in as 'YeeYee636___'
+[17:21:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:49574|YeeYee636___] -> UpstreamBridge has connected
+[17:21:51] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for YeeYee636___ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:51] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:49574|YeeYee636___] -> UpstreamBridge has disconnected
+[17:21:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49584]: Connected via websocket
+[17:21:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49584]: Origin header is https://localhost:8081
+[17:21:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49584]: Logged in as 'DeevEagl351'
+[17:21:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49584|DeevEagl351] -> UpstreamBridge has connected
+[17:21:52] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for DeevEagl351 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:52] [Netty Worker IO Thread #3/INFO]: [DeevEagl351] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49584|DeevEagl351] -> UpstreamBridge has disconnected
+[17:21:55] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53416]: Connected via websocket
+[17:21:55] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53416]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:55] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53416]: Logged in as 'dev_'
+[17:21:55] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53416|dev_] -> UpstreamBridge has connected
+[17:21:55] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for dev_ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:55] [Netty Worker IO Thread #1/INFO]: [dev_] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:55] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:53416|dev_] -> UpstreamBridge has disconnected
+[17:21:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53422]: Connected via websocket
+[17:21:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53422]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:21:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53422]: Logged in as 'YeeYee636___'
+[17:21:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:53422|YeeYee636___] -> UpstreamBridge has connected
+[17:21:59] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for YeeYee636___ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:21:59] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:21:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:53422|YeeYee636___] -> UpstreamBridge has disconnected
+[17:22:38] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Connected via websocket
+[17:22:38] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[17:22:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Logged in as 'YeeYee636___'
+[17:22:39] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43162|YeeYee636___] -> UpstreamBridge has connected
+[17:22:39] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for YeeYee636___ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[17:22:39] [Netty Worker IO Thread #0/INFO]: [YeeYee636___] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[17:22:39] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43162|YeeYee636___] -> UpstreamBridge has disconnected
