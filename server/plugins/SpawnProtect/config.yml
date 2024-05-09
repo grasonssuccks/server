@@ -1,0 +1,13 @@
+enterMessage: '&eYou entered the spawn!'
+exitMessage: '&eYou left the spawn, good luck on surviving!'
+removeBlockMessage: '&cYou cannot break any blocks in the spawn!'
+placeBlockMessage: '&cYou cannot place any blocks in the spawn!'
+igniteBlockMessage: '&cYou cannot set any blocks in the spawn on fire!'
+emptyBucketMessage: '&cYou cannot empty your bucket in the spawn!'
+fillBucketMessage: '&cYou cannot fill your bucket in the spawn!'
+damageRepelMessage: '&aDamage repelled, you cannot take any damage in the spawn!'
+damageDeniedMessage: '&cYou cannot hurt any players that are in the spawn!'
+northBorder: 287
+westBorder: -338
+southBorder: 315
+eastBorder: -310
