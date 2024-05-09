@@ -1,10 +1,10 @@
-`Now, open 3 terminal tabs in the new server directory and paste in the following snippets:
+`Now, open 3 terminal tabs in the new server directory and paste in the following snippets:`
 
-first tab: cd server && sudo java -jar server.jar
+`first tab: cd server && sudo java -jar server.jar`
 
-second tab: cd server2 && sudo java -jar server.jar
+`second tab: cd server2 && sudo java -jar server.jar`
 
-third tab: cd bungee && sudo java -jar bungee.jar`
+`third tab: cd bungee && sudo java -jar bungee.jar`
 
 
 `Making Server Public
