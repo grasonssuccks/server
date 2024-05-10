@@ -52,3 +52,7 @@ servers:
     motd: '&1Just another Waterfall - Forced Host'
     address: localhost:8082
     restricted: false
+  ChangeName2:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:8083
+    restricted: false
