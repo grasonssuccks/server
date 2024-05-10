@@ -23,7 +23,7 @@ ADD PLUGINS AT [server3 > plugins] `
 <br>
 
 ` also you can change the name of the 2an server in [bungee > config.yml] Just the display name of it though`
-  `IDEAS
+  <br> `IDEAS
 make plugins not need to be added to every single server ( cuz that's annoying) but make it work by just adding it to one 
 This will take a while to complete but I also even plan to add 2 more servers to it To Make IT A Better Network `
 <br>
