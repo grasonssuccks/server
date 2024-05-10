@@ -21,3 +21,10 @@ To install plugins, navigate to server > plugins. You will need to clone the ini
 ADD PLUGINS AT [server3 > plugins] `
 
 ` also you can change the name of the 2an server at https://github.com/alexleo2/Immortalsmpp/blob/1adee7df826984f8d9fecec8cebb98419486d840/bungee/config.yml Just the display name of it though`
+
+`<br>`
+`<br>`
+`Inspried by ismaeltechI` 
+`<br>`
+`<br>`
+`Go Sub to him https://www.youtube.com/@ismaeltechI`
