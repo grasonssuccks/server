@@ -17,10 +17,10 @@
 `Making Server Public
 Great! Now, you need to forward ports 8081 25565 and 8082 and 8083
 Installing Plugins
-To install plugins, navigate to server > plugins. You will need to clone the initial [plugin-name.jar] file as well as create a separate directory in the plugins folder to store the additional data. Then just restart the server and the plugin should be running! PLUGINS DO NOT TRANSFER BETWEEN BOTH SERVERS YOU WILL NET TO CONFIG FOR BOTH TO ADD PLUGINS TO THE OTHER SERVER GO TO [server2 > plugins] TO ADD PLUGINS TOT THAT ONE TWO  AND FOR SERVER3
+To install plugins, navigate to server > plugins. You will need to clone the initial [plugin-name.jar] file as well as create a separate directory in the plugins folder to store the additional data. Then restart the server and the plugin should be running! PLUGINS DO NOT TRANSFER BETWEEN BOTH SERVERS YOU WILL NET TO CONFIG FOR BOTH TO ADD PLUGINS TO THE OTHER SERVER GO TO [server2 > plugins] TO ADD PLUGINS TOT THAT ONE TWO  AND FOR SERVER3
 ADD PLUGINS AT [server3 > plugins] `
 
-` also you can change the name of the 2an server at https://github.com/alexleo2/Immortalsmpp/blob/1adee7df826984f8d9fecec8cebb98419486d840/bungee/config.yml Just the display name of it though`
+` also you can change the name of the 2an server in [bungee > config.yml] Just the display name of it though`
 
 `<br>`
 `<br>`
