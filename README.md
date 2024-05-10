@@ -26,3 +26,4 @@ ADD PLUGINS AT [server3 > plugins] `
 `<br>`
 `Inspried by ismaeltechI` 
 `Go Sub to him https://www.youtube.com/@ismaeltechI`
+`and go to sub to this one two https://www.youtube.com/@ShadowRealmBlade-TheOG`
