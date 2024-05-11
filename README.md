@@ -3,7 +3,7 @@
 <br>
 `https://docs.github.com/codespaces/developing-in-codespaces/creating-a-codespace#:~:text=On%20GitHub.com%2C%20navigate%20to,then%20click%20the%20Codespaces%20tab.`
 
-`Now, open 3 terminal tabs in the new server directory and paste in the following snippets:`
+`Now, open 4 terminal tabs in the new server directory and paste in the following snippets:`
 
 `first tab: cd server && sudo java -jar server.jar`
 
