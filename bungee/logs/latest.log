@@ -1,93 +1,635 @@
-[18:12:43] [main/INFO]: Using mbed TLS based native cipher.
-[18:12:43] [main/INFO]: Using zlib based native compressor.
-[18:12:43] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[18:12:43] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[18:12:43] [main/INFO]: Epoll is working, utilising it!
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[18:12:43] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:43] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[18:12:43] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[18:12:43] [main/WARN]: :>  apart from the versions listed below:
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
-[18:12:43] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
-[18:12:43] [main/WARN]: :>  - FlameCord: 1.1.1
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[18:12:43] [main/WARN]: :>  
-[18:12:43] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[18:12:43] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[18:12:44] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[18:12:44] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[18:12:44] [main/WARN]: Forced host server pvp is not defined
-[18:12:44] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[18:12:44] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[18:12:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[18:12:45] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[18:12:45] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[18:12:45] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[18:12:45] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
-[18:12:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56148]: Connected via websocket
-[18:12:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56148]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:12:49] [Netty Worker IO Thread #2/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Classboard-Official-Server/bungee/server-icon.png
-[18:12:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56164]: Connected via websocket
-[18:12:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56164]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:12:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56164]: Logged in as 'dev_'
-[18:12:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56164|dev_] -> UpstreamBridge has connected
-[18:12:50] [Netty Worker IO Thread #3/INFO]: [dev_|/[0:0:0:0:0:0:0:1%0]:56164] <-> ServerConnector [lobby] has connected
-[18:53:37] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57368]: Connected via websocket
-[18:53:37] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57368]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:56:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56164|dev_] -> UpstreamBridge has disconnected
-[18:56:43] [Netty Worker IO Thread #3/INFO]: [dev_] disconnected with: Proxy lost connection to server.
-[18:56:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56164|dev_] <-> DownstreamBridge <-> [lobby] has disconnected
-[18:57:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59440]: Connected via websocket
-[18:57:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59440]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:57:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41374]: Connected via websocket
-[18:57:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41374]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:57:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41374]: Logged in as 'dev_'
-[18:57:41] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41374|dev_] -> UpstreamBridge has connected
-[18:57:41] [Netty Worker IO Thread #2/INFO]: [dev_|/[0:0:0:0:0:0:0:1%0]:41374] <-> ServerConnector [lobby] has connected
-[18:58:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57696]: Connected via websocket
-[18:58:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57696]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:58:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57696]: Logged in as 'DarvlerVigg603'
-[18:58:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57696|DarvlerVigg603] -> UpstreamBridge has connected
-[18:58:10] [Netty Worker IO Thread #1/INFO]: [DarvlerVigg603|/[0:0:0:0:0:0:0:1%0]:57696] <-> ServerConnector [lobby] has connected
-[18:58:18] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57696|DarvlerVigg603] -> UpstreamBridge has disconnected
-[18:58:18] [Netty Worker IO Thread #1/INFO]: [DarvlerVigg603] disconnected with: Proxy lost connection to server.
-[18:58:18] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57696|DarvlerVigg603] <-> DownstreamBridge <-> [lobby] has disconnected
-[18:58:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54626]: Connected via websocket
-[18:58:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54626]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:58:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54644]: Connected via websocket
-[18:58:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54644]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[18:58:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54644]: Logged in as 'tmoney'
-[18:58:33] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54644|tmoney] -> UpstreamBridge has connected
-[18:58:33] [Netty Worker IO Thread #2/INFO]: [tmoney|/[0:0:0:0:0:0:0:1%0]:54644] <-> ServerConnector [lobby] has connected
-[18:59:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50150]: Connected via websocket
-[18:59:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50150]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
-[19:00:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41374|dev_] -> UpstreamBridge has disconnected
-[19:00:24] [Netty Worker IO Thread #2/INFO]: [dev_] disconnected with: Proxy lost connection to server.
-[19:00:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41374|dev_] <-> DownstreamBridge <-> [lobby] has disconnected
-[19:00:37] [Netty Worker IO Thread #2/INFO]: [tmoney] disconnected with: Womp Womp.
-[19:00:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54644|tmoney] -> UpstreamBridge has disconnected
-[19:00:37] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54644|tmoney] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:56:21] [main/INFO]: Using mbed TLS based native cipher.
+[19:56:21] [main/INFO]: Using zlib based native compressor.
+[19:56:21] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[19:56:21] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[19:56:21] [main/INFO]: Epoll is working, utilising it!
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[19:56:21] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[19:56:22] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[19:56:22] [main/WARN]: :>  apart from the versions listed below:
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[19:56:22] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[19:56:22] [main/WARN]: :>  - FlameCord: 1.1.1
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[19:56:22] [main/WARN]: :>  
+[19:56:22] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:56:22] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[19:56:22] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[19:56:22] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[19:56:22] [main/WARN]: Forced host server pvp is not defined
+[19:56:22] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:56:22] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[19:56:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[19:56:23] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[19:56:23] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[19:56:23] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[19:56:23] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Classboard-Official-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.11da5ec1e9d8efe3fa0e9998b0c264f5c8cb155f.cert
+[19:56:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33632]: Connected via websocket
+[19:56:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33632]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[19:56:28] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Classboard-Official-Server/bungee/logo.png
+[19:56:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33640]: Connected via websocket
+[19:56:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33640]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[19:56:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33632]: Logged in as 'SyntaxDev'
+[19:56:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33632|SyntaxDev] -> UpstreamBridge has connected
+[19:56:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33640]: Logged in as 'Demon_Slayer'
+[19:56:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33640|Demon_Slayer] -> UpstreamBridge has connected
+[19:56:29] [Netty Worker IO Thread #2/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:33632] <-> ServerConnector [lobby] has connected
+[19:56:29] [Netty Worker IO Thread #3/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:33640] <-> ServerConnector [lobby] has connected
+[19:56:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33648]: Connected via websocket
+[19:56:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33648]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[19:56:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33648]: Logged in as 'dev_'
+[19:56:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33648|dev_] -> UpstreamBridge has connected
+[19:56:29] [Netty Worker IO Thread #0/INFO]: [dev_|/[0:0:0:0:0:0:0:1%0]:33648] <-> ServerConnector [lobby] has connected
+[19:56:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33652]: Connected via websocket
+[19:56:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33652]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[19:56:31] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33652]: Logged in as 'YeeYee636___'
+[19:56:31] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33652|YeeYee636___] -> UpstreamBridge has connected
+[19:56:31] [Netty Worker IO Thread #1/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:33652] <-> ServerConnector [lobby] has connected
+[20:06:44] [Netty Worker IO Thread #1/INFO]: [YeeYee636___] disconnected with: stop being annoying pls
+[20:06:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33652|YeeYee636___] -> UpstreamBridge has disconnected
+[20:06:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33652|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:06:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50606]: Connected via websocket
+[20:06:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50606]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:06:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50606]: Logged in as 'YeeYee636___'
+[20:06:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50606|YeeYee636___] -> UpstreamBridge has connected
+[20:06:49] [Netty Worker IO Thread #2/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:50606] <-> ServerConnector [lobby] has connected
+[20:22:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50606|YeeYee636___] -> UpstreamBridge has disconnected
+[20:22:51] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: Proxy lost connection to server.
+[20:22:51] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50606|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:25:11] [Netty Worker IO Thread #2/INFO]: [SyntaxDev] disconnected with: You are banned from this server.
+[20:25:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33632|SyntaxDev] -> UpstreamBridge has disconnected
+[20:25:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33632|SyntaxDev] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:25:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33846]: Connected via websocket
+[20:25:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33846]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:25:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33846]: Logged in as 'SyntaxDev'
+[20:25:19] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33846|SyntaxDev] -> UpstreamBridge has connected
+[20:25:19] [Netty Worker IO Thread #3/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:33846] <-> ServerConnector [lobby] has connected
+[20:25:19] [Netty Worker IO Thread #3/INFO]: [SyntaxDev] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: percussion is better
+[20:25:19] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33846|SyntaxDev] -> UpstreamBridge has disconnected
+[20:25:19] [Netty Worker IO Thread #3/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:33846] <-> ServerConnector [lobby] has disconnected
+[20:25:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33862]: Connected via websocket
+[20:25:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33862]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:25:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33862]: Logged in as 'YeeYee636___'
+[20:25:25] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33862|YeeYee636___] -> UpstreamBridge has connected
+[20:25:25] [Netty Worker IO Thread #1/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:33862] <-> ServerConnector [lobby] has connected
+[20:25:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54468]: Connected via websocket
+[20:25:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54468]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:25:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54468]: Logged in as 'SyntaxDev'
+[20:25:40] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54468|SyntaxDev] -> UpstreamBridge has connected
+[20:25:40] [Netty Worker IO Thread #2/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:54468] <-> ServerConnector [lobby] has connected
+[20:25:40] [Netty Worker IO Thread #2/INFO]: [SyntaxDev] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: percussion is better
+[20:25:40] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:54468|SyntaxDev] -> UpstreamBridge has disconnected
+[20:25:40] [Netty Worker IO Thread #2/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:54468] <-> ServerConnector [lobby] has disconnected
+[20:25:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45040]: Connected via websocket
+[20:25:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45040]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:25:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45040]: Logged in as 'DABEAST'
+[20:25:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45040|DABEAST] -> UpstreamBridge has connected
+[20:25:50] [Netty Worker IO Thread #0/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:45040] <-> ServerConnector [lobby] has connected
+[20:26:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48336]: Connected via websocket
+[20:26:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48336]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:26:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48336]: Logged in as 'SyntaxDev'
+[20:26:14] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48336|SyntaxDev] -> UpstreamBridge has connected
+[20:26:14] [Netty Worker IO Thread #1/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:48336] <-> ServerConnector [lobby] has connected
+[20:34:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47568]: Connected via websocket
+[20:34:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47568]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:34:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47568]: Logged in as 'tmoney'
+[20:34:46] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47568|tmoney] -> UpstreamBridge has connected
+[20:34:46] [Netty Worker IO Thread #2/INFO]: [tmoney|/[0:0:0:0:0:0:0:1%0]:47568] <-> ServerConnector [lobby] has connected
+[20:40:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48336|SyntaxDev] -> UpstreamBridge has disconnected
+[20:40:13] [Netty Worker IO Thread #1/INFO]: [SyntaxDev] disconnected with: Proxy lost connection to server.
+[20:40:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48336|SyntaxDev] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:40:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53602]: Connected via websocket
+[20:40:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53602]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:40:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53602]: Logged in as 'SyntaxDev'
+[20:40:57] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53602|SyntaxDev] -> UpstreamBridge has connected
+[20:40:57] [Netty Worker IO Thread #0/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:53602] <-> ServerConnector [lobby] has connected
+[20:44:33] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47568|tmoney] -> UpstreamBridge has disconnected
+[20:44:33] [Netty Worker IO Thread #2/INFO]: [tmoney] disconnected with: Proxy lost connection to server.
+[20:44:33] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47568|tmoney] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:44:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45040|DABEAST] -> UpstreamBridge has disconnected
+[20:44:52] [Netty Worker IO Thread #0/INFO]: [DABEAST] disconnected with: Proxy lost connection to server.
+[20:44:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45040|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:46:37] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33862|YeeYee636___] -> UpstreamBridge has disconnected
+[20:46:37] [Netty Worker IO Thread #1/INFO]: [YeeYee636___] disconnected with: Proxy lost connection to server.
+[20:46:37] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33862|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:46:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33876]: Connected via websocket
+[20:46:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33876]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:46:43] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33876]: Logged in as 'YeeYee636___'
+[20:46:43] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33876|YeeYee636___] -> UpstreamBridge has connected
+[20:46:43] [Netty Worker IO Thread #2/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:33876] <-> ServerConnector [lobby] has connected
+[20:46:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41868]: Connected via websocket
+[20:46:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41868]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:46:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41868]: Logged in as 'CHARLIESUCKS'
+[20:46:56] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41868|CHARLIESUCKS] -> UpstreamBridge has connected
+[20:46:56] [Netty Worker IO Thread #1/INFO]: [CHARLIESUCKS|/[0:0:0:0:0:0:0:1%0]:41868] <-> ServerConnector [lobby] has connected
+[20:47:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52752]: Connected via websocket
+[20:47:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52752]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:47:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52752]: Logged in as 'YeeYee363_'
+[20:47:09] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52752|YeeYee363_] -> UpstreamBridge has connected
+[20:47:09] [Netty Worker IO Thread #3/INFO]: [YeeYee363_|/[0:0:0:0:0:0:0:1%0]:52752] <-> ServerConnector [lobby] has connected
+[20:47:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33876|YeeYee636___] -> UpstreamBridge has disconnected
+[20:47:29] [Netty Worker IO Thread #2/INFO]: [YeeYee636___] disconnected with: Proxy lost connection to server.
+[20:47:29] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33876|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:47:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44402]: Connected via websocket
+[20:47:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44402]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:47:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44402]: Logged in as 'YeeYee636___'
+[20:47:44] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44402|YeeYee636___] -> UpstreamBridge has connected
+[20:47:44] [Netty Worker IO Thread #0/INFO]: [YeeYee636___|/[0:0:0:0:0:0:0:1%0]:44402] <-> ServerConnector [lobby] has connected
+[20:49:06] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41868|CHARLIESUCKS] -> UpstreamBridge has disconnected
+[20:49:06] [Netty Worker IO Thread #1/INFO]: [CHARLIESUCKS] disconnected with: Proxy lost connection to server.
+[20:49:06] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41868|CHARLIESUCKS] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:49:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58320]: Connected via websocket
+[20:49:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58320]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:49:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58320]: Logged in as 'Tyler'
+[20:49:17] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58320|Tyler] -> UpstreamBridge has connected
+[20:49:17] [Netty Worker IO Thread #3/INFO]: [Tyler|/[0:0:0:0:0:0:0:1%0]:58320] <-> ServerConnector [lobby] has connected
+[20:50:55] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58320|Tyler] -> UpstreamBridge has disconnected
+[20:50:55] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Proxy lost connection to server.
+[20:50:55] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58320|Tyler] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:52:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36586]: Connected via websocket
+[20:52:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36586]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:52:10] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36586]: Logged in as 'Tyler'
+[20:52:10] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36586|Tyler] -> UpstreamBridge has connected
+[20:52:10] [Netty Worker IO Thread #3/INFO]: [Tyler|/[0:0:0:0:0:0:0:1%0]:36586] <-> ServerConnector [lobby] has connected
+[20:52:40] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53602|SyntaxDev] -> UpstreamBridge has disconnected
+[20:52:40] [Netty Worker IO Thread #0/INFO]: [SyntaxDev] disconnected with: Proxy lost connection to server.
+[20:52:40] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53602|SyntaxDev] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:53:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36704]: Connected via websocket
+[20:53:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36704]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:53:50] [Netty Worker IO Thread #3/INFO]: [YeeYee363_] disconnected with: You are banned from this server.
+[20:53:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52752|YeeYee363_] -> UpstreamBridge has disconnected
+[20:53:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52752|YeeYee363_] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:54:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51148]: Connected via websocket
+[20:54:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51148]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:54:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51148]: Logged in as 'hinkley_the_hunk'
+[20:54:15] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:51148|hinkley_the_hunk] -> UpstreamBridge has connected
+[20:54:15] [Netty Worker IO Thread #0/INFO]: [hinkley_the_hunk|/[0:0:0:0:0:0:0:1%0]:51148] <-> ServerConnector [lobby] has connected
+[20:54:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56904]: Connected via websocket
+[20:54:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56904]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:54:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56904]: Logged in as 'YeeYee363___'
+[20:54:40] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56904|YeeYee363___] -> UpstreamBridge has connected
+[20:54:40] [Netty Worker IO Thread #2/INFO]: [YeeYee363___|/[0:0:0:0:0:0:0:1%0]:56904] <-> ServerConnector [lobby] has connected
+[20:54:49] [Netty Worker IO Thread #2/INFO]: [YeeYee363___] disconnected with: You are banned from this server.
+[20:54:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56904|YeeYee363___] -> UpstreamBridge has disconnected
+[20:54:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56904|YeeYee363___] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:55:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Connected via websocket
+[20:55:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[20:55:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Logged in as 'DABEAST'
+[20:55:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|DABEAST] -> UpstreamBridge has connected
+[20:55:58] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:33350] <-> ServerConnector [lobby] has connected
+[20:59:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:51148|hinkley_the_hunk] -> UpstreamBridge has disconnected
+[20:59:29] [Netty Worker IO Thread #0/INFO]: [hinkley_the_hunk] disconnected with: Proxy lost connection to server.
+[20:59:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:51148|hinkley_the_hunk] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:00:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55112]: Connected via websocket
+[21:00:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55112]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:28] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59998]: Connected via websocket
+[21:00:28] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59998]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:32] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60000]: Connected via websocket
+[21:00:32] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60000]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60004]: Connected via websocket
+[21:00:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60004]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:36] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55102]: Connected via websocket
+[21:00:36] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55102]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:38] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55106]: Connected via websocket
+[21:00:38] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55106]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55118]: Connected via websocket
+[21:00:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55118]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55122]: Connected via websocket
+[21:00:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55122]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55134]: Connected via websocket
+[21:00:45] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55134]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52716]: Connected via websocket
+[21:00:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52716]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52730]: Connected via websocket
+[21:00:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52730]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52742]: Connected via websocket
+[21:00:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52742]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:54] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52756]: Connected via websocket
+[21:00:54] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52756]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:00:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35992]: Connected via websocket
+[21:00:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35992]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:00] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35996]: Connected via websocket
+[21:01:00] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35996]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:02] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36012]: Connected via websocket
+[21:01:02] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36012]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36022]: Connected via websocket
+[21:01:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36022]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53362]: Connected via websocket
+[21:01:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53362]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53366]: Connected via websocket
+[21:01:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53366]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53382]: Connected via websocket
+[21:01:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53382]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53396]: Connected via websocket
+[21:01:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53396]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:14] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53412]: Connected via websocket
+[21:01:14] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53412]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53424]: Connected via websocket
+[21:01:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53424]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43874]: Connected via websocket
+[21:01:17] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43874]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:18] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43890]: Connected via websocket
+[21:01:18] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43890]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43906]: Connected via websocket
+[21:01:19] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43906]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43922]: Connected via websocket
+[21:01:20] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43922]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:21] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43936]: Connected via websocket
+[21:01:21] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43936]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43938]: Connected via websocket
+[21:01:23] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43938]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43942]: Connected via websocket
+[21:01:24] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43942]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43950]: Connected via websocket
+[21:01:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43950]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34164]: Connected via websocket
+[21:01:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34164]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34180]: Connected via websocket
+[21:01:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34180]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34196]: Connected via websocket
+[21:01:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34196]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34208]: Connected via websocket
+[21:01:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34208]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:32] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34214]: Connected via websocket
+[21:01:32] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34214]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:34] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34230]: Connected via websocket
+[21:01:34] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34230]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34246]: Connected via websocket
+[21:01:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34246]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38078]: Connected via websocket
+[21:01:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38078]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:37] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38082]: Connected via websocket
+[21:01:37] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38082]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38084]: Connected via websocket
+[21:01:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38084]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:40] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38092]: Connected via websocket
+[21:01:40] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38092]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:41] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38102]: Connected via websocket
+[21:01:41] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38102]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38106]: Connected via websocket
+[21:01:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38106]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38120]: Connected via websocket
+[21:01:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38120]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38122]: Connected via websocket
+[21:01:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38122]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38132]: Connected via websocket
+[21:01:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38132]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41878]: Connected via websocket
+[21:01:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41878]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41886]: Connected via websocket
+[21:01:49] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41886]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41896]: Connected via websocket
+[21:01:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41896]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41906]: Connected via websocket
+[21:01:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41906]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41914]: Connected via websocket
+[21:01:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41914]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:53] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41930]: Connected via websocket
+[21:01:53] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41930]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:54] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41932]: Connected via websocket
+[21:01:54] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41932]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41938]: Connected via websocket
+[21:01:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41938]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50010]: Connected via websocket
+[21:01:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50010]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50022]: Connected via websocket
+[21:01:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50022]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50030]: Connected via websocket
+[21:01:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50030]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:01:59] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50034]: Connected via websocket
+[21:01:59] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50034]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:00] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50042]: Connected via websocket
+[21:02:00] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50042]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50046]: Connected via websocket
+[21:02:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50046]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:02] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50062]: Connected via websocket
+[21:02:02] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50062]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:03] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50070]: Connected via websocket
+[21:02:03] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50070]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50080]: Connected via websocket
+[21:02:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50080]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50084]: Connected via websocket
+[21:02:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50084]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35598]: Connected via websocket
+[21:02:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35598]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:08] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35604]: Connected via websocket
+[21:02:08] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35604]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35608]: Connected via websocket
+[21:02:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35608]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35616]: Connected via websocket
+[21:02:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35616]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35628]: Connected via websocket
+[21:02:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35628]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35634]: Connected via websocket
+[21:02:13] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35634]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35646]: Connected via websocket
+[21:02:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35646]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35658]: Connected via websocket
+[21:02:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35658]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42678]: Connected via websocket
+[21:02:17] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42678]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42686]: Connected via websocket
+[21:02:18] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42686]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42698]: Connected via websocket
+[21:02:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42698]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:20] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42708]: Connected via websocket
+[21:02:20] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42708]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:21] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42722]: Connected via websocket
+[21:02:21] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42722]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42726]: Connected via websocket
+[21:02:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42726]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42738]: Connected via websocket
+[21:02:23] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42738]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42754]: Connected via websocket
+[21:02:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42754]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42760]: Connected via websocket
+[21:02:25] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42760]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49946]: Connected via websocket
+[21:02:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49946]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:28] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49950]: Connected via websocket
+[21:02:28] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49950]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49956]: Connected via websocket
+[21:02:29] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49956]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:30] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49970]: Connected via websocket
+[21:02:30] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49970]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:31] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49986]: Connected via websocket
+[21:02:31] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49986]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:32] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50000]: Connected via websocket
+[21:02:32] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50000]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50012]: Connected via websocket
+[21:02:33] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50012]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50018]: Connected via websocket
+[21:02:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50018]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50028]: Connected via websocket
+[21:02:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50028]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55092]: Connected via websocket
+[21:02:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55092]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55102]: Connected via websocket
+[21:02:40] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55102]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:41] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55110]: Connected via websocket
+[21:02:41] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55110]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:42] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55112]: Connected via websocket
+[21:02:42] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55112]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55122]: Connected via websocket
+[21:02:43] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55122]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55138]: Connected via websocket
+[21:02:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55138]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55152]: Connected via websocket
+[21:02:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55152]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47468]: Connected via websocket
+[21:02:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47468]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47484]: Connected via websocket
+[21:02:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47484]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:48] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47498]: Connected via websocket
+[21:02:48] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47498]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:49] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47512]: Connected via websocket
+[21:02:49] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47512]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47520]: Connected via websocket
+[21:02:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47520]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47528]: Connected via websocket
+[21:02:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47528]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:52] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47540]: Connected via websocket
+[21:02:52] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47540]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47546]: Connected via websocket
+[21:02:53] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47546]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47556]: Connected via websocket
+[21:02:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47556]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59964]: Connected via websocket
+[21:02:56] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59964]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59970]: Connected via websocket
+[21:02:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59970]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:02:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59974]: Connected via websocket
+[21:02:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59974]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:00] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59978]: Connected via websocket
+[21:03:00] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59978]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59990]: Connected via websocket
+[21:03:01] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59990]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59996]: Connected via websocket
+[21:03:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59996]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59674]: Connected via websocket
+[21:03:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59674]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:08] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59676]: Connected via websocket
+[21:03:08] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59676]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59682]: Connected via websocket
+[21:03:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59682]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59688]: Connected via websocket
+[21:03:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59688]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59700]: Connected via websocket
+[21:03:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59700]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:12] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59716]: Connected via websocket
+[21:03:12] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59716]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59722]: Connected via websocket
+[21:03:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59722]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59736]: Connected via websocket
+[21:03:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59736]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:16] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51366]: Connected via websocket
+[21:03:16] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51366]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51368]: Connected via websocket
+[21:03:17] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51368]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:20] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51382]: Connected via websocket
+[21:03:20] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51382]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:21] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51392]: Connected via websocket
+[21:03:21] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51392]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:22] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51406]: Connected via websocket
+[21:03:22] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51406]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:23] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51408]: Connected via websocket
+[21:03:23] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51408]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51420]: Connected via websocket
+[21:03:26] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51420]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42474]: Connected via websocket
+[21:03:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42474]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:27] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42480]: Connected via websocket
+[21:03:27] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42480]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42488]: Connected via websocket
+[21:03:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42488]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42500]: Connected via websocket
+[21:03:29] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42500]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42506]: Connected via websocket
+[21:03:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42506]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42510]: Connected via websocket
+[21:03:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42510]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:33] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42512]: Connected via websocket
+[21:03:33] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42512]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42524]: Connected via websocket
+[21:03:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42524]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:36] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42526]: Connected via websocket
+[21:03:36] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:42526]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56798]: Connected via websocket
+[21:03:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56798]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56814]: Connected via websocket
+[21:03:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56814]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56818]: Connected via websocket
+[21:03:38] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56818]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56820]: Connected via websocket
+[21:03:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56820]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56832]: Connected via websocket
+[21:03:39] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56832]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56836]: Connected via websocket
+[21:03:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56836]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56838]: Connected via websocket
+[21:03:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56838]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56850]: Connected via websocket
+[21:03:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56850]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37168]: Connected via websocket
+[21:03:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37168]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37182]: Connected via websocket
+[21:03:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37182]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:50] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37186]: Connected via websocket
+[21:03:50] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37186]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50418]: Connected via websocket
+[21:03:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50418]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50426]: Connected via websocket
+[21:03:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50426]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50442]: Connected via websocket
+[21:03:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50442]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:03:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50456]: Connected via websocket
+[21:03:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50456]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50472]: Connected via websocket
+[21:04:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50472]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50484]: Connected via websocket
+[21:04:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50484]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50500]: Connected via websocket
+[21:04:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50500]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60580]: Connected via websocket
+[21:04:07] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60580]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:08] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60590]: Connected via websocket
+[21:04:08] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60590]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60598]: Connected via websocket
+[21:04:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60598]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60610]: Connected via websocket
+[21:04:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60610]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60622]: Connected via websocket
+[21:04:11] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60622]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60634]: Connected via websocket
+[21:04:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60634]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:13] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60642]: Connected via websocket
+[21:04:13] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60642]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:04:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60650]: Connected via websocket
+[21:04:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60650]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:05:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38834]: Connected via websocket
+[21:05:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38834]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:05:01] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38834]: Logged in as 'SyntaxDev'
+[21:05:01] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38834|SyntaxDev] -> UpstreamBridge has connected
+[21:05:01] [Netty Worker IO Thread #2/INFO]: [SyntaxDev|/[0:0:0:0:0:0:0:1%0]:38834] <-> ServerConnector [lobby] has connected
+[21:07:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33640|Demon_Slayer] -> UpstreamBridge has disconnected
+[21:07:45] [Netty Worker IO Thread #3/INFO]: [Demon_Slayer] disconnected with: Proxy lost connection to server.
+[21:07:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33640|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:08:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37534]: Connected via websocket
+[21:08:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37534]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:08:14] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37534]: Logged in as 'Demon_Slayer'
+[21:08:14] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37534|Demon_Slayer] -> UpstreamBridge has connected
+[21:08:14] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer|/[0:0:0:0:0:0:0:1%0]:37534] <-> ServerConnector [lobby] has connected
+[21:12:27] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38228]: Connected via websocket
+[21:12:27] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38228]: Origin header is http://localhost:8081
+[21:12:27] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38228]: Logged in as 'hinkley_the_hunk'
+[21:12:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38228|hinkley_the_hunk] -> UpstreamBridge has connected
+[21:12:27] [Netty Worker IO Thread #1/INFO]: [hinkley_the_hunk|/[0:0:0:0:0:0:0:1%0]:38228] <-> ServerConnector [lobby] has connected
+[21:26:42] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|DABEAST] -> UpstreamBridge has disconnected
+[21:26:42] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: Proxy lost connection to server.
+[21:26:42] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:26:55] [Netty Worker IO Thread #1/INFO]: [hinkley_the_hunk] disconnected with: You are banned from this server.
+[21:26:55] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38228|hinkley_the_hunk] -> UpstreamBridge has disconnected
+[21:26:55] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38228|hinkley_the_hunk] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:26:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49838]: Connected via websocket
+[21:26:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49838]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:26:55] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49838]: Logged in as 'DABEAST'
+[21:26:55] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49838|DABEAST] -> UpstreamBridge has connected
+[21:26:55] [Netty Worker IO Thread #3/INFO]: [DABEAST|/[0:0:0:0:0:0:0:1%0]:49838] <-> ServerConnector [lobby] has connected
+[21:27:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53554]: Connected via websocket
+[21:27:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53554]: Origin header is http://localhost:8081
+[21:27:34] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:53554]: Logged in as 'hinkley_the_hunk'
+[21:27:34] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53554|hinkley_the_hunk] -> UpstreamBridge has connected
+[21:27:34] [Netty Worker IO Thread #0/INFO]: [hinkley_the_hunk|/[0:0:0:0:0:0:0:1%0]:53554] <-> ServerConnector [lobby] has connected
+[21:27:34] [Netty Worker IO Thread #0/INFO]: [hinkley_the_hunk] disconnected with: Kicked whilst connecting to lobby: You are banned from this server!
+Reason: Banned by an operator.
+[21:27:34] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:53554|hinkley_the_hunk] -> UpstreamBridge has disconnected
+[21:27:34] [Netty Worker IO Thread #0/INFO]: [hinkley_the_hunk|/[0:0:0:0:0:0:0:1%0]:53554] <-> ServerConnector [lobby] has disconnected
+[21:28:29] [Netty Worker IO Thread #0/INFO]: [YeeYee636___] disconnected with: Womp Womp.
+[21:28:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44402|YeeYee636___] -> UpstreamBridge has disconnected
+[21:28:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:44402|YeeYee636___] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Womp Womp.
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36586|Tyler] -> UpstreamBridge has disconnected
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:36586|Tyler] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [DABEAST] disconnected with: Womp Womp.
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49838|DABEAST] -> UpstreamBridge has disconnected
+[21:28:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49838|DABEAST] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:30] [Netty Worker IO Thread #2/WARN]: [/[0:0:0:0:0:0:0:1%0]:38834|SyntaxDev] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:28:30] [Netty Worker IO Thread #0/WARN]: [/[0:0:0:0:0:0:0:1%0]:33648|dev_] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:28:30] [Netty Worker IO Thread #0/INFO]: [dev_] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[21:28:30] [Netty Worker IO Thread #2/INFO]: [SyntaxDev] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[21:28:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33648|dev_] -> UpstreamBridge has disconnected
+[21:28:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33648|dev_] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:30] [Netty Worker IO Thread #1/WARN]: [/[0:0:0:0:0:0:0:1%0]:37534|Demon_Slayer] <-> DownstreamBridge <-> [lobby] - NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:28:30] [Netty Worker IO Thread #1/INFO]: [Demon_Slayer] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[21:28:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37534|Demon_Slayer] -> UpstreamBridge has disconnected
+[21:28:30] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:37534|Demon_Slayer] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38834|SyntaxDev] -> UpstreamBridge has disconnected
+[21:28:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38834|SyntaxDev] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:28:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51408]: Connected via websocket
+[21:28:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51408]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:28:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51408]: Logged in as 'Tyler'
+[21:28:35] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51408|Tyler] -> UpstreamBridge has connected
+[21:28:35] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Tyler AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:28:35] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:28:35] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:51408|Tyler] -> UpstreamBridge has disconnected
+[21:28:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40608]: Connected via websocket
+[21:28:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40608]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:28:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40608]: Logged in as 'Tyler'
+[21:28:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40608|Tyler] -> UpstreamBridge has connected
+[21:28:46] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Tyler AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:28:46] [Netty Worker IO Thread #0/INFO]: [Tyler] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:28:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40608|Tyler] -> UpstreamBridge has disconnected
+[21:28:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43420]: Connected via websocket
+[21:28:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43420]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:28:59] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43420]: Logged in as 'SyntaxDev'
+[21:28:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43420|SyntaxDev] -> UpstreamBridge has connected
+[21:28:59] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for SyntaxDev AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:28:59] [Netty Worker IO Thread #2/INFO]: [SyntaxDev] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:28:59] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43420|SyntaxDev] -> UpstreamBridge has disconnected
+[21:29:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43434]: Connected via websocket
+[21:29:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43434]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:29:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43434]: Logged in as 'Tyler'
+[21:29:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43434|Tyler] -> UpstreamBridge has connected
+[21:29:00] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Tyler AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:29:00] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:29:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43434|Tyler] -> UpstreamBridge has disconnected
+[21:34:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35342]: Connected via websocket
+[21:34:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35342]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:34:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35342]: Logged in as 'Tyler'
+[21:34:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35342|Tyler] -> UpstreamBridge has connected
+[21:34:00] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Tyler AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:34:00] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:34:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35342|Tyler] -> UpstreamBridge has disconnected
+[21:34:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41500]: Connected via websocket
+[21:34:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41500]: Origin header is https://exquisite-pavlova-2fd33d.netlify.app
+[21:34:12] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41500]: Logged in as 'Tyler'
+[21:34:12] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41500|Tyler] -> UpstreamBridge has connected
+[21:34:12] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Tyler AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[21:34:12] [Netty Worker IO Thread #3/INFO]: [Tyler] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:34:12] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41500|Tyler] -> UpstreamBridge has disconnected
