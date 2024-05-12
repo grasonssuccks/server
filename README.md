@@ -36,3 +36,5 @@ This will take a while to complete but I also even plan to add 2 more servers to
 `Go Sub to him https://www.youtube.com/@ismaeltechI`
 `and go to sub to this one two https://www.youtube.com/@ShadowRealmBlade-TheOG`
 ` Want to Contact Me On Discord Just add me my username is yourhostimmortal `
+
+`For Plugins go to https://dev.bukkit.org/bukkit-plugins and https://www.spigotmc.org/  `
