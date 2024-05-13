@@ -3,7 +3,11 @@ System Setup (Linux)
 
 `sudo apt install default-jdk && sudo apt install default-jre -y
 `
+<br>
+<br>
 (" Warning Linux Is Untested Only Codespaces have been tested ")
+<br>
+<br>
 `Installing The Server
 Now, we need to clone the server repo using git. Please run the following command:`
 
