@@ -1,3 +1,16 @@
+System Setup (Linux)
+`For this tutorial, we will be using Ubuntu 22.04 LTS. First, java is required to run bungee cord and the server file. To do this, we will need to run the following commands:`
+
+`sudo apt install default-jdk && sudo apt install default-jre -y
+`
+(" Warning Linux Is Untested Only Codespaces have been tested ")
+`Installing The Server
+Now, we need to clone the server repo using git. Please run the following command:`
+
+`git clone alexleo2/test-network
+`
+
+OR Host On Github
 `fork this `
 
 ` Make A codespace `
