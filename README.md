@@ -49,7 +49,7 @@ This will take a while to complete but I also even plan to add 2 more servers to
 <br>
 <br>
 
-`You can also host on https://gitpod.io/new#https://github.com/alexleo2/test-network`
+`You can also host on https://gitpod.io/new#https://github.com/alexleo2/test-network Untested though`
 
 `Inspried by ismaeltechI` 
 `Go Sub to him https://www.youtube.com/@ismaeltechI`
