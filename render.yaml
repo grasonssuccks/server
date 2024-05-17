@@ -1,0 +1,10 @@
+services:
+- type: web
+  name: test-network
+  env: static
+  buildCommand: npm run build
+  staticPublishPath: ./build
+  routes:
+  - type: rewrite
+    source: /*
+    destination: /main
