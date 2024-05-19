@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: 'SMP'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -9,10 +9,10 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - lobby
+  - burier
   bind_local_address: false
-  host: 127.0.0.1:25577
-  max_players: 1
+  host: 127.0.0.1:42069
+  max_players: 20
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -40,11 +40,11 @@ connection_throttle: 4000
 log_commands: false
 prevent_proxy_connections: false
 online_mode: false
-forge_support: true
+forge_support: false
 disabled_commands:
 - disabledcommandhere
 servers:
-  lobby:
-    motd: '&1Just another Waterfall - Forced Host'
+  burier:
+    motd: 'Burier SMP for Rel users'
     address: localhost:25565
     restricted: false
