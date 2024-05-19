@@ -232,3 +232,7 @@
 
 [16:02:09] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[16:17:05] [Thread-8/INFO]: UUID of player YiggVool182 is 0df63d84-60a0-3d65-bcb8-c9f4e1fffc4d
+[16:17:05] [Server thread/INFO]: YiggVool182[/[0:0:0:0:0:0:0:1]:34152] logged in with entity id 2008 at ([world]-234.5, 64.0, -5.5)
+[16:17:18] [Server thread/INFO]: YiggVool182 lost connection: Disconnected
+[16:17:18] [Server thread/INFO]: YiggVool182 left the game.

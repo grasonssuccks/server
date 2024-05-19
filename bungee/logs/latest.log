@@ -69,3 +69,11 @@
 [16:02:19] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [16:02:19] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [16:03:00] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/BurierSMP/bungee/server-icon.png
+[16:17:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48558]: Connected via websocket
+[16:17:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48558]: Origin header is https://eaglercraft.com
+[16:17:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48558]: Logged in as 'YiggVool182'
+[16:17:05] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48558|YiggVool182] -> UpstreamBridge has connected
+[16:17:05] [Netty Worker IO Thread #3/INFO]: [YiggVool182|/[0:0:0:0:0:0:0:1%0]:48558] <-> ServerConnector [lobby] has connected
+[16:17:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48558|YiggVool182] -> UpstreamBridge has disconnected
+[16:17:18] [Netty Worker IO Thread #3/INFO]: [YiggVool182] disconnected with: Proxy lost connection to server.
+[16:17:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48558|YiggVool182] <-> DownstreamBridge <-> [lobby] has disconnected
