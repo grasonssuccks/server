@@ -54,3 +54,6 @@
 [16:41:12] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43452]: Logged in as 'Techis2507'
 [16:41:12] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:43452|Techis2507] -> UpstreamBridge has connected
 [16:41:12] [Netty Worker IO Thread #4/INFO]: [Techis2507|/[0:0:0:0:0:0:0:1%0]:43452] <-> ServerConnector [lobby] has connected
+[16:43:56] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:43452|Techis2507] -> UpstreamBridge has disconnected
+[16:43:56] [Netty Worker IO Thread #4/INFO]: [Techis2507] disconnected with: Proxy lost connection to server.
+[16:43:56] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1%0]:43452|Techis2507] <-> DownstreamBridge <-> [lobby] has disconnected
