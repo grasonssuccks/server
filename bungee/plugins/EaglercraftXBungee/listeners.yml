@@ -3,14 +3,14 @@ listener_01:
   address_v6: 'null'
   max_players: 60
   tab_list: GLOBAL_PING
-  default_server: lobby
+  default_server: burier
   force_default_server: false
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&7Burier&6SMP &4Online 24/7'
+  - '&6An EaglercraftX server'
   allow_motd: true
   allow_query: true
   request_motd_cache:
