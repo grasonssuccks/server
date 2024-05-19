@@ -9,8 +9,7 @@ listener_01:
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
-  server_motd:
-  - '&7Burier&6SMP&r\n&1&9For Students, by Students &4Online 24/7H'
+  server_motd: -'&7Burier&6SMP&r &4Online 24/7H'
   allow_motd: true
   allow_query: true
   request_motd_cache:
