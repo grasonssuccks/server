@@ -11,7 +11,7 @@ System Setup (Linux)
 `Installing The Server
 Now, we need to clone the server repo using git. Please run the following command:`
 
-`git clone alexleo2/test-network
+`git clone https://github.com/alexleo2/test-network
 `
 
 OR Host On Github
