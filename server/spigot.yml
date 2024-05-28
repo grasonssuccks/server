@@ -9,7 +9,8 @@
 # 
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
-
+# Network Ver Made by GalaxyTheForbidd
+# ( Dont Untag this ) NetworkVer=2.1
 config-version: 8
 settings:
   save-user-cache-on-stop-only: false

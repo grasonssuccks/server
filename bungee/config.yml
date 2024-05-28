@@ -1,7 +1,9 @@
+# Network Ver Made by GalaxyTheForbidd
+# ( Dont Untag this ) NetworkVer=2.1
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '&4[&2IMMORTALSMP&4]'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -47,4 +49,12 @@ servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
     address: localhost:25565
+    restricted: false
+  ChangeName:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:8082
+    restricted: false
+  ChangeName2:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:8083
     restricted: false
