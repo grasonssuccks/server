@@ -7,6 +7,8 @@ System Setup (Linux)
 <br>
 (" Warning Linux Is Untested Only Codespaces have been tested ")
 <br>
+`want a chance for me to join your server (GalaxyTheForbidd) Then After forking this Put your Edit this README and list your ip Ill check Daily list here
+   IP: `
 <br>
 `Installing The Server
 Now, we need to clone the server repo using git. Please run the following command:`
