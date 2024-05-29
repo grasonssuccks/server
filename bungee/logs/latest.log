@@ -57,3 +57,9 @@
 [20:18:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47546|DiamondCrystal] -> UpstreamBridge has disconnected
 [20:18:06] [Netty Worker IO Thread #0/INFO]: [DiamondCrystal] disconnected with: Proxy lost connection to server.
 [20:18:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47546|DiamondCrystal] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:30:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60984]: Connected via websocket
+[20:30:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60984]: Origin header is null
+[20:30:28] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60984]: Logged in as 'DiamondCrystal'
+[20:30:28] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60984|DiamondCrystal] -> UpstreamBridge has connected
+[20:30:28] [Netty Worker IO Thread #2/INFO]: [DiamondCrystal|/[0:0:0:0:0:0:0:1%0]:60984] <-> ServerConnector [lobby] has connected
+[20:31:34] [main/INFO]: Command not found

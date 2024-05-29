@@ -219,3 +219,8 @@
 [20:15:08] [Server thread/INFO]: [DiamondCrystal: Given [Command Block] * 1 to DiamondCrystal]
 [20:18:06] [Server thread/INFO]: DiamondCrystal lost connection: Disconnected
 [20:18:06] [Server thread/INFO]: DiamondCrystal left the game.
+[20:30:28] [Thread-9/INFO]: UUID of player DiamondCrystal is 9cff3ba8-d795-39b6-b8c1-ea6788565f39
+[20:30:28] [Server thread/INFO]: DiamondCrystal[/[0:0:0:0:0:0:0:1]:60046] logged in with entity id 481 at ([world]-125.67434902355072, 63.0, 256.14053860353715)
+[20:31:41] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[20:31:51] [Server thread/INFO]: You whisper to DiamondCrystal: hello
