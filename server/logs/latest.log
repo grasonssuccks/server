@@ -215,3 +215,7 @@
 
 [20:02:50] [Thread-7/INFO]: UUID of player DiamondCrystal is 9cff3ba8-d795-39b6-b8c1-ea6788565f39
 [20:02:50] [Server thread/INFO]: DiamondCrystal[/[0:0:0:0:0:0:0:1]:38274] logged in with entity id 123 at ([world]-116.63614885027471, 63.0, 267.69420083376303)
+[20:15:07] [Server thread/INFO]: DiamondCrystal issued server command: /give DiamondCrystal minecraft:command_block
+[20:15:08] [Server thread/INFO]: [DiamondCrystal: Given [Command Block] * 1 to DiamondCrystal]
+[20:18:06] [Server thread/INFO]: DiamondCrystal lost connection: Disconnected
+[20:18:06] [Server thread/INFO]: DiamondCrystal left the game.

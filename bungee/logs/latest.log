@@ -54,3 +54,6 @@
 [20:02:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47546]: Logged in as 'DiamondCrystal'
 [20:02:50] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47546|DiamondCrystal] -> UpstreamBridge has connected
 [20:02:50] [Netty Worker IO Thread #0/INFO]: [DiamondCrystal|/[0:0:0:0:0:0:0:1%0]:47546] <-> ServerConnector [lobby] has connected
+[20:18:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47546|DiamondCrystal] -> UpstreamBridge has disconnected
+[20:18:06] [Netty Worker IO Thread #0/INFO]: [DiamondCrystal] disconnected with: Proxy lost connection to server.
+[20:18:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47546|DiamondCrystal] <-> DownstreamBridge <-> [lobby] has disconnected
