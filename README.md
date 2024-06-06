@@ -17,7 +17,7 @@ now you have your own free server instance to host eaglercraft. Next you need to
 create 2 terminal tabs and paste in the following snipits:
 <br>
 <br>
-first tab: `cd server && sudo java -jar server.jar`
+first tab:   cd server && sudo java -jar server.jar
 <br>
 <br>
 second tab: `cd bungee && sudo java -jar bungee.jar`

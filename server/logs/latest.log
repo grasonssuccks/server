@@ -1,0 +1,92 @@
+[00:00:09] [Thread-33/INFO]: UUID of player slay_queen_60001 is b75999a3-3657-3e34-96eb-c2957f3d3931
+[00:00:09] [Server thread/INFO]: slay_queen_60001[/[0:0:0:0:0:0:0:1]:42084] logged in with entity id 42351 at ([world]1021.4091415228734, 72.0625, -871.6999999880791)
+[00:00:24] [Server thread/INFO]: slay_queen_60001 lost connection: Disconnected
+[00:00:24] [Server thread/INFO]: slay_queen_60001 left the game.
+[00:00:29] [Thread-34/INFO]: UUID of player slay_queen_60001 is b75999a3-3657-3e34-96eb-c2957f3d3931
+[00:00:29] [Server thread/INFO]: slay_queen_60001[/[0:0:0:0:0:0:0:1]:38684] logged in with entity id 42555 at ([world]1021.4091415228734, 72.0625, -871.6999999880791)
+[00:00:34] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> who?[m
+
+[00:01:13] [Async Chat Thread - #19/INFO]: <slay_queen_60001> hey bitches[m
+
+[00:01:26] [Async Chat Thread - #19/INFO]: <slay_queen_6000> WTF[m
+
+[00:01:29] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> Who?[m
+
+[00:01:31] [Async Chat Thread - #19/INFO]: <slay_queen_6000> who are you[m
+
+[00:01:39] [Async Chat Thread - #19/INFO]: <slay_queen_60001> guess[m
+
+[00:01:51] [Server thread/INFO]: slay_queen_6000 issued server command: /ban slay_queen_60001
+[00:01:51] [Server thread/INFO]: slay_queen_60001 lost connection: You are banned from this server.
+[00:01:51] [Server thread/INFO]: slay_queen_60001 left the game.
+[00:01:51] [Server thread/INFO]: [slay_queen_6000: Banned player slay_queen_60001]
+[00:01:51] [Server thread/WARN]: handleDisconnection() called twice
+[00:01:55] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> I DONT FUCKING KNOW[m
+
+[00:02:14] [Thread-35/INFO]: UUID of player slay_queen_600 is 471b47f0-daf8-3411-91c4-79d3de04a9ad
+[00:02:14] [Server thread/INFO]: slay_queen_600[/[0:0:0:0:0:0:0:1]:55162] logged in with entity id 42838 at ([world]1161.5, 64.0, -683.5)
+[00:02:49] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> BITCH WHAT THE FUCK[m
+
+[00:02:54] [Async Chat Thread - #19/INFO]: <slay_queen_600> FUCK YOU GUYS[m
+
+[00:03:02] [Server thread/INFO]: slay_queen_600 lost connection: Disconnected
+[00:03:02] [Server thread/INFO]: slay_queen_600 left the game.
+[00:03:04] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> HIDE THE CRACK[m
+
+[00:03:29] [Thread-36/INFO]: UUID of player slay_queen_600 is 471b47f0-daf8-3411-91c4-79d3de04a9ad
+[00:03:29] [Server thread/INFO]: slay_queen_600[/[0:0:0:0:0:0:0:1]:51864] logged in with entity id 42961 at ([world]1165.878944136513, 63.0, -668.1279095834352)
+[00:03:47] [Server thread/INFO]: Barney_The_Dino issued server command: /tp slay_queen_600
+[00:03:47] [Server thread/INFO]: [Barney_The_Dino: Teleported Barney_The_Dino to slay_queen_600]
+[00:03:55] [Async Chat Thread - #19/INFO]: <slay_queen_600> im gonn ruin your life[m
+
+[00:04:07] [Async Chat Thread - #19/INFO]: <slay_queen_6000> bitch ew[m
+
+[00:04:12] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> Mj lol? or his loyal followers[m
+
+[00:04:15] [Async Chat Thread - #19/INFO]: <slay_queen_600> stfu[m
+
+[00:04:38] [Server thread/INFO]: slay_queen_600 issued server command: /gamemode c
+[00:04:43] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> ok, Loyal followers then[m
+
+[00:05:04] [Server thread/INFO]: Barney_The_Dino issued server command: /gamemode c
+[00:05:04] [Server thread/INFO]: [Barney_The_Dino: Set own game mode to Creative Mode]
+[00:05:10] [Async Chat Thread - #19/INFO]: <slay_queen_600> FUCK YOU[m
+
+[00:05:14] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> okay?[m
+
+[00:05:41] [Server thread/INFO]: slay_queen_600 issued server command: /its me lol
+[00:05:53] [Async Chat Thread - #19/INFO]: <slay_queen_600> daddy[m
+
+[00:05:56] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:06:02] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> Nah its mommy[m
+
+[00:06:24] [Async Chat Thread - #19/INFO]: <slay_queen_600> andrew plz[m
+
+[00:06:25] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:06:47] [Async Chat Thread - #19/INFO]: <slay_queen_600> UHHHHHHHHH DADDY[m
+
+[00:06:48] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:07:02] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> gamemode a slay_queen_600[m
+
+[00:07:07] [Async Chat Thread - #19/INFO]: <slay_queen_600> watashi no siego[m
+
+[00:07:10] [Server thread/INFO]: Barney_The_Dino issued server command: /gamemode a slay_queen_600
+[00:07:10] [Server thread/INFO]: [Barney_The_Dino: Set slay_queen_600's game mode to Adventure Mode]
+[00:07:12] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:07:18] [Async Chat Thread - #19/INFO]: <Barney_The_Dino> Yasss[m
+
+[00:07:31] [Async Chat Thread - #19/INFO]: <slay_queen_600> SEE YOU SHINEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE[m
+
+[00:07:32] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:07:44] [Async Chat Thread - #19/INFO]: <slay_queen_600> IS YOUR GOLDEN HOURRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR[m
+
+[00:08:47] [Server thread/INFO]: slay_queen_600 was slain by Zombie
+[00:09:01] [Server thread/INFO]: Barney_The_Dino lost connection: Disconnected
+[00:09:01] [Server thread/INFO]: Barney_The_Dino left the game.
+[00:11:18] [Server thread/INFO]: slay_queen_6000 lost connection: Disconnected
+[00:11:18] [Server thread/INFO]: slay_queen_6000 left the game.
+[00:12:54] [Thread-38/INFO]: UUID of player Barney_The_Dino is 59fdd1c5-6217-34d0-907a-eee4cbdf5f14
+[00:12:54] [Server thread/INFO]: Barney_The_Dino[/[0:0:0:0:0:0:0:1]:42440] logged in with entity id 44065 at ([world]1155.8847189891223, 72.0, -749.5550855706135)
+[00:13:25] [Server thread/INFO]: Barney_The_Dino lost connection: Login timed out!
+[00:13:25] [Server thread/INFO]: Barney_The_Dino left the game.
+[00:13:25] [Server thread/WARN]: handleDisconnection() called twice
