@@ -1,0 +1,20 @@
+# 
+#  VERY EARLY
+#  PLEASE REPORT ERRORS
+#  AND BUGS
+
+discord-token: ODEyMDgwNjcyNTA0MDIxMDQy.Gt5CdD.gx2s-6zOpzSG7iUWEKX2w4wk2-3E_UzH8s9Kn4
+guildID: '1067642333102870528'
+gameEndEvent: true
+gameEndChannelID: '1067847742522658846'
+playerKillEvent: true
+playerKillChannelID: '1067847742522658846'
+getUpdateCheck: true
+owner_id: '780770172638199808'
+bot_embed_colour: 2f3136
+statusTexts:
+- cavalos isto bastante cavalos
+- Bedwars do CASSIOO
+- bizarro
+statusType: ONLINE
+statusUpdate: 5

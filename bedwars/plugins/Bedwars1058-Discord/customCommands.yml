@@ -1,0 +1,25 @@
+commands:
+  - prefix: !
+  - name: custom1
+    description: Custom Command 1
+    embed:
+      title: Title 1
+      description: Description 1
+      color: 16711680
+      fields:
+        - name: Field 1
+          value: Value 1
+          inline: true
+        - name: Field 2
+          value: Value 2
+          inline: false
+  - name: custom2
+    description: Custom Command 2
+    embed:
+      title: Title 2
+      description: Description 2
+      color: 65280
+      fields:
+        - name: Field 3
+          value: Value 3
+          inline: true

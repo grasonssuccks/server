@@ -1,0 +1,20 @@
+lastAccountName: slipstreamrl
+timestamps:
+  login: 1720290674147
+  logout: 1720291761455
+ipAddress: 127.20.76.16
+money: '1155.0'
+lastlocation:
+  world: acropolis1v1
+  x: -46.4881438094055
+  y: -10.118720824743887
+  z: -34.45706694209331
+  yaw: 67.04024
+  pitch: -63.804672
+logoutlocation:
+  world: world
+  x: 0.4417134087400926
+  y: 60.0
+  z: -2.2951568877914506
+  yaw: -179.6525
+  pitch: -0.48955643

@@ -1,0 +1,34 @@
+# > ---
+# > Parkours List
+# > Here you will find list of parkours created
+# > Thanks for choosing our setup
+# > ---
+
+Parkours:
+  bw:
+    status: 'ON'
+    points:
+      '1':
+        world: world
+        x: -25
+        y: 57
+        z: 2
+        yaw: -322.8
+      '2':
+        world: world
+        x: -48
+        y: 53
+        z: 19
+        yaw: -291.74994
+      '3':
+        world: world
+        x: -29
+        y: 53
+        z: 53
+        yaw: -127.199585
+      '4':
+        world: world
+        x: 22
+        y: 57
+        z: -10
+        yaw: -258.60016

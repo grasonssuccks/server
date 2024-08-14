@@ -1,0 +1,43 @@
+texture: 1f23685c697ba55edda425ecf1fec72feeb7bb985c6506b2cef070515e4e5492
+name: '&dMagenta LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : SPRUCE_FENCE : 14 : 64'
+  - 'ITEM : IRON_DOOR_BLOCK : 64 : 0'
+  '1':
+  - 'SPECIAL : PIG : 2'
+  '2':
+  - 'ITEM : COBBLESTONE : 35 : 64'
+  '3':
+  - 'LUCKY_BLOCK_ITEM : BLACK : 4'
+  '4':
+  - 'ITEM : RABBIT_HIDE : 26 : 0'
+  '5':
+  - 'LUCKY_BLOCK_ITEM : LIME : 4'
+  '6':
+  - 'ITEM : SMOOTH_BRICK : 2 : 0'
+  '7':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 50'
+  '8':
+  - 'ITEM : SANDSTONE : 1 : 0'
+  - 'ITEM : WATER_BUCKET : 1 : 1'
+  '9':
+  - 'SPECIAL : PIG : 3'
+  '10':
+  - 'ITEM : RECORD_11 : 1 : 1'
+  - 'ITEM : STANDING_BANNER : 14 : 0'
+  - 'ITEM : STATIONARY_LAVA : 35 : 0'
+  '11':
+  - 'LUCKY_BLOCK_ITEM : TINTED : 1'
+  '12':
+  - 'ITEM : BIRCH_DOOR : 34 : 0'

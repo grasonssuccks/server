@@ -1,0 +1,110 @@
+texture: b03f5a9bc719cd1127be0954c73cd5714ecd478dad880ef2b9979c481097e6be
+name: '&aLime LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : RAILS : 12 : 64'
+  '1':
+  - 'SPECIAL : TNT_COLUMN : 2'
+  '2':
+  - 'SPECIAL : WATER_BUCKET : 73'
+  '3':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 58'
+  '4':
+  - 'ITEM : ARROW : 21 : 64'
+  - 'ITEM : DIAMOND_HOE : 1 : 1'
+  '5':
+  - 'ITEM : VINE : 34 : 64'
+  '6':
+  - 'ITEM : MELON_BLOCK : 22 : 64'
+  '7':
+  - 'SPECIAL : WITCH_ATTACK : 23'
+  '8':
+  - 'ITEM : FURNACE : 55 : 0'
+  - 'ITEM : IRON_PLATE : 1 : 64'
+  - 'ITEM : IRON_PICKAXE : 1 : 179'
+  '9':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 3'
+  '10':
+  - 'ITEM : SNOW_BALL : 8 : 0'
+  '11':
+  - 'ITEM : POTATO : 1 : 0'
+  '12':
+  - 'ITEM : STEP : 21 : 0'
+  - 'ITEM : BOWL : 55 : 64'
+  '13':
+  - 'SPECIAL : PIG : 4'
+  '14':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '15':
+  - 'SPECIAL : TNT_EXPLOSION : 10'
+  '16':
+  - 'ITEM : RED_ROSE : 40 : 0'
+  - 'ITEM : TRAPPED_CHEST : 11 : 0'
+  - 'ITEM : CAULDRON : 16 : 0'
+  '17':
+  - 'LUCKY_BLOCK_ITEM : CYAN : 4'
+  '18':
+  - 'LUCKY_BLOCK_ITEM : BROWN : 4'
+  '19':
+  - 'ENTITY : ENDER_PEARL : 3'
+  '20':
+  - 'ENTITY : SNOWBALL : 2'
+  '21':
+  - 'ITEM : GOLDEN_APPLE : 44 : 64'
+  - 'ITEM : COBBLESTONE : 10 : 64'
+  '22':
+  - 'ITEM : CAKE : 1 : 1'
+  - 'ITEM : RED_SANDSTONE : 20 : 0'
+  - 'ITEM : RABBIT : 14 : 64'
+  - 'ITEM : TNT : 23 : 0'
+  '23':
+  - 'LUCKY_BLOCK_ITEM : CYAN : 1'
+  '24':
+  - 'ITEM : GOLD_BARDING : 1 : 1'
+  '25':
+  - 'LUCKY_BLOCK_ITEM : BROWN : 2'
+  '26':
+  - 'SPECIAL : PIG : 5'
+  '27':
+  - 'ITEM : DIRT : 54 : 0'
+  '28':
+  - 'ITEM : ENDER_PORTAL : 45 : 0'
+  - 'ITEM : DAYLIGHT_DETECTOR : 5 : 64'
+  - 'ITEM : STONE_BUTTON : 16 : 0'
+  - 'ITEM : WALL_SIGN : 26 : 0'
+  '29':
+  - 'LUCKY_BLOCK_ITEM : BROWN : 4'
+  '30':
+  - 'ITEM : PUMPKIN_SEEDS : 55 : 0'
+  '31':
+  - 'SPECIAL : PIG : 2'
+  '32':
+  - 'ITEM : COAL : 22 : 64'
+  - 'ITEM : RECORD_8 : 1 : 0'
+  - 'ITEM : PAPER : 35 : 0'
+  '33':
+  - 'LUCKY_BLOCK_ITEM : LIME : 4'
+  '34':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 2'
+  '35':
+  - 'SPECIAL : TNT_EXPLOSION : 19'
+  '36':
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 2'
+  '37':
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 4'
+  '38':
+  - 'ITEM : MELON_BLOCK : 21 : 64'
+  - 'ITEM : HARD_CLAY : 57 : 0'
+  - 'ITEM : RECORD_6 : 1 : 0'
+  '39':
+  - 'ITEM : LAVA : 3 : 64'

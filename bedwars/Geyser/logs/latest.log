@@ -1,0 +1,13 @@
+[15:54:37.405 main/INFO] Carregando extensões...
+[15:54:37.425 main/INFO] 0 extensão(ões) carregada
+[15:54:37.435 main/INFO] ******************************************
+[15:54:37.435 main/INFO] 
+[15:54:37.435 main/INFO] Carregando Geyser versão 2.2.0-SNAPSHOT (git-master-3288f42)
+[15:54:37.435 main/INFO] 
+[15:54:37.435 main/INFO] ******************************************
+[15:54:40.271 nioEventLoopGroup-3-1/INFO] Geyser iniciado em 0.0.0.0: 19132
+[15:54:40.301 main/INFO] Concluído (2,866 s)! Execute /geyser help para obter ajuda!
+[15:54:48.501 nioEventLoopGroup-3-1/INFO] /127.224.103.129:56199 tentou conectar!
+[15:54:49.179 nioEventLoopGroup-3-2/INFO] Jogador conectado com o nome de usuário SrCookie5042
+[15:54:49.197 tcpClientSession-5-1/INFO] SrCookie5042 (conectado como: SrCookie5042) conectou-se ao servidor Java remoto no endereço 127.0.0.1
+[15:55:49.000 tcpClientSession-5-1/INFO] SrCookie5042 se desconectou do servidor Java remoto no endereço 127.0.0.1 por causa de Cliente Bedrock desconectado

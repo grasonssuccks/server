@@ -1,0 +1,28 @@
+texture: bd3a1436e0fd5f3e4d113a092c1d07a12e22d426c50183ccd62877d9cd885fbd
+name: '&6Orange LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : ENDER_PORTAL_FRAME : 1 : 0'
+  '1':
+  - 'ITEM : WOOD_PLATE : 9 : 0'
+  '2':
+  - 'ITEM : COOKIE : 8 : 64'
+  - 'ITEM : RAW_FISH : 8 : 64'
+  - 'ITEM : REDSTONE_TORCH_ON : 33 : 0'
+  '3':
+  - 'ITEM : SEA_LANTERN : 44 : 64'
+  - 'ITEM : DARK_OAK_FENCE_GATE : 29 : 64'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 2'
+  '5':
+  - 'ITEM : DARK_OAK_DOOR_ITEM : 9 : 0'

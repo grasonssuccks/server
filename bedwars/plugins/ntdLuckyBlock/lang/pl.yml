@@ -1,0 +1,106 @@
+
+author: Torwik
+
+special:
+  water_bucket: "&c&lWŁAŚCICIEL &cDanirod_Gaming &7-> Sprawdź swój ekwipunek.. Masz &9wiadro wody&f!"
+  witch: "&5&lStara wiedźma"
+
+custom_item:
+  item_not_found: "Nie znaleziono identyfikatora %identifier%"
+  magic_wool: "&6&l&oMagiczna wełna"
+
+craft:
+  allowed_one_layer: "&cCrafting jest możliwy tylko przy użyciu każdego składnika w jednej ilości dla osobnego slotu"
+
+system:
+  loading_config: "&fWczytywanie konfiguracji... "
+  reloaded_config: "&aKonfiguracja została przeładowana, załadowano %amount% typy luckyblock..."
+  material_api: "&fZnaleziono %build% material API-version"
+  
+  lb_not_found: "&cNie znaleziono LuckyBlocka &e%lb%&c pomijam... "
+  lb_loading_exception: "&cNie można załadować LuckyBlocka &e%lb%&c Błąd: &e%exception%"
+  lb_unknown_exception: "&cNie znaleziono LuckyBlocka &e%lb%&c lub wystąpił jakiś błąd, pomijam... "
+  lb_loaded_zero: "&fZaładowano 0 typów LuckyBlocków... Hm..."
+  lb_loaded_not_zero: "&fZaładowano &e%amount%&f typy LuckyBlocków..."
+  
+  cant_use_command: "&cPrzepraszamy, ale nie możesz używać żadnych poleceń."
+  cant_use_subcommand: "&cPrzepraszamy, ale nie możesz użyć tego polecenia."
+  cant_interact_world: "&cPrzykro mi, ale nie możesz interaktować z LuckyBlockami w świecie &e%world%"
+  
+  cant_break_color: "&cPrzepraszamy, ale nie możesz zniszczyć typu LuckyBlocka &e%lb%"
+  
+  cmd_lb_disabled: "&cTyp LuckyBlocka &e%lb%&c wyłączony :("
+  cmd_lb_not_found: "&cNie znaleziono typu LuckyBlocka &e%lb%&c :("
+  cmd_lb_received: "&aOtrzymałeś(aś) LuckyBlocki (%amount% - Kolor: %lb%)"
+  cmd_lb_give: "&aDałeś(aś) LuckyBlocki (%amount% - Kolor: %lb%)"
+  
+  cmd_help:
+  - "&eLista komend pluginu na LuckyBlocki:"
+  - "&8 > &e/%label% get <kolor> [ilość] &f- daje Tobie luckyblock."
+  - "&8 > &e/%label% give <gracz> <kolor> [ilość] &f- daje luckyblock dla gracza."
+  - "&8 > &e/%label% gui <get/edit> &f- otwiera menu."
+#  - "&8 > &e/%label% edit &f- otwiera menu."
+  - "&8 > &e/%label% list &f- lista luckyblocków."
+  - "&8 > &e/%label% reload &f- przeładuj wszystkie konfiguracje."
+  - "&8 > &e/%label% checkforupdates &f- sprawdź aktualizacje."
+  - "&8 > &e/%label% support &f- zdobądź kontakty do autora."
+  - "&8 > &6/%label% iteminfo &f- Informacje o przedmiocie w łapce."
+  
+  cmd_player_not_found: "&cNie znaleziono gracza &e%player%&c :("
+  cmd_no_perm_to_color: "&cBrak uprawnień dla koloru %lb%"
+  
+gui:
+  exit: "&7[ &6Wyjdź z MENU &7]"
+  get:
+    title: "&bDaj LuckyBlocka &4&l:D"
+    no_money: "&cPotrzebujesz jeszcze &e%eco% &cpieniędzy."
+    success: "&aPomyślnie zakupiłeś(aś) LuckyBlocki (&e%amount% szt.&a) za &e%eco%"
+    exception: "&cBłąd pluginu Vault: %exception%"
+  count:
+    title: "&bWybierz ilość &4&l:D"
+    remove: "&bUsuń %offset%"
+    add: "&bDodaj %offset%"
+    back: "&3Wróć"
+    confirm: "&ePotwierdź"
+    get: "&fDostaniesz: &6%amount%"
+    give: "&fZa: &c%price%"
+  edit:
+    title: "Edytor konfiguracji"
+    status: "&fStatus: "
+    selected: "wybrane"
+    enabled: "&awłączone"
+    disabled: "&cwyłączone"
+    click-toggle: "&eNaciśnij, aby przełączyć"
+    language: "&7[ &6Wybierz język &7]"
+    inform-about-update: "&7[ &6Poinformuj o aktualizacji &7]"
+    scheduled-update-check: "&7[ &6Zaplanowana aktualizacja &7]"
+    pistonfix: "&7[ &6Napraw ruch tłoka luckyblocka &7]"
+    explosionfix: "&7[ &6Napraw eksplozję luckyblocka &7]"
+    reduce-author-info: "&7[ &6Zmniejsz informacje o autorze &7]"
+    debug: "&7[ &6Tryb debugowania &7]"
+    foreach-giveget: "&7[ &6Zezwolenie na każdy LuckyBlock &8(dawanie poleceniem) &7]"
+    foreach-guiget: "&7[ &6Zezwolenie na każdy LuckyBlock &8(zdobywanie przez menu) &7]"
+    luckyblocks: "&7[ &6Otwórz menu edycji LuckyBlock &7]"
+    break-permissions: "&7[ &6Uprawnienia do kopania LuckyBlocków &7]"
+    luckyblock:
+      click-to-edit: "&eNaciśnij, aby otworzyć menu"
+      select-title: "&bWybierz LuckyBlock"
+      edit-title: "&%color%%lb% &8- EDYTUJ"
+      items-list: "&7[ &eLista LuckyEntry &7]"
+      add-item: "&7[ &eStwórz(dodaj) LuckyEntry &7]"
+      up: "&7[ &eGÓRA &7]"
+      down: "&7[ &eDÓŁ &7]"
+      info: "&7[ &eInformacje o LuckyBlocku &7]"
+      remove: "&7[ &cUsuń &7]"
+      select-item: "&7[ &eEdytuj &%color%%lb% &7]"
+      already-editing: "&cPrzykro mi, ale &e%player% &cedytuje &e%lb%&c!"
+      back: "&7[ &eWróć &7]"
+      click-get-items: "&eNaciśnij, aby otrzymać przedmiot"
+      click-shift-remove: "&cNaciśnij z SHIFTEM, aby usunąć przedmiot"
+      confirm: "&7[ &ePotwierdź (dodanie) &7]"
+      add: "&7[ &eStwórz(dodaj) LuckyDrop &7]"
+      edit: "&7[ &6Edytuj &7]"
+      chance: "&7[ &eAktualna szansa: &6%chance% &7]"
+      move-item-to-gui: "&aPrzenieś dowolny przedmiot do menu, aby dodać go do LuckyEntry"
+      chance-change:
+      - "&fNaciśnij, aby zmienić szansę"

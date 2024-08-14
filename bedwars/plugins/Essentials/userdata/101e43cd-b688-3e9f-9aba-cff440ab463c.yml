@@ -1,0 +1,20 @@
+lastAccountName: JustBruna
+timestamps:
+  login: 1703722511192
+  logout: 1703723313657
+ipAddress: 127.0.0.1
+money: '1005.0'
+lastlocation:
+  world: airshowUltimate
+  x: -28.700005
+  y: -2.07712
+  z: -37.389954
+  yaw: -89.847916
+  pitch: 37.754837
+logoutlocation:
+  world: world
+  x: 0.4385099656777173
+  y: 60.0
+  z: 0.5457615344662358
+  yaw: -180.59995
+  pitch: 0.2999949

@@ -1,0 +1,43 @@
+texture: 65fed46b39c6c34d491143b72ce728797d16f9b5aa40bbdec61667f5ff9d3d45
+name: '&bLight blue LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'LUCKY_BLOCK_ITEM : LIME : 4'
+  '1':
+  - 'ENTITY : MINECART_COMMAND : 3'
+  '2':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 2'
+  '3':
+  - 'ITEM : DIAMOND_ORE : 39 : 0'
+  '4':
+  - 'SPECIAL : WATER_BUCKET : 79'
+  '5':
+  - 'ITEM : PORK : 45 : 64'
+  - 'ITEM : FISHING_ROD : 1 : 0'
+  - 'ITEM : SAPLING : 38 : 64'
+  - 'ITEM : WOOD_SWORD : 1 : 48'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 2'
+  '8':
+  - 'ENTITY : PRIMED_TNT : 1'
+  '9':
+  - 'SPECIAL : WATER_BUCKET : 80'
+  '10':
+  - 'ITEM : SKULL : 32 : 64'
+  '11':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 57'
+  '12':
+  - 'ITEM : STONE_SLAB2 : 31 : 0'
+  - 'ITEM : JUNGLE_DOOR_ITEM : 49 : 64'

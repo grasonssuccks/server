@@ -1,0 +1,24 @@
+texture: 300c817432585fadcbd9ca8cfedfeedbce5851b7c07d1b073fb52fa8283e8f23
+name: '&3Cyan LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : FLINT : 6 : 0'
+  '1':
+  - 'ITEM : SUGAR_CANE_BLOCK : 1 : 64'
+  - 'ITEM : HOPPER : 13 : 0'
+  '2':
+  - 'ITEM : CAULDRON : 22 : 0'
+  '3':
+  - 'LUCKY_BLOCK_ITEM : TINTED : 1'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 2'

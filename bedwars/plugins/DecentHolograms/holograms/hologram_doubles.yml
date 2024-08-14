@@ -1,0 +1,16 @@
+location: world:-3.500:61.000:-28.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lCLICK TO PLAY'
+    height: 0.3
+  - content: '&bDoubles &7[3.0]'
+    height: 0.3
+  - content: '&e%bw1058_group_count_Doubles% Players'
+    height: 0.3
+  actions: {}

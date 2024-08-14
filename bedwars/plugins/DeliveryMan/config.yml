@@ -1,0 +1,24 @@
+debugMode: false
+deliverySkin: a2f98472-b3cf-4bc3-936e-cbf0a4ff1729
+addons:
+  CMI: false
+  HolographicDisplays: false
+  Holograms: false
+  TrHologram: false
+  ServerNPC: false
+  Votifier: false
+  PlaceholderAPI: false
+  MVdWPlaceholderAPI: false
+interact:
+  right: true
+  left: true
+rewardsMenu:
+  instantUpdate: true
+  rows: 5
+database:
+  type: SQL
+  host: localhost
+  port: 3306
+  database: localdb
+  username: localuser
+  password: SecurePassword

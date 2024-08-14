@@ -1,0 +1,20 @@
+lastAccountName: .MobzillaOrSp
+timestamps:
+  login: 1703254694735
+  logout: 1703256826824
+ipAddress: 127.244.24.196
+money: '220.0'
+lastlocation:
+  world: nutcracker1v1
+  x: -48.924675
+  y: 50.4256
+  z: -42.94318
+  yaw: -85.43032
+  pitch: -66.18438
+logoutlocation:
+  world: world
+  x: -0.58192724
+  y: 60.0
+  z: -1.7112355
+  yaw: -73.718735
+  pitch: 6.5330963

@@ -1,0 +1,20 @@
+lastAccountName: alanYOOY
+timestamps:
+  login: 1703370892229
+  logout: 1703372267485
+ipAddress: 127.0.0.1
+money: '335.0'
+lastlocation:
+  world: amazon1v1
+  x: -75.61464
+  y: -9.39074
+  z: -33.351383
+  yaw: 107.676636
+  pitch: -89.899994
+logoutlocation:
+  world: world
+  x: -2.4472535
+  y: 61.0625
+  z: 3.5802794
+  yaw: -37.40645
+  pitch: 47.069946

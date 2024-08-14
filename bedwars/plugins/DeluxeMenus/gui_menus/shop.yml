@@ -1,0 +1,41 @@
+menu_title: 'Coin Boosters'
+open_command:
+- store
+- shop
+size: 54
+items:
+      STORE-NOT-AVAILABLE:
+        material: EMERALD
+        slot: 22
+        display_name: '&6&lOfficial Store'
+        lore:
+        - '&7To buy ranks'
+        - '&7you will have to'
+        - '&7visit our store.'
+        left_click_commands: []
+        right_click_commands: []
+      LOOT:
+        material: ENDER_CHEST
+        slot: 48
+        display_name: '&bMystery Boxes: &a%gadgetsmenu_mystery_boxes%'
+        lore: []
+        left_click_commands: []
+      A-RANKS:
+        material: DIAMOND
+        slot: 49
+        display_name: '&bAvailable Ranks'
+        lore:
+        - '&f• &aVIP'
+        - '&f• &aVIP&e+'
+        - '&f• &bMVP'
+        - '&f• &bMVP&c+'
+        - '&f• &6MVP&8++'
+        left_click_commands: []
+        right_click_commands: []
+      GOLD:
+        material: GOLD_INGOT
+        slot: 50
+        display_name: '&6Coins: %vault_eco_balance%'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []

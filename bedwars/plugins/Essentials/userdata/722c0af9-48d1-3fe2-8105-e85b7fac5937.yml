@@ -1,0 +1,20 @@
+lastAccountName: NilsSjoberg
+timestamps:
+  login: 1723321615662
+  logout: 1723322332064
+ipAddress: 127.226.209.92
+money: '1560.0'
+lastlocation:
+  world: airshow1v1
+  x: 42.56247523395682
+  y: 66.0
+  z: -43.30314280276488
+  yaw: 317.35828
+  pitch: -3.2908554
+logoutlocation:
+  world: world
+  x: 0.4385099656777173
+  y: 60.0
+  z: 0.5457615344662358
+  yaw: -142.74428
+  pitch: -2.1970825

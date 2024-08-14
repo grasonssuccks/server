@@ -1,0 +1,121 @@
+#
+#    THIS FILE MAY CHANGE WITH EACH UPDATE
+#
+In-Game:
+  Plugin-Prefix: "&9&lBW Discord &8» &e"
+Commands:
+  Admin-Commands:
+    Player-Not-Found: "&cPlayer not found!"
+    Success-Reload: "&aSuccessfully reloaded all configuration files!"
+  Player:
+    Title: "%username%'s bedwars statistics"
+    Started:
+      Text: "**Started**"
+      Emoji: ":clock4:"
+    Last-Played:
+      Text: "**Last Played**"
+      Emoji: ":clock4:"
+    Wins:
+      Text: "**Wins**"
+      Emoji: ":white_check_mark: "
+    Kills:
+      Text: "**Kills**"
+      Emoji: ":knife: "
+    Total-Kills:
+      Text: "**Total Kills**"
+      Emoji: ":knife: "
+    Final-Kills:
+      Text: "**Final Kills**"
+      Emoji: ":knife: "
+    Losses:
+      Text: "**Losses**"
+      Emoji: ":x: "
+    Deaths:
+      Text: "**Deaths**"
+      Emoji: ":skull_crossbones: "
+    Final-Deaths:
+      Text: "**Final Deaths**"
+      Emoji: ":skull_crossbones: "
+    Beds-Destroyed:
+      Text: "**Beds Destroyed**"
+      Emoji: ":bed: "
+    Games-Played:
+      Text: "**1 Games Played**"
+      Emoji: ":video_game: "
+    Other:
+      Format-Number: "`%num%`"
+      Emoji: ":other_emoji: "
+    Ranked:
+      - "**Ranked**"
+      - " > **Rank** `%rank%`, **Elo** `%elo%`"
+      - " > **Wins** `%wins%`, **Streak** `%winStreak%`, **Rate** `%winRate%`"
+      - " > **Losses** `%losses%`, **Streak** `%loseStreak%`, **Rate** `%loseRate%`"
+      - " "
+      - " > **Kills** `%kills%`, **Deaths** `%deaths%`"
+      - " > **Games** `%gamesPlayed%`, **Ratio** `%winLoseRatio%`"
+      # %winRate% %winLoseRatio% %mvp%
+
+  Must-Be-Linked:
+    Title: "Must be linked"
+    Text: "You must link your Minecraft account first. Please use `/link`"
+  Link:
+    Must-Be-Online: "You must be online to use this command."
+    Already-Sent: "A code has already been sent, try again in 2 minutes"
+    Link-Success: "You have successfully linked your Minecraft profile!"
+    Invalid-Code: "Your confirmation code is not valid, please try again in 2 minutes."
+    Already-Linked:
+      Title: "Already Linked"
+      Text: "You're currently linked to Minecraft user `%username%`"
+    In-Game:
+      New-Code:
+        - " "
+        - "&6Your Discord link code is: &9&n%code%"
+        - "&bPlease enter code: &9&n%code%&b into the popup on discord"
+        - " "
+      Link-Success:
+        - " "
+        - "&6Your account is linked to discord &9&n%discord%"
+        - "&bNeed to unlink? use &9/unlink &bon discord."
+        - " "
+  Party:
+    Title: "%username%'s bedwars party"
+    Not-In-Party: "You're not in a party"
+    Leader: "**Leader** `%leader%`"
+    Invite-Sent: "Sent party invite to `%username%`"
+    Kick: "Kicked `%username%` from your party"
+    Kick-Not-In-Party: "You are not in a party with %username%"
+    Members:
+      Text: "**Members:** %size% | "
+      Member: "`%member%`"
+      Seperate: ", "
+    Must-Be-Leader: "Only the party leader can do this!"
+  Help:
+    Title: "Help menu"
+    Category: "Category"
+    Category-Name: "`%name%`"
+    All-Commands: "**All commands:** %list%"
+  Leaderboard:
+    Title: "%board% leaderboard"
+    Global-Total: "**Global Total** %total%"
+    Num1: ":first_place: `%score%` **%username%**"
+    Num2: ":second_place: `%score%` **%username%**"
+    Num3: ":third_place: `%score%` **%username%**"
+    Others: "**#%position%** `%score%` %username%"
+    Invalid-Board: "Invalid leaderboard option. Please choose a valid leaderboard."
+  Did-You-Mean: "&3Did you mean &b/%command%&3?"
+  Only-By-Player: "&cYou can execute this command only as player!"
+  Not-Playing: "&cYou must play to execute this command!"
+  No-Permission: "&cYou don't have permission to use this command!"
+Events:
+  Game-End:
+    Title: "Game Ended"
+    Winners:
+      Title: "Winners"
+      List: "`%level%✩ %username%` » **Kills** %kills%\n"
+    Arena:
+      Title: "Arena"
+      List: "`%arena%`"
+  Player-Killed:
+    Title: "`%killer%` killed `%victim%` in %arena%"
+
+Language: default

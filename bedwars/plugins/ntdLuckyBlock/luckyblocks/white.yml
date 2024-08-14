@@ -1,0 +1,69 @@
+texture: c8e16e7ff13d3e30a3a2b835a86fd05ecbc08909f6056de1646fe25b3def9584
+name: '&fWhite LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : WOOD_PLATE : 10 : 64'
+  - 'ITEM : QUARTZ_BLOCK : 34 : 0'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 1'
+  '2':
+  - 'ITEM : FIREBALL : 50 : 64'
+  '3':
+  - 'ITEM : GOLD_PICKAXE : 1 : 1'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  '5':
+  - 'SPECIAL : WATER_BUCKET : 91'
+  '6':
+  - 'ENTITY : MINECART_MOB_SPAWNER : 3'
+  '7':
+  - 'ITEM : BEDROCK : 64 : 0'
+  - 'ITEM : APPLE : 33 : 0'
+  - 'ITEM : CHAINMAIL_LEGGINGS : 1 : 221'
+  - 'ITEM : GOLD_LEGGINGS : 1 : 105'
+  '8':
+  - 'ITEM : GOLD_SWORD : 1 : 1'
+  - 'ITEM : BOWL : 46 : 64'
+  - 'ITEM : MYCEL : 26 : 0'
+  '9':
+  - 'SPECIAL : PIG : 3'
+  '10':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 2'
+  '11':
+  - 'ENTITY : ENDER_SIGNAL : 2'
+  '12':
+  - 'ITEM : WOOD_STEP : 24 : 0'
+  - 'ITEM : RABBIT : 28 : 0'
+  '13':
+  - 'SPECIAL : WATER_BUCKET : 74'
+  '14':
+  - 'ITEM : MOB_SPAWNER : 9 : 64'
+  - 'ITEM : RECORD_12 : 1 : 1'
+  '15':
+  - 'SPECIAL : WATER_BUCKET : 58'
+  '16':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 2'
+  '17':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '18':
+  - 'SPECIAL : TNT_COLUMN : 4'
+  '19':
+  - 'ITEM : EYE_OF_ENDER : 28 : 0'
+  '20':
+  - 'ITEM : MOB_SPAWNER : 16 : 64'
+  '21':
+  - 'ITEM : WRITTEN_BOOK : 6 : 16'
+  '22':
+  - 'ITEM : FEATHER : 61 : 0'
+  '23':
+  - 'ENTITY : WITHER : 1'

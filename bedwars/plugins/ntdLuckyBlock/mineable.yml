@@ -1,0 +1,16 @@
+
+enabled: true
+
+creative-chances: false # false - if player in creative, plugin wont work for him; true - will work
+
+mineable-blocks:
+  emerald_block:
+    chance: 50 # Drop change, Integer, 0-100
+    luckyblock: YELLOW # LuckyBlock color
+    replace-drop: true # So dropped emerald block will be deleted
+    give-item: false # false - item will be dropped; true - item will be given to player
+  cobblestone:
+    chance: 1 # Drop change, Integer, 0-100
+    luckyblock: YELLOW # LuckyBlock color
+    replace-drop: true # So dropped coblestone will be deleted
+    give-item: false # false - item will be dropped; true - item will be given to player

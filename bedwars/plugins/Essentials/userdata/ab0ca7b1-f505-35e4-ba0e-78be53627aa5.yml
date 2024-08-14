@@ -1,0 +1,20 @@
+lastAccountName: bensimon
+timestamps:
+  login: 1719973059569
+  logout: 1719973079780
+ipAddress: 127.124.240.159
+money: '1640.0'
+lastlocation:
+  world: acropolis1v1
+  x: 9.570653246143596
+  y: -9.977382681871234
+  z: 22.483911488187793
+  yaw: 236.24663
+  pitch: -60.056084
+logoutlocation:
+  world: world
+  x: -10.877753722602511
+  y: 57.0
+  z: -16.127013073686516
+  yaw: -36.347046
+  pitch: 4.195429

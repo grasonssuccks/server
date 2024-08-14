@@ -1,0 +1,16 @@
+location: world:19.500:60.000:-32.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c30% OFF'
+    height: 0.3
+  - content: '&bServer Store'
+    height: 0.3
+  - content: '&e&lRIGHT CLICK'
+    height: 0.3
+  actions: {}

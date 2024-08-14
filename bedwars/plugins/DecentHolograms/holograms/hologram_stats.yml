@@ -1,0 +1,26 @@
+location: world:-7.500:61.50000:-19.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lYOUR BEDWARS PROFILE'
+    height: 0.3
+  - content: '&6YOUR LEVEL: %bw1058_player_level%'
+    height: 0.3
+  - content: '&6PROGRESS: &b%bw1058_player_xp_formatted%&7/&a%bw1058_player_rerq_xp_formatted%'
+    height: 0.3
+  - content: '%bw1058_player_progress%'
+    height: 0.3
+  - content: '&6BEDS DESTROYED: &a%bw1058_stats_bedsdestroyed%'
+    height: 0.3
+  - content: '&6TOTAL WINS: &a%bw1058_stats_wins%'
+    height: 0.3
+  - content: '&6TOTAL LOSSES: &a%bw1058_stats_losses%'
+    height: 0.3
+  - content: '&e&lCLICK FOR STATS'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,52 @@
+texture: f171a0c0572824da80366d71c5413a7e3355abec79b8f529f1dc9dad2632f485
+name: '&8Gray LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : SNOW_BLOCK : 52 : 64'
+  - 'ITEM : ACACIA_DOOR_ITEM : 14 : 0'
+  - 'ITEM : CROPS : 57 : 0'
+  - 'ITEM : EMERALD_ORE : 39 : 0'
+  '1':
+  - 'ITEM : BOWL : 49 : 64'
+  - 'ITEM : BOW : 1 : 1'
+  '2':
+  - 'SPECIAL : LIGHTNING : 3'
+  '3':
+  - 'ITEM : EYE_OF_ENDER : 61 : 64'
+  '4':
+  - 'ITEM : ENDER_STONE : 7 : 64'
+  '5':
+  - 'SPECIAL : WATER_BUCKET : 66'
+  '6':
+  - 'ITEM : DIAMOND : 1 : 0'
+  '7':
+  - 'ITEM : ENDER_CHEST : 18 : 64'
+  '8':
+  - 'ITEM : SIGN : 6 : 0'
+  '9':
+  - 'ITEM : STATIONARY_WATER : 50 : 64'
+  - 'ITEM : FLINT_AND_STEEL : 1 : 1'
+  '10':
+  - 'ITEM : WOOD : 8 : 64'
+  - 'ITEM : GOLD_SPADE : 1 : 1'
+  - 'ITEM : DOUBLE_PLANT : 38 : 64'
+  '11':
+  - 'ITEM : DIAMOND_SWORD : 1 : 1089'
+  '12':
+  - 'ITEM : SADDLE : 1 : 0'
+  '13':
+  - 'ITEM : STONE_SWORD : 1 : 1'
+  '14':
+  - 'ITEM : REDSTONE_COMPARATOR_ON : 20 : 64'
+  - 'ITEM : STONE_AXE : 1 : 1'
+  - 'ITEM : WOODEN_DOOR : 33 : 64'

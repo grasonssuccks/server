@@ -1,0 +1,172 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - '&fYou are playing &6&lBEDWARS &fon &lPLAY.MC-SRV.NET'
+  - ''
+  footer:
+  - ''
+  - '&aVisit our &6store &afor rank upgrades!'
+  disable-in-worlds:
+  - disabledworld
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    display-condition: '%world%=world'
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: false
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-in-servers: []
+  case-sensitive-sorting: true
+  sorting-types:
+  - PLACEHOLDER_A_TO_Z:%bw1058_player_team%
+  - GROUPS:founder,admin,dev,mod,helper,famous,yt,good,hyper,titan,elite,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  can-see-friendly-invisibles: false
+yellow-number-in-tablist:
+  enabled: false
+  value: '%health%'
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-in-worlds:
+  - disabledworld
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: YELLOW
+      progress: '100'
+      text: '&aYou are playing in &b&lPLAY.MC-SRV.NET'
+      display-condition: '%world%=world'
+      announcement-bar: true
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    scoreboard1:
+      title: Default
+      lines:
+      - Scoreboard for players
+    twscoreboard:
+      title: TestWorld
+      lines:
+      - This is scoreboard for everyone in testworld world
+      display-condition: '%world%=testworld'
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      if-condition-not-met: scoreboard1
+      title: Admin scoreboard
+      lines:
+      - Scoreboard for people with permission
+      - tab.scoreboard.admin
+ping-spoof:
+  enabled: false
+  value: 0
+prevent-spectator-effect:
+  enabled: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions:
+  rankOrTeam:
+    conditions:
+    - '%bw1058_player_team%='
+    true: '%luckperms-prefix%'
+    false: '%bw1058plus_team_color%&l%bw1058plus_team_letter%&r %bw1058plus_team_color%'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- ADMIN
+- MOD
+- POLICE
+- HELPER
+- YOUTUBE
+- MVP++
+- MVP+
+- MVP
+- VIP+
+- VIP
+- Default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+fix-pet-names:
+  enabled: false
+global-playerlist:
+  enabled: false

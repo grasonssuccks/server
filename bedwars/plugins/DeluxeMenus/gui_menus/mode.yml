@@ -1,0 +1,91 @@
+menu_title: '&8Play Bed Wars'
+open_command:
+- play SpecialMode
+size: 45
+update_interval: 1
+items:
+      0:
+        material: FISHING_ROD
+        slot: 12
+        display_name: '&aBed Wars (Grappling Hook)'
+        lore:
+        - '&7Play Grappling Hook Bed Wars'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join GrapplingHook'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join GrapplingHook'
+        - '[close]'
+      1:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5MmNiNDMzMzNhYTYyMWM3MGVlZjRlYmYyOTliYTQxMmI0NDZmZTEyZTM0MWNjYzU4MmYzMTkyMTg5In19fQ==
+        slot: 14
+        display_name: '&aBed Wars (Lucky Block)'
+        lore:
+        - '&7Play Lucky Block Bed Wars'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join Luckyblock'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join Luckyblock'
+        - '[close]'
+        
+      2:
+        material: sign
+        slot: 21
+        display_name: '&aMap selection'
+        lore:
+        - '&7Select the map you want to play'
+        - '&7from the list of available servers.'
+        - '&c'
+        - '&eClick to view!'        
+        left_click_commands:
+        - '[player] bw gui GrapplingHook'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw gui GrapplingHook'
+        - '[close]'
+        
+      3:
+        material: sign
+        slot: 23
+        display_name: '&aMap selection'
+        lore:
+        - '&7Select the map you want to play'
+        - '&7from the list of available servers.'
+        - '&c'
+        - '&eClick to view!'        
+        left_click_commands:
+        - '[player] bw gui LuckyBlock'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw gui LuckyBlock'
+        - '[close]'
+        
+      4:
+        material: ENDER_PEARL
+        slot: 44
+        display_name: '&cClick to reconnect!'
+        lore:
+        - '&7Click here to reconnect'
+        - '&7the game you just exited'
+        - '&7each game you have 180 seconds'
+        - '&7to reconnect!'
+        left_click_commands:
+        - '[player] rejoin'
+        - '[close]'
+        right_click_commands:
+        - '[player] rejoin'
+        - '[close]'
+      CLOSE:
+        material: BARRIER
+        slot: 40
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

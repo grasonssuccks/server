@@ -1,0 +1,9 @@
+_DEFAULT_:
+  tabprefix: '%condition:rankOrTeam%'
+  tagprefix: '%condition:rankOrTeam%'
+
+per-world:
+ world:
+  _DEFAULT_:
+    tabsuffix: ' %luckperms_suffix%'
+    tagsuffix: ' %luckperms_suffix%'

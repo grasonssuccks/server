@@ -1,0 +1,5 @@
+general-settings:
+    enable-debug-mode: false
+swap-announce-settings:
+    minimum-swap-interval: 5
+    maximum-swap-interval: 10

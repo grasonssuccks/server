@@ -1,0 +1,30 @@
+location: world:-18.500:62.000:-15.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&lBED WARS'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&6❶&f &lNo advertising&r, website, server ip, or other platforms.'
+    height: 0.3
+  - content: '&c❷&f &lBe respectful&r, Do not bully, tease others.'
+    height: 0.3
+  - content: '&e❸&f &lBe friendly&r, Do not use curse words.'
+    height: 0.3
+  - content: '&6❹&f &lNo Bug Abuse&r, You can report a bug on our discord server.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&b&lFORUM:&f www.cxstudios.xyz'
+    height: 0.3
+  - content: '&a&lSTORE:&f store.minecraft.net'
+    height: 0.3
+  - content: '&6&lDISCORD:&f cxstudios.xyz/discord'
+    height: 0.3
+  actions: {}

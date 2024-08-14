@@ -1,0 +1,100 @@
+
+author: SnowCutieOwO
+
+special:
+  water_bucket: "&c&lOWNER &cDanirod_Gaming &7-> 检查你的背包.. 你获得了 &9水桶&f!"
+  witch: "&5老女巫"
+
+craft:
+  allowed_one_layer: "&c使用配方合成时单个格子只能放置一个方块"
+
+system:
+  loading_config: "&f配置文件载入中... "
+  reloaded_config: "&a配置已重载, 载入 %amount% 种幸运方块..."
+  material_api: "&f%build% material API-version 已找到"
+  
+  lb_not_found: "&c幸运方块 &e%lb%&c 未找到,跳过... "
+  lb_loading_exception: "&c幸运方块 &e%lb%&c 不能被载入... 报错: &e%exception%"
+  lb_unknown_exception: "&c幸运方块 &e%lb%&c 未找到或出现未知错误, 跳过... "
+  lb_loaded_zero: "&f载入了 0 种幸运方块... 唔..."
+  lb_loaded_not_zero: "&f载入了 &e%amount%&f 种幸运方块..."
+  
+  cant_use_command: "&c抱歉, 但你不能使用此命令."
+  cant_use_subcommand: "&c抱歉, 但你不能使用此子命令."
+  
+  cant_break_color: "&c抱歉, 但你无权破坏 &e%lb% &c的幸运方块."
+  
+  cmd_lb_disabled: "&c幸运方块 &e%lb%&c 已被禁用 :("
+  cmd_lb_not_found: "&c幸运方块 &e%lb%&c 未找到 :("
+  cmd_lb_received: "&a得到了 %amount% 个幸运方块 &7(%lb%)"
+  cmd_lb_give: "&a给予了 %amount% 个幸运方块 &7(%lb%)"
+  
+  cmd_help:
+  - "&eLuckyBlock &f命令帮助:"
+  - "&8 > &e/%label% get <颜色> [数量] &f- 获取幸运方块"
+  - "&8 > &e/%label% give <玩家> <颜色> [数量] &f- 给予幸运方块"
+  - "&8 > &e/%label% gui <get(获取)/edit(编辑)> &f- 打开 GUI"
+#  - "&8 > &e/%label% edit &f- 打开 GUI 编辑器"
+  - "&8 > &e/%label% list &f- 列出可用幸运方块"
+  - "&8 > &e/%label% reload &f- 重载配置文件"
+  - "&8 > &e/%label% checkforupdates &f- 检查更新"
+  - "&8 > &e/%label% support &f- 取得作者联系"
+  
+  cmd_player_not_found: "&c玩家 &e%player%&c 未找到 :("
+  cmd_no_perm_to_color: "&c颜色 %lb% 无权限"
+  
+gui:
+  exit: "&7[ &6离开菜单 &7]"
+  get:
+    title: "&b购买 幸运方块 &4&l:D"
+    no_money: "&c你需要 &e%eco% &c硬币"
+    success: "&a你购买了 &e%amount% &a个幸运方块, 花费了 &e%eco%"
+    exception: "&cVault 错误: %exception%"
+  count:
+    title: "&b选择数量 &4&l:D"
+    remove: "&b拿走 %offset% 个"
+    add: "&b添加 %offset% 个"
+    back: "&3返回"
+    confirm: "&e确认"
+    get: "&f你将会得到: &6%amount% &f个"
+    give: "&f你将会给予: &c%give% &f个"
+  edit:
+    title: 配置编辑
+    inform-about-update: '&7[ &6更新提醒 &7]'
+    status: '&f状态: '
+    enabled: '&a开启'
+    disabled: '&c关闭'
+    click-toggle: '&e点击切换'
+    scheduled-update-check: '&7[ &6定时更新检查 &7]'
+    pistonfix: '&7[ &6修复被活塞错位的幸运方块 &7]'
+    explosionfix: '&7[ &6修复损坏的幸运方块 &7]'
+    reduce-author-info: '&7[ &6作者信息 &7]'
+    debug: '&7[ &6调试模式 &7]'
+    foreach-giveget: '&7[ &6权限设置 &8(命令给予, 直接获取) &7]'
+    foreach-guiget: '&7[ &6权限设置 &8(gui 内获取) &7]'
+    language: '&7[ &6选择语言 &7]'
+    selected: 已选中
+    luckyblocks: '&7[ &6打开编辑菜单 &7]'
+    break-permissions: '&7[ &6绕过权限 &7]'
+    luckyblock:
+      click-to-edit: "&e点击打开菜单"
+      select-title: "&b选择幸运方块"
+      edit-title: "&%color%%lb% &8- 编辑"
+      items-list: "&7[ &e幸运实体 列表 &7]"
+      add-item: "&7[ &e抽奖箱(添加) 幸运实体 &7]"
+      up: "&7[ &e上移 &7]"
+      down: "&7[ &e下移 &7]"
+      info: "&7[ &e幸运方块 信息 &7]"
+      remove: "&7[ &c删除&7]"
+      select-item: "&7[ &e编辑 &%color%%lb% &7]"
+      already-editing: "&c抱歉, 但玩家 &e%player% &c已在编辑 &e%lb%&c!"
+      back: "&7[ &e返回 &7]"
+      click-get-items: "&e点击获取物品"
+      click-shift-remove: "&cSHIFT+左键 移除"
+      confirm: "&7[ &e确认 (添加物品) &7]"
+      add: "&7[ &e抽奖箱(添加) 幸运掉落 &7]"
+      edit: "&7[ &6编辑 &7]"
+      chance: "&7[ &e当前几率 &6%chance% &7]"
+      move-item-to-gui: "&a将任意物品移至GUI内以将其添加至幸运实体列表中"
+      chance-change:
+      - "&f点击修改抽中几率"

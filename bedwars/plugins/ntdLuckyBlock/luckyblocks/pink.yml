@@ -1,0 +1,35 @@
+texture: 11a367164bc6852c8f078811de7baacaefd6964960ebff1fa504c7b4b1298a52
+name: '&dPink LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 30'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : PINK : 4'
+  '2':
+  - 'ENTITY : WITHER : 3'
+  '3':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 2'
+  '4':
+  - 'ITEM : IRON_PICKAXE : 1 : 140'
+  - 'ITEM : VINE : 19 : 64'
+  - 'ITEM : STATIONARY_LAVA : 61 : 64'
+  - 'ITEM : DOUBLE_STEP : 1 : 64'
+  '5':
+  - 'ITEM : WATER_BUCKET : 1 : 1'
+  '6':
+  - 'ITEM : ENCHANTED_BOOK : 1 : 1'
+  - 'ITEM : GOLDEN_APPLE : 34 : 0'
+  - 'ITEM : IRON_SPADE : 1 : 1'
+  '7':
+  - 'ITEM : LADDER : 4 : 64'
+  - 'ITEM : EYE_OF_ENDER : 63 : 0'

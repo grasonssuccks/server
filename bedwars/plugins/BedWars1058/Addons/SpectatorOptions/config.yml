@@ -1,0 +1,122 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | SPECTATOR OPTIONS ADDON CONFIGURATION    |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# Version: 2.0.0
+# Author: CubeCrafter
+# Discord: https://discord.gg/ehjkwp5Fn4
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | SETTINGS                                 |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+inventory-item:
+  material: COMPARATOR
+  displayname: "&b&lSpectator Settings &7(Right Click)"
+  lore:
+    - "&7Right Click to Open!"
+  slot: 4
+menu:
+  title: "Spectator Settings"
+  rows: 4
+  filler:
+    enabled: false
+    material: GRAY_STAINED_GLASS_PANE
+    displayname: "&f"
+    slots: 0,1,2,3
+  items:
+    speed-off:
+      material: LEATHER_BOOTS
+      displayname: "&aNo Speed"
+      lore: []
+      slot: 11
+    speed-one:
+      material: CHAINMAIL_BOOTS
+      displayname: "&aSpeed I"
+      lore: []
+      slot: 12
+    speed-two:
+      material: IRON_BOOTS
+      displayname: "&aSpeed II"
+      lore: []
+      slot: 13
+    speed-three:
+      material: GOLDEN_BOOTS
+      displayname: "&aSpeed III"
+      lore: []
+      slot: 14
+    speed-four:
+      material: DIAMOND_BOOTS
+      displayname: "&aSpeed IV"
+      lore: []
+      slot: 15
+    auto-teleport:
+      enabled:
+        material: COMPASS
+        displayname: "&cDisable Auto Teleport"
+        lore:
+        - "&7Click to disable auto teleport!"
+      disabled:
+        material: COMPASS
+        displayname: "&aEnable Auto Teleport"
+        lore:
+        - "&7Click to enable auto teleport!"
+      slot: 20
+    night-vision:
+      enabled:
+        material: ENDER_PEARL
+        displayname: "&cDisable Night Vision"
+        lore:
+        - "&7Click to disable night vision!"
+      disabled:
+        material: ENDER_EYE
+        displayname: "&aEnable Night Vision"
+        lore:
+        - "&7Click to enable night vision!"
+      slot: 21
+    first-person:
+      enabled:
+        material: CLOCK
+        displayname: "&cDisable First Person"
+        lore:
+          - "&7Click to disable first person"
+          - "&7spectating when using the"
+          - "&7compass!"
+          - "&7You can also right-click a"
+          - "&7player to spectate them in"
+          - "&7first person."
+      disabled:
+        material: CLOCK
+        displayname: "&aEnable First Person"
+        lore:
+          - "&7Click to enable first person"
+          - "&7spectating when using the"
+          - "&7compass!"
+          - "&7You can also right-click a"
+          - "&7player to spectate them in"
+          - "&7first person."
+      slot: 23
+    show-spectators:
+      enabled:
+        material: REDSTONE
+        displayname: "&cHide Spectators"
+        lore:
+          - "&7Click to hide other spectators!"
+      disabled:
+        material: GLOWSTONE_DUST
+        displayname: "&aShow Spectators"
+        lore:
+          - "&7Click to show other spectators!"
+      slot: 24
+messages:
+  speed-enabled: "&aYou now have Speed {tier}!"
+  speed-disabled: "&cYou no longer have any speed effects!"
+  auto-teleport-enabled: "&aYou will now auto teleport to targets!"
+  auto-teleport-disabled: "&cYou will no longer auto teleport to targets!"
+  night-vision-enabled: "&aYou now have night vision!"
+  night-vision-disabled: "&cYou no longer have night vision!"
+  first-person-enabled: "&aYou will now by default use First Person spectating!"
+  first-person-disabled: "&cYou will now by default use Third Person spectating!"
+  show-spectators-enabled: "&aYou can now see other spectators!"
+  show-spectators-disabled: "&cYou can no longer see other spectators!"
+  target-format: "&fTarget: &a&l{target} &f- Distance: &a&l{distance}m"
+  target-lost: "&c&lTarget Lost!"

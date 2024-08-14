@@ -1,0 +1,70 @@
+texture: d019fe633a45fc3d353f9a2f09fd88e721de31c2bc969ae0aeeadf57c1be0bcc
+name: '&7Light gray LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : RECORD_12 : 1 : 0'
+  '1':
+  - 'ITEM : MONSTER_EGGS : 10 : 64'
+  '2':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 36'
+  '3':
+  - 'ITEM : REDSTONE_BLOCK : 15 : 0'
+  '4':
+  - 'ITEM : CHAINMAIL_BOOTS : 1 : 170'
+  '5':
+  - 'SPECIAL : TNT_COLUMN : 2'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 3'
+  '7':
+  - 'SPECIAL : PIG : 3'
+  '8':
+  - 'LUCKY_BLOCK_ITEM : CYAN : 1'
+  '9':
+  - 'ITEM : WORKBENCH : 31 : 0'
+  - 'ITEM : NETHER_FENCE : 40 : 64'
+  '10':
+  - 'ITEM : JUNGLE_FENCE : 42 : 64'
+  '11':
+  - 'ITEM : TRAP_DOOR : 30 : 0'
+  - 'ITEM : ENDER_CHEST : 13 : 0'
+  '12':
+  - 'ITEM : FLINT_AND_STEEL : 1 : 1'
+  '13':
+  - 'ITEM : RECORD_8 : 1 : 0'
+  - 'ITEM : SPRUCE_DOOR : 41 : 0'
+  '14':
+  - 'SPECIAL : TNT_EXPLOSION : 18'
+  '15':
+  - 'ITEM : DIODE_BLOCK_OFF : 16 : 0'
+  - 'ITEM : POWERED_MINECART : 1 : 1'
+  '16':
+  - 'ITEM : SPRUCE_FENCE : 63 : 64'
+  - 'ITEM : PUMPKIN : 15 : 64'
+  '17':
+  - 'ITEM : CARPET : 45 : 0'
+  - 'ITEM : WOOD_BUTTON : 48 : 0'
+  - 'ITEM : BOOK_AND_QUILL : 1 : 1'
+  '18':
+  - 'ITEM : COAL_ORE : 49 : 64'
+  - 'ITEM : RECORD_5 : 1 : 0'
+  '19':
+  - 'ITEM : NOTE_BLOCK : 32 : 0'
+  - 'ITEM : LEAVES : 41 : 0'
+  - 'ITEM : COAL_BLOCK : 35 : 64'
+  '20':
+  - 'ITEM : SUGAR_CANE_BLOCK : 47 : 64'
+  - 'ITEM : SUGAR_CANE : 41 : 0'
+  '21':
+  - 'ITEM : GRASS : 25 : 0'
+  - 'ITEM : APPLE : 42 : 64'
+  - 'ITEM : BOWL : 53 : 64'

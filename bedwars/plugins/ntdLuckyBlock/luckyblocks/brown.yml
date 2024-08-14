@@ -1,0 +1,113 @@
+texture: c133414759f9e5315156017023a8b1b31cfbf177dcafb0603b8e9d94036a23f1
+name: '&cBrown LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : WATER_LILY : 60 : 0'
+  - 'ITEM : STONE_AXE : 1 : 110'
+  - 'ITEM : WOOL : 34 : 64'
+  '1':
+  - 'ITEM : CARROT_ITEM : 17 : 64'
+  - 'ITEM : GOLD_PLATE : 43 : 64'
+  - 'ITEM : POISONOUS_POTATO : 23 : 0'
+  '2':
+  - 'ITEM : GRILLED_PORK : 25 : 64'
+  - 'ITEM : DAYLIGHT_DETECTOR_INVERTED : 31 : 64'
+  - 'ITEM : HUGE_MUSHROOM_1 : 40 : 64'
+  '3':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '4':
+  - 'SPECIAL : TNT_COLUMN : 6'
+  '5':
+  - 'ITEM : WOOD : 38 : 0'
+  '6':
+  - 'SPECIAL : WITCH_ATTACK : 14'
+  '7':
+  - 'SPECIAL : TNT_EXPLOSION : 29'
+  '8':
+  - 'ITEM : SAPLING : 41 : 64'
+  - 'ITEM : STRING : 5 : 0'
+  '9':
+  - 'ENTITY : WITHER : 1'
+  '10':
+  - 'ENTITY : MINECART_COMMAND : 1'
+  '11':
+  - 'ITEM : PRISMARINE_SHARD : 47 : 0'
+  - 'ITEM : YELLOW_FLOWER : 7 : 0'
+  - 'ITEM : IRON_SWORD : 1 : 230'
+  '12':
+  - 'ITEM : SPRUCE_FENCE_GATE : 35 : 64'
+  '13':
+  - 'ENTITY : PIG : 3'
+  '14':
+  - 'ENTITY : BOAT : 3'
+  '15':
+  - 'ITEM : GOLD_BLOCK : 55 : 64'
+  - 'ITEM : COAL : 2 : 64'
+  - 'ITEM : TNT : 45 : 0'
+  - 'ITEM : NETHER_FENCE : 18 : 0'
+  '16':
+  - 'ITEM : CHAINMAIL_LEGGINGS : 1 : 1'
+  - 'ITEM : GOLD_RECORD : 1 : 1'
+  - 'ITEM : BOAT : 1 : 0'
+  '17':
+  - 'SPECIAL : LIGHTNING : 3'
+  '18':
+  - 'ITEM : BOAT : 1 : 0'
+  - 'ITEM : BREWING_STAND : 6 : 0'
+  - 'ITEM : IRON_DOOR_BLOCK : 39 : 64'
+  '19':
+  - 'ITEM : POTION : 1 : 1'
+  - 'ITEM : JACK_O_LANTERN : 59 : 64'
+  - 'ITEM : GLOWSTONE_DUST : 14 : 64'
+  '20':
+  - 'ENTITY : GUARDIAN : 2'
+  '21':
+  - 'ITEM : SPRUCE_DOOR : 22 : 0'
+  '22':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  '23':
+  - 'ITEM : DEAD_BUSH : 42 : 64'
+  - 'ITEM : FLINT_AND_STEEL : 1 : 56'
+  '24':
+  - 'ITEM : QUARTZ_BLOCK : 17 : 0'
+  - 'ITEM : TORCH : 41 : 0'
+  '25':
+  - 'ENTITY : ARMOR_STAND : 3'
+  '26':
+  - 'ITEM : SUGAR_CANE_BLOCK : 6 : 0'
+  - 'ITEM : ACACIA_FENCE : 12 : 64'
+  '27':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '28':
+  - 'ITEM : CARROT_STICK : 1 : 1'
+  '29':
+  - 'ITEM : SUGAR : 37 : 0'
+  - 'ITEM : IRON_INGOT : 7 : 0'
+  - 'ITEM : SULPHUR : 53 : 64'
+  - 'ITEM : STONE_BUTTON : 1 : 64'
+  '30':
+  - 'SPECIAL : LIGHTNING : 3'
+  '31':
+  - 'SPECIAL : LIGHTNING : 1'
+  '32':
+  - 'ITEM : COOKED_MUTTON : 11 : 0'
+  '33':
+  - 'ITEM : DIAMOND : 22 : 0'
+  - 'ITEM : GLOWSTONE : 51 : 0'
+  - 'ITEM : BIRCH_DOOR_ITEM : 41 : 64'
+  '34':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 2'
+  '35':
+  - 'ITEM : SEA_LANTERN : 22 : 0'
+  - 'ITEM : STATIONARY_WATER : 55 : 0'
+  - 'ITEM : ENDER_CHEST : 37 : 64'

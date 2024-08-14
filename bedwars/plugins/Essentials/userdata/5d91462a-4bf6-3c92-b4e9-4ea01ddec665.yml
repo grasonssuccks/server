@@ -1,0 +1,20 @@
+lastAccountName: BananaPog
+timestamps:
+  login: 1703371874178
+  logout: 1703372264956
+ipAddress: 127.249.181.187
+money: '85.0'
+lastlocation:
+  world: amazon1v1
+  x: -51.31837877873086
+  y: -10.043486541005935
+  z: -26.79592224274386
+  yaw: 245.70015
+  pitch: -38.99994
+logoutlocation:
+  world: world
+  x: 28.77092203967942
+  y: 45.0
+  z: 3.264390646916159
+  yaw: -316.34998
+  pitch: 33.749977

@@ -1,0 +1,20 @@
+lastAccountName: MiniFlexJAV
+timestamps:
+  login: 1631340826074
+  logout: 1631338585439
+ipAddress: 113.23.8.56
+lastlocation:
+  world: acropolis1v1
+  x: -92.32043312424808
+  y: -10.933346439773967
+  z: -73.69999998807907
+  yaw: -203.54959
+  pitch: 90.0
+logoutlocation:
+  world: world
+  x: 15.316586152355335
+  y: 71.0
+  z: 4.643936052440255
+  yaw: -151.8548
+  pitch: 17.716492
+money: '1000000'

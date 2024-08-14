@@ -1,0 +1,7 @@
+
+enabled: false
+
+# true - only per world; false - for all worlds
+per-world: false
+
+message: "&6%player% &ejust opened a LuckyBlock (%color%%lb%&e)"

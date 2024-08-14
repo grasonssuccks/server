@@ -1,0 +1,61 @@
+Prefix: ''
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: Minecraft
+  Username: root
+  Password: pass
+  Port: 3306
+Settings:
+  Slot: 8
+  Delay: 3
+  ToggleSound:
+    Enabled: true
+    Sound: LAVA_POP
+    Vol: 2.0
+    Pitch: 2.0
+  BlockMovement: true
+  BlockDrop: true
+  GiveOnRespawn: true
+  ClearInvOnJoin: false
+  ClearInvOnWorldChange: false
+  JoinToggleMessage: true
+  ShowToggleMessages: true
+  ShowToggleTitles: true
+  ToggleItem: true
+  EnabledWorlds:
+  - World
+Messages:
+  Show: '&aShowing all players'
+  Rank: '&dShowing only ranked players'
+  Hide: '&cPlayers are hiden'
+  Delay: '&aWait &7{cooldown}s &eto use again!'
+Titles:
+  Show:
+    Title: '&r'
+    Subtitle: '&r'
+  Rank:
+    Title: '&r'
+    Subtitle: '&r'
+  Hide:
+    Title: '&r'
+    Subtitle: '&r'
+Items:
+  Show:
+    Name: '&fPlayers: &aShown &7(Right Click)'
+    Item: INK_SACK
+    Data: 10
+    Lore:
+    - '&7Right Click To &eToggle'
+  Rank:
+    Name: '&fPlayers: &dRanked Only &7(Right Click)'
+    Item: INK_SACK
+    Data: 9
+    Lore:
+    - '&7Right Click To &eToggle'
+  Hide:
+    Name: '&fPlayers: &cHiden &7(Right Click)'
+    Item: INK_SACK
+    Data: 8
+    Lore:
+    - '&7Right Click To &eToggle'

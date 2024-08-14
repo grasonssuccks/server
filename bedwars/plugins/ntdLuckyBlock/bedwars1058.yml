@@ -1,0 +1,15 @@
+groups:
+- "LuckyBlock"
+handle:
+  gold_ingot:
+    color: "ORANGE"
+    chance: 25
+  iron_ingot:
+    color: "LIGHT_GRAY"
+    chance: 25
+  diamond:
+    color: "LIGHT_BLUE"
+    chance: 50
+  emerald:
+    color: "GREEN"
+    chance: 45
