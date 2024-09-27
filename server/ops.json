@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "4af8572b-ea6d-3d6d-a8e7-d4c44c62507d",
+    "name": "StickmanNews",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "78a84182-5cb0-3fd8-8d0d-40e258d1e68d",
+    "name": "Nuclear_Human",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a56dc5a7-9416-348b-9703-3895a95d28bc",
+    "name": "Vegeta",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4ecd50ee-4515-3e1c-8a96-8aacfc4db39d",
+    "name": "Vegeto",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7c7d1c01-1b26-3029-b980-2b9266eb5217",
+    "name": "_____qwerty",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
