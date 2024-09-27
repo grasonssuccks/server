@@ -1,0 +1,183 @@
+#####################################
+#                                   #
+#         Author: FlyTech           #
+#       Plugin: EmeraldTools        #
+#           Version: 1.6            #
+#      Please rate my plugin!       #
+#                                   #
+#         paypal.me/flytech         #
+#                                   #
+#####################################
+
+#The object used to craft stick!
+stickItem: 280
+#The object used to craft the blade!
+swordItem: 388
+#The object used to craft the blade!
+pickaxeItem: 388
+#The object used to craft the blade!
+axeItem: 388
+#The object used to craft the bottle!
+bottleItem: 374
+#The object used to craft exp!
+expItem: 348
+#The object used to craft a armor!
+armItem: 388
+#The object used to craft a handle!
+bowItem: 388
+#The object used to craft a blade!
+spadeItem: 388
+#The object used to craft a thread!
+threadItem: 287
+#The object used to craft a blade!
+hoeItem: 388
+#The object used to craft handle!
+rodItem: 388
+
+Options:
+  #The option need to enable/disable craft EmeraldSword!
+  Sword: true
+  #The option need to enable/disable craft EmeraldBow!
+  Bow: true
+  #The option need to enable/disable craft EmeraldPickaxe!
+  Pickaxe: true
+  #The option need to enable/disable craft EmeraldAxe!
+  Axe: true
+  #The option need to enable/disable craft EmeraldHoe!
+  Hoe: true
+  #The option need to enable/disable craft EmeraldSpade!
+  Spade: true
+  #The option need to enable/disable craft EmeraldHelmet!
+  Helmet: true
+  #The option need to enable/disable craft EmeraldChestplate!
+  Chestplate: true
+  #The option need to enable/disable craft EmeraldLeggings!
+  Leggings: true
+  #The option need to enable/disable craft EmeraldBoots!
+  Boots: true
+  #The option need to enable/disable craft EmeraldBottle!
+  Bottle: true
+  #The option need to enable/disable craft EmeraldRod!
+  FishingRod: false
+  
+GiveCommands:
+  DisplayInHelp: false
+  #If DisplayInHelp - false, help lines don't view!
+  Help:
+    Sword: "&a/emeraldtools givesword &e- &aGet EmeraldSword in your inventory"
+    Axe: "&a/emeraldtools giveaxe &e- &aGet EmeraldSword in your inventory"
+    Pickaxe: "&a/emeraldtools givepickaxe &e- &aGet EmeraldSword in your inventory"
+    Spade: "&a/emeraldtools givespade &e- &aGet EmeraldSword in your inventory"
+    Rod: "&a/emeraldtools giverod &e- &aGet EmeraldSword in your inventory"
+    Bottle: "&a/emeraldtools givebottle &e- &aGet EmeraldSword in your inventory"
+    Helmet: "&a/emeraldtools givehelmet &e- &aGet EmeraldSword in your inventory"
+    Chestplate: "&a/emeraldtools givechestplate &e- &aGet EmeraldSword in your inventory"
+    Leggings: "&a/emeraldtools giveleggings &e- &aGet EmeraldSword in your inventory"
+    Boots: "&a/emeraldtools giveboots &e- &aGet EmeraldSword in your inventory"
+    Hoe: "&a/emeraldtools givehoe &e- &aGet EmeraldSword in your inventory"
+    Bow: "&a/emeraldtools givebow &e- &aGet EmeraldSword in your inventory"
+  
+Messages: 
+  Version: "&aVersion plugin: &e1.13"
+  Author: "&aPlugin creator: &eFlyTech"
+  Reload: "&8[&eFlyTech&8] &aYou have rebooted &econfig.yml &ain EmeraldItems plugin!"
+  Permissions: "&8[&eFlyTech&8] &cYou don't have permissions!"
+  Line: "&e=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Broadcast:
+    Info: "&8[&eFlyTech&8] &aLet's go craft emerald items ;D"
+    Line: "&f=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Help:
+    Line: "&e=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    Reload: "&a/emeraldtools reload &e- &aReload config about plugin"
+    Version: "&a/emeraldtools version &e- &aView plugin version"
+    Aliases: "&a/emeraldtools aliases &e- &aGet all command aliases"
+    Tutorial: "&a/emeraldtools tutorial &e- &aGet training for craft EmeraldTools"
+    Crafts: "&a/emeraldtools crafts &e- &aLearn all recipes EmeraldTools"
+  Aliases:
+    Line: "&e=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    Reload: "&cAlias &e(&areload&e)&c: &arel"
+    Version: "&cAlias &e(&aversion&e)&c: &aver"
+    Tutorial: "&cAlias &e(&atutorial&e)&c: &atut"
+    Crafts: "&cAlias &e(&acrafts&e)&c: &aitems"
+  Crafts:
+    Line: "&e=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    Sword: "&aEmerald Sword: &e2x emerald &c+ &e1x stick"
+    Pickaxe: "&aEmerald Pickaxe: &e3x emerald &c+ &e2x stick"
+    Axe: "&aEmerald Axe: &e3x emerald &c+ &e2x stick"
+    Hoe: "&aEmerald Hoe: &e2x emerald &c+ &e2x stick"
+    Spade: "&aEmerald Spade: &e1x emerald &c+ &e2x stick"
+    Bow: "&aEmerald Bow: &e3x emerald &c+ &e3x thread"
+    Bottle: "&aEmerald Bottle: &e1x empty bottle &c+ &e1x glowstone"
+    Helmet: "&aEmerald Helmet: &e5x emerald"
+    Chestplate: "&aEmerald Chestplate: &e8x emerald"
+    Leggings: "&aEmerald Leggings: &e7x emerald"
+    Boots: "&aEmerald Boots: &e4x emerald"
+    Rod: "&aEmerald Rod: &e3x emerald &c+ &e2x thread"
+  Tutorial:
+    Line: "&e=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    CraftTutorial:
+      One: "&a1.Open workbench!"
+      Two: "&a2.Start creating via emeralds!"
+      Three: "&c3.Done!"
+  Commands:
+    Give:
+      OnlyPlayers: "&cThis command avaible only players!"
+  Announce:
+    Sword: "&eCongratulations! You sucessfull get/give &aEmeraldSword &e;D"
+    Pickaxe: "&eCongratulations! You sucessfull get/give &aEmeraldPickaxe &e;D"
+    Axe: "&eCongratulations! You sucessfull get/give &aEmeraldAxe &e;D"
+    Hoe: "&eCongratulations! You sucessfull get/give &aEmeraldHoe &e;D"
+    Spade: "&eCongratulations! You sucessfull get/give &aEmeraldSpade &e;D"
+    Bow: "&eCongratulations! You sucessfull get/give &aEmeraldBow &e;D"
+    Bottle: "&eCongratulations! You sucessfull get/give &aEmeraldBottle &e;D"
+    Helmet: "&eCongratulations! You sucessfull get/give &aEmeraldHelmet &e;D"
+    Chestplate: "&eCongratulations! You sucessfull get/give &aEmeraldChestplate &e;D"
+    Leggings: "&eCongratulations! You sucessfull get/give &aEmeraldLeggings &e;D"
+    Boots: "&eCongratulations! You sucessfull get/give &aEmeraldBoots &e;D"
+    Rod: "&eCongratulations! You sucessfull get/give &aEmeraldRod &e;D"
+    
+Permissions:
+  Reload: "flytech.reload"
+  Tutorial: "flytech.tutorial"
+  Crafts: "flytech.crafts"
+  Aliases: "flytech.aliases"
+  GetSword: "flytech.getsword"
+  GetPickaxe: "flytech.pickaxe"
+  GetSpade: "flytech.spade"
+  GetHoe: "flytech.hoe"
+  GetAxe: "flytech.axe"
+  GetBow: "flytech.bow"
+  GetHelmet: "flytech.helmet"
+  GetChestplate: "flytech.chestplate"
+  GetLeggings: "flytech.leggings"
+  GetBoots: "flytech.boots"
+  GetBottle: "flytech.bottle"
+  GetRod: "flytech.rod"
+    
+NameItems:
+  Sword: "&aEmerald &eSword"
+  Pickaxe: "&aEmerald &ePickaxe"
+  Axe: "&aEmerald &eAxe"
+  Hoe: "&aEmerald &eHoe"
+  Spade: "&aEmerald &eSpade"
+  Bow: "&aEmerald &eBow"
+  Bottle: "&aEmerald &eBottle"
+  Helmet: "&aEmerald &eHelmet"
+  Chestplate: "&aEmerald &eChestplate"
+  Leggings: "&aEmerald &eLeggings"
+  Boots: "&aEmerald &eBoots"
+  Rod: "&aEmerald &eRod"
+  
+LoreItems:
+  Sword: "&8[&eFlyTech&8]"
+  Pickaxe: "&8[&eFlyTech&8]"
+  Axe: "&8[&eFlyTech&8]"
+  Hoe: "&8[&eFlyTech&8]"
+  Spade: "&8[&eFlyTech&8]"
+  Bow: "&8[&eFlyTech&8]"
+  Bottle: "&8[&eFlyTech&8]"
+  Helmet: "&8[&eFlyTech&8]"
+  Chestplate: "&8[&eFlyTech&8]"
+  Leggings: "&8[&eFlyTech&8]"
+  Boots: "&8[&eFlyTech&8]"
+  Rod: "&8[&eFlyTech&8]"

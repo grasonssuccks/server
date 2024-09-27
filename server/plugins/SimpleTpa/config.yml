@@ -25,13 +25,13 @@ prefix: "&c[&6SimpleTpa&c]"
 # Console-Isnt-Player: "none"
 Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
 Disabled-World-Message: "&6You can't use &cSimpleTpa &6in this World!"
-Teleport-Message: "&6You will be teleported in &c%time% &6seconds!"
+Teleport-Message: "&6You will resume your journey in &c%time% &6seconds!"
 Teleport-Message-Back-To-Player: "&6You &caccepted &6the teleport request!"
 Player-Is-Null: "&6The player is not &conline&6!"
 Player-Doesnt-Have-Back-Point: "&6The player doesn't have any back locations!"
 Player-Doesnt-Have-Back-Point-1: "&6You don't have any back locations!"
 Cooldown-Message: "&6You can't use that command for %time% seconds yet!"
-Death-Message: "&6To teleport to your death location use &c/back"
+Death-Message: "&6Oh Dang You Died in the Backrooms! Resume by using &c/back"
 Teleport-Message-Back-To-Sender-TPHEREALL: "&6Sending a teleport here request to &ceveryone&6!"
 No-Permission-Message: "&6You don't have permission for this command!"
 TpaToggle-Deactivated-Player-2: "&c%player% &6disabled the teleportation to you!"
@@ -83,7 +83,7 @@ Particle-Name: "EXPLOSION_NORMAL"
 Accept-Button: "ACCEPT"
 Accept-Button-Color: "RED"
 Accept-Button-Set-Bold: true
-Accept-Button-Description: "&6Click here to &cACCEPT &6the tp request!"
+Accept-Button-Description: "&6Click here to &cACCEPT &6the request join your friend!"
 
 #Middle Button Properties
 Middle-Button: " | "
@@ -115,7 +115,7 @@ disable-coords-message: false
 disable-back-on-death: false
 
 # If you want to disable saving the TP Locations such as TPA, TPAHERE, then set this to true
-disable-back-on-tp: false
+disable-back-on-tp: true
 
 #Booleans
 #  If you want to disable checking for gamemode if equals to spectator, then set this to true
