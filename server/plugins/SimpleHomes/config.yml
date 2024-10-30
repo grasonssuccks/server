@@ -22,14 +22,14 @@
 do-teleport-wait: true
 
 # The countdown before teleportation (in seconds)
-teleport-wait: 5
+teleport-wait: 2
 
 # Should those with homes.admin teleport instantly
 admin-bypass-wait: true
 
 # Maximum amount of homes
 # Users can bypass this with homes.bypasscap
-max-home-count: 5
+max-home-count: 15
 
 # Should setting a new home with the same name as an existing home overwrite the old home?
 # If set to false - you will have to delete the old home before setting the new home
@@ -46,7 +46,7 @@ move-cancel-message: "&cYou moved, teleport cancelled"
 
 # The message to show when the countdown goes down
 # where <time> is the number of seconds left
-countdown-message: "Teleporting in <time>..."
+countdown-message: "Your Rizz Count= <time>..."
 
 # The chat colour code to use when sending messages
 # This will be prepended before each message!
@@ -57,7 +57,7 @@ chat-color: "&6"
 teleport-color: "&a"
 
 # The message to send after successfully teleporting
-teleport-message: "Teleported!"
+teleport-message: " UGH, FINE! 🫱);(🫲"
 
 # Message to show when at maximum home count
 max-homecount-message: "&cYou have reached the maximum amount of homes"
