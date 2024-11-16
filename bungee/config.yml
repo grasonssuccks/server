@@ -39,7 +39,7 @@ remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
-online_mode: false
+online_mode: true
 forge_support: true
 disabled_commands:
 - disabledcommandhere
