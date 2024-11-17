@@ -45,6 +45,7 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
+    motd: '
+&aMy Bedwars Server&9 and survival'
     address: localhost:25565
     restricted: false
